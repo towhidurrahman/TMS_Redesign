@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11CFF8E9-2D51-49FE-8AAD-4D10C799B2F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TMS_Project</RootNamespace>
+    <AssemblyName>TMS_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmDatabaseBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDatabaseBackup.designer.cs">
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbsentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbsentList.designer.cs">
+      <DependentUpon>frmAbsentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAddInnManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAddInnManager.designer.cs">
+      <DependentUpon>frmAddInnManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAdminLogin.Designer.cs">
+      <DependentUpon>frmAdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmbabu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmbabu.designer.cs">
+      <DependentUpon>frmbabu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCategory.designer.cs">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmcheckingstatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmcheckingstatus.designer.cs">
+      <DependentUpon>frmcheckingstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCompanyInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCompanyInformation.designer.cs">
+      <DependentUpon>frmCompanyInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyAbsentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyAbsentList.designer.cs">
+      <DependentUpon>frmDailyAbsentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyInventoryTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyInventoryTransaction.designer.cs">
+      <DependentUpon>frmDailyInventoryTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryAnalysis.designer.cs">
+      <DependentUpon>frmDailyFactoryAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryAnalysisCash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryAnalysisCash.designer.cs">
+      <DependentUpon>frmDailyFactoryAnalysisCash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFactoryReport.designer.cs">
+      <DependentUpon>frmDailyFactoryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldAnalysis.designer.cs">
+      <DependentUpon>frmDailyFieldAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldAnalysisCash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldAnalysisCash.designer.cs">
+      <DependentUpon>frmDailyFieldAnalysisCash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyFieldReport.designer.cs">
+      <DependentUpon>frmDailyFieldReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyLeaveAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyLeaveAnalysis.designer.cs">
+      <DependentUpon>frmDailyLeaveAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyLeaveStatement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyLeaveStatement.designer.cs">
+      <DependentUpon>frmDailyLeaveStatement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDailyRubberReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDailyRubberReport.designer.cs">
+      <DependentUpon>frmDailyRubberReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDayEndProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDayEndProcess.designer.cs">
+      <DependentUpon>frmDayEndProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFactoryJakor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFactoryJakor.Designer.cs">
+      <DependentUpon>frmFactoryJakor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFactoryProcessing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFactoryProcessing.designer.cs">
+      <DependentUpon>frmFactoryProcessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFactoryRunningRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFactoryRunningRegister.designer.cs">
+      <DependentUpon>frmFactoryRunningRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFactoryUtilityRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFactoryUtilityRegister.designer.cs">
+      <DependentUpon>frmFactoryUtilityRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFactoryyWorkCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFactoryyWorkCategory.designer.cs">
+      <DependentUpon>frmFactoryyWorkCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFieldWorkCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFieldWorkCategory.designer.cs">
+      <DependentUpon>frmFieldWorkCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFieldJakor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFieldJakor.designer.cs">
+      <DependentUpon>frmFieldJakor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFieldSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFieldSection.designer.cs">
+      <DependentUpon>frmFieldSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFinder.designer.cs">
+      <DependentUpon>frmFinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFiscalCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFiscalCalendar.designer.cs">
+      <DependentUpon>frmFiscalCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGroupCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGroupCategory.designer.cs">
+      <DependentUpon>frmGroupCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHolidayCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHolidayCalender.designer.cs">
+      <DependentUpon>frmHolidayCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHolidayPayGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHolidayPayGenerator.Designer.cs">
+      <DependentUpon>frmHolidayPayGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHomePage.designer.cs">
+      <DependentUpon>frmHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKatchaReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKatchaReport.designer.cs">
+      <DependentUpon>frmKatchaReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLatexToRss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLatexToRss.designer.cs">
+      <DependentUpon>frmLatexToRss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLeave.designer.cs">
+      <DependentUpon>frmLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs" />
+    <Compile Include="Forms\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMisProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMisProcess.designer.cs">
+      <DependentUpon>frmMisProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMonthly PF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMonthly PF.designer.cs">
+      <DependentUpon>frmMonthly PF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNurseryItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNurseryItem.designer.cs">
+      <DependentUpon>frmNurseryItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNurseryLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNurseryLocation.designer.cs">
+      <DependentUpon>frmNurseryLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPaymentSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPaymentSetup.designer.cs">
+      <DependentUpon>frmPaymentSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlantingType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlantingType.designer.cs">
+      <DependentUpon>frmPlantingType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPluckingJakor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPluckingJakor.designer.cs">
+      <DependentUpon>frmPluckingJakor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRubberDailyAnalysisCashReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRubberDailyAnalysisCashReport.designer.cs">
+      <DependentUpon>frmRubberDailyAnalysisCashReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRubberDailyAnalysisReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRubberDailyAnalysisReport.designer.cs">
+      <DependentUpon>frmRubberDailyAnalysisReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRubberJakor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRubberJakor.designer.cs">
+      <DependentUpon>frmRubberJakor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRubberWorkCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRubberWorkCategory.designer.cs">
+      <DependentUpon>frmRubberWorkCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSection.Designer.cs">
+      <DependentUpon>frmSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSecurityGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSecurityGroup.designer.cs">
+      <DependentUpon>frmSecurityGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSirder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSirder.designer.cs">
+      <DependentUpon>frmSirder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSpecialPujaCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSpecialPujaCalculation.designer.cs">
+      <DependentUpon>frmSpecialPujaCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSpecialRationCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSpecialRationCalculation.designer.cs">
+      <DependentUpon>frmSpecialRationCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTrustyDeduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTrustyDeduction.designer.cs">
+      <DependentUpon>frmTrustyDeduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUser.designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUserAuthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUserAuthorization.designer.cs">
+      <DependentUpon>frmUserAuthorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeather.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeather.designer.cs">
+      <DependentUpon>frmWeather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyUtilityDeduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyUtilityDeduction.designer.cs">
+      <DependentUpon>frmWeeklyUtilityDeduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyFactoryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyFactoryReport.designer.cs">
+      <DependentUpon>frmWeeklyFactoryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyFieldReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyFieldReport.designer.cs">
+      <DependentUpon>frmWeeklyFieldReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyHolidayPayGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyHolidayPayGenerator.designer.cs">
+      <DependentUpon>frmWeeklyHolidayPayGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyNurseryInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyNurseryInformation.designer.cs">
+      <DependentUpon>frmWeeklyNurseryInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPayManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPayManager.Designer.cs">
+      <DependentUpon>frmWeeklyPayManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPayment.designer.cs">
+      <DependentUpon>frmWeeklyPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPlantationHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyPlantationHistory.designer.cs">
+      <DependentUpon>frmWeeklyPlantationHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRation Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRation Process.designer.cs">
+      <DependentUpon>frmWeeklyRation Process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRation.designer.cs">
+      <DependentUpon>frmWeeklyRation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRubberReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWeeklyRubberReport.designer.cs">
+      <DependentUpon>frmWeeklyRubberReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWorkerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWorkerDetails.designer.cs">
+      <DependentUpon>frmWorkerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWorkerInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWorkerInformation.designer.cs">
+      <DependentUpon>frmWorkerInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWorkerLeaveStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWorkerLeaveStatus.designer.cs">
+      <DependentUpon>frmWorkerLeaveStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQL.cs" />
+    <EmbeddedResource Include="Forms\frmDatabaseBackup.resx">
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbsentList.resx">
+      <DependentUpon>frmAbsentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAddInnManager.resx">
+      <DependentUpon>frmAddInnManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAdminLogin.resx">
+      <DependentUpon>frmAdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmbabu.resx">
+      <DependentUpon>frmbabu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCategory.resx">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmcheckingstatus.resx">
+      <DependentUpon>frmcheckingstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCompanyInformation.resx">
+      <DependentUpon>frmCompanyInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyAbsentList.resx">
+      <DependentUpon>frmDailyAbsentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyInventoryTransaction.resx">
+      <DependentUpon>frmDailyInventoryTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFactoryAnalysis.resx">
+      <DependentUpon>frmDailyFactoryAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFactoryAnalysisCash.resx">
+      <DependentUpon>frmDailyFactoryAnalysisCash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFactoryReport.resx">
+      <DependentUpon>frmDailyFactoryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFieldAnalysis.resx">
+      <DependentUpon>frmDailyFieldAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFieldAnalysisCash.resx">
+      <DependentUpon>frmDailyFieldAnalysisCash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyFieldReport.resx">
+      <DependentUpon>frmDailyFieldReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyLeaveAnalysis.resx">
+      <DependentUpon>frmDailyLeaveAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyLeaveStatement.resx">
+      <DependentUpon>frmDailyLeaveStatement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDailyRubberReport.resx">
+      <DependentUpon>frmDailyRubberReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDayEndProcess.resx">
+      <DependentUpon>frmDayEndProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFactoryJakor.resx">
+      <DependentUpon>frmFactoryJakor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFactoryProcessing.resx">
+      <DependentUpon>frmFactoryProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFactoryRunningRegister.resx">
+      <DependentUpon>frmFactoryRunningRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFactoryUtilityRegister.resx">
+      <DependentUpon>frmFactoryUtilityRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFactoryyWorkCategory.resx">
+      <DependentUpon>frmFactoryyWorkCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFieldWorkCategory.resx">
+      <DependentUpon>frmFieldWorkCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFieldJakor.resx">
+      <DependentUpon>frmFieldJakor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFieldSection.resx">
+      <DependentUpon>frmFieldSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFinder.resx">
+      <DependentUpon>frmFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFiscalCalendar.resx">
+      <DependentUpon>frmFiscalCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGroupCategory.resx">
+      <DependentUpon>frmGroupCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHolidayCalender.resx">
+      <DependentUpon>frmHolidayCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHolidayPayGenerator.resx">
+      <DependentUpon>frmHolidayPayGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHomePage.resx">
+      <DependentUpon>frmHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKatchaReport.resx">
+      <DependentUpon>frmKatchaReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLatexToRss.resx">
+      <DependentUpon>frmLatexToRss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLeave.resx">
+      <DependentUpon>frmLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMisProcess.resx">
+      <DependentUpon>frmMisProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMonthly PF.resx">
+      <DependentUpon>frmMonthly PF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNurseryItem.resx">
+      <DependentUpon>frmNurseryItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNurseryLocation.resx">
+      <DependentUpon>frmNurseryLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPaymentSetup.resx">
+      <DependentUpon>frmPaymentSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlantingType.resx">
+      <DependentUpon>frmPlantingType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPluckingJakor.resx">
+      <DependentUpon>frmPluckingJakor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRubberDailyAnalysisCashReport.resx">
+      <DependentUpon>frmRubberDailyAnalysisCashReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRubberDailyAnalysisReport.resx">
+      <DependentUpon>frmRubberDailyAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRubberJakor.resx">
+      <DependentUpon>frmRubberJakor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRubberWorkCategory.resx">
+      <DependentUpon>frmRubberWorkCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSection.resx">
+      <DependentUpon>frmSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSecurityGroup.resx">
+      <DependentUpon>frmSecurityGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSirder.resx">
+      <DependentUpon>frmSirder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSpecialPujaCalculation.resx">
+      <DependentUpon>frmSpecialPujaCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSpecialRationCalculation.resx">
+      <DependentUpon>frmSpecialRationCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTrustyDeduction.resx">
+      <DependentUpon>frmTrustyDeduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUserAuthorization.resx">
+      <DependentUpon>frmUserAuthorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeather.resx">
+      <DependentUpon>frmWeather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyUtilityDeduction.resx">
+      <DependentUpon>frmWeeklyUtilityDeduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyFactoryReport.resx">
+      <DependentUpon>frmWeeklyFactoryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyFieldReport.resx">
+      <DependentUpon>frmWeeklyFieldReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyHolidayPayGenerator.resx">
+      <DependentUpon>frmWeeklyHolidayPayGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyNurseryInformation.resx">
+      <DependentUpon>frmWeeklyNurseryInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyPayManager.resx">
+      <DependentUpon>frmWeeklyPayManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyPayment.resx">
+      <DependentUpon>frmWeeklyPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyPlantationHistory.resx">
+      <DependentUpon>frmWeeklyPlantationHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyRation Process.resx">
+      <DependentUpon>frmWeeklyRation Process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyRation.resx">
+      <DependentUpon>frmWeeklyRation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWeeklyRubberReport.resx">
+      <DependentUpon>frmWeeklyRubberReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWorkerDetails.resx">
+      <DependentUpon>frmWorkerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWorkerInformation.resx">
+      <DependentUpon>frmWorkerInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWorkerLeaveStatus.resx">
+      <DependentUpon>frmWorkerLeaveStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

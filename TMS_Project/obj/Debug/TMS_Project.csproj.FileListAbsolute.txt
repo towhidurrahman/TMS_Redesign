@@ -1,0 +1,164 @@
+F:\C# Project\Tea\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe.config
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csprojResolveAssemblyReference.cache
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Properties.Resources.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csproj.GenerateResource.Cache
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHomepage.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveAnalysis.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveStatement.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryProcessing.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.tabFarmenting.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryUtilityRegister.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryWorkCategory.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFieldJakor.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHolidayCalender.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmLeave.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe
+F:\C# Project\Tea\TMS_Project\TMS_Project\bin\Debug\TMS_Project.pdb
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmPaymentSetup.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmPluckingJakor.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmSpecialRationCalculation.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWeeklyHolidayPayGenerator.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWeeklyNurseryInformation.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWorkerLeaveStatus.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.exe
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\TMS_Project.pdb
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\test.WeeklyPayment.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\Tea_System_Management.frmWeeklyPlantationHistory.resources
+F:\C# Project\Tea\TMS_Project\TMS_Project\obj\Debug\Tea_System_Management.frmbabu.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe.config
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\bin\Debug\TMS_Project.pdb
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csprojResolveAssemblyReference.cache
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveAnalysis.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveStatement.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryProcessing.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.tabFarmenting.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryUtilityRegister.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryWorkCategory.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFieldJakor.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\Section.frmFieldSection.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHolidayCalender.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHomepage.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmLeave.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmPaymentSetup.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmPluckingJakor.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmSpecialRationCalculation.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWeeklyHolidayPayGenerator.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWeeklyNurseryInformation.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TeaProject.frmWorkerLeaveStatus.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Properties.Resources.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csproj.GenerateResource.Cache
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.exe
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.pdb
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Forms.frmMain.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.AddInnManager.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmbabu.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmcheckingstatus.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmCompanyInformation.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Daily_Inventory_Transaction.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.FrmDayEndProcess.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFinder.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFiscalCalendar.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmGroupCategory.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmLatexToRss.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Monthly_PF.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmNurseryItem.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmNurseryLocation.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmPlantingType.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberDailyAnalysisCashReport.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberDailyAnalysisReport.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberJakor.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubber_Work_Category.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.FrmSecurityGroup.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSirder.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Special_Puja_Calculation.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.FrmTrustyDeduction.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Frmuser.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Frmuserauthorization.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeather.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Weekly_Utility_Deduction.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.WeeklyPayment.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyPlantationHistory.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.WeeklyRation_Process.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Worker_Details.resources
+C:\Users\towhi\Desktop\TMS Redesign\TMS_Project\TMS_Project\obj\Debug\TMS_Project.FrmWorkerInformation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDatabaseBackup.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmAbsentList.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmAddInnManager.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmAdminLogin.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmbabu.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Category.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmcheckingstatus.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmCompanyInformation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyAbsentList.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyInventoryTransaction.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyfactoryAnalysis.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyFactoryAnalysisCash.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyFactoryReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyFieldAnalysis.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyFieldAnalysisCash.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyFieldReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveAnalysis.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveStatement.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyRubberReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDayEndProcess.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryJakor.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryProcessing.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryRunningRegister.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryUtilityRegister.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFactoryyWorkCategory.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFieldWorkCategory.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFieldJakor.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFieldSection.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFinder.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmFiscalCalendar.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmGroupCategory.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHolidayCalender.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHolidayPayGenerator.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmHomepage.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmKatchaReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmLatexToRss.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmLeave.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Forms.frmMain.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmMisProcess.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmMonthlyPF.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmNurseryItem.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmNurseryLocation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmPaymentSetup.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmPlantingType.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmPluckingJakor.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberDailyAnalysisCashReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmDailyLeaveAnalysisReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberJakor.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmRubberWorkCategory.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSection.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSecurityGroup.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSirder.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSpecialPujaCalculation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmSpecialRationCalculation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmTrustyDeduction.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmUser.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmUserAuthorization.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeather.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyUtilityDeduction.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyFactoryReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyFieldReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyHolidayPayGenerator.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyNurseryInformation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyPayManager.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyPayment.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyPlantationHistory.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyRationProcess.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyRation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWeeklyRubberReport.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWorkerDetails.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWorkerInformation.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.frmWorkerLeaveStatus.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.Properties.Resources.resources
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csproj.GenerateResource.Cache
+E:\TMS_NEW\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe.config
+E:\TMS_NEW\TMS_Project\TMS_Project\bin\Debug\TMS_Project.exe
+E:\TMS_NEW\TMS_Project\TMS_Project\bin\Debug\TMS_Project.pdb
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.exe
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.pdb
+E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csprojResolveAssemblyReference.cache
