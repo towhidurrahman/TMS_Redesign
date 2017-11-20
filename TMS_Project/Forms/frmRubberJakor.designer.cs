@@ -30,33 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRubberJakor));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnNew = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnLast = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnFirst = new System.Windows.Forms.Button();
-            this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.lblTransNo = new System.Windows.Forms.Label();
-            this.txtTransNo = new System.Windows.Forms.TextBox();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblSourceCode = new System.Windows.Forms.Label();
-            this.txtSourceCode = new System.Windows.Forms.TextBox();
-            this.btnSourceCode = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btnBabuSearch = new System.Windows.Forms.Button();
-            this.txtBabu = new System.Windows.Forms.TextBox();
-            this.lblBabu = new System.Windows.Forms.Label();
-            this.lblGarden = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.btnSirderSearch = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.lblSirder = new System.Windows.Forms.Label();
-            this.cmbSection = new System.Windows.Forms.ComboBox();
-            this.lblSection = new System.Windows.Forms.Label();
-            this.cmbGarden = new System.Windows.Forms.ComboBox();
+            this.lblExtraTk2 = new System.Windows.Forms.Label();
+            this.lblRegularTk = new System.Windows.Forms.Label();
+            this.lblNirik = new System.Windows.Forms.Label();
+            this.lblGlHead = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTotalTk = new System.Windows.Forms.Label();
+            this.lblTermTk = new System.Windows.Forms.Label();
+            this.lblPerTk = new System.Windows.Forms.Label();
+            this.lblEntryStatus = new System.Windows.Forms.Label();
+            this.lblTotalManDays = new System.Windows.Forms.Label();
+            this.lblTotalTermDays = new System.Windows.Forms.Label();
+            this.lblTotalPerDays = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.btnCategorySearch = new System.Windows.Forms.Button();
+            this.txtCategory = new System.Windows.Forms.TextBox();
+            this.lblCategory = new System.Windows.Forms.Label();
+            this.lblPayType = new System.Windows.Forms.Label();
+            this.cmbPayType = new System.Windows.Forms.ComboBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.lblEntryNo = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -66,35 +59,42 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.lblPayType = new System.Windows.Forms.Label();
-            this.cmbPayType = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.btnCategorySearch = new System.Windows.Forms.Button();
-            this.txtCategory = new System.Windows.Forms.TextBox();
-            this.lblCategory = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbGarden = new System.Windows.Forms.ComboBox();
+            this.lblSection = new System.Windows.Forms.Label();
+            this.cmbSection = new System.Windows.Forms.ComboBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btnSirderSearch = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.lblSirder = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnBabuSearch = new System.Windows.Forms.Button();
+            this.txtBabu = new System.Windows.Forms.TextBox();
+            this.lblBabu = new System.Windows.Forms.Label();
+            this.lblGarden = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnSourceCode = new System.Windows.Forms.Button();
+            this.txtSourceCode = new System.Windows.Forms.TextBox();
+            this.lblSourceCode = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.txtTransNo = new System.Windows.Forms.TextBox();
+            this.lblTransNo = new System.Windows.Forms.Label();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnFirst = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEntryDelete = new System.Windows.Forms.Button();
             this.btnRowDelete = new System.Windows.Forms.Button();
             this.btnRowAdd = new System.Windows.Forms.Button();
             this.btnPost = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lblTotalPerDays = new System.Windows.Forms.Label();
-            this.lblTotalTermDays = new System.Windows.Forms.Label();
-            this.lblTotalManDays = new System.Windows.Forms.Label();
-            this.lblEntryStatus = new System.Windows.Forms.Label();
-            this.lblPerTk = new System.Windows.Forms.Label();
-            this.lblTermTk = new System.Windows.Forms.Label();
-            this.lblTotalTk = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lblGlHead = new System.Windows.Forms.Label();
-            this.lblNirik = new System.Windows.Forms.Label();
-            this.lblRegularTk = new System.Windows.Forms.Label();
-            this.lblExtraTk2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -153,222 +153,184 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // btnNew
+            // lblExtraTk2
             // 
-            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(285, 19);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(37, 21);
-            this.btnNew.TabIndex = 71;
-            this.btnNew.UseVisualStyleBackColor = true;
+            this.lblExtraTk2.AutoSize = true;
+            this.lblExtraTk2.Location = new System.Drawing.Point(350, 235);
+            this.lblExtraTk2.Name = "lblExtraTk2";
+            this.lblExtraTk2.Size = new System.Drawing.Size(50, 13);
+            this.lblExtraTk2.TabIndex = 120;
+            this.lblExtraTk2.Text = "Extra Tk.";
             // 
-            // btnSearch
+            // lblRegularTk
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(261, 19);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(37, 21);
-            this.btnSearch.TabIndex = 70;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.lblRegularTk.AutoSize = true;
+            this.lblRegularTk.Location = new System.Drawing.Point(190, 232);
+            this.lblRegularTk.Name = "lblRegularTk";
+            this.lblRegularTk.Size = new System.Drawing.Size(63, 13);
+            this.lblRegularTk.TabIndex = 119;
+            this.lblRegularTk.Text = "Regular Tk.";
             // 
-            // btnLast
+            // lblNirik
             // 
-            this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(237, 19);
-            this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(37, 21);
-            this.btnLast.TabIndex = 69;
-            this.btnLast.UseVisualStyleBackColor = true;
+            this.lblNirik.AutoSize = true;
+            this.lblNirik.Location = new System.Drawing.Point(13, 234);
+            this.lblNirik.Name = "lblNirik";
+            this.lblNirik.Size = new System.Drawing.Size(28, 13);
+            this.lblNirik.TabIndex = 118;
+            this.lblNirik.Text = "Nirik";
             // 
-            // btnNext
+            // lblGlHead
             // 
-            this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(213, 19);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(37, 21);
-            this.btnNext.TabIndex = 68;
-            this.btnNext.UseVisualStyleBackColor = true;
+            this.lblGlHead.AutoSize = true;
+            this.lblGlHead.Location = new System.Drawing.Point(13, 213);
+            this.lblGlHead.Name = "lblGlHead";
+            this.lblGlHead.Size = new System.Drawing.Size(50, 13);
+            this.lblGlHead.TabIndex = 117;
+            this.lblGlHead.Text = "GL Head";
             // 
-            // btnFirst
+            // dateTimePicker1
             // 
-            this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
-            this.btnFirst.Location = new System.Drawing.Point(81, 19);
-            this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(37, 21);
-            this.btnFirst.TabIndex = 67;
-            this.btnFirst.UseVisualStyleBackColor = true;
+            this.dateTimePicker1.Location = new System.Drawing.Point(81, 49);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
+            this.dateTimePicker1.TabIndex = 110;
             // 
-            // btnPrevious
+            // groupBox2
             // 
-            this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(106, 19);
-            this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(37, 21);
-            this.btnPrevious.TabIndex = 66;
-            this.btnPrevious.UseVisualStyleBackColor = true;
+            this.groupBox2.Controls.Add(this.lblTotalTk);
+            this.groupBox2.Controls.Add(this.lblTermTk);
+            this.groupBox2.Controls.Add(this.lblPerTk);
+            this.groupBox2.Controls.Add(this.lblEntryStatus);
+            this.groupBox2.Controls.Add(this.lblTotalManDays);
+            this.groupBox2.Controls.Add(this.lblTotalTermDays);
+            this.groupBox2.Controls.Add(this.lblTotalPerDays);
+            this.groupBox2.Location = new System.Drawing.Point(585, 17);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(235, 103);
+            this.groupBox2.TabIndex = 109;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Entry Summary";
             // 
-            // textBox3
+            // lblTotalTk
             // 
-            this.textBox3.Location = new System.Drawing.Point(131, 19);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(97, 20);
-            this.textBox3.TabIndex = 65;
+            this.lblTotalTk.AutoSize = true;
+            this.lblTotalTk.Location = new System.Drawing.Point(134, 63);
+            this.lblTotalTk.Name = "lblTotalTk";
+            this.lblTotalTk.Size = new System.Drawing.Size(50, 13);
+            this.lblTotalTk.TabIndex = 116;
+            this.lblTotalTk.Text = "Total Tk.";
             // 
-            // lblTransNo
+            // lblTermTk
             // 
-            this.lblTransNo.Location = new System.Drawing.Point(6, 19);
-            this.lblTransNo.Name = "lblTransNo";
-            this.lblTransNo.Size = new System.Drawing.Size(64, 13);
-            this.lblTransNo.TabIndex = 72;
-            this.lblTransNo.Text = "Trans No";
+            this.lblTermTk.AutoSize = true;
+            this.lblTermTk.Location = new System.Drawing.Point(134, 40);
+            this.lblTermTk.Name = "lblTermTk";
+            this.lblTermTk.Size = new System.Drawing.Size(50, 13);
+            this.lblTermTk.TabIndex = 115;
+            this.lblTermTk.Text = "Term Tk.";
             // 
-            // txtTransNo
+            // lblPerTk
             // 
-            this.txtTransNo.Location = new System.Drawing.Point(332, 19);
-            this.txtTransNo.Name = "txtTransNo";
-            this.txtTransNo.Size = new System.Drawing.Size(240, 20);
-            this.txtTransNo.TabIndex = 73;
-            this.txtTransNo.TextChanged += new System.EventHandler(this.txtTransNo_TextChanged);
+            this.lblPerTk.AutoSize = true;
+            this.lblPerTk.Location = new System.Drawing.Point(134, 16);
+            this.lblPerTk.Name = "lblPerTk";
+            this.lblPerTk.Size = new System.Drawing.Size(42, 13);
+            this.lblPerTk.TabIndex = 114;
+            this.lblPerTk.Text = "Per Tk.";
             // 
-            // lblDate
+            // lblEntryStatus
             // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Location = new System.Drawing.Point(10, 50);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(30, 13);
-            this.lblDate.TabIndex = 74;
-            this.lblDate.Text = "Date";
+            this.lblEntryStatus.AutoSize = true;
+            this.lblEntryStatus.Location = new System.Drawing.Point(8, 83);
+            this.lblEntryStatus.Name = "lblEntryStatus";
+            this.lblEntryStatus.Size = new System.Drawing.Size(64, 13);
+            this.lblEntryStatus.TabIndex = 113;
+            this.lblEntryStatus.Text = "Entry Status";
             // 
-            // lblSourceCode
+            // lblTotalManDays
             // 
-            this.lblSourceCode.AutoSize = true;
-            this.lblSourceCode.Location = new System.Drawing.Point(208, 55);
-            this.lblSourceCode.Name = "lblSourceCode";
-            this.lblSourceCode.Size = new System.Drawing.Size(69, 13);
-            this.lblSourceCode.TabIndex = 76;
-            this.lblSourceCode.Text = "Source Code";
+            this.lblTotalManDays.AutoSize = true;
+            this.lblTotalManDays.Location = new System.Drawing.Point(6, 63);
+            this.lblTotalManDays.Name = "lblTotalManDays";
+            this.lblTotalManDays.Size = new System.Drawing.Size(82, 13);
+            this.lblTotalManDays.TabIndex = 112;
+            this.lblTotalManDays.Text = "Total Man Days";
             // 
-            // txtSourceCode
+            // lblTotalTermDays
             // 
-            this.txtSourceCode.Location = new System.Drawing.Point(280, 53);
-            this.txtSourceCode.Name = "txtSourceCode";
-            this.txtSourceCode.Size = new System.Drawing.Size(64, 20);
-            this.txtSourceCode.TabIndex = 77;
+            this.lblTotalTermDays.AutoSize = true;
+            this.lblTotalTermDays.Location = new System.Drawing.Point(6, 39);
+            this.lblTotalTermDays.Name = "lblTotalTermDays";
+            this.lblTotalTermDays.Size = new System.Drawing.Size(85, 13);
+            this.lblTotalTermDays.TabIndex = 111;
+            this.lblTotalTermDays.Text = "Total Term Days";
             // 
-            // btnSourceCode
+            // lblTotalPerDays
             // 
-            this.btnSourceCode.Image = ((System.Drawing.Image)(resources.GetObject("btnSourceCode.Image")));
-            this.btnSourceCode.Location = new System.Drawing.Point(350, 53);
-            this.btnSourceCode.Name = "btnSourceCode";
-            this.btnSourceCode.Size = new System.Drawing.Size(25, 21);
-            this.btnSourceCode.TabIndex = 78;
-            this.btnSourceCode.UseVisualStyleBackColor = true;
+            this.lblTotalPerDays.AutoSize = true;
+            this.lblTotalPerDays.Location = new System.Drawing.Point(6, 16);
+            this.lblTotalPerDays.Name = "lblTotalPerDays";
+            this.lblTotalPerDays.Size = new System.Drawing.Size(77, 13);
+            this.lblTotalPerDays.TabIndex = 110;
+            this.lblTotalPerDays.Text = "Total Per Days";
             // 
-            // textBox1
+            // dataGridView1
             // 
-            this.textBox1.Location = new System.Drawing.Point(381, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 20);
-            this.textBox1.TabIndex = 79;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(11, 256);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(808, 154);
+            this.dataGridView1.TabIndex = 108;
             // 
-            // textBox2
+            // textBox9
             // 
-            this.textBox2.Location = new System.Drawing.Point(381, 81);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 20);
-            this.textBox2.TabIndex = 85;
+            this.textBox9.Location = new System.Drawing.Point(216, 173);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(356, 20);
+            this.textBox9.TabIndex = 107;
             // 
-            // btnBabuSearch
+            // btnCategorySearch
             // 
-            this.btnBabuSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnBabuSearch.Image")));
-            this.btnBabuSearch.Location = new System.Drawing.Point(350, 81);
-            this.btnBabuSearch.Name = "btnBabuSearch";
-            this.btnBabuSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnBabuSearch.TabIndex = 84;
-            this.btnBabuSearch.UseVisualStyleBackColor = true;
+            this.btnCategorySearch.Image = ((System.Drawing.Image)(resources.GetObject("btnCategorySearch.Image")));
+            this.btnCategorySearch.Location = new System.Drawing.Point(177, 176);
+            this.btnCategorySearch.Name = "btnCategorySearch";
+            this.btnCategorySearch.Size = new System.Drawing.Size(25, 21);
+            this.btnCategorySearch.TabIndex = 106;
+            this.btnCategorySearch.UseVisualStyleBackColor = true;
             // 
-            // txtBabu
+            // txtCategory
             // 
-            this.txtBabu.Location = new System.Drawing.Point(280, 80);
-            this.txtBabu.Name = "txtBabu";
-            this.txtBabu.Size = new System.Drawing.Size(64, 20);
-            this.txtBabu.TabIndex = 83;
+            this.txtCategory.Location = new System.Drawing.Point(79, 177);
+            this.txtCategory.Name = "txtCategory";
+            this.txtCategory.Size = new System.Drawing.Size(92, 20);
+            this.txtCategory.TabIndex = 105;
             // 
-            // lblBabu
+            // lblCategory
             // 
-            this.lblBabu.AutoSize = true;
-            this.lblBabu.Location = new System.Drawing.Point(213, 82);
-            this.lblBabu.Name = "lblBabu";
-            this.lblBabu.Size = new System.Drawing.Size(32, 13);
-            this.lblBabu.TabIndex = 82;
-            this.lblBabu.Text = "Babu";
+            this.lblCategory.AutoSize = true;
+            this.lblCategory.Location = new System.Drawing.Point(13, 180);
+            this.lblCategory.Name = "lblCategory";
+            this.lblCategory.Size = new System.Drawing.Size(49, 13);
+            this.lblCategory.TabIndex = 104;
+            this.lblCategory.Text = "Category";
             // 
-            // lblGarden
+            // lblPayType
             // 
-            this.lblGarden.AutoSize = true;
-            this.lblGarden.Location = new System.Drawing.Point(10, 84);
-            this.lblGarden.Name = "lblGarden";
-            this.lblGarden.Size = new System.Drawing.Size(42, 13);
-            this.lblGarden.TabIndex = 80;
-            this.lblGarden.Text = "Garden";
-            this.lblGarden.Click += new System.EventHandler(this.lblGarden_Click);
+            this.lblPayType.AutoSize = true;
+            this.lblPayType.Location = new System.Drawing.Point(423, 146);
+            this.lblPayType.Name = "lblPayType";
+            this.lblPayType.Size = new System.Drawing.Size(52, 13);
+            this.lblPayType.TabIndex = 103;
+            this.lblPayType.Text = "Pay Type";
             // 
-            // textBox5
+            // cmbPayType
             // 
-            this.textBox5.Location = new System.Drawing.Point(242, 110);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(175, 20);
-            this.textBox5.TabIndex = 89;
-            // 
-            // btnSirderSearch
-            // 
-            this.btnSirderSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSirderSearch.Image")));
-            this.btnSirderSearch.Location = new System.Drawing.Point(211, 110);
-            this.btnSirderSearch.Name = "btnSirderSearch";
-            this.btnSirderSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSirderSearch.TabIndex = 88;
-            this.btnSirderSearch.UseVisualStyleBackColor = true;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(81, 110);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(121, 20);
-            this.textBox6.TabIndex = 87;
-            // 
-            // lblSirder
-            // 
-            this.lblSirder.AutoSize = true;
-            this.lblSirder.Location = new System.Drawing.Point(12, 117);
-            this.lblSirder.Name = "lblSirder";
-            this.lblSirder.Size = new System.Drawing.Size(34, 13);
-            this.lblSirder.TabIndex = 86;
-            this.lblSirder.Text = "Sirder";
-            // 
-            // cmbSection
-            // 
-            this.cmbSection.FormattingEnabled = true;
-            this.cmbSection.Location = new System.Drawing.Point(475, 109);
-            this.cmbSection.Name = "cmbSection";
-            this.cmbSection.Size = new System.Drawing.Size(97, 21);
-            this.cmbSection.TabIndex = 90;
-            // 
-            // lblSection
-            // 
-            this.lblSection.AutoSize = true;
-            this.lblSection.Location = new System.Drawing.Point(423, 113);
-            this.lblSection.Name = "lblSection";
-            this.lblSection.Size = new System.Drawing.Size(43, 13);
-            this.lblSection.TabIndex = 91;
-            this.lblSection.Text = "Section";
-            // 
-            // cmbGarden
-            // 
-            this.cmbGarden.FormattingEnabled = true;
-            this.cmbGarden.Location = new System.Drawing.Point(81, 80);
-            this.cmbGarden.Name = "cmbGarden";
-            this.cmbGarden.Size = new System.Drawing.Size(121, 21);
-            this.cmbGarden.TabIndex = 92;
+            this.cmbPayType.FormattingEnabled = true;
+            this.cmbPayType.Location = new System.Drawing.Point(475, 142);
+            this.cmbPayType.Name = "cmbPayType";
+            this.cmbPayType.Size = new System.Drawing.Size(97, 21);
+            this.cmbPayType.TabIndex = 102;
             // 
             // textBox7
             // 
@@ -446,62 +408,222 @@
             this.textBox8.Size = new System.Drawing.Size(85, 20);
             this.textBox8.TabIndex = 93;
             // 
-            // lblPayType
+            // cmbGarden
             // 
-            this.lblPayType.AutoSize = true;
-            this.lblPayType.Location = new System.Drawing.Point(423, 146);
-            this.lblPayType.Name = "lblPayType";
-            this.lblPayType.Size = new System.Drawing.Size(52, 13);
-            this.lblPayType.TabIndex = 103;
-            this.lblPayType.Text = "Pay Type";
+            this.cmbGarden.FormattingEnabled = true;
+            this.cmbGarden.Location = new System.Drawing.Point(81, 80);
+            this.cmbGarden.Name = "cmbGarden";
+            this.cmbGarden.Size = new System.Drawing.Size(121, 21);
+            this.cmbGarden.TabIndex = 92;
             // 
-            // cmbPayType
+            // lblSection
             // 
-            this.cmbPayType.FormattingEnabled = true;
-            this.cmbPayType.Location = new System.Drawing.Point(475, 142);
-            this.cmbPayType.Name = "cmbPayType";
-            this.cmbPayType.Size = new System.Drawing.Size(97, 21);
-            this.cmbPayType.TabIndex = 102;
+            this.lblSection.AutoSize = true;
+            this.lblSection.Location = new System.Drawing.Point(423, 113);
+            this.lblSection.Name = "lblSection";
+            this.lblSection.Size = new System.Drawing.Size(43, 13);
+            this.lblSection.TabIndex = 91;
+            this.lblSection.Text = "Section";
             // 
-            // textBox9
+            // cmbSection
             // 
-            this.textBox9.Location = new System.Drawing.Point(216, 173);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(356, 20);
-            this.textBox9.TabIndex = 107;
+            this.cmbSection.FormattingEnabled = true;
+            this.cmbSection.Location = new System.Drawing.Point(475, 109);
+            this.cmbSection.Name = "cmbSection";
+            this.cmbSection.Size = new System.Drawing.Size(97, 21);
+            this.cmbSection.TabIndex = 90;
             // 
-            // btnCategorySearch
+            // textBox5
             // 
-            this.btnCategorySearch.Image = ((System.Drawing.Image)(resources.GetObject("btnCategorySearch.Image")));
-            this.btnCategorySearch.Location = new System.Drawing.Point(177, 176);
-            this.btnCategorySearch.Name = "btnCategorySearch";
-            this.btnCategorySearch.Size = new System.Drawing.Size(25, 21);
-            this.btnCategorySearch.TabIndex = 106;
-            this.btnCategorySearch.UseVisualStyleBackColor = true;
+            this.textBox5.Location = new System.Drawing.Point(242, 110);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(175, 20);
+            this.textBox5.TabIndex = 89;
             // 
-            // txtCategory
+            // btnSirderSearch
             // 
-            this.txtCategory.Location = new System.Drawing.Point(79, 177);
-            this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(92, 20);
-            this.txtCategory.TabIndex = 105;
+            this.btnSirderSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSirderSearch.Image")));
+            this.btnSirderSearch.Location = new System.Drawing.Point(211, 110);
+            this.btnSirderSearch.Name = "btnSirderSearch";
+            this.btnSirderSearch.Size = new System.Drawing.Size(25, 21);
+            this.btnSirderSearch.TabIndex = 88;
+            this.btnSirderSearch.UseVisualStyleBackColor = true;
             // 
-            // lblCategory
+            // textBox6
             // 
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(13, 180);
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(49, 13);
-            this.lblCategory.TabIndex = 104;
-            this.lblCategory.Text = "Category";
+            this.textBox6.Location = new System.Drawing.Point(81, 110);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(121, 20);
+            this.textBox6.TabIndex = 87;
             // 
-            // dataGridView1
+            // lblSirder
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 256);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(808, 154);
-            this.dataGridView1.TabIndex = 108;
+            this.lblSirder.AutoSize = true;
+            this.lblSirder.Location = new System.Drawing.Point(12, 117);
+            this.lblSirder.Name = "lblSirder";
+            this.lblSirder.Size = new System.Drawing.Size(34, 13);
+            this.lblSirder.TabIndex = 86;
+            this.lblSirder.Text = "Sirder";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(381, 81);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(191, 20);
+            this.textBox2.TabIndex = 85;
+            // 
+            // btnBabuSearch
+            // 
+            this.btnBabuSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnBabuSearch.Image")));
+            this.btnBabuSearch.Location = new System.Drawing.Point(350, 81);
+            this.btnBabuSearch.Name = "btnBabuSearch";
+            this.btnBabuSearch.Size = new System.Drawing.Size(25, 21);
+            this.btnBabuSearch.TabIndex = 84;
+            this.btnBabuSearch.UseVisualStyleBackColor = true;
+            // 
+            // txtBabu
+            // 
+            this.txtBabu.Location = new System.Drawing.Point(280, 80);
+            this.txtBabu.Name = "txtBabu";
+            this.txtBabu.Size = new System.Drawing.Size(64, 20);
+            this.txtBabu.TabIndex = 83;
+            // 
+            // lblBabu
+            // 
+            this.lblBabu.AutoSize = true;
+            this.lblBabu.Location = new System.Drawing.Point(213, 82);
+            this.lblBabu.Name = "lblBabu";
+            this.lblBabu.Size = new System.Drawing.Size(32, 13);
+            this.lblBabu.TabIndex = 82;
+            this.lblBabu.Text = "Babu";
+            // 
+            // lblGarden
+            // 
+            this.lblGarden.AutoSize = true;
+            this.lblGarden.Location = new System.Drawing.Point(10, 84);
+            this.lblGarden.Name = "lblGarden";
+            this.lblGarden.Size = new System.Drawing.Size(42, 13);
+            this.lblGarden.TabIndex = 80;
+            this.lblGarden.Text = "Garden";
+            this.lblGarden.Click += new System.EventHandler(this.lblGarden_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(381, 52);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(191, 20);
+            this.textBox1.TabIndex = 79;
+            // 
+            // btnSourceCode
+            // 
+            this.btnSourceCode.Image = ((System.Drawing.Image)(resources.GetObject("btnSourceCode.Image")));
+            this.btnSourceCode.Location = new System.Drawing.Point(350, 53);
+            this.btnSourceCode.Name = "btnSourceCode";
+            this.btnSourceCode.Size = new System.Drawing.Size(25, 21);
+            this.btnSourceCode.TabIndex = 78;
+            this.btnSourceCode.UseVisualStyleBackColor = true;
+            // 
+            // txtSourceCode
+            // 
+            this.txtSourceCode.Location = new System.Drawing.Point(280, 53);
+            this.txtSourceCode.Name = "txtSourceCode";
+            this.txtSourceCode.Size = new System.Drawing.Size(64, 20);
+            this.txtSourceCode.TabIndex = 77;
+            // 
+            // lblSourceCode
+            // 
+            this.lblSourceCode.AutoSize = true;
+            this.lblSourceCode.Location = new System.Drawing.Point(208, 55);
+            this.lblSourceCode.Name = "lblSourceCode";
+            this.lblSourceCode.Size = new System.Drawing.Size(69, 13);
+            this.lblSourceCode.TabIndex = 76;
+            this.lblSourceCode.Text = "Source Code";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Location = new System.Drawing.Point(10, 50);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(30, 13);
+            this.lblDate.TabIndex = 74;
+            this.lblDate.Text = "Date";
+            // 
+            // txtTransNo
+            // 
+            this.txtTransNo.Location = new System.Drawing.Point(332, 19);
+            this.txtTransNo.Name = "txtTransNo";
+            this.txtTransNo.Size = new System.Drawing.Size(239, 20);
+            this.txtTransNo.TabIndex = 73;
+            this.txtTransNo.TextChanged += new System.EventHandler(this.txtTransNo_TextChanged);
+            // 
+            // lblTransNo
+            // 
+            this.lblTransNo.Location = new System.Drawing.Point(6, 19);
+            this.lblTransNo.Name = "lblTransNo";
+            this.lblTransNo.Size = new System.Drawing.Size(64, 13);
+            this.lblTransNo.TabIndex = 72;
+            this.lblTransNo.Text = "Trans No";
+            // 
+            // btnNew
+            // 
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(285, 19);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(37, 21);
+            this.btnNew.TabIndex = 71;
+            this.btnNew.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
+            this.btnSearch.Location = new System.Drawing.Point(261, 19);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(37, 21);
+            this.btnSearch.TabIndex = 70;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // btnLast
+            // 
+            this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
+            this.btnLast.Location = new System.Drawing.Point(237, 19);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(37, 21);
+            this.btnLast.TabIndex = 69;
+            this.btnLast.UseVisualStyleBackColor = true;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
+            this.btnNext.Location = new System.Drawing.Point(213, 19);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(37, 21);
+            this.btnNext.TabIndex = 68;
+            this.btnNext.UseVisualStyleBackColor = true;
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
+            this.btnFirst.Location = new System.Drawing.Point(81, 19);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(37, 21);
+            this.btnFirst.TabIndex = 67;
+            this.btnFirst.UseVisualStyleBackColor = true;
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
+            this.btnPrevious.Location = new System.Drawing.Point(106, 19);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(37, 21);
+            this.btnPrevious.TabIndex = 66;
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(131, 19);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(97, 20);
+            this.textBox3.TabIndex = 65;
             // 
             // btnAdd
             // 
@@ -557,128 +679,6 @@
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.lblTotalTk);
-            this.groupBox2.Controls.Add(this.lblTermTk);
-            this.groupBox2.Controls.Add(this.lblPerTk);
-            this.groupBox2.Controls.Add(this.lblEntryStatus);
-            this.groupBox2.Controls.Add(this.lblTotalManDays);
-            this.groupBox2.Controls.Add(this.lblTotalTermDays);
-            this.groupBox2.Controls.Add(this.lblTotalPerDays);
-            this.groupBox2.Location = new System.Drawing.Point(585, 17);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(235, 103);
-            this.groupBox2.TabIndex = 109;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Entry Summary";
-            // 
-            // lblTotalPerDays
-            // 
-            this.lblTotalPerDays.AutoSize = true;
-            this.lblTotalPerDays.Location = new System.Drawing.Point(6, 16);
-            this.lblTotalPerDays.Name = "lblTotalPerDays";
-            this.lblTotalPerDays.Size = new System.Drawing.Size(77, 13);
-            this.lblTotalPerDays.TabIndex = 110;
-            this.lblTotalPerDays.Text = "Total Per Days";
-            // 
-            // lblTotalTermDays
-            // 
-            this.lblTotalTermDays.AutoSize = true;
-            this.lblTotalTermDays.Location = new System.Drawing.Point(6, 39);
-            this.lblTotalTermDays.Name = "lblTotalTermDays";
-            this.lblTotalTermDays.Size = new System.Drawing.Size(85, 13);
-            this.lblTotalTermDays.TabIndex = 111;
-            this.lblTotalTermDays.Text = "Total Term Days";
-            // 
-            // lblTotalManDays
-            // 
-            this.lblTotalManDays.AutoSize = true;
-            this.lblTotalManDays.Location = new System.Drawing.Point(6, 63);
-            this.lblTotalManDays.Name = "lblTotalManDays";
-            this.lblTotalManDays.Size = new System.Drawing.Size(82, 13);
-            this.lblTotalManDays.TabIndex = 112;
-            this.lblTotalManDays.Text = "Total Man Days";
-            // 
-            // lblEntryStatus
-            // 
-            this.lblEntryStatus.AutoSize = true;
-            this.lblEntryStatus.Location = new System.Drawing.Point(8, 83);
-            this.lblEntryStatus.Name = "lblEntryStatus";
-            this.lblEntryStatus.Size = new System.Drawing.Size(64, 13);
-            this.lblEntryStatus.TabIndex = 113;
-            this.lblEntryStatus.Text = "Entry Status";
-            // 
-            // lblPerTk
-            // 
-            this.lblPerTk.AutoSize = true;
-            this.lblPerTk.Location = new System.Drawing.Point(134, 16);
-            this.lblPerTk.Name = "lblPerTk";
-            this.lblPerTk.Size = new System.Drawing.Size(42, 13);
-            this.lblPerTk.TabIndex = 114;
-            this.lblPerTk.Text = "Per Tk.";
-            // 
-            // lblTermTk
-            // 
-            this.lblTermTk.AutoSize = true;
-            this.lblTermTk.Location = new System.Drawing.Point(134, 40);
-            this.lblTermTk.Name = "lblTermTk";
-            this.lblTermTk.Size = new System.Drawing.Size(50, 13);
-            this.lblTermTk.TabIndex = 115;
-            this.lblTermTk.Text = "Term Tk.";
-            // 
-            // lblTotalTk
-            // 
-            this.lblTotalTk.AutoSize = true;
-            this.lblTotalTk.Location = new System.Drawing.Point(134, 63);
-            this.lblTotalTk.Name = "lblTotalTk";
-            this.lblTotalTk.Size = new System.Drawing.Size(50, 13);
-            this.lblTotalTk.TabIndex = 116;
-            this.lblTotalTk.Text = "Total Tk.";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(81, 49);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePicker1.TabIndex = 110;
-            // 
-            // lblGlHead
-            // 
-            this.lblGlHead.AutoSize = true;
-            this.lblGlHead.Location = new System.Drawing.Point(13, 213);
-            this.lblGlHead.Name = "lblGlHead";
-            this.lblGlHead.Size = new System.Drawing.Size(50, 13);
-            this.lblGlHead.TabIndex = 117;
-            this.lblGlHead.Text = "GL Head";
-            // 
-            // lblNirik
-            // 
-            this.lblNirik.AutoSize = true;
-            this.lblNirik.Location = new System.Drawing.Point(13, 234);
-            this.lblNirik.Name = "lblNirik";
-            this.lblNirik.Size = new System.Drawing.Size(28, 13);
-            this.lblNirik.TabIndex = 118;
-            this.lblNirik.Text = "Nirik";
-            // 
-            // lblRegularTk
-            // 
-            this.lblRegularTk.AutoSize = true;
-            this.lblRegularTk.Location = new System.Drawing.Point(190, 232);
-            this.lblRegularTk.Name = "lblRegularTk";
-            this.lblRegularTk.Size = new System.Drawing.Size(63, 13);
-            this.lblRegularTk.TabIndex = 119;
-            this.lblRegularTk.Text = "Regular Tk.";
-            // 
-            // lblExtraTk2
-            // 
-            this.lblExtraTk2.AutoSize = true;
-            this.lblExtraTk2.Location = new System.Drawing.Point(350, 235);
-            this.lblExtraTk2.Name = "lblExtraTk2";
-            this.lblExtraTk2.Size = new System.Drawing.Size(50, 13);
-            this.lblExtraTk2.TabIndex = 120;
-            this.lblExtraTk2.Text = "Extra Tk.";
-            // 
             // frmRubberJakor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -693,11 +693,12 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmRubberJakor";
             this.Text = "Rubber Jakor";
+            this.Load += new System.EventHandler(this.frmRubberJakor_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

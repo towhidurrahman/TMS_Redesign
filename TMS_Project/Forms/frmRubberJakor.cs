@@ -26,5 +26,10 @@ namespace TMS_Project
         {
 
         }
+
+        private void frmRubberJakor_Load(object sender, EventArgs e)
+        {
+            //this is for test
+        }
     }
 }
