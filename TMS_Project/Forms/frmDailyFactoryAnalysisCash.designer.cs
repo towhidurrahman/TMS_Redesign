@@ -29,80 +29,61 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDailyFactoryAnalysisCash));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dTPickerDFactoryACashToDate = new System.Windows.Forms.DateTimePicker();
-            this.dTPickerDFactoryACashFromDate = new System.Windows.Forms.DateTimePicker();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.btncancel = new System.Windows.Forms.Button();
+            this.dTPickerDFactoryAToDate = new System.Windows.Forms.DateTimePicker();
+            this.dTPickerDFactoryAFromDate = new System.Windows.Forms.DateTimePicker();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.txtDFactoryACashCategoryto = new System.Windows.Forms.TextBox();
-            this.txtDFactoryACashCategoryFrom = new System.Windows.Forms.TextBox();
+            this.txtDFactoryACategoryto = new System.Windows.Forms.TextBox();
+            this.txtDFactoryACategoryFrom = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.CmbDFactoryACashGarden = new System.Windows.Forms.ComboBox();
-            this.cmbDFactoryACashWorkStation = new System.Windows.Forms.ComboBox();
+            this.CmbDFactoryAGarden = new System.Windows.Forms.ComboBox();
+            this.cmbDFactoryAWorkStation = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel11 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel10 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel9 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel3 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel2 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel1 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // btncancel
             // 
-            this.groupBox1.Controls.Add(this.dTPickerDFactoryACashToDate);
-            this.groupBox1.Controls.Add(this.dTPickerDFactoryACashFromDate);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.txtDFactoryACashCategoryto);
-            this.groupBox1.Controls.Add(this.txtDFactoryACashCategoryFrom);
-            this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.CmbDFactoryACashGarden);
-            this.groupBox1.Controls.Add(this.cmbDFactoryACashWorkStation);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel11);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel9);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel3);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel2);
-            this.groupBox1.Controls.Add(this.FrmWPaymentlabel1);
-            this.groupBox1.Location = new System.Drawing.Point(1, 4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(733, 132);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Reports Preview Range";
+            this.btncancel.Location = new System.Drawing.Point(569, 110);
+            this.btncancel.Name = "btncancel";
+            this.btncancel.Size = new System.Drawing.Size(75, 23);
+            this.btncancel.TabIndex = 5;
+            this.btncancel.Text = "Cancel";
+            this.btncancel.UseVisualStyleBackColor = true;
             // 
-            // dTPickerDFactoryACashToDate
+            // dTPickerDFactoryAToDate
             // 
-            this.dTPickerDFactoryACashToDate.Location = new System.Drawing.Point(503, 33);
-            this.dTPickerDFactoryACashToDate.Name = "dTPickerDFactoryACashToDate";
-            this.dTPickerDFactoryACashToDate.Size = new System.Drawing.Size(183, 20);
-            this.dTPickerDFactoryACashToDate.TabIndex = 76;
+            this.dTPickerDFactoryAToDate.Location = new System.Drawing.Point(419, 19);
+            this.dTPickerDFactoryAToDate.Name = "dTPickerDFactoryAToDate";
+            this.dTPickerDFactoryAToDate.Size = new System.Drawing.Size(183, 20);
+            this.dTPickerDFactoryAToDate.TabIndex = 76;
             // 
-            // dTPickerDFactoryACashFromDate
+            // dTPickerDFactoryAFromDate
             // 
-            this.dTPickerDFactoryACashFromDate.Location = new System.Drawing.Point(139, 36);
-            this.dTPickerDFactoryACashFromDate.Name = "dTPickerDFactoryACashFromDate";
-            this.dTPickerDFactoryACashFromDate.Size = new System.Drawing.Size(183, 20);
-            this.dTPickerDFactoryACashFromDate.TabIndex = 75;
+            this.dTPickerDFactoryAFromDate.Location = new System.Drawing.Point(131, 20);
+            this.dTPickerDFactoryAFromDate.Name = "dTPickerDFactoryAFromDate";
+            this.dTPickerDFactoryAFromDate.Size = new System.Drawing.Size(157, 20);
+            this.dTPickerDFactoryAFromDate.TabIndex = 75;
             // 
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(691, 92);
+            this.button4.Location = new System.Drawing.Point(607, 78);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(25, 21);
             this.button4.TabIndex = 73;
@@ -111,30 +92,30 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(328, 96);
+            this.button3.Location = new System.Drawing.Point(294, 73);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 21);
             this.button3.TabIndex = 72;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // txtDFactoryACashCategoryto
+            // txtDFactoryACategoryto
             // 
-            this.txtDFactoryACashCategoryto.Location = new System.Drawing.Point(502, 93);
-            this.txtDFactoryACashCategoryto.Name = "txtDFactoryACashCategoryto";
-            this.txtDFactoryACashCategoryto.Size = new System.Drawing.Size(183, 20);
-            this.txtDFactoryACashCategoryto.TabIndex = 42;
+            this.txtDFactoryACategoryto.Location = new System.Drawing.Point(418, 77);
+            this.txtDFactoryACategoryto.Name = "txtDFactoryACategoryto";
+            this.txtDFactoryACategoryto.Size = new System.Drawing.Size(183, 20);
+            this.txtDFactoryACategoryto.TabIndex = 42;
             // 
-            // txtDFactoryACashCategoryFrom
+            // txtDFactoryACategoryFrom
             // 
-            this.txtDFactoryACashCategoryFrom.Location = new System.Drawing.Point(139, 96);
-            this.txtDFactoryACashCategoryFrom.Name = "txtDFactoryACashCategoryFrom";
-            this.txtDFactoryACashCategoryFrom.Size = new System.Drawing.Size(183, 20);
-            this.txtDFactoryACashCategoryFrom.TabIndex = 39;
+            this.txtDFactoryACategoryFrom.Location = new System.Drawing.Point(131, 73);
+            this.txtDFactoryACategoryFrom.Name = "txtDFactoryACategoryFrom";
+            this.txtDFactoryACategoryFrom.Size = new System.Drawing.Size(157, 20);
+            this.txtDFactoryACategoryFrom.TabIndex = 39;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(481, 96);
+            this.label23.Location = new System.Drawing.Point(404, 78);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 33;
@@ -143,7 +124,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(481, 64);
+            this.label21.Location = new System.Drawing.Point(404, 48);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(10, 13);
             this.label21.TabIndex = 31;
@@ -152,7 +133,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(481, 37);
+            this.label20.Location = new System.Drawing.Point(404, 19);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -161,7 +142,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(123, 64);
+            this.label18.Location = new System.Drawing.Point(117, 46);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(10, 13);
             this.label18.TabIndex = 28;
@@ -170,41 +151,32 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(123, 96);
+            this.label17.Location = new System.Drawing.Point(117, 75);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 27;
             this.label17.Text = ":";
             // 
-            // label16
+            // CmbDFactoryAGarden
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(122, 40);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(10, 13);
-            this.label16.TabIndex = 26;
-            this.label16.Text = ":";
+            this.CmbDFactoryAGarden.FormattingEnabled = true;
+            this.CmbDFactoryAGarden.Location = new System.Drawing.Point(418, 47);
+            this.CmbDFactoryAGarden.Name = "CmbDFactoryAGarden";
+            this.CmbDFactoryAGarden.Size = new System.Drawing.Size(183, 21);
+            this.CmbDFactoryAGarden.TabIndex = 17;
             // 
-            // CmbDFactoryACashGarden
+            // cmbDFactoryAWorkStation
             // 
-            this.CmbDFactoryACashGarden.FormattingEnabled = true;
-            this.CmbDFactoryACashGarden.Location = new System.Drawing.Point(502, 61);
-            this.CmbDFactoryACashGarden.Name = "CmbDFactoryACashGarden";
-            this.CmbDFactoryACashGarden.Size = new System.Drawing.Size(183, 21);
-            this.CmbDFactoryACashGarden.TabIndex = 17;
-            // 
-            // cmbDFactoryACashWorkStation
-            // 
-            this.cmbDFactoryACashWorkStation.FormattingEnabled = true;
-            this.cmbDFactoryACashWorkStation.Location = new System.Drawing.Point(139, 61);
-            this.cmbDFactoryACashWorkStation.Name = "cmbDFactoryACashWorkStation";
-            this.cmbDFactoryACashWorkStation.Size = new System.Drawing.Size(183, 21);
-            this.cmbDFactoryACashWorkStation.TabIndex = 16;
+            this.cmbDFactoryAWorkStation.FormattingEnabled = true;
+            this.cmbDFactoryAWorkStation.Location = new System.Drawing.Point(131, 45);
+            this.cmbDFactoryAWorkStation.Name = "cmbDFactoryAWorkStation";
+            this.cmbDFactoryAWorkStation.Size = new System.Drawing.Size(157, 21);
+            this.cmbDFactoryAWorkStation.TabIndex = 16;
             // 
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(362, 98);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(331, 80);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -213,7 +185,7 @@
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(362, 64);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(331, 50);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 9;
@@ -222,7 +194,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(363, 38);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(329, 20);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -231,7 +203,7 @@
             // FrmWPaymentlabel3
             // 
             this.FrmWPaymentlabel3.AutoSize = true;
-            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(19, 96);
+            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(13, 74);
             this.FrmWPaymentlabel3.Name = "FrmWPaymentlabel3";
             this.FrmWPaymentlabel3.Size = new System.Drawing.Size(75, 13);
             this.FrmWPaymentlabel3.TabIndex = 2;
@@ -240,7 +212,7 @@
             // FrmWPaymentlabel2
             // 
             this.FrmWPaymentlabel2.AutoSize = true;
-            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(19, 64);
+            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(13, 48);
             this.FrmWPaymentlabel2.Name = "FrmWPaymentlabel2";
             this.FrmWPaymentlabel2.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel2.TabIndex = 1;
@@ -249,7 +221,7 @@
             // FrmWPaymentlabel1
             // 
             this.FrmWPaymentlabel1.AutoSize = true;
-            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(19, 41);
+            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(13, 23);
             this.FrmWPaymentlabel1.Name = "FrmWPaymentlabel1";
             this.FrmWPaymentlabel1.Size = new System.Drawing.Size(56, 13);
             this.FrmWPaymentlabel1.TabIndex = 0;
@@ -257,27 +229,56 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(12, 142);
+            this.btnPreview.Location = new System.Drawing.Point(9, 110);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
-            this.btnPreview.TabIndex = 1;
+            this.btnPreview.TabIndex = 4;
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // label16
             // 
-            this.btncancel.Location = new System.Drawing.Point(612, 142);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(116, 22);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(10, 13);
+            this.label16.TabIndex = 26;
+            this.label16.Text = ":";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dTPickerDFactoryAToDate);
+            this.groupBox1.Controls.Add(this.dTPickerDFactoryAFromDate);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.txtDFactoryACategoryto);
+            this.groupBox1.Controls.Add(this.txtDFactoryACategoryFrom);
+            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Controls.Add(this.label17);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.CmbDFactoryAGarden);
+            this.groupBox1.Controls.Add(this.cmbDFactoryAWorkStation);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel11);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel9);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel3);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel2);
+            this.groupBox1.Controls.Add(this.FrmWPaymentlabel1);
+            this.groupBox1.Location = new System.Drawing.Point(2, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(642, 104);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Reports Preview Range";
             // 
             // frmDailyFactoryAnalysisCash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 173);
+            this.ClientSize = new System.Drawing.Size(652, 140);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
@@ -291,30 +292,30 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbDFactoryACashGarden;
-        private System.Windows.Forms.ComboBox cmbDFactoryACashWorkStation;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.DateTimePicker dTPickerDFactoryAToDate;
+        private System.Windows.Forms.DateTimePicker dTPickerDFactoryAFromDate;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txtDFactoryACategoryto;
+        private System.Windows.Forms.TextBox txtDFactoryACategoryFrom;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label18;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox CmbDFactoryAGarden;
+        private System.Windows.Forms.ComboBox cmbDFactoryAWorkStation;
         private System.Windows.Forms.Label FrmWPaymentlabel11;
         private System.Windows.Forms.Label FrmWPaymentlabel10;
         private System.Windows.Forms.Label FrmWPaymentlabel9;
         private System.Windows.Forms.Label FrmWPaymentlabel3;
         private System.Windows.Forms.Label FrmWPaymentlabel2;
         private System.Windows.Forms.Label FrmWPaymentlabel1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtDFactoryACashCategoryto;
-        private System.Windows.Forms.TextBox txtDFactoryACashCategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DateTimePicker dTPickerDFactoryACashToDate;
-        private System.Windows.Forms.DateTimePicker dTPickerDFactoryACashFromDate;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -42,9 +42,9 @@
             this.listBoxBackFilePathRstore = new System.Windows.Forms.ListBox();
             this.txtBackFilePathRstoreF = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.Button1 = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -56,7 +56,7 @@
             this.groupBox1.Controls.Add(this.tabControl1);
             this.groupBox1.Location = new System.Drawing.Point(5, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(758, 399);
+            this.groupBox1.Size = new System.Drawing.Size(556, 340);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -67,7 +67,7 @@
             this.tabControl1.Location = new System.Drawing.Point(6, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(741, 381);
+            this.tabControl1.Size = new System.Drawing.Size(626, 348);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -80,31 +80,31 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(733, 355);
+            this.tabPage1.Size = new System.Drawing.Size(618, 322);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Backup";
             // 
             // cmbBackup
             // 
             this.cmbBackup.FormattingEnabled = true;
-            this.cmbBackup.Location = new System.Drawing.Point(17, 43);
+            this.cmbBackup.Location = new System.Drawing.Point(17, 33);
             this.cmbBackup.Name = "cmbBackup";
-            this.cmbBackup.Size = new System.Drawing.Size(699, 21);
+            this.cmbBackup.Size = new System.Drawing.Size(580, 21);
             this.cmbBackup.TabIndex = 4;
             // 
             // txtbackupf
             // 
-            this.txtbackupf.Location = new System.Drawing.Point(16, 305);
+            this.txtbackupf.Location = new System.Drawing.Point(16, 282);
             this.txtbackupf.Name = "txtbackupf";
-            this.txtbackupf.Size = new System.Drawing.Size(700, 20);
+            this.txtbackupf.Size = new System.Drawing.Size(581, 20);
             this.txtbackupf.TabIndex = 3;
             // 
             // txtbackupdetail
             // 
-            this.txtbackupdetail.Location = new System.Drawing.Point(17, 81);
+            this.txtbackupdetail.Location = new System.Drawing.Point(17, 67);
             this.txtbackupdetail.Multiline = true;
             this.txtbackupdetail.Name = "txtbackupdetail";
-            this.txtbackupdetail.Size = new System.Drawing.Size(699, 202);
+            this.txtbackupdetail.Size = new System.Drawing.Size(580, 202);
             this.txtbackupdetail.TabIndex = 2;
             this.txtbackupdetail.Resize += new System.EventHandler(this.textBox2_Resize);
             // 
@@ -129,7 +129,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(733, 355);
+            this.tabPage3.Size = new System.Drawing.Size(618, 322);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Restore";
             // 
@@ -138,7 +138,7 @@
             this.cmbBackFilePathRstore.FormattingEnabled = true;
             this.cmbBackFilePathRstore.Location = new System.Drawing.Point(16, 40);
             this.cmbBackFilePathRstore.Name = "cmbBackFilePathRstore";
-            this.cmbBackFilePathRstore.Size = new System.Drawing.Size(683, 21);
+            this.cmbBackFilePathRstore.Size = new System.Drawing.Size(519, 21);
             this.cmbBackFilePathRstore.TabIndex = 7;
             // 
             // label3
@@ -168,9 +168,9 @@
             // 
             // txtBackFilePathRstoreF
             // 
-            this.txtBackFilePathRstoreF.Location = new System.Drawing.Point(16, 305);
+            this.txtBackFilePathRstoreF.Location = new System.Drawing.Point(16, 270);
             this.txtBackFilePathRstoreF.Name = "txtBackFilePathRstoreF";
-            this.txtBackFilePathRstoreF.Size = new System.Drawing.Size(683, 20);
+            this.txtBackFilePathRstoreF.Size = new System.Drawing.Size(519, 20);
             this.txtBackFilePathRstoreF.TabIndex = 3;
             // 
             // label2
@@ -184,18 +184,18 @@
             // 
             // Button1
             // 
-            this.Button1.Location = new System.Drawing.Point(17, 409);
+            this.Button1.Location = new System.Drawing.Point(12, 351);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(80, 22);
+            this.Button1.Size = new System.Drawing.Size(61, 22);
             this.Button1.TabIndex = 1;
             this.Button1.Text = "OK";
             this.Button1.UseVisualStyleBackColor = true;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(667, 409);
+            this.btnCancel.Location = new System.Drawing.Point(493, 350);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(80, 22);
+            this.btnCancel.Size = new System.Drawing.Size(68, 24);
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -205,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 434);
+            this.ClientSize = new System.Drawing.Size(570, 382);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.groupBox1);
@@ -225,7 +225,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TextBox txtbackupf;
@@ -241,5 +240,6 @@
         private System.Windows.Forms.ComboBox cmbBackup;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbBackFilePathRstore;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

@@ -69,9 +69,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.CmbReportTCategory);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(2, 9);
+            this.groupBox1.Location = new System.Drawing.Point(2, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(733, 108);
+            this.groupBox1.Size = new System.Drawing.Size(597, 108);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report Preview Range";
@@ -90,7 +90,7 @@
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(613, 49);
+            this.button4.Location = new System.Drawing.Point(553, 49);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(25, 21);
             this.button4.TabIndex = 81;
@@ -99,7 +99,7 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(322, 48);
+            this.button3.Location = new System.Drawing.Point(306, 47);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 21);
             this.button3.TabIndex = 80;
@@ -107,22 +107,22 @@
             // 
             // txtCategoryto
             // 
-            this.txtCategoryto.Location = new System.Drawing.Point(428, 49);
+            this.txtCategoryto.Location = new System.Drawing.Point(417, 49);
             this.txtCategoryto.Name = "txtCategoryto";
-            this.txtCategoryto.Size = new System.Drawing.Size(183, 20);
+            this.txtCategoryto.Size = new System.Drawing.Size(130, 20);
             this.txtCategoryto.TabIndex = 79;
             // 
             // txtCategoryFrom
             // 
             this.txtCategoryFrom.Location = new System.Drawing.Point(138, 48);
             this.txtCategoryFrom.Name = "txtCategoryFrom";
-            this.txtCategoryFrom.Size = new System.Drawing.Size(183, 20);
+            this.txtCategoryFrom.Size = new System.Drawing.Size(162, 20);
             this.txtCategoryFrom.TabIndex = 78;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(417, 51);
+            this.label23.Location = new System.Drawing.Point(401, 52);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 77;
@@ -140,7 +140,7 @@
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(353, 52);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(337, 53);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 75;
@@ -209,7 +209,7 @@
             this.CmbReportTCategory.FormattingEnabled = true;
             this.CmbReportTCategory.Location = new System.Drawing.Point(138, 23);
             this.CmbReportTCategory.Name = "CmbReportTCategory";
-            this.CmbReportTCategory.Size = new System.Drawing.Size(376, 21);
+            this.CmbReportTCategory.Size = new System.Drawing.Size(368, 21);
             this.CmbReportTCategory.TabIndex = 5;
             // 
             // label1
@@ -223,7 +223,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(8, 123);
+            this.btnPreview.Location = new System.Drawing.Point(8, 116);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(87, 26);
             this.btnPreview.TabIndex = 1;
@@ -232,7 +232,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(646, 123);
+            this.btncancel.Location = new System.Drawing.Point(512, 116);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(87, 26);
             this.btncancel.TabIndex = 2;
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 159);
+            this.ClientSize = new System.Drawing.Size(610, 150);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

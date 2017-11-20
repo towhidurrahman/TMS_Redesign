@@ -86,29 +86,29 @@
             this.groupBox1.Controls.Add(this.frmFieldAnalysis);
             this.groupBox1.Location = new System.Drawing.Point(1, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(733, 154);
+            this.groupBox1.Size = new System.Drawing.Size(623, 115);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
             // 
             // dTPickerDFieldAToDate
             // 
-            this.dTPickerDFieldAToDate.Location = new System.Drawing.Point(503, 33);
+            this.dTPickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
             this.dTPickerDFieldAToDate.Name = "dTPickerDFieldAToDate";
-            this.dTPickerDFieldAToDate.Size = new System.Drawing.Size(183, 20);
+            this.dTPickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
             this.dTPickerDFieldAToDate.TabIndex = 76;
             // 
             // dTPickerDFieldAFromDate
             // 
-            this.dTPickerDFieldAFromDate.Location = new System.Drawing.Point(139, 36);
+            this.dTPickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
             this.dTPickerDFieldAFromDate.Name = "dTPickerDFieldAFromDate";
-            this.dTPickerDFieldAFromDate.Size = new System.Drawing.Size(183, 20);
+            this.dTPickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);
             this.dTPickerDFieldAFromDate.TabIndex = 75;
             // 
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(691, 92);
+            this.button4.Location = new System.Drawing.Point(589, 66);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(25, 21);
             this.button4.TabIndex = 73;
@@ -117,7 +117,7 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(328, 96);
+            this.button3.Location = new System.Drawing.Point(284, 60);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 21);
             this.button3.TabIndex = 72;
@@ -126,7 +126,7 @@
             // checkBoxDFieldASection
             // 
             this.checkBoxDFieldASection.AutoSize = true;
-            this.checkBoxDFieldASection.Location = new System.Drawing.Point(139, 131);
+            this.checkBoxDFieldASection.Location = new System.Drawing.Point(128, 91);
             this.checkBoxDFieldASection.Name = "checkBoxDFieldASection";
             this.checkBoxDFieldASection.Size = new System.Drawing.Size(15, 14);
             this.checkBoxDFieldASection.TabIndex = 43;
@@ -134,22 +134,22 @@
             // 
             // txtDFieldACategoryto
             // 
-            this.txtDFieldACategoryto.Location = new System.Drawing.Point(502, 93);
+            this.txtDFieldACategoryto.Location = new System.Drawing.Point(425, 67);
             this.txtDFieldACategoryto.Name = "txtDFieldACategoryto";
-            this.txtDFieldACategoryto.Size = new System.Drawing.Size(183, 20);
+            this.txtDFieldACategoryto.Size = new System.Drawing.Size(158, 20);
             this.txtDFieldACategoryto.TabIndex = 42;
             // 
             // txtDFieldACategoryFrom
             // 
-            this.txtDFieldACategoryFrom.Location = new System.Drawing.Point(139, 96);
+            this.txtDFieldACategoryFrom.Location = new System.Drawing.Point(128, 61);
             this.txtDFieldACategoryFrom.Name = "txtDFieldACategoryFrom";
-            this.txtDFieldACategoryFrom.Size = new System.Drawing.Size(183, 20);
+            this.txtDFieldACategoryFrom.Size = new System.Drawing.Size(150, 20);
             this.txtDFieldACategoryFrom.TabIndex = 39;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(123, 131);
+            this.label27.Location = new System.Drawing.Point(112, 91);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(10, 13);
             this.label27.TabIndex = 37;
@@ -158,7 +158,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(481, 96);
+            this.label23.Location = new System.Drawing.Point(410, 71);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 33;
@@ -167,7 +167,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(481, 64);
+            this.label21.Location = new System.Drawing.Point(410, 39);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(10, 13);
             this.label21.TabIndex = 31;
@@ -176,7 +176,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(481, 37);
+            this.label20.Location = new System.Drawing.Point(410, 12);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -185,7 +185,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(123, 64);
+            this.label18.Location = new System.Drawing.Point(112, 39);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(10, 13);
             this.label18.TabIndex = 28;
@@ -194,7 +194,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(123, 96);
+            this.label17.Location = new System.Drawing.Point(112, 64);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 27;
@@ -203,7 +203,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(122, 40);
+            this.label16.Location = new System.Drawing.Point(111, 15);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(10, 13);
             this.label16.TabIndex = 26;
@@ -212,23 +212,23 @@
             // CmbDFieldAGarden
             // 
             this.CmbDFieldAGarden.FormattingEnabled = true;
-            this.CmbDFieldAGarden.Location = new System.Drawing.Point(502, 61);
+            this.CmbDFieldAGarden.Location = new System.Drawing.Point(425, 39);
             this.CmbDFieldAGarden.Name = "CmbDFieldAGarden";
-            this.CmbDFieldAGarden.Size = new System.Drawing.Size(183, 21);
+            this.CmbDFieldAGarden.Size = new System.Drawing.Size(158, 21);
             this.CmbDFieldAGarden.TabIndex = 17;
             // 
             // cmbDFieldAWorkStation
             // 
             this.cmbDFieldAWorkStation.FormattingEnabled = true;
-            this.cmbDFieldAWorkStation.Location = new System.Drawing.Point(139, 61);
+            this.cmbDFieldAWorkStation.Location = new System.Drawing.Point(128, 36);
             this.cmbDFieldAWorkStation.Name = "cmbDFieldAWorkStation";
-            this.cmbDFieldAWorkStation.Size = new System.Drawing.Size(183, 21);
+            this.cmbDFieldAWorkStation.Size = new System.Drawing.Size(150, 21);
             this.cmbDFieldAWorkStation.TabIndex = 16;
             // 
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(362, 98);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(319, 68);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -237,7 +237,7 @@
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(362, 64);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(317, 42);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 9;
@@ -246,7 +246,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(363, 38);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(317, 15);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -255,7 +255,7 @@
             // FrmWPaymentlabel6
             // 
             this.FrmWPaymentlabel6.AutoSize = true;
-            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(19, 131);
+            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(8, 91);
             this.FrmWPaymentlabel6.Name = "FrmWPaymentlabel6";
             this.FrmWPaymentlabel6.Size = new System.Drawing.Size(70, 13);
             this.FrmWPaymentlabel6.TabIndex = 5;
@@ -264,7 +264,7 @@
             // FrmWPaymentlabel3
             // 
             this.FrmWPaymentlabel3.AutoSize = true;
-            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(19, 96);
+            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(8, 67);
             this.FrmWPaymentlabel3.Name = "FrmWPaymentlabel3";
             this.FrmWPaymentlabel3.Size = new System.Drawing.Size(75, 13);
             this.FrmWPaymentlabel3.TabIndex = 2;
@@ -273,7 +273,7 @@
             // FrmWPaymentlabel2
             // 
             this.FrmWPaymentlabel2.AutoSize = true;
-            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(19, 64);
+            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(8, 41);
             this.FrmWPaymentlabel2.Name = "FrmWPaymentlabel2";
             this.FrmWPaymentlabel2.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel2.TabIndex = 1;
@@ -282,7 +282,7 @@
             // frmFieldAnalysis
             // 
             this.frmFieldAnalysis.AutoSize = true;
-            this.frmFieldAnalysis.Location = new System.Drawing.Point(19, 41);
+            this.frmFieldAnalysis.Location = new System.Drawing.Point(8, 16);
             this.frmFieldAnalysis.Name = "frmFieldAnalysis";
             this.frmFieldAnalysis.Size = new System.Drawing.Size(56, 13);
             this.frmFieldAnalysis.TabIndex = 0;
@@ -290,7 +290,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(12, 164);
+            this.btnPreview.Location = new System.Drawing.Point(12, 125);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
             this.btnPreview.TabIndex = 1;
@@ -299,7 +299,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(612, 164);
+            this.btncancel.Location = new System.Drawing.Point(540, 125);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(75, 23);
             this.btncancel.TabIndex = 2;
@@ -310,7 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 196);
+            this.ClientSize = new System.Drawing.Size(633, 155);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

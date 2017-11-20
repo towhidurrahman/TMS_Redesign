@@ -240,7 +240,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(95, 401);
+            this.btnDelete.Location = new System.Drawing.Point(122, 401);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 28);
             this.btnDelete.TabIndex = 10;
@@ -249,7 +249,7 @@
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(181, 401);
+            this.btnSelectAll.Location = new System.Drawing.Point(230, 401);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 28);
             this.btnSelectAll.TabIndex = 11;
@@ -258,7 +258,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(268, 401);
+            this.btnRemoveAll.Location = new System.Drawing.Point(332, 401);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 28);
             this.btnRemoveAll.TabIndex = 12;
@@ -267,7 +267,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(431, 401);
+            this.btnClose.Location = new System.Drawing.Point(432, 401);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 28);
             this.btnClose.TabIndex = 13;

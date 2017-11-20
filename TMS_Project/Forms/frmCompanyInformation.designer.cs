@@ -171,7 +171,7 @@
             this.tabControl2.Location = new System.Drawing.Point(4, 10);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(785, 402);
+            this.tabControl2.Size = new System.Drawing.Size(779, 402);
             this.tabControl2.TabIndex = 0;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
@@ -203,7 +203,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(777, 376);
+            this.tabPage5.Size = new System.Drawing.Size(771, 376);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Head Office";
             // 
@@ -648,7 +648,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(777, 376);
+            this.tabPage8.Size = new System.Drawing.Size(771, 376);
             this.tabPage8.TabIndex = 3;
             this.tabPage8.Text = "Garden";
             // 
@@ -932,7 +932,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(777, 376);
+            this.tabPage6.Size = new System.Drawing.Size(771, 376);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Options";
             // 
@@ -1191,7 +1191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 461);
+            this.ClientSize = new System.Drawing.Size(795, 461);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
             this.MaximizeBox = false;

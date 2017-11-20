@@ -39,23 +39,32 @@
             this.lblDateFrom = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnPreview = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblGarden);
+            this.groupBox1.Controls.Add(this.dtPickerDateFrom);
+            this.groupBox1.Controls.Add(this.cmbLeaveType);
+            this.groupBox1.Controls.Add(this.cmbGarden);
+            this.groupBox1.Controls.Add(this.dtPickerDateTo);
+            this.groupBox1.Controls.Add(this.lblDateTo);
+            this.groupBox1.Controls.Add(this.lblLeaveType);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+            this.groupBox1.Location = new System.Drawing.Point(2, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(521, 108);
+            this.groupBox1.Size = new System.Drawing.Size(481, 75);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // cmbLeaveType
             // 
             this.cmbLeaveType.FormattingEnabled = true;
-            this.cmbLeaveType.Location = new System.Drawing.Point(422, 83);
+            this.cmbLeaveType.Location = new System.Drawing.Point(378, 44);
             this.cmbLeaveType.Name = "cmbLeaveType";
             this.cmbLeaveType.Size = new System.Drawing.Size(91, 21);
             this.cmbLeaveType.TabIndex = 16;
@@ -63,7 +72,7 @@
             // cmbGarden
             // 
             this.cmbGarden.FormattingEnabled = true;
-            this.cmbGarden.Location = new System.Drawing.Point(162, 83);
+            this.cmbGarden.Location = new System.Drawing.Point(142, 46);
             this.cmbGarden.Name = "cmbGarden";
             this.cmbGarden.Size = new System.Drawing.Size(91, 21);
             this.cmbGarden.TabIndex = 15;
@@ -72,7 +81,7 @@
             // 
             this.dtPickerDateTo.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerDateTo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDateTo.Location = new System.Drawing.Point(422, 45);
+            this.dtPickerDateTo.Location = new System.Drawing.Point(378, 20);
             this.dtPickerDateTo.Name = "dtPickerDateTo";
             this.dtPickerDateTo.Size = new System.Drawing.Size(91, 20);
             this.dtPickerDateTo.TabIndex = 14;
@@ -81,7 +90,7 @@
             // 
             this.dtPickerDateFrom.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDateFrom.Location = new System.Drawing.Point(162, 45);
+            this.dtPickerDateFrom.Location = new System.Drawing.Point(142, 19);
             this.dtPickerDateFrom.Name = "dtPickerDateFrom";
             this.dtPickerDateFrom.Size = new System.Drawing.Size(91, 20);
             this.dtPickerDateFrom.TabIndex = 10;
@@ -91,7 +100,7 @@
             this.lblLeaveType.AutoSize = true;
             this.lblLeaveType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLeaveType.ForeColor = System.Drawing.Color.Black;
-            this.lblLeaveType.Location = new System.Drawing.Point(284, 86);
+            this.lblLeaveType.Location = new System.Drawing.Point(254, 46);
             this.lblLeaveType.Name = "lblLeaveType";
             this.lblLeaveType.Size = new System.Drawing.Size(118, 13);
             this.lblLeaveType.TabIndex = 13;
@@ -102,7 +111,7 @@
             this.lblGarden.AutoSize = true;
             this.lblGarden.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGarden.ForeColor = System.Drawing.Color.Black;
-            this.lblGarden.Location = new System.Drawing.Point(37, 86);
+            this.lblGarden.Location = new System.Drawing.Point(12, 46);
             this.lblGarden.Name = "lblGarden";
             this.lblGarden.Size = new System.Drawing.Size(121, 13);
             this.lblGarden.TabIndex = 12;
@@ -113,7 +122,7 @@
             this.lblDateTo.AutoSize = true;
             this.lblDateTo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateTo.ForeColor = System.Drawing.Color.Black;
-            this.lblDateTo.Location = new System.Drawing.Point(284, 48);
+            this.lblDateTo.Location = new System.Drawing.Point(254, 22);
             this.lblDateTo.Name = "lblDateTo";
             this.lblDateTo.Size = new System.Drawing.Size(118, 13);
             this.lblDateTo.TabIndex = 11;
@@ -124,7 +133,7 @@
             this.lblDateFrom.AutoSize = true;
             this.lblDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateFrom.ForeColor = System.Drawing.Color.Black;
-            this.lblDateFrom.Location = new System.Drawing.Point(34, 48);
+            this.lblDateFrom.Location = new System.Drawing.Point(14, 28);
             this.lblDateFrom.Name = "lblDateFrom";
             this.lblDateFrom.Size = new System.Drawing.Size(124, 13);
             this.lblDateFrom.TabIndex = 9;
@@ -133,7 +142,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(459, 126);
+            this.btnCancel.Location = new System.Drawing.Point(407, 85);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 18;
@@ -143,7 +152,7 @@
             // btnPreview
             // 
             this.btnPreview.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreview.Location = new System.Drawing.Point(13, 127);
+            this.btnPreview.Location = new System.Drawing.Point(2, 87);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
             this.btnPreview.TabIndex = 17;
@@ -155,22 +164,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(546, 160);
+            this.ClientSize = new System.Drawing.Size(491, 110);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
-            this.Controls.Add(this.cmbLeaveType);
-            this.Controls.Add(this.cmbGarden);
-            this.Controls.Add(this.dtPickerDateTo);
-            this.Controls.Add(this.dtPickerDateFrom);
-            this.Controls.Add(this.lblLeaveType);
-            this.Controls.Add(this.lblGarden);
-            this.Controls.Add(this.lblDateTo);
             this.Controls.Add(this.lblDateFrom);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "frmDailyLeaveAnalysis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Daily Leave Analysis";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
