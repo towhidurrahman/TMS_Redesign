@@ -32,14 +32,28 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dTPickerReceiptDate = new System.Windows.Forms.DateTimePicker();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnFirst = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cmbDailyITransRGarden = new System.Windows.Forms.ComboBox();
+            this.textBoxDailyITransRDes = new System.Windows.Forms.TextBox();
+            this.lblDailyITransRGarden = new System.Windows.Forms.Label();
+            this.lblDailyITransRDate = new System.Windows.Forms.Label();
+            this.lblDailyITransRDescrip = new System.Windows.Forms.Label();
+            this.lblDailyITransRReceipt = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -74,34 +88,20 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.dTPickerReceiptDate = new System.Windows.Forms.DateTimePicker();
-            this.btnNew = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnLast = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnFirst = new System.Windows.Forms.Button();
-            this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.cmbDailyITransRGarden = new System.Windows.Forms.ComboBox();
-            this.textBoxDailyITransRDes = new System.Windows.Forms.TextBox();
-            this.lblDailyITransRGarden = new System.Windows.Forms.Label();
-            this.lblDailyITransRDate = new System.Windows.Forms.Label();
-            this.lblDailyITransRDescrip = new System.Windows.Forms.Label();
-            this.lblDailyITransRReceipt = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.button21 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button22 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -124,7 +124,7 @@
             this.groupBox1.Controls.Add(this.tabControl1);
             this.groupBox1.Location = new System.Drawing.Point(3, -3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(811, 570);
+            this.groupBox1.Size = new System.Drawing.Size(712, 457);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -135,10 +135,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.ItemSize = new System.Drawing.Size(110, 20);
-            this.tabControl1.Location = new System.Drawing.Point(9, 18);
+            this.tabControl1.Location = new System.Drawing.Point(6, 14);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(804, 552);
+            this.tabControl1.Size = new System.Drawing.Size(705, 440);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
@@ -156,10 +156,19 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(13, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(796, 524);
+            this.tabPage1.Size = new System.Drawing.Size(697, 412);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Receipt";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(4, 112);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(681, 265);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button5
             // 
@@ -220,15 +229,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(4, 112);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(681, 265);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
@@ -252,6 +252,129 @@
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // dTPickerReceiptDate
+            // 
+            this.dTPickerReceiptDate.Location = new System.Drawing.Point(104, 67);
+            this.dTPickerReceiptDate.Name = "dTPickerReceiptDate";
+            this.dTPickerReceiptDate.Size = new System.Drawing.Size(116, 20);
+            this.dTPickerReceiptDate.TabIndex = 93;
+            // 
+            // btnNew
+            // 
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(392, 12);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(25, 21);
+            this.btnNew.TabIndex = 92;
+            this.btnNew.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
+            this.btnSearch.Location = new System.Drawing.Point(367, 12);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(25, 21);
+            this.btnSearch.TabIndex = 91;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // btnLast
+            // 
+            this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
+            this.btnLast.Location = new System.Drawing.Point(342, 13);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(25, 21);
+            this.btnLast.TabIndex = 90;
+            this.btnLast.UseVisualStyleBackColor = true;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
+            this.btnNext.Location = new System.Drawing.Point(316, 13);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(25, 21);
+            this.btnNext.TabIndex = 89;
+            this.btnNext.UseVisualStyleBackColor = true;
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
+            this.btnFirst.Location = new System.Drawing.Point(103, 14);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(25, 21);
+            this.btnFirst.TabIndex = 88;
+            this.btnFirst.UseVisualStyleBackColor = true;
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
+            this.btnPrevious.Location = new System.Drawing.Point(127, 14);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(25, 21);
+            this.btnPrevious.TabIndex = 87;
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(154, 14);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(160, 20);
+            this.textBox3.TabIndex = 86;
+            // 
+            // cmbDailyITransRGarden
+            // 
+            this.cmbDailyITransRGarden.FormattingEnabled = true;
+            this.cmbDailyITransRGarden.Location = new System.Drawing.Point(307, 67);
+            this.cmbDailyITransRGarden.Name = "cmbDailyITransRGarden";
+            this.cmbDailyITransRGarden.Size = new System.Drawing.Size(110, 21);
+            this.cmbDailyITransRGarden.TabIndex = 85;
+            // 
+            // textBoxDailyITransRDes
+            // 
+            this.textBoxDailyITransRDes.Location = new System.Drawing.Point(104, 41);
+            this.textBoxDailyITransRDes.Name = "textBoxDailyITransRDes";
+            this.textBoxDailyITransRDes.Size = new System.Drawing.Size(197, 20);
+            this.textBoxDailyITransRDes.TabIndex = 84;
+            // 
+            // lblDailyITransRGarden
+            // 
+            this.lblDailyITransRGarden.AutoSize = true;
+            this.lblDailyITransRGarden.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDailyITransRGarden.Location = new System.Drawing.Point(248, 71);
+            this.lblDailyITransRGarden.Name = "lblDailyITransRGarden";
+            this.lblDailyITransRGarden.Size = new System.Drawing.Size(53, 16);
+            this.lblDailyITransRGarden.TabIndex = 83;
+            this.lblDailyITransRGarden.Text = "Garden";
+            // 
+            // lblDailyITransRDate
+            // 
+            this.lblDailyITransRDate.AutoSize = true;
+            this.lblDailyITransRDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDailyITransRDate.Location = new System.Drawing.Point(15, 70);
+            this.lblDailyITransRDate.Name = "lblDailyITransRDate";
+            this.lblDailyITransRDate.Size = new System.Drawing.Size(40, 16);
+            this.lblDailyITransRDate.TabIndex = 82;
+            this.lblDailyITransRDate.Text = "Date ";
+            // 
+            // lblDailyITransRDescrip
+            // 
+            this.lblDailyITransRDescrip.AutoSize = true;
+            this.lblDailyITransRDescrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDailyITransRDescrip.Location = new System.Drawing.Point(14, 44);
+            this.lblDailyITransRDescrip.Name = "lblDailyITransRDescrip";
+            this.lblDailyITransRDescrip.Size = new System.Drawing.Size(76, 16);
+            this.lblDailyITransRDescrip.TabIndex = 81;
+            this.lblDailyITransRDescrip.Text = "Description";
+            // 
+            // lblDailyITransRReceipt
+            // 
+            this.lblDailyITransRReceipt.AutoSize = true;
+            this.lblDailyITransRReceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDailyITransRReceipt.Location = new System.Drawing.Point(12, 16);
+            this.lblDailyITransRReceipt.Name = "lblDailyITransRReceipt";
+            this.lblDailyITransRReceipt.Size = new System.Drawing.Size(76, 16);
+            this.lblDailyITransRReceipt.TabIndex = 80;
+            this.lblDailyITransRReceipt.Text = "Receipt No";
             // 
             // tabPage2
             // 
@@ -600,135 +723,22 @@
             this.groupBox7.TabIndex = 1;
             this.groupBox7.TabStop = false;
             // 
-            // dTPickerReceiptDate
-            // 
-            this.dTPickerReceiptDate.Location = new System.Drawing.Point(104, 67);
-            this.dTPickerReceiptDate.Name = "dTPickerReceiptDate";
-            this.dTPickerReceiptDate.Size = new System.Drawing.Size(116, 20);
-            this.dTPickerReceiptDate.TabIndex = 93;
-            // 
-            // btnNew
-            // 
-            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(392, 12);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(25, 21);
-            this.btnNew.TabIndex = 92;
-            this.btnNew.UseVisualStyleBackColor = true;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(367, 12);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 91;
-            this.btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnLast
-            // 
-            this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(342, 13);
-            this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(25, 21);
-            this.btnLast.TabIndex = 90;
-            this.btnLast.UseVisualStyleBackColor = true;
-            // 
-            // btnNext
-            // 
-            this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(316, 13);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(25, 21);
-            this.btnNext.TabIndex = 89;
-            this.btnNext.UseVisualStyleBackColor = true;
-            // 
-            // btnFirst
-            // 
-            this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
-            this.btnFirst.Location = new System.Drawing.Point(103, 14);
-            this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(25, 21);
-            this.btnFirst.TabIndex = 88;
-            this.btnFirst.UseVisualStyleBackColor = true;
-            // 
-            // btnPrevious
-            // 
-            this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(127, 14);
-            this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(25, 21);
-            this.btnPrevious.TabIndex = 87;
-            this.btnPrevious.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(154, 14);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(160, 20);
-            this.textBox3.TabIndex = 86;
-            // 
-            // cmbDailyITransRGarden
-            // 
-            this.cmbDailyITransRGarden.FormattingEnabled = true;
-            this.cmbDailyITransRGarden.Location = new System.Drawing.Point(307, 67);
-            this.cmbDailyITransRGarden.Name = "cmbDailyITransRGarden";
-            this.cmbDailyITransRGarden.Size = new System.Drawing.Size(110, 21);
-            this.cmbDailyITransRGarden.TabIndex = 85;
-            // 
-            // textBoxDailyITransRDes
-            // 
-            this.textBoxDailyITransRDes.Location = new System.Drawing.Point(104, 41);
-            this.textBoxDailyITransRDes.Name = "textBoxDailyITransRDes";
-            this.textBoxDailyITransRDes.Size = new System.Drawing.Size(197, 20);
-            this.textBoxDailyITransRDes.TabIndex = 84;
-            // 
-            // lblDailyITransRGarden
-            // 
-            this.lblDailyITransRGarden.AutoSize = true;
-            this.lblDailyITransRGarden.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDailyITransRGarden.Location = new System.Drawing.Point(248, 71);
-            this.lblDailyITransRGarden.Name = "lblDailyITransRGarden";
-            this.lblDailyITransRGarden.Size = new System.Drawing.Size(53, 16);
-            this.lblDailyITransRGarden.TabIndex = 83;
-            this.lblDailyITransRGarden.Text = "Garden";
-            // 
-            // lblDailyITransRDate
-            // 
-            this.lblDailyITransRDate.AutoSize = true;
-            this.lblDailyITransRDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDailyITransRDate.Location = new System.Drawing.Point(15, 70);
-            this.lblDailyITransRDate.Name = "lblDailyITransRDate";
-            this.lblDailyITransRDate.Size = new System.Drawing.Size(40, 16);
-            this.lblDailyITransRDate.TabIndex = 82;
-            this.lblDailyITransRDate.Text = "Date ";
-            // 
-            // lblDailyITransRDescrip
-            // 
-            this.lblDailyITransRDescrip.AutoSize = true;
-            this.lblDailyITransRDescrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDailyITransRDescrip.Location = new System.Drawing.Point(14, 44);
-            this.lblDailyITransRDescrip.Name = "lblDailyITransRDescrip";
-            this.lblDailyITransRDescrip.Size = new System.Drawing.Size(76, 16);
-            this.lblDailyITransRDescrip.TabIndex = 81;
-            this.lblDailyITransRDescrip.Text = "Description";
-            // 
-            // lblDailyITransRReceipt
-            // 
-            this.lblDailyITransRReceipt.AutoSize = true;
-            this.lblDailyITransRReceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDailyITransRReceipt.Location = new System.Drawing.Point(12, 16);
-            this.lblDailyITransRReceipt.Name = "lblDailyITransRReceipt";
-            this.lblDailyITransRReceipt.Size = new System.Drawing.Size(76, 16);
-            this.lblDailyITransRReceipt.TabIndex = 80;
-            this.lblDailyITransRReceipt.Text = "Receipt No";
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(98, 67);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(116, 20);
             this.dateTimePicker1.TabIndex = 93;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(6, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 16);
+            this.label4.TabIndex = 80;
+            this.label4.Text = "Receipt No";
             // 
             // button17
             // 
@@ -739,6 +749,16 @@
             this.button17.TabIndex = 92;
             this.button17.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(8, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 16);
+            this.label3.TabIndex = 81;
+            this.label3.Text = "Description";
+            // 
             // button18
             // 
             this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
@@ -747,6 +767,16 @@
             this.button18.Size = new System.Drawing.Size(25, 21);
             this.button18.TabIndex = 91;
             this.button18.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(9, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 16);
+            this.label2.TabIndex = 82;
+            this.label2.Text = "Date ";
             // 
             // button19
             // 
@@ -757,6 +787,16 @@
             this.button19.TabIndex = 90;
             this.button19.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(228, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 16);
+            this.label1.TabIndex = 83;
+            this.label1.Text = "Garden";
+            // 
             // button20
             // 
             this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
@@ -766,6 +806,13 @@
             this.button20.TabIndex = 89;
             this.button20.UseVisualStyleBackColor = true;
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(98, 41);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(197, 20);
+            this.textBox4.TabIndex = 84;
+            // 
             // button21
             // 
             this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
@@ -774,6 +821,14 @@
             this.button21.Size = new System.Drawing.Size(25, 21);
             this.button21.TabIndex = 88;
             this.button21.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(287, 67);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(110, 21);
+            this.comboBox1.TabIndex = 85;
             // 
             // button22
             // 
@@ -791,66 +846,11 @@
             this.textBox1.Size = new System.Drawing.Size(160, 20);
             this.textBox1.TabIndex = 86;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(287, 67);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(110, 21);
-            this.comboBox1.TabIndex = 85;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(98, 41);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(197, 20);
-            this.textBox4.TabIndex = 84;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(228, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 16);
-            this.label1.TabIndex = 83;
-            this.label1.Text = "Garden";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 16);
-            this.label2.TabIndex = 82;
-            this.label2.Text = "Date ";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 16);
-            this.label3.TabIndex = 81;
-            this.label3.Text = "Description";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 16);
-            this.label4.TabIndex = 80;
-            this.label4.Text = "Receipt No";
-            // 
             // frmDailyInventoryTransaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 499);
+            this.ClientSize = new System.Drawing.Size(719, 454);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "frmDailyInventoryTransaction";

@@ -221,7 +221,7 @@
             // cmbDFieldRWorkStation
             // 
             this.cmbDFieldRWorkStation.FormattingEnabled = true;
-            this.cmbDFieldRWorkStation.Location = new System.Drawing.Point(125, 79);
+            this.cmbDFieldRWorkStation.Location = new System.Drawing.Point(126, 79);
             this.cmbDFieldRWorkStation.Name = "cmbDFieldRWorkStation";
             this.cmbDFieldRWorkStation.Size = new System.Drawing.Size(160, 21);
             this.cmbDFieldRWorkStation.TabIndex = 93;
@@ -229,7 +229,7 @@
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(353, 82);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(349, 82);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 92;
@@ -271,7 +271,7 @@
             // 
             // txtDFieldRSirderFrom
             // 
-            this.txtDFieldRSirderFrom.Location = new System.Drawing.Point(125, 50);
+            this.txtDFieldRSirderFrom.Location = new System.Drawing.Point(126, 50);
             this.txtDFieldRSirderFrom.Name = "txtDFieldRSirderFrom";
             this.txtDFieldRSirderFrom.Size = new System.Drawing.Size(160, 20);
             this.txtDFieldRSirderFrom.TabIndex = 87;
@@ -306,7 +306,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(5, 50);
+            this.label4.Location = new System.Drawing.Point(6, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 83;
@@ -321,7 +321,7 @@
             // 
             // dTPickerDFieldRFromDate
             // 
-            this.dTPickerDFieldRFromDate.Location = new System.Drawing.Point(127, 20);
+            this.dTPickerDFieldRFromDate.Location = new System.Drawing.Point(126, 20);
             this.dTPickerDFieldRFromDate.Name = "dTPickerDFieldRFromDate";
             this.dTPickerDFieldRFromDate.Size = new System.Drawing.Size(160, 20);
             this.dTPickerDFieldRFromDate.TabIndex = 75;
@@ -537,7 +537,7 @@
             // FrmWPaymentlabel1
             // 
             this.FrmWPaymentlabel1.AutoSize = true;
-            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(9, 20);
+            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(6, 20);
             this.FrmWPaymentlabel1.Name = "FrmWPaymentlabel1";
             this.FrmWPaymentlabel1.Size = new System.Drawing.Size(56, 13);
             this.FrmWPaymentlabel1.TabIndex = 0;

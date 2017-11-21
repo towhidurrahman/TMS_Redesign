@@ -121,7 +121,7 @@
             // FrmWekklyRationtoDate
             // 
             this.FrmWekklyRationtoDate.AutoSize = true;
-            this.FrmWekklyRationtoDate.Location = new System.Drawing.Point(335, 27);
+            this.FrmWekklyRationtoDate.Location = new System.Drawing.Point(332, 27);
             this.FrmWekklyRationtoDate.Name = "FrmWekklyRationtoDate";
             this.FrmWekklyRationtoDate.Size = new System.Drawing.Size(46, 13);
             this.FrmWekklyRationtoDate.TabIndex = 80;
@@ -130,7 +130,7 @@
             // FrmWekklyRationFrmDate
             // 
             this.FrmWekklyRationFrmDate.AutoSize = true;
-            this.FrmWekklyRationFrmDate.Location = new System.Drawing.Point(12, 28);
+            this.FrmWekklyRationFrmDate.Location = new System.Drawing.Point(11, 28);
             this.FrmWekklyRationFrmDate.Name = "FrmWekklyRationFrmDate";
             this.FrmWekklyRationFrmDate.Size = new System.Drawing.Size(56, 13);
             this.FrmWekklyRationFrmDate.TabIndex = 79;
@@ -258,7 +258,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(16, 154);
+            this.btnPreview.Location = new System.Drawing.Point(11, 154);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(87, 26);
             this.btnPreview.TabIndex = 1;

@@ -221,7 +221,7 @@
             // cmbDfactoryRWorkStation
             // 
             this.cmbDfactoryRWorkStation.FormattingEnabled = true;
-            this.cmbDfactoryRWorkStation.Location = new System.Drawing.Point(138, 94);
+            this.cmbDfactoryRWorkStation.Location = new System.Drawing.Point(139, 94);
             this.cmbDfactoryRWorkStation.Name = "cmbDfactoryRWorkStation";
             this.cmbDfactoryRWorkStation.Size = new System.Drawing.Size(183, 21);
             this.cmbDfactoryRWorkStation.TabIndex = 93;
@@ -271,7 +271,7 @@
             // 
             // txtDfactoryRSirderFrom
             // 
-            this.txtDfactoryRSirderFrom.Location = new System.Drawing.Point(138, 65);
+            this.txtDfactoryRSirderFrom.Location = new System.Drawing.Point(139, 65);
             this.txtDfactoryRSirderFrom.Name = "txtDfactoryRSirderFrom";
             this.txtDfactoryRSirderFrom.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRSirderFrom.TabIndex = 87;
@@ -297,7 +297,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(362, 68);
+            this.label3.Location = new System.Drawing.Point(366, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -306,7 +306,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 65);
+            this.label4.Location = new System.Drawing.Point(19, 65);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 83;
@@ -321,7 +321,7 @@
             // 
             // dTPickerDfactoryRFromDate
             // 
-            this.dTPickerDfactoryRFromDate.Location = new System.Drawing.Point(140, 35);
+            this.dTPickerDfactoryRFromDate.Location = new System.Drawing.Point(139, 35);
             this.dTPickerDfactoryRFromDate.Name = "dTPickerDfactoryRFromDate";
             this.dTPickerDfactoryRFromDate.Size = new System.Drawing.Size(183, 20);
             this.dTPickerDfactoryRFromDate.TabIndex = 75;
@@ -473,7 +473,7 @@
             // FrmWPaymentlabel12
             // 
             this.FrmWPaymentlabel12.AutoSize = true;
-            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(362, 158);
+            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(366, 158);
             this.FrmWPaymentlabel12.Name = "FrmWPaymentlabel12";
             this.FrmWPaymentlabel12.Size = new System.Drawing.Size(61, 13);
             this.FrmWPaymentlabel12.TabIndex = 11;
@@ -482,7 +482,7 @@
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(362, 127);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(366, 127);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -491,7 +491,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(362, 35);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(366, 35);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -537,7 +537,7 @@
             // FrmWPaymentlabel1
             // 
             this.FrmWPaymentlabel1.AutoSize = true;
-            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(22, 35);
+            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(19, 35);
             this.FrmWPaymentlabel1.Name = "FrmWPaymentlabel1";
             this.FrmWPaymentlabel1.Size = new System.Drawing.Size(56, 13);
             this.FrmWPaymentlabel1.TabIndex = 0;
