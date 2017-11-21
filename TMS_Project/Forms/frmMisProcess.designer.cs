@@ -78,7 +78,7 @@
             // 
             // btndayendProcess
             // 
-            this.btndayendProcess.Location = new System.Drawing.Point(34, 90);
+            this.btndayendProcess.Location = new System.Drawing.Point(12, 84);
             this.btndayendProcess.Name = "btndayendProcess";
             this.btndayendProcess.Size = new System.Drawing.Size(75, 23);
             this.btndayendProcess.TabIndex = 1;
@@ -87,7 +87,7 @@
             // 
             // btnbtndayendPcancel
             // 
-            this.btnbtndayendPcancel.Location = new System.Drawing.Point(460, 92);
+            this.btnbtndayendPcancel.Location = new System.Drawing.Point(482, 90);
             this.btnbtndayendPcancel.Name = "btnbtndayendPcancel";
             this.btnbtndayendPcancel.Size = new System.Drawing.Size(75, 23);
             this.btnbtndayendPcancel.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 119);
+            this.ClientSize = new System.Drawing.Size(562, 119);
             this.Controls.Add(this.btnbtndayendPcancel);
             this.Controls.Add(this.btndayendProcess);
             this.Controls.Add(this.groupBox1);

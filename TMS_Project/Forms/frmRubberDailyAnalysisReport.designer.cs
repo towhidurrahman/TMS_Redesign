@@ -70,9 +70,9 @@
             this.groupBox1.Controls.Add(this.cmbWorkStation);
             this.groupBox1.Controls.Add(this.lblWorkStation);
             this.groupBox1.Controls.Add(this.lblDateFrom);
-            this.groupBox1.Location = new System.Drawing.Point(13, 11);
+            this.groupBox1.Location = new System.Drawing.Point(10, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(507, 151);
+            this.groupBox1.Size = new System.Drawing.Size(507, 141);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
@@ -213,7 +213,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(16, 177);
+            this.btnPreview.Location = new System.Drawing.Point(12, 159);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(59, 22);
             this.btnPreview.TabIndex = 77;
@@ -222,7 +222,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(464, 177);
+            this.button1.Location = new System.Drawing.Point(461, 159);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 22);
             this.button1.TabIndex = 78;
@@ -233,7 +233,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 211);
+            this.ClientSize = new System.Drawing.Size(529, 189);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

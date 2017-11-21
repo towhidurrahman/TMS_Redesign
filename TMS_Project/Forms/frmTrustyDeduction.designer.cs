@@ -180,7 +180,7 @@
             // 
             // btnFTDedCancel
             // 
-            this.btnFTDedCancel.Location = new System.Drawing.Point(447, 103);
+            this.btnFTDedCancel.Location = new System.Drawing.Point(467, 94);
             this.btnFTDedCancel.Name = "btnFTDedCancel";
             this.btnFTDedCancel.Size = new System.Drawing.Size(75, 23);
             this.btnFTDedCancel.TabIndex = 14;

@@ -39,9 +39,9 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(328, 74);
+            this.btnCancel.Location = new System.Drawing.Point(375, 72);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(128, 23);
+            this.btnCancel.Size = new System.Drawing.Size(73, 23);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -49,12 +49,13 @@
             // btnPreview
             // 
             this.btnPreview.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreview.Location = new System.Drawing.Point(15, 74);
+            this.btnPreview.Location = new System.Drawing.Point(8, 72);
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(128, 23);
+            this.btnPreview.Size = new System.Drawing.Size(79, 23);
             this.btnPreview.TabIndex = 6;
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
+            this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
             // 
             // dtTimePickerWeekStartDate
             // 
@@ -78,7 +79,7 @@
             this.grpBoxReportPreviewRange.Controls.Add(this.dtTimePickerWeekStartDate);
             this.grpBoxReportPreviewRange.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpBoxReportPreviewRange.ForeColor = System.Drawing.Color.Blue;
-            this.grpBoxReportPreviewRange.Location = new System.Drawing.Point(15, 13);
+            this.grpBoxReportPreviewRange.Location = new System.Drawing.Point(7, 13);
             this.grpBoxReportPreviewRange.Name = "grpBoxReportPreviewRange";
             this.grpBoxReportPreviewRange.Size = new System.Drawing.Size(441, 55);
             this.grpBoxReportPreviewRange.TabIndex = 8;
@@ -89,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 109);
+            this.ClientSize = new System.Drawing.Size(457, 108);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.lblWeekStartDate);

@@ -63,16 +63,16 @@
             this.grpBoxLeave.Controls.Add(this.label2);
             this.grpBoxLeave.Controls.Add(this.lblToDate);
             this.grpBoxLeave.Controls.Add(this.lblFromDate);
-            this.grpBoxLeave.Location = new System.Drawing.Point(13, 13);
+            this.grpBoxLeave.Location = new System.Drawing.Point(13, 6);
             this.grpBoxLeave.Name = "grpBoxLeave";
-            this.grpBoxLeave.Size = new System.Drawing.Size(548, 141);
+            this.grpBoxLeave.Size = new System.Drawing.Size(545, 102);
             this.grpBoxLeave.TabIndex = 0;
             this.grpBoxLeave.TabStop = false;
             // 
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(183, 64);
+            this.btnSearch.Location = new System.Drawing.Point(183, 40);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(27, 21);
             this.btnSearch.TabIndex = 11;
@@ -82,7 +82,7 @@
             // 
             this.cmbLeaveType.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbLeaveType.FormattingEnabled = true;
-            this.cmbLeaveType.Location = new System.Drawing.Point(280, 64);
+            this.cmbLeaveType.Location = new System.Drawing.Point(280, 40);
             this.cmbLeaveType.Name = "cmbLeaveType";
             this.cmbLeaveType.Size = new System.Drawing.Size(85, 21);
             this.cmbLeaveType.TabIndex = 10;
@@ -90,7 +90,7 @@
             // txtEmployeeName
             // 
             this.txtEmployeeName.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmployeeName.Location = new System.Drawing.Point(92, 104);
+            this.txtEmployeeName.Location = new System.Drawing.Point(92, 69);
             this.txtEmployeeName.Name = "txtEmployeeName";
             this.txtEmployeeName.Size = new System.Drawing.Size(273, 20);
             this.txtEmployeeName.TabIndex = 9;
@@ -98,21 +98,21 @@
             // txtEmployeeId
             // 
             this.txtEmployeeId.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmployeeId.Location = new System.Drawing.Point(92, 64);
+            this.txtEmployeeId.Location = new System.Drawing.Point(92, 40);
             this.txtEmployeeId.Name = "txtEmployeeId";
             this.txtEmployeeId.Size = new System.Drawing.Size(85, 20);
             this.txtEmployeeId.TabIndex = 8;
             // 
             // dtPickerToDate
             // 
-            this.dtPickerToDate.Location = new System.Drawing.Point(280, 20);
+            this.dtPickerToDate.Location = new System.Drawing.Point(280, 12);
             this.dtPickerToDate.Name = "dtPickerToDate";
             this.dtPickerToDate.Size = new System.Drawing.Size(85, 20);
             this.dtPickerToDate.TabIndex = 7;
             // 
             // dtPickerFromDate
             // 
-            this.dtPickerFromDate.Location = new System.Drawing.Point(92, 20);
+            this.dtPickerFromDate.Location = new System.Drawing.Point(92, 12);
             this.dtPickerFromDate.Name = "dtPickerFromDate";
             this.dtPickerFromDate.Size = new System.Drawing.Size(85, 20);
             this.dtPickerFromDate.TabIndex = 6;
@@ -120,7 +120,7 @@
             // lblEmployeeId
             // 
             this.lblEmployeeId.AutoSize = true;
-            this.lblEmployeeId.Location = new System.Drawing.Point(7, 66);
+            this.lblEmployeeId.Location = new System.Drawing.Point(7, 42);
             this.lblEmployeeId.Name = "lblEmployeeId";
             this.lblEmployeeId.Size = new System.Drawing.Size(65, 13);
             this.lblEmployeeId.TabIndex = 5;
@@ -129,7 +129,7 @@
             // lblLeaveType
             // 
             this.lblLeaveType.AutoSize = true;
-            this.lblLeaveType.Location = new System.Drawing.Point(216, 67);
+            this.lblLeaveType.Location = new System.Drawing.Point(216, 43);
             this.lblLeaveType.Name = "lblLeaveType";
             this.lblLeaveType.Size = new System.Drawing.Size(64, 13);
             this.lblLeaveType.TabIndex = 4;
@@ -138,7 +138,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 108);
+            this.label2.Location = new System.Drawing.Point(7, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 3;
@@ -147,7 +147,7 @@
             // lblToDate
             // 
             this.lblToDate.AutoSize = true;
-            this.lblToDate.Location = new System.Drawing.Point(214, 23);
+            this.lblToDate.Location = new System.Drawing.Point(214, 15);
             this.lblToDate.Name = "lblToDate";
             this.lblToDate.Size = new System.Drawing.Size(46, 13);
             this.lblToDate.TabIndex = 1;
@@ -156,7 +156,7 @@
             // lblFromDate
             // 
             this.lblFromDate.AutoSize = true;
-            this.lblFromDate.Location = new System.Drawing.Point(7, 23);
+            this.lblFromDate.Location = new System.Drawing.Point(7, 15);
             this.lblFromDate.Name = "lblFromDate";
             this.lblFromDate.Size = new System.Drawing.Size(56, 13);
             this.lblFromDate.TabIndex = 0;
@@ -165,7 +165,7 @@
             // dtLeave
             // 
             this.dtLeave.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtLeave.Location = new System.Drawing.Point(13, 161);
+            this.dtLeave.Location = new System.Drawing.Point(12, 114);
             this.dtLeave.Name = "dtLeave";
             this.dtLeave.Size = new System.Drawing.Size(548, 150);
             this.dtLeave.TabIndex = 1;
@@ -173,7 +173,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(13, 322);
+            this.btnSave.Location = new System.Drawing.Point(10, 270);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 2;
@@ -182,7 +182,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(105, 322);
+            this.btnDelete.Location = new System.Drawing.Point(102, 270);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 3;
@@ -191,7 +191,7 @@
             // 
             // btnPost
             // 
-            this.btnPost.Location = new System.Drawing.Point(392, 322);
+            this.btnPost.Location = new System.Drawing.Point(389, 270);
             this.btnPost.Name = "btnPost";
             this.btnPost.Size = new System.Drawing.Size(75, 23);
             this.btnPost.TabIndex = 4;
@@ -200,7 +200,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(486, 322);
+            this.btnCancel.Location = new System.Drawing.Point(483, 270);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 5;
@@ -211,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 357);
+            this.ClientSize = new System.Drawing.Size(568, 301);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPost);
             this.Controls.Add(this.btnDelete);

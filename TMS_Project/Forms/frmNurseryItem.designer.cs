@@ -62,7 +62,7 @@
             this.groupBox1.Controls.Add(this.btnPrevious);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.lblItemCode);
-            this.groupBox1.Location = new System.Drawing.Point(11, 14);
+            this.groupBox1.Location = new System.Drawing.Point(11, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(496, 93);
             this.groupBox1.TabIndex = 0;
@@ -173,7 +173,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(449, 113);
+            this.btnClose.Location = new System.Drawing.Point(449, 104);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(59, 22);
             this.btnClose.TabIndex = 54;
@@ -182,7 +182,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(13, 113);
+            this.btnSave.Location = new System.Drawing.Point(13, 104);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(59, 22);
             this.btnSave.TabIndex = 53;
@@ -191,7 +191,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(222, 113);
+            this.btnDelete.Location = new System.Drawing.Point(222, 104);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 55;
@@ -202,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 151);
+            this.ClientSize = new System.Drawing.Size(519, 132);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.groupBox1);

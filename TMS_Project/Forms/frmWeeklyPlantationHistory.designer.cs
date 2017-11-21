@@ -41,7 +41,7 @@
             // 
             this.groupBox1.Controls.Add(this.DTPWorkStartDate);
             this.groupBox1.Controls.Add(this.lblWorkStartDate);
-            this.groupBox1.Location = new System.Drawing.Point(21, 25);
+            this.groupBox1.Location = new System.Drawing.Point(7, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(467, 88);
             this.groupBox1.TabIndex = 0;
@@ -66,7 +66,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(429, 119);
+            this.button1.Location = new System.Drawing.Point(415, 101);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 22);
             this.button1.TabIndex = 80;
@@ -75,7 +75,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(21, 119);
+            this.btnPreview.Location = new System.Drawing.Point(7, 101);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(59, 22);
             this.btnPreview.TabIndex = 79;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 159);
+            this.ClientSize = new System.Drawing.Size(483, 129);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

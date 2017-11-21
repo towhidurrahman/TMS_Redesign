@@ -124,7 +124,7 @@
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel1);
             this.groupBox1.Location = new System.Drawing.Point(1, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(733, 244);
+            this.groupBox1.Size = new System.Drawing.Size(628, 203);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
@@ -133,7 +133,7 @@
             // radioButtonKachha
             // 
             this.radioButtonKachha.AutoSize = true;
-            this.radioButtonKachha.Location = new System.Drawing.Point(140, 219);
+            this.radioButtonKachha.Location = new System.Drawing.Point(127, 178);
             this.radioButtonKachha.Name = "radioButtonKachha";
             this.radioButtonKachha.Size = new System.Drawing.Size(93, 17);
             this.radioButtonKachha.TabIndex = 100;
@@ -144,7 +144,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(480, 97);
+            this.label21.Location = new System.Drawing.Point(422, 86);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(10, 13);
             this.label21.TabIndex = 96;
@@ -153,7 +153,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(122, 97);
+            this.label18.Location = new System.Drawing.Point(108, 73);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(10, 13);
             this.label18.TabIndex = 95;
@@ -162,23 +162,23 @@
             // CmbKatchaRGarden
             // 
             this.CmbKatchaRGarden.FormattingEnabled = true;
-            this.CmbKatchaRGarden.Location = new System.Drawing.Point(501, 94);
+            this.CmbKatchaRGarden.Location = new System.Drawing.Point(442, 84);
             this.CmbKatchaRGarden.Name = "CmbKatchaRGarden";
-            this.CmbKatchaRGarden.Size = new System.Drawing.Size(183, 21);
+            this.CmbKatchaRGarden.Size = new System.Drawing.Size(137, 21);
             this.CmbKatchaRGarden.TabIndex = 94;
             // 
             // cmbKatchaRWorkStation
             // 
             this.cmbKatchaRWorkStation.FormattingEnabled = true;
-            this.cmbKatchaRWorkStation.Location = new System.Drawing.Point(138, 94);
+            this.cmbKatchaRWorkStation.Location = new System.Drawing.Point(123, 70);
             this.cmbKatchaRWorkStation.Name = "cmbKatchaRWorkStation";
-            this.cmbKatchaRWorkStation.Size = new System.Drawing.Size(183, 21);
+            this.cmbKatchaRWorkStation.Size = new System.Drawing.Size(141, 21);
             this.cmbKatchaRWorkStation.TabIndex = 93;
             // 
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(366, 97);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(321, 86);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 92;
@@ -187,7 +187,7 @@
             // FrmWPaymentlabel2
             // 
             this.FrmWPaymentlabel2.AutoSize = true;
-            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(19, 97);
+            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(5, 75);
             this.FrmWPaymentlabel2.Name = "FrmWPaymentlabel2";
             this.FrmWPaymentlabel2.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel2.TabIndex = 91;
@@ -196,7 +196,7 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(690, 61);
+            this.button1.Location = new System.Drawing.Point(585, 49);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(25, 21);
             this.button1.TabIndex = 90;
@@ -205,7 +205,7 @@
             // button2
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(327, 65);
+            this.button2.Location = new System.Drawing.Point(269, 47);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 21);
             this.button2.TabIndex = 89;
@@ -213,22 +213,22 @@
             // 
             // textBoxKatchaRSirderTo
             // 
-            this.textBoxKatchaRSirderTo.Location = new System.Drawing.Point(501, 62);
+            this.textBoxKatchaRSirderTo.Location = new System.Drawing.Point(442, 54);
             this.textBoxKatchaRSirderTo.Name = "textBoxKatchaRSirderTo";
-            this.textBoxKatchaRSirderTo.Size = new System.Drawing.Size(183, 20);
+            this.textBoxKatchaRSirderTo.Size = new System.Drawing.Size(137, 20);
             this.textBoxKatchaRSirderTo.TabIndex = 88;
             // 
             // txtKatchaRSirderFrom
             // 
-            this.txtKatchaRSirderFrom.Location = new System.Drawing.Point(138, 65);
+            this.txtKatchaRSirderFrom.Location = new System.Drawing.Point(125, 45);
             this.txtKatchaRSirderFrom.Name = "txtKatchaRSirderFrom";
-            this.txtKatchaRSirderFrom.Size = new System.Drawing.Size(183, 20);
+            this.txtKatchaRSirderFrom.Size = new System.Drawing.Size(141, 20);
             this.txtKatchaRSirderFrom.TabIndex = 87;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(480, 65);
+            this.label1.Location = new System.Drawing.Point(422, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(10, 13);
             this.label1.TabIndex = 86;
@@ -237,7 +237,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(122, 65);
+            this.label2.Location = new System.Drawing.Point(109, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 85;
@@ -246,7 +246,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(362, 68);
+            this.label3.Location = new System.Drawing.Point(319, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -255,7 +255,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 65);
+            this.label4.Location = new System.Drawing.Point(5, 46);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 83;
@@ -263,22 +263,22 @@
             // 
             // dTPickerKatchaRToDate
             // 
-            this.dTPickerKatchaRToDate.Location = new System.Drawing.Point(502, 35);
+            this.dTPickerKatchaRToDate.Location = new System.Drawing.Point(442, 25);
             this.dTPickerKatchaRToDate.Name = "dTPickerKatchaRToDate";
-            this.dTPickerKatchaRToDate.Size = new System.Drawing.Size(183, 20);
+            this.dTPickerKatchaRToDate.Size = new System.Drawing.Size(137, 20);
             this.dTPickerKatchaRToDate.TabIndex = 76;
             // 
             // dTPickerKatchaRFromDate
             // 
-            this.dTPickerKatchaRFromDate.Location = new System.Drawing.Point(140, 35);
+            this.dTPickerKatchaRFromDate.Location = new System.Drawing.Point(126, 19);
             this.dTPickerKatchaRFromDate.Name = "dTPickerKatchaRFromDate";
-            this.dTPickerKatchaRFromDate.Size = new System.Drawing.Size(183, 20);
+            this.dTPickerKatchaRFromDate.Size = new System.Drawing.Size(141, 20);
             this.dTPickerKatchaRFromDate.TabIndex = 75;
             // 
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(691, 153);
+            this.button5.Location = new System.Drawing.Point(585, 143);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(25, 21);
             this.button5.TabIndex = 74;
@@ -287,7 +287,7 @@
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(691, 121);
+            this.button4.Location = new System.Drawing.Point(585, 110);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(25, 21);
             this.button4.TabIndex = 73;
@@ -296,7 +296,7 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(328, 125);
+            this.button3.Location = new System.Drawing.Point(269, 97);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 21);
             this.button3.TabIndex = 72;
@@ -305,7 +305,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(328, 156);
+            this.btnSearch.Location = new System.Drawing.Point(267, 124);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 71;
@@ -313,36 +313,36 @@
             // 
             // txtKatchaRCategoryto
             // 
-            this.txtKatchaRCategoryto.Location = new System.Drawing.Point(502, 122);
+            this.txtKatchaRCategoryto.Location = new System.Drawing.Point(443, 112);
             this.txtKatchaRCategoryto.Name = "txtKatchaRCategoryto";
-            this.txtKatchaRCategoryto.Size = new System.Drawing.Size(183, 20);
+            this.txtKatchaRCategoryto.Size = new System.Drawing.Size(137, 20);
             this.txtKatchaRCategoryto.TabIndex = 42;
             // 
             // txtKatchaRWorkerIdTo
             // 
-            this.txtKatchaRWorkerIdTo.Location = new System.Drawing.Point(502, 153);
+            this.txtKatchaRWorkerIdTo.Location = new System.Drawing.Point(443, 143);
             this.txtKatchaRWorkerIdTo.Name = "txtKatchaRWorkerIdTo";
-            this.txtKatchaRWorkerIdTo.Size = new System.Drawing.Size(183, 20);
+            this.txtKatchaRWorkerIdTo.Size = new System.Drawing.Size(137, 20);
             this.txtKatchaRWorkerIdTo.TabIndex = 41;
             // 
             // txtKatchaRWorkerIdF
             // 
-            this.txtKatchaRWorkerIdF.Location = new System.Drawing.Point(139, 156);
+            this.txtKatchaRWorkerIdF.Location = new System.Drawing.Point(125, 122);
             this.txtKatchaRWorkerIdF.Name = "txtKatchaRWorkerIdF";
-            this.txtKatchaRWorkerIdF.Size = new System.Drawing.Size(183, 20);
+            this.txtKatchaRWorkerIdF.Size = new System.Drawing.Size(141, 20);
             this.txtKatchaRWorkerIdF.TabIndex = 40;
             // 
             // txtKatchaRCategoryFrom
             // 
-            this.txtKatchaRCategoryFrom.Location = new System.Drawing.Point(139, 125);
+            this.txtKatchaRCategoryFrom.Location = new System.Drawing.Point(125, 97);
             this.txtKatchaRCategoryFrom.Name = "txtKatchaRCategoryFrom";
-            this.txtKatchaRCategoryFrom.Size = new System.Drawing.Size(183, 20);
+            this.txtKatchaRCategoryFrom.Size = new System.Drawing.Size(141, 20);
             this.txtKatchaRCategoryFrom.TabIndex = 39;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(123, 219);
+            this.label27.Location = new System.Drawing.Point(110, 178);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(10, 13);
             this.label27.TabIndex = 37;
@@ -351,7 +351,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(123, 188);
+            this.label26.Location = new System.Drawing.Point(110, 150);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(10, 13);
             this.label26.TabIndex = 36;
@@ -360,7 +360,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(481, 125);
+            this.label23.Location = new System.Drawing.Point(423, 114);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 33;
@@ -369,7 +369,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(481, 156);
+            this.label22.Location = new System.Drawing.Point(423, 145);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(10, 13);
             this.label22.TabIndex = 32;
@@ -378,7 +378,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(481, 35);
+            this.label20.Location = new System.Drawing.Point(423, 24);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -387,7 +387,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(123, 157);
+            this.label19.Location = new System.Drawing.Point(110, 123);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(10, 13);
             this.label19.TabIndex = 29;
@@ -396,7 +396,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(123, 125);
+            this.label17.Location = new System.Drawing.Point(109, 99);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 27;
@@ -405,7 +405,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(123, 35);
+            this.label16.Location = new System.Drawing.Point(110, 19);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(10, 13);
             this.label16.TabIndex = 26;
@@ -414,15 +414,15 @@
             // CmbKatchaRWorkerType
             // 
             this.CmbKatchaRWorkerType.FormattingEnabled = true;
-            this.CmbKatchaRWorkerType.Location = new System.Drawing.Point(139, 185);
+            this.CmbKatchaRWorkerType.Location = new System.Drawing.Point(125, 147);
             this.CmbKatchaRWorkerType.Name = "CmbKatchaRWorkerType";
-            this.CmbKatchaRWorkerType.Size = new System.Drawing.Size(183, 21);
+            this.CmbKatchaRWorkerType.Size = new System.Drawing.Size(141, 21);
             this.CmbKatchaRWorkerType.TabIndex = 22;
             // 
             // FrmWPaymentlabel12
             // 
             this.FrmWPaymentlabel12.AutoSize = true;
-            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(362, 158);
+            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(319, 147);
             this.FrmWPaymentlabel12.Name = "FrmWPaymentlabel12";
             this.FrmWPaymentlabel12.Size = new System.Drawing.Size(61, 13);
             this.FrmWPaymentlabel12.TabIndex = 11;
@@ -431,7 +431,7 @@
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(362, 127);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(319, 116);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -440,7 +440,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(362, 35);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(319, 24);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -449,7 +449,7 @@
             // FrmWPaymentlabel6
             // 
             this.FrmWPaymentlabel6.AutoSize = true;
-            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(19, 219);
+            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(6, 178);
             this.FrmWPaymentlabel6.Name = "FrmWPaymentlabel6";
             this.FrmWPaymentlabel6.Size = new System.Drawing.Size(66, 13);
             this.FrmWPaymentlabel6.TabIndex = 5;
@@ -458,7 +458,7 @@
             // FrmWPaymentlabel5
             // 
             this.FrmWPaymentlabel5.AutoSize = true;
-            this.FrmWPaymentlabel5.Location = new System.Drawing.Point(19, 191);
+            this.FrmWPaymentlabel5.Location = new System.Drawing.Point(6, 149);
             this.FrmWPaymentlabel5.Name = "FrmWPaymentlabel5";
             this.FrmWPaymentlabel5.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel5.TabIndex = 4;
@@ -468,16 +468,16 @@
             // 
             this.FrmWPaymentlabel4.AutoSize = true;
             this.FrmWPaymentlabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FrmWPaymentlabel4.Location = new System.Drawing.Point(19, 157);
+            this.FrmWPaymentlabel4.Location = new System.Drawing.Point(6, 123);
             this.FrmWPaymentlabel4.Name = "FrmWPaymentlabel4";
-            this.FrmWPaymentlabel4.Size = new System.Drawing.Size(91, 16);
+            this.FrmWPaymentlabel4.Size = new System.Drawing.Size(95, 16);
             this.FrmWPaymentlabel4.TabIndex = 3;
-            this.FrmWPaymentlabel4.Text = "worker Id from";
+            this.FrmWPaymentlabel4.Text = "Worker Id from";
             // 
             // FrmWPaymentlabel3
             // 
             this.FrmWPaymentlabel3.AutoSize = true;
-            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(19, 125);
+            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(6, 98);
             this.FrmWPaymentlabel3.Name = "FrmWPaymentlabel3";
             this.FrmWPaymentlabel3.Size = new System.Drawing.Size(75, 13);
             this.FrmWPaymentlabel3.TabIndex = 2;
@@ -486,7 +486,7 @@
             // FrmWPaymentlabel1
             // 
             this.FrmWPaymentlabel1.AutoSize = true;
-            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(19, 35);
+            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(6, 19);
             this.FrmWPaymentlabel1.Name = "FrmWPaymentlabel1";
             this.FrmWPaymentlabel1.Size = new System.Drawing.Size(56, 13);
             this.FrmWPaymentlabel1.TabIndex = 0;
@@ -494,7 +494,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(14, 254);
+            this.btnPreview.Location = new System.Drawing.Point(7, 213);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
             this.btnPreview.TabIndex = 1;
@@ -503,7 +503,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(611, 254);
+            this.btncancel.Location = new System.Drawing.Point(536, 213);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(75, 23);
             this.btncancel.TabIndex = 2;
@@ -514,7 +514,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 289);
+            this.ClientSize = new System.Drawing.Size(637, 245);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

@@ -162,3 +162,6 @@ E:\TMS_NEW\TMS_Project\TMS_Project\bin\Debug\TMS_Project.pdb
 E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.exe
 E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.pdb
 E:\TMS_NEW\TMS_Project\TMS_Project\obj\Debug\TMS_Project.csprojResolveAssemblyReference.cache
+C:\GITHUB\TMS_Redesign\TMS_Project\bin\Debug\TMS_Project.exe.config
+C:\GITHUB\TMS_Redesign\TMS_Project\obj\Debug\TMS_Project.exe
+C:\GITHUB\TMS_Redesign\TMS_Project\obj\Debug\TMS_Project.pdb

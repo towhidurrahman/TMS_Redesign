@@ -48,7 +48,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(218, 167);
+            this.btnDelete.Location = new System.Drawing.Point(202, 94);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 63;
@@ -57,7 +57,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(404, 168);
+            this.btnClose.Location = new System.Drawing.Point(407, 94);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(59, 22);
             this.btnClose.TabIndex = 62;
@@ -76,15 +76,15 @@
             this.groupBox1.Controls.Add(this.btnPrevious);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.lblTypeCode);
-            this.groupBox1.Location = new System.Drawing.Point(12, 21);
+            this.groupBox1.Location = new System.Drawing.Point(12, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(454, 130);
+            this.groupBox1.Size = new System.Drawing.Size(454, 85);
             this.groupBox1.TabIndex = 60;
             this.groupBox1.TabStop = false;
             // 
             // txtTypeName
             // 
-            this.txtTypeName.Location = new System.Drawing.Point(124, 78);
+            this.txtTypeName.Location = new System.Drawing.Point(110, 56);
             this.txtTypeName.Name = "txtTypeName";
             this.txtTypeName.Size = new System.Drawing.Size(229, 20);
             this.txtTypeName.TabIndex = 74;
@@ -92,7 +92,7 @@
             // lblTypeName
             // 
             this.lblTypeName.AutoSize = true;
-            this.lblTypeName.Location = new System.Drawing.Point(18, 78);
+            this.lblTypeName.Location = new System.Drawing.Point(6, 58);
             this.lblTypeName.Name = "lblTypeName";
             this.lblTypeName.Size = new System.Drawing.Size(62, 13);
             this.lblTypeName.TabIndex = 73;
@@ -101,7 +101,7 @@
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(328, 26);
+            this.btnNew.Location = new System.Drawing.Point(314, 26);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(25, 21);
             this.btnNew.TabIndex = 72;
@@ -110,7 +110,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(304, 26);
+            this.btnSearch.Location = new System.Drawing.Point(290, 26);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 71;
@@ -119,7 +119,7 @@
             // btnLast
             // 
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(280, 26);
+            this.btnLast.Location = new System.Drawing.Point(266, 26);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(25, 21);
             this.btnLast.TabIndex = 70;
@@ -128,7 +128,7 @@
             // btnNext
             // 
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(256, 26);
+            this.btnNext.Location = new System.Drawing.Point(242, 26);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(25, 21);
             this.btnNext.TabIndex = 69;
@@ -137,7 +137,7 @@
             // btnFirst
             // 
             this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
-            this.btnFirst.Location = new System.Drawing.Point(124, 26);
+            this.btnFirst.Location = new System.Drawing.Point(110, 26);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(25, 21);
             this.btnFirst.TabIndex = 68;
@@ -146,7 +146,7 @@
             // btnPrevious
             // 
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(149, 26);
+            this.btnPrevious.Location = new System.Drawing.Point(135, 26);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(25, 21);
             this.btnPrevious.TabIndex = 67;
@@ -154,7 +154,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(174, 26);
+            this.textBox3.Location = new System.Drawing.Point(160, 26);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(85, 20);
             this.textBox3.TabIndex = 66;
@@ -162,7 +162,7 @@
             // lblTypeCode
             // 
             this.lblTypeCode.AutoSize = true;
-            this.lblTypeCode.Location = new System.Drawing.Point(18, 30);
+            this.lblTypeCode.Location = new System.Drawing.Point(6, 30);
             this.lblTypeCode.Name = "lblTypeCode";
             this.lblTypeCode.Size = new System.Drawing.Size(59, 13);
             this.lblTypeCode.TabIndex = 65;
@@ -170,7 +170,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(26, 166);
+            this.btnSave.Location = new System.Drawing.Point(12, 94);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(59, 22);
             this.btnSave.TabIndex = 61;
@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 199);
+            this.ClientSize = new System.Drawing.Size(477, 123);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.groupBox1);
