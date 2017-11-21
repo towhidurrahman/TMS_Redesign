@@ -1464,7 +1464,7 @@
             this.tabFactoryProcessing.Controls.Add(this.tabPackedMadeTea);
             this.tabFactoryProcessing.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabFactoryProcessing.ItemSize = new System.Drawing.Size(140, 18);
-            this.tabFactoryProcessing.Location = new System.Drawing.Point(10, 77);
+            this.tabFactoryProcessing.Location = new System.Drawing.Point(10, 71);
             this.tabFactoryProcessing.Name = "tabFactoryProcessing";
             this.tabFactoryProcessing.SelectedIndex = 0;
             this.tabFactoryProcessing.Size = new System.Drawing.Size(703, 352);

@@ -16,5 +16,10 @@ namespace TMS_Project
         {
             InitializeComponent();
         }
+
+        private void grpBoxReportPreviewRange_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

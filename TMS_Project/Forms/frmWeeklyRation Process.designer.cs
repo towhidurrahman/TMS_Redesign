@@ -53,27 +53,29 @@
             this.groupBox1.Controls.Add(this.FrmWekklyRationFrmDate);
             this.groupBox1.Location = new System.Drawing.Point(2, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(599, 100);
+            this.groupBox1.Size = new System.Drawing.Size(587, 84);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // dTPickerWeeklyRationProcessToDate
             // 
-            this.dTPickerWeeklyRationProcessToDate.Location = new System.Drawing.Point(379, 32);
+            this.dTPickerWeeklyRationProcessToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerWeeklyRationProcessToDate.Location = new System.Drawing.Point(379, 20);
             this.dTPickerWeeklyRationProcessToDate.Name = "dTPickerWeeklyRationProcessToDate";
             this.dTPickerWeeklyRationProcessToDate.Size = new System.Drawing.Size(200, 20);
             this.dTPickerWeeklyRationProcessToDate.TabIndex = 9;
             // 
             // dTPickerWeeklyRationProcessFromDate
             // 
-            this.dTPickerWeeklyRationProcessFromDate.Location = new System.Drawing.Point(98, 31);
+            this.dTPickerWeeklyRationProcessFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerWeeklyRationProcessFromDate.Location = new System.Drawing.Point(98, 19);
             this.dTPickerWeeklyRationProcessFromDate.Name = "dTPickerWeeklyRationProcessFromDate";
             this.dTPickerWeeklyRationProcessFromDate.Size = new System.Drawing.Size(176, 20);
             this.dTPickerWeeklyRationProcessFromDate.TabIndex = 8;
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(498, 66);
+            this.BtnCancel.Location = new System.Drawing.Point(498, 48);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(75, 23);
             this.BtnCancel.TabIndex = 5;
@@ -82,7 +84,7 @@
             // 
             // BtnProcess
             // 
-            this.BtnProcess.Location = new System.Drawing.Point(17, 66);
+            this.BtnProcess.Location = new System.Drawing.Point(17, 48);
             this.BtnProcess.Name = "BtnProcess";
             this.BtnProcess.Size = new System.Drawing.Size(75, 23);
             this.BtnProcess.TabIndex = 4;
@@ -93,7 +95,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(362, 32);
+            this.label4.Location = new System.Drawing.Point(362, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(11, 16);
             this.label4.TabIndex = 3;
@@ -102,7 +104,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 32);
+            this.label3.Location = new System.Drawing.Point(82, 20);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(10, 13);
             this.label3.TabIndex = 2;
@@ -111,7 +113,7 @@
             // FrmWekklyRationtoDate
             // 
             this.FrmWekklyRationtoDate.AutoSize = true;
-            this.FrmWekklyRationtoDate.Location = new System.Drawing.Point(299, 35);
+            this.FrmWekklyRationtoDate.Location = new System.Drawing.Point(299, 23);
             this.FrmWekklyRationtoDate.Name = "FrmWekklyRationtoDate";
             this.FrmWekklyRationtoDate.Size = new System.Drawing.Size(46, 13);
             this.FrmWekklyRationtoDate.TabIndex = 1;
@@ -120,7 +122,7 @@
             // FrmWekklyRationFrmDate
             // 
             this.FrmWekklyRationFrmDate.AutoSize = true;
-            this.FrmWekklyRationFrmDate.Location = new System.Drawing.Point(20, 32);
+            this.FrmWekklyRationFrmDate.Location = new System.Drawing.Point(20, 20);
             this.FrmWekklyRationFrmDate.Name = "FrmWekklyRationFrmDate";
             this.FrmWekklyRationFrmDate.Size = new System.Drawing.Size(56, 13);
             this.FrmWekklyRationFrmDate.TabIndex = 0;
@@ -130,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(613, 119);
+            this.ClientSize = new System.Drawing.Size(600, 102);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyRationProcess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

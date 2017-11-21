@@ -66,7 +66,7 @@
             this.groupBox1.Controls.Add(this.lblGroupId);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(359, 162);
+            this.groupBox1.Size = new System.Drawing.Size(359, 137);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
@@ -133,7 +133,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(287, 123);
+            this.btnClose.Location = new System.Drawing.Point(284, 99);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(59, 22);
             this.btnClose.TabIndex = 9;
@@ -142,7 +142,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(158, 123);
+            this.btnDelete.Location = new System.Drawing.Point(155, 99);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 8;
@@ -151,7 +151,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(9, 123);
+            this.btnSave.Location = new System.Drawing.Point(6, 99);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(59, 22);
             this.btnSave.TabIndex = 7;
@@ -168,7 +168,7 @@
             // lblGardenName
             // 
             this.lblGardenName.AutoSize = true;
-            this.lblGardenName.Location = new System.Drawing.Point(27, 123);
+            this.lblGardenName.Location = new System.Drawing.Point(24, 99);
             this.lblGardenName.Name = "lblGardenName";
             this.lblGardenName.Size = new System.Drawing.Size(0, 13);
             this.lblGardenName.TabIndex = 2;
@@ -195,7 +195,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 185);
+            this.ClientSize = new System.Drawing.Size(379, 156);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmGroupCategory";
             this.Text = "Group Category";

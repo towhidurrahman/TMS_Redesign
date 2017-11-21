@@ -54,6 +54,7 @@
             // 
             // dtpDateTo
             // 
+            this.dtpDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDateTo.Location = new System.Drawing.Point(279, 13);
             this.dtpDateTo.Name = "dtpDateTo";
             this.dtpDateTo.Size = new System.Drawing.Size(101, 20);

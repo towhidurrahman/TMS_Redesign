@@ -102,7 +102,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(6, -1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(830, 168);
+            this.groupBox1.Size = new System.Drawing.Size(830, 162);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -193,7 +193,7 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Location = new System.Drawing.Point(525, 7);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(299, 142);
+            this.groupBox2.Size = new System.Drawing.Size(299, 136);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Entry Summery";
@@ -452,7 +452,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(5, 170);
+            this.groupBox3.Location = new System.Drawing.Point(5, 159);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(830, 265);
             this.groupBox3.TabIndex = 1;
@@ -468,7 +468,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(5, 445);
+            this.btnAdd.Location = new System.Drawing.Point(5, 427);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(70, 21);
             this.btnAdd.TabIndex = 2;
@@ -477,7 +477,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(113, 444);
+            this.btnDelete.Location = new System.Drawing.Point(113, 426);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(81, 21);
             this.btnDelete.TabIndex = 3;
@@ -486,7 +486,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(349, 444);
+            this.btnUpdate.Location = new System.Drawing.Point(349, 426);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(81, 21);
             this.btnUpdate.TabIndex = 4;
@@ -495,7 +495,7 @@
             // 
             // btnPost
             // 
-            this.btnPost.Location = new System.Drawing.Point(653, 443);
+            this.btnPost.Location = new System.Drawing.Point(653, 425);
             this.btnPost.Name = "btnPost";
             this.btnPost.Size = new System.Drawing.Size(70, 21);
             this.btnPost.TabIndex = 5;
@@ -504,7 +504,7 @@
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(764, 443);
+            this.BtnCancel.Location = new System.Drawing.Point(764, 425);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(71, 21);
             this.BtnCancel.TabIndex = 6;
@@ -515,7 +515,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 478);
+            this.ClientSize = new System.Drawing.Size(844, 452);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.btnPost);
             this.Controls.Add(this.btnUpdate);

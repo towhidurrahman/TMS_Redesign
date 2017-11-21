@@ -130,7 +130,7 @@
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel4);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel3);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel1);
-            this.groupBox1.Location = new System.Drawing.Point(1, 4);
+            this.groupBox1.Location = new System.Drawing.Point(1, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(733, 289);
             this.groupBox1.TabIndex = 0;
@@ -140,7 +140,7 @@
             // radioButtonDfactoryRDouble
             // 
             this.radioButtonDfactoryRDouble.AutoSize = true;
-            this.radioButtonDfactoryRDouble.Location = new System.Drawing.Point(304, 219);
+            this.radioButtonDfactoryRDouble.Location = new System.Drawing.Point(304, 216);
             this.radioButtonDfactoryRDouble.Name = "radioButtonDfactoryRDouble";
             this.radioButtonDfactoryRDouble.Size = new System.Drawing.Size(86, 17);
             this.radioButtonDfactoryRDouble.TabIndex = 101;
@@ -151,7 +151,7 @@
             // radioButtonDfactoryRKachha
             // 
             this.radioButtonDfactoryRKachha.AutoSize = true;
-            this.radioButtonDfactoryRKachha.Location = new System.Drawing.Point(140, 242);
+            this.radioButtonDfactoryRKachha.Location = new System.Drawing.Point(140, 239);
             this.radioButtonDfactoryRKachha.Name = "radioButtonDfactoryRKachha";
             this.radioButtonDfactoryRKachha.Size = new System.Drawing.Size(93, 17);
             this.radioButtonDfactoryRKachha.TabIndex = 100;
@@ -162,7 +162,7 @@
             // radioButtonDfacPluckingtoryR
             // 
             this.radioButtonDfacPluckingtoryR.AutoSize = true;
-            this.radioButtonDfacPluckingtoryR.Location = new System.Drawing.Point(304, 242);
+            this.radioButtonDfacPluckingtoryR.Location = new System.Drawing.Point(304, 239);
             this.radioButtonDfacPluckingtoryR.Name = "radioButtonDfacPluckingtoryR";
             this.radioButtonDfacPluckingtoryR.Size = new System.Drawing.Size(121, 17);
             this.radioButtonDfacPluckingtoryR.TabIndex = 99;
@@ -173,7 +173,7 @@
             // radioButtonDfactoryRJakor
             // 
             this.radioButtonDfactoryRJakor.AutoSize = true;
-            this.radioButtonDfactoryRJakor.Location = new System.Drawing.Point(140, 265);
+            this.radioButtonDfactoryRJakor.Location = new System.Drawing.Point(140, 264);
             this.radioButtonDfactoryRJakor.Name = "radioButtonDfactoryRJakor";
             this.radioButtonDfactoryRJakor.Size = new System.Drawing.Size(82, 17);
             this.radioButtonDfactoryRJakor.TabIndex = 98;
@@ -184,7 +184,7 @@
             // radioButtonDfactoryRSirder
             // 
             this.radioButtonDfactoryRSirder.AutoSize = true;
-            this.radioButtonDfactoryRSirder.Location = new System.Drawing.Point(140, 219);
+            this.radioButtonDfactoryRSirder.Location = new System.Drawing.Point(140, 216);
             this.radioButtonDfactoryRSirder.Name = "radioButtonDfactoryRSirder";
             this.radioButtonDfactoryRSirder.Size = new System.Drawing.Size(83, 17);
             this.radioButtonDfactoryRSirder.TabIndex = 97;
@@ -195,7 +195,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(480, 97);
+            this.label21.Location = new System.Drawing.Point(480, 94);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(10, 13);
             this.label21.TabIndex = 96;
@@ -204,7 +204,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(122, 97);
+            this.label18.Location = new System.Drawing.Point(122, 94);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(10, 13);
             this.label18.TabIndex = 95;
@@ -213,7 +213,7 @@
             // CmbDfactoryRGarden
             // 
             this.CmbDfactoryRGarden.FormattingEnabled = true;
-            this.CmbDfactoryRGarden.Location = new System.Drawing.Point(501, 94);
+            this.CmbDfactoryRGarden.Location = new System.Drawing.Point(501, 91);
             this.CmbDfactoryRGarden.Name = "CmbDfactoryRGarden";
             this.CmbDfactoryRGarden.Size = new System.Drawing.Size(183, 21);
             this.CmbDfactoryRGarden.TabIndex = 94;
@@ -221,7 +221,7 @@
             // cmbDfactoryRWorkStation
             // 
             this.cmbDfactoryRWorkStation.FormattingEnabled = true;
-            this.cmbDfactoryRWorkStation.Location = new System.Drawing.Point(139, 94);
+            this.cmbDfactoryRWorkStation.Location = new System.Drawing.Point(139, 91);
             this.cmbDfactoryRWorkStation.Name = "cmbDfactoryRWorkStation";
             this.cmbDfactoryRWorkStation.Size = new System.Drawing.Size(183, 21);
             this.cmbDfactoryRWorkStation.TabIndex = 93;
@@ -229,7 +229,7 @@
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(366, 97);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(366, 94);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 92;
@@ -238,7 +238,7 @@
             // FrmWPaymentlabel2
             // 
             this.FrmWPaymentlabel2.AutoSize = true;
-            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(19, 97);
+            this.FrmWPaymentlabel2.Location = new System.Drawing.Point(19, 94);
             this.FrmWPaymentlabel2.Name = "FrmWPaymentlabel2";
             this.FrmWPaymentlabel2.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel2.TabIndex = 91;
@@ -247,7 +247,7 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(690, 61);
+            this.button1.Location = new System.Drawing.Point(690, 58);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(25, 21);
             this.button1.TabIndex = 90;
@@ -256,7 +256,7 @@
             // button2
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(327, 65);
+            this.button2.Location = new System.Drawing.Point(327, 62);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 21);
             this.button2.TabIndex = 89;
@@ -264,14 +264,14 @@
             // 
             // txttxtDfactoryRSirderTo
             // 
-            this.txttxtDfactoryRSirderTo.Location = new System.Drawing.Point(501, 62);
+            this.txttxtDfactoryRSirderTo.Location = new System.Drawing.Point(501, 59);
             this.txttxtDfactoryRSirderTo.Name = "txttxtDfactoryRSirderTo";
             this.txttxtDfactoryRSirderTo.Size = new System.Drawing.Size(183, 20);
             this.txttxtDfactoryRSirderTo.TabIndex = 88;
             // 
             // txtDfactoryRSirderFrom
             // 
-            this.txtDfactoryRSirderFrom.Location = new System.Drawing.Point(139, 65);
+            this.txtDfactoryRSirderFrom.Location = new System.Drawing.Point(139, 62);
             this.txtDfactoryRSirderFrom.Name = "txtDfactoryRSirderFrom";
             this.txtDfactoryRSirderFrom.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRSirderFrom.TabIndex = 87;
@@ -279,7 +279,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(480, 65);
+            this.label1.Location = new System.Drawing.Point(480, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(10, 13);
             this.label1.TabIndex = 86;
@@ -288,7 +288,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(122, 65);
+            this.label2.Location = new System.Drawing.Point(122, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 85;
@@ -297,7 +297,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(366, 68);
+            this.label3.Location = new System.Drawing.Point(366, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -306,7 +306,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 65);
+            this.label4.Location = new System.Drawing.Point(19, 62);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 83;
@@ -314,14 +314,16 @@
             // 
             // dTPickerDfactoryRToDate
             // 
-            this.dTPickerDfactoryRToDate.Location = new System.Drawing.Point(502, 35);
+            this.dTPickerDfactoryRToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerDfactoryRToDate.Location = new System.Drawing.Point(502, 32);
             this.dTPickerDfactoryRToDate.Name = "dTPickerDfactoryRToDate";
             this.dTPickerDfactoryRToDate.Size = new System.Drawing.Size(183, 20);
             this.dTPickerDfactoryRToDate.TabIndex = 76;
             // 
             // dTPickerDfactoryRFromDate
             // 
-            this.dTPickerDfactoryRFromDate.Location = new System.Drawing.Point(139, 35);
+            this.dTPickerDfactoryRFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerDfactoryRFromDate.Location = new System.Drawing.Point(139, 32);
             this.dTPickerDfactoryRFromDate.Name = "dTPickerDfactoryRFromDate";
             this.dTPickerDfactoryRFromDate.Size = new System.Drawing.Size(183, 20);
             this.dTPickerDfactoryRFromDate.TabIndex = 75;
@@ -329,7 +331,7 @@
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(691, 153);
+            this.button5.Location = new System.Drawing.Point(691, 150);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(25, 21);
             this.button5.TabIndex = 74;
@@ -338,7 +340,7 @@
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(691, 121);
+            this.button4.Location = new System.Drawing.Point(691, 118);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(25, 21);
             this.button4.TabIndex = 73;
@@ -347,7 +349,7 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(328, 125);
+            this.button3.Location = new System.Drawing.Point(328, 122);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 21);
             this.button3.TabIndex = 72;
@@ -356,7 +358,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(328, 156);
+            this.btnSearch.Location = new System.Drawing.Point(328, 153);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 71;
@@ -364,28 +366,28 @@
             // 
             // txtDfactoryRCategoryto
             // 
-            this.txtDfactoryRCategoryto.Location = new System.Drawing.Point(502, 122);
+            this.txtDfactoryRCategoryto.Location = new System.Drawing.Point(502, 119);
             this.txtDfactoryRCategoryto.Name = "txtDfactoryRCategoryto";
             this.txtDfactoryRCategoryto.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRCategoryto.TabIndex = 42;
             // 
             // txtDfactoryRWorkerIdTo
             // 
-            this.txtDfactoryRWorkerIdTo.Location = new System.Drawing.Point(502, 153);
+            this.txtDfactoryRWorkerIdTo.Location = new System.Drawing.Point(502, 150);
             this.txtDfactoryRWorkerIdTo.Name = "txtDfactoryRWorkerIdTo";
             this.txtDfactoryRWorkerIdTo.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRWorkerIdTo.TabIndex = 41;
             // 
             // txtDfactoryRWorkerIdF
             // 
-            this.txtDfactoryRWorkerIdF.Location = new System.Drawing.Point(139, 156);
+            this.txtDfactoryRWorkerIdF.Location = new System.Drawing.Point(139, 153);
             this.txtDfactoryRWorkerIdF.Name = "txtDfactoryRWorkerIdF";
             this.txtDfactoryRWorkerIdF.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRWorkerIdF.TabIndex = 40;
             // 
             // txtDfactoryRCategoryFrom
             // 
-            this.txtDfactoryRCategoryFrom.Location = new System.Drawing.Point(139, 125);
+            this.txtDfactoryRCategoryFrom.Location = new System.Drawing.Point(139, 122);
             this.txtDfactoryRCategoryFrom.Name = "txtDfactoryRCategoryFrom";
             this.txtDfactoryRCategoryFrom.Size = new System.Drawing.Size(183, 20);
             this.txtDfactoryRCategoryFrom.TabIndex = 39;
@@ -393,7 +395,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(123, 219);
+            this.label27.Location = new System.Drawing.Point(123, 216);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(10, 13);
             this.label27.TabIndex = 37;
@@ -402,7 +404,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(123, 188);
+            this.label26.Location = new System.Drawing.Point(123, 185);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(10, 13);
             this.label26.TabIndex = 36;
@@ -411,7 +413,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(481, 125);
+            this.label23.Location = new System.Drawing.Point(481, 122);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 33;
@@ -420,7 +422,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(481, 156);
+            this.label22.Location = new System.Drawing.Point(481, 153);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(10, 13);
             this.label22.TabIndex = 32;
@@ -429,7 +431,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(481, 35);
+            this.label20.Location = new System.Drawing.Point(481, 32);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -438,7 +440,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(123, 157);
+            this.label19.Location = new System.Drawing.Point(123, 154);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(10, 13);
             this.label19.TabIndex = 29;
@@ -447,7 +449,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(123, 125);
+            this.label17.Location = new System.Drawing.Point(123, 122);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 27;
@@ -456,7 +458,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(123, 35);
+            this.label16.Location = new System.Drawing.Point(123, 32);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(10, 13);
             this.label16.TabIndex = 26;
@@ -465,7 +467,7 @@
             // CmbDfactoryRWorkerType
             // 
             this.CmbDfactoryRWorkerType.FormattingEnabled = true;
-            this.CmbDfactoryRWorkerType.Location = new System.Drawing.Point(139, 185);
+            this.CmbDfactoryRWorkerType.Location = new System.Drawing.Point(139, 182);
             this.CmbDfactoryRWorkerType.Name = "CmbDfactoryRWorkerType";
             this.CmbDfactoryRWorkerType.Size = new System.Drawing.Size(183, 21);
             this.CmbDfactoryRWorkerType.TabIndex = 22;
@@ -473,7 +475,7 @@
             // FrmWPaymentlabel12
             // 
             this.FrmWPaymentlabel12.AutoSize = true;
-            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(366, 158);
+            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(366, 155);
             this.FrmWPaymentlabel12.Name = "FrmWPaymentlabel12";
             this.FrmWPaymentlabel12.Size = new System.Drawing.Size(61, 13);
             this.FrmWPaymentlabel12.TabIndex = 11;
@@ -482,7 +484,7 @@
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(366, 127);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(366, 124);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -491,7 +493,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(366, 35);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(366, 32);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -500,7 +502,7 @@
             // FrmWPaymentlabel6
             // 
             this.FrmWPaymentlabel6.AutoSize = true;
-            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(19, 219);
+            this.FrmWPaymentlabel6.Location = new System.Drawing.Point(19, 216);
             this.FrmWPaymentlabel6.Name = "FrmWPaymentlabel6";
             this.FrmWPaymentlabel6.Size = new System.Drawing.Size(66, 13);
             this.FrmWPaymentlabel6.TabIndex = 5;
@@ -509,7 +511,7 @@
             // FrmWPaymentlabel5
             // 
             this.FrmWPaymentlabel5.AutoSize = true;
-            this.FrmWPaymentlabel5.Location = new System.Drawing.Point(19, 191);
+            this.FrmWPaymentlabel5.Location = new System.Drawing.Point(19, 188);
             this.FrmWPaymentlabel5.Name = "FrmWPaymentlabel5";
             this.FrmWPaymentlabel5.Size = new System.Drawing.Size(69, 13);
             this.FrmWPaymentlabel5.TabIndex = 4;
@@ -519,7 +521,7 @@
             // 
             this.FrmWPaymentlabel4.AutoSize = true;
             this.FrmWPaymentlabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FrmWPaymentlabel4.Location = new System.Drawing.Point(19, 157);
+            this.FrmWPaymentlabel4.Location = new System.Drawing.Point(19, 154);
             this.FrmWPaymentlabel4.Name = "FrmWPaymentlabel4";
             this.FrmWPaymentlabel4.Size = new System.Drawing.Size(91, 16);
             this.FrmWPaymentlabel4.TabIndex = 3;
@@ -528,7 +530,7 @@
             // FrmWPaymentlabel3
             // 
             this.FrmWPaymentlabel3.AutoSize = true;
-            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(19, 125);
+            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(19, 122);
             this.FrmWPaymentlabel3.Name = "FrmWPaymentlabel3";
             this.FrmWPaymentlabel3.Size = new System.Drawing.Size(75, 13);
             this.FrmWPaymentlabel3.TabIndex = 2;
@@ -537,7 +539,7 @@
             // FrmWPaymentlabel1
             // 
             this.FrmWPaymentlabel1.AutoSize = true;
-            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(19, 35);
+            this.FrmWPaymentlabel1.Location = new System.Drawing.Point(19, 32);
             this.FrmWPaymentlabel1.Name = "FrmWPaymentlabel1";
             this.FrmWPaymentlabel1.Size = new System.Drawing.Size(56, 13);
             this.FrmWPaymentlabel1.TabIndex = 0;
@@ -545,7 +547,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(11, 299);
+            this.btnPreview.Location = new System.Drawing.Point(11, 298);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
             this.btnPreview.TabIndex = 1;
@@ -554,7 +556,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(611, 299);
+            this.btncancel.Location = new System.Drawing.Point(659, 296);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(75, 23);
             this.btncancel.TabIndex = 2;

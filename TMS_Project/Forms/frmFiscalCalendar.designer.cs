@@ -56,7 +56,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(361, 43);
+            this.btnCancel.Location = new System.Drawing.Point(355, 43);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(77, 25);
             this.btnCancel.TabIndex = 5;
@@ -65,6 +65,7 @@
             // 
             // DTPFiscalCalendar
             // 
+            this.DTPFiscalCalendar.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTPFiscalCalendar.Location = new System.Drawing.Point(74, 17);
             this.DTPFiscalCalendar.Name = "DTPFiscalCalendar";
             this.DTPFiscalCalendar.Size = new System.Drawing.Size(111, 20);
@@ -72,6 +73,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(198, 17);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(111, 20);
@@ -79,6 +81,7 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker2.Location = new System.Drawing.Point(318, 17);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(111, 20);

@@ -134,6 +134,7 @@
             // 
             this.dtPickerDateTo.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerDateTo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPickerDateTo.Location = new System.Drawing.Point(389, 16);
             this.dtPickerDateTo.Name = "dtPickerDateTo";
             this.dtPickerDateTo.Size = new System.Drawing.Size(91, 20);
@@ -143,6 +144,7 @@
             // 
             this.dtPickerDateFrom.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPickerDateFrom.Location = new System.Drawing.Point(135, 18);
             this.dtPickerDateFrom.Name = "dtPickerDateFrom";
             this.dtPickerDateFrom.Size = new System.Drawing.Size(91, 20);

@@ -90,6 +90,7 @@
             // 
             // dTPickerDAbsentLFromDate
             // 
+            this.dTPickerDAbsentLFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDAbsentLFromDate.Location = new System.Drawing.Point(107, 18);
             this.dTPickerDAbsentLFromDate.Name = "dTPickerDAbsentLFromDate";
             this.dTPickerDAbsentLFromDate.Size = new System.Drawing.Size(176, 20);

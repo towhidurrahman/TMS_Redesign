@@ -42,7 +42,7 @@
             // mnthCalender
             // 
             this.mnthCalender.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.mnthCalender.Location = new System.Drawing.Point(13, 131);
+            this.mnthCalender.Location = new System.Drawing.Point(13, 80);
             this.mnthCalender.MaximumSize = new System.Drawing.Size(250, 0);
             this.mnthCalender.Name = "mnthCalender";
             this.mnthCalender.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.lblHolidayName.AutoSize = true;
             this.lblHolidayName.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHolidayName.ForeColor = System.Drawing.Color.Blue;
-            this.lblHolidayName.Location = new System.Drawing.Point(13, 28);
+            this.lblHolidayName.Location = new System.Drawing.Point(13, 12);
             this.lblHolidayName.Name = "lblHolidayName";
             this.lblHolidayName.Size = new System.Drawing.Size(90, 13);
             this.lblHolidayName.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // txtHolidayName
             // 
-            this.txtHolidayName.Location = new System.Drawing.Point(110, 26);
+            this.txtHolidayName.Location = new System.Drawing.Point(110, 10);
             this.txtHolidayName.Name = "txtHolidayName";
             this.txtHolidayName.Size = new System.Drawing.Size(130, 20);
             this.txtHolidayName.TabIndex = 2;
@@ -69,7 +69,7 @@
             // chkBoxNationalHoliday
             // 
             this.chkBoxNationalHoliday.AutoSize = true;
-            this.chkBoxNationalHoliday.Location = new System.Drawing.Point(13, 59);
+            this.chkBoxNationalHoliday.Location = new System.Drawing.Point(13, 35);
             this.chkBoxNationalHoliday.Name = "chkBoxNationalHoliday";
             this.chkBoxNationalHoliday.Size = new System.Drawing.Size(103, 17);
             this.chkBoxNationalHoliday.TabIndex = 3;
@@ -79,7 +79,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(13, 306);
+            this.btnAdd.Location = new System.Drawing.Point(13, 249);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(62, 23);
             this.btnAdd.TabIndex = 4;
@@ -89,7 +89,7 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(96, 305);
+            this.btnDelete.Location = new System.Drawing.Point(96, 248);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(62, 23);
             this.btnDelete.TabIndex = 5;
@@ -100,7 +100,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(178, 305);
+            this.btnClose.Location = new System.Drawing.Point(178, 248);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(62, 23);
             this.btnClose.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             this.cmbMonth.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Location = new System.Drawing.Point(101, 87);
+            this.cmbMonth.Location = new System.Drawing.Point(101, 52);
             this.cmbMonth.Name = "cmbMonth";
             this.cmbMonth.Size = new System.Drawing.Size(77, 21);
             this.cmbMonth.TabIndex = 7;
@@ -120,7 +120,7 @@
             // 
             this.cmbYear.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbYear.FormattingEnabled = true;
-            this.cmbYear.Location = new System.Drawing.Point(184, 87);
+            this.cmbYear.Location = new System.Drawing.Point(184, 52);
             this.cmbYear.Name = "cmbYear";
             this.cmbYear.Size = new System.Drawing.Size(56, 21);
             this.cmbYear.TabIndex = 8;
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(256, 336);
+            this.ClientSize = new System.Drawing.Size(250, 284);
             this.Controls.Add(this.cmbYear);
             this.Controls.Add(this.cmbMonth);
             this.Controls.Add(this.btnClose);

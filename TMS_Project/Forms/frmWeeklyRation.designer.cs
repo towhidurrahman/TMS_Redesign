@@ -247,6 +247,7 @@
             // 
             // dTPickerWeeklyRationStartWeek
             // 
+            this.dTPickerWeeklyRationStartWeek.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerWeeklyRationStartWeek.Location = new System.Drawing.Point(113, 19);
             this.dTPickerWeeklyRationStartWeek.Name = "dTPickerWeeklyRationStartWeek";
             this.dTPickerWeeklyRationStartWeek.Size = new System.Drawing.Size(123, 20);

@@ -49,7 +49,7 @@
             // lblFTDedDateFrom
             // 
             this.lblFTDedDateFrom.AutoSize = true;
-            this.lblFTDedDateFrom.Location = new System.Drawing.Point(21, 27);
+            this.lblFTDedDateFrom.Location = new System.Drawing.Point(8, 27);
             this.lblFTDedDateFrom.Name = "lblFTDedDateFrom";
             this.lblFTDedDateFrom.Size = new System.Drawing.Size(56, 13);
             this.lblFTDedDateFrom.TabIndex = 0;
@@ -58,7 +58,7 @@
             // lblFTDedUnion
             // 
             this.lblFTDedUnion.AutoSize = true;
-            this.lblFTDedUnion.Location = new System.Drawing.Point(21, 66);
+            this.lblFTDedUnion.Location = new System.Drawing.Point(8, 66);
             this.lblFTDedUnion.Name = "lblFTDedUnion";
             this.lblFTDedUnion.Size = new System.Drawing.Size(57, 13);
             this.lblFTDedUnion.TabIndex = 1;
@@ -67,7 +67,7 @@
             // lblFTDedDateTo
             // 
             this.lblFTDedDateTo.AutoSize = true;
-            this.lblFTDedDateTo.Location = new System.Drawing.Point(291, 27);
+            this.lblFTDedDateTo.Location = new System.Drawing.Point(276, 27);
             this.lblFTDedDateTo.Name = "lblFTDedDateTo";
             this.lblFTDedDateTo.Size = new System.Drawing.Size(46, 13);
             this.lblFTDedDateTo.TabIndex = 2;
@@ -77,7 +77,7 @@
             // lblFTDedPuja
             // 
             this.lblFTDedPuja.AutoSize = true;
-            this.lblFTDedPuja.Location = new System.Drawing.Point(291, 63);
+            this.lblFTDedPuja.Location = new System.Drawing.Point(276, 63);
             this.lblFTDedPuja.Name = "lblFTDedPuja";
             this.lblFTDedPuja.Size = new System.Drawing.Size(48, 13);
             this.lblFTDedPuja.TabIndex = 5;
@@ -85,21 +85,21 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(98, 60);
+            this.textBox1.Location = new System.Drawing.Point(85, 60);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(178, 20);
             this.textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(364, 59);
+            this.textBox2.Location = new System.Drawing.Point(349, 59);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(178, 20);
             this.textBox2.TabIndex = 11;
             // 
             // btnFTDedProcess
             // 
-            this.btnFTDedProcess.Location = new System.Drawing.Point(24, 103);
+            this.btnFTDedProcess.Location = new System.Drawing.Point(9, 91);
             this.btnFTDedProcess.Name = "btnFTDedProcess";
             this.btnFTDedProcess.Size = new System.Drawing.Size(75, 23);
             this.btnFTDedProcess.TabIndex = 12;
@@ -122,22 +122,24 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.lblFTDedDateTo);
-            this.groupBox1.Location = new System.Drawing.Point(5, 7);
+            this.groupBox1.Location = new System.Drawing.Point(5, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(570, 135);
+            this.groupBox1.Size = new System.Drawing.Size(537, 135);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
             // dTPickerTrustyDeducToDate
             // 
-            this.dTPickerTrustyDeducToDate.Location = new System.Drawing.Point(364, 27);
+            this.dTPickerTrustyDeducToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerTrustyDeducToDate.Location = new System.Drawing.Point(349, 27);
             this.dTPickerTrustyDeducToDate.Name = "dTPickerTrustyDeducToDate";
             this.dTPickerTrustyDeducToDate.Size = new System.Drawing.Size(178, 20);
             this.dTPickerTrustyDeducToDate.TabIndex = 41;
             // 
             // dTPickerTrustyDeducFromDate
             // 
-            this.dTPickerTrustyDeducFromDate.Location = new System.Drawing.Point(98, 27);
+            this.dTPickerTrustyDeducFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerTrustyDeducFromDate.Location = new System.Drawing.Point(85, 27);
             this.dTPickerTrustyDeducFromDate.Name = "dTPickerTrustyDeducFromDate";
             this.dTPickerTrustyDeducFromDate.Size = new System.Drawing.Size(178, 20);
             this.dTPickerTrustyDeducFromDate.TabIndex = 40;
@@ -145,7 +147,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(83, 27);
+            this.label7.Location = new System.Drawing.Point(70, 27);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(10, 13);
             this.label7.TabIndex = 39;
@@ -154,7 +156,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(82, 66);
+            this.label5.Location = new System.Drawing.Point(69, 66);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(10, 13);
             this.label5.TabIndex = 38;
@@ -163,7 +165,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(348, 63);
+            this.label4.Location = new System.Drawing.Point(333, 63);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(10, 13);
             this.label4.TabIndex = 37;
@@ -172,7 +174,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(348, 27);
+            this.label25.Location = new System.Drawing.Point(333, 27);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(10, 13);
             this.label25.TabIndex = 36;
@@ -180,7 +182,7 @@
             // 
             // btnFTDedCancel
             // 
-            this.btnFTDedCancel.Location = new System.Drawing.Point(467, 94);
+            this.btnFTDedCancel.Location = new System.Drawing.Point(452, 91);
             this.btnFTDedCancel.Name = "btnFTDedCancel";
             this.btnFTDedCancel.Size = new System.Drawing.Size(75, 23);
             this.btnFTDedCancel.TabIndex = 14;
@@ -191,7 +193,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 150);
+            this.ClientSize = new System.Drawing.Size(551, 144);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmTrustyDeduction";
             this.Text = "Trusty Deduction";

@@ -93,6 +93,7 @@
             // 
             // dTPickerDFieldAToDate
             // 
+            this.dTPickerDFieldAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
             this.dTPickerDFieldAToDate.Name = "dTPickerDFieldAToDate";
             this.dTPickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
@@ -100,6 +101,7 @@
             // 
             // dTPickerDFieldAFromDate
             // 
+            this.dTPickerDFieldAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
             this.dTPickerDFieldAFromDate.Name = "dTPickerDFieldAFromDate";
             this.dTPickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);

@@ -21,5 +21,20 @@ namespace TMS_Project
         {
 
         }
+
+        private void grpBoxEntrySummary_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTotalTemDay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPluckingJakor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

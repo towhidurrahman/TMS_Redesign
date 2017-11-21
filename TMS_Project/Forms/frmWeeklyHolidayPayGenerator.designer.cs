@@ -46,6 +46,7 @@
             // 
             // dtTimePickerWeekStartDate
             // 
+            this.dtTimePickerWeekStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtTimePickerWeekStartDate.Location = new System.Drawing.Point(161, 25);
             this.dtTimePickerWeekStartDate.Name = "dtTimePickerWeekStartDate";
             this.dtTimePickerWeekStartDate.Size = new System.Drawing.Size(74, 20);

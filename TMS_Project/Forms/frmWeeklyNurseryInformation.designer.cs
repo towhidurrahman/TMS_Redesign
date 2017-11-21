@@ -59,7 +59,8 @@
             // 
             // dtTimePickerWeekStartDate
             // 
-            this.dtTimePickerWeekStartDate.Location = new System.Drawing.Point(143, 24);
+            this.dtTimePickerWeekStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtTimePickerWeekStartDate.Location = new System.Drawing.Point(119, 24);
             this.dtTimePickerWeekStartDate.Name = "dtTimePickerWeekStartDate";
             this.dtTimePickerWeekStartDate.Size = new System.Drawing.Size(74, 20);
             this.dtTimePickerWeekStartDate.TabIndex = 5;
@@ -68,7 +69,7 @@
             // 
             this.lblWeekStartDate.AutoSize = true;
             this.lblWeekStartDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeekStartDate.Location = new System.Drawing.Point(27, 40);
+            this.lblWeekStartDate.Location = new System.Drawing.Point(8, 40);
             this.lblWeekStartDate.Name = "lblWeekStartDate";
             this.lblWeekStartDate.Size = new System.Drawing.Size(103, 13);
             this.lblWeekStartDate.TabIndex = 4;

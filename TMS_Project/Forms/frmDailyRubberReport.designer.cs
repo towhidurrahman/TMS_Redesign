@@ -314,6 +314,7 @@
             // 
             // dTPickerDRubberRToDate
             // 
+            this.dTPickerDRubberRToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDRubberRToDate.Location = new System.Drawing.Point(468, 29);
             this.dTPickerDRubberRToDate.Name = "dTPickerDRubberRToDate";
             this.dTPickerDRubberRToDate.Size = new System.Drawing.Size(138, 20);
@@ -321,6 +322,7 @@
             // 
             // dTPickerDRubberRFromDate
             // 
+            this.dTPickerDRubberRFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDRubberRFromDate.Location = new System.Drawing.Point(139, 24);
             this.dTPickerDRubberRFromDate.Name = "dTPickerDRubberRFromDate";
             this.dTPickerDRubberRFromDate.Size = new System.Drawing.Size(136, 20);

@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblGarden = new System.Windows.Forms.Label();
+            this.dtPickerDateFrom = new System.Windows.Forms.DateTimePicker();
             this.cmbLeaveType = new System.Windows.Forms.ComboBox();
             this.cmbGarden = new System.Windows.Forms.ComboBox();
             this.dtPickerDateTo = new System.Windows.Forms.DateTimePicker();
-            this.dtPickerDateFrom = new System.Windows.Forms.DateTimePicker();
-            this.lblLeaveType = new System.Windows.Forms.Label();
-            this.lblGarden = new System.Windows.Forms.Label();
             this.lblDateTo = new System.Windows.Forms.Label();
+            this.lblLeaveType = new System.Windows.Forms.Label();
             this.lblDateFrom = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnPreview = new System.Windows.Forms.Button();
@@ -61,6 +61,27 @@
             this.groupBox1.Text = "Reports Preview Range";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // lblGarden
+            // 
+            this.lblGarden.AutoSize = true;
+            this.lblGarden.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGarden.ForeColor = System.Drawing.Color.Black;
+            this.lblGarden.Location = new System.Drawing.Point(12, 46);
+            this.lblGarden.Name = "lblGarden";
+            this.lblGarden.Size = new System.Drawing.Size(121, 13);
+            this.lblGarden.TabIndex = 12;
+            this.lblGarden.Text = "Garden                         :";
+            // 
+            // dtPickerDateFrom
+            // 
+            this.dtPickerDateFrom.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtPickerDateFrom.Location = new System.Drawing.Point(142, 19);
+            this.dtPickerDateFrom.Name = "dtPickerDateFrom";
+            this.dtPickerDateFrom.Size = new System.Drawing.Size(91, 20);
+            this.dtPickerDateFrom.TabIndex = 10;
+            // 
             // cmbLeaveType
             // 
             this.cmbLeaveType.FormattingEnabled = true;
@@ -81,41 +102,11 @@
             // 
             this.dtPickerDateTo.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerDateTo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPickerDateTo.Location = new System.Drawing.Point(378, 20);
             this.dtPickerDateTo.Name = "dtPickerDateTo";
             this.dtPickerDateTo.Size = new System.Drawing.Size(91, 20);
             this.dtPickerDateTo.TabIndex = 14;
-            // 
-            // dtPickerDateFrom
-            // 
-            this.dtPickerDateFrom.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDateFrom.Location = new System.Drawing.Point(142, 19);
-            this.dtPickerDateFrom.Name = "dtPickerDateFrom";
-            this.dtPickerDateFrom.Size = new System.Drawing.Size(91, 20);
-            this.dtPickerDateFrom.TabIndex = 10;
-            // 
-            // lblLeaveType
-            // 
-            this.lblLeaveType.AutoSize = true;
-            this.lblLeaveType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLeaveType.ForeColor = System.Drawing.Color.Black;
-            this.lblLeaveType.Location = new System.Drawing.Point(254, 46);
-            this.lblLeaveType.Name = "lblLeaveType";
-            this.lblLeaveType.Size = new System.Drawing.Size(118, 13);
-            this.lblLeaveType.TabIndex = 13;
-            this.lblLeaveType.Text = "Leave Type                 :";
-            // 
-            // lblGarden
-            // 
-            this.lblGarden.AutoSize = true;
-            this.lblGarden.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGarden.ForeColor = System.Drawing.Color.Black;
-            this.lblGarden.Location = new System.Drawing.Point(12, 46);
-            this.lblGarden.Name = "lblGarden";
-            this.lblGarden.Size = new System.Drawing.Size(121, 13);
-            this.lblGarden.TabIndex = 12;
-            this.lblGarden.Text = "Garden                         :";
             // 
             // lblDateTo
             // 
@@ -127,6 +118,17 @@
             this.lblDateTo.Size = new System.Drawing.Size(118, 13);
             this.lblDateTo.TabIndex = 11;
             this.lblDateTo.Text = "Date To                       :";
+            // 
+            // lblLeaveType
+            // 
+            this.lblLeaveType.AutoSize = true;
+            this.lblLeaveType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLeaveType.ForeColor = System.Drawing.Color.Black;
+            this.lblLeaveType.Location = new System.Drawing.Point(254, 46);
+            this.lblLeaveType.Name = "lblLeaveType";
+            this.lblLeaveType.Size = new System.Drawing.Size(118, 13);
+            this.lblLeaveType.TabIndex = 13;
+            this.lblLeaveType.Text = "Leave Type                 :";
             // 
             // lblDateFrom
             // 

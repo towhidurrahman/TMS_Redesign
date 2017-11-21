@@ -45,52 +45,52 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tab = new System.Windows.Forms.TabControl();
+            this.tabLatex = new System.Windows.Forms.TabPage();
+            this.lblLitre = new System.Windows.Forms.Label();
+            this.txtLatexQuantity = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbGarden = new System.Windows.Forms.ComboBox();
+            this.lblLatexQuantity = new System.Windows.Forms.Label();
+            this.lblGarden = new System.Windows.Forms.Label();
+            this.tabADS = new System.Windows.Forms.TabPage();
+            this.txtLatexOnHand = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtADSQuantity = new System.Windows.Forms.TextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.txtLatexIssue = new System.Windows.Forms.TextBox();
+            this.lblLatexOnHnd = new System.Windows.Forms.Label();
+            this.lblADSQuantity = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblLatexIssue = new System.Windows.Forms.Label();
+            this.tabRSS = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblKg = new System.Windows.Forms.Label();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.lblPcs = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.cmbItemCode = new System.Windows.Forms.ComboBox();
+            this.txtADSSmoked = new System.Windows.Forms.TextBox();
+            this.lblADSSmoked = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lblItemCode = new System.Windows.Forms.Label();
             this.lblTransactionDate = new System.Windows.Forms.Label();
             this.txtTransactionDescription = new System.Windows.Forms.TextBox();
             this.lblTrasactionDescription = new System.Windows.Forms.Label();
             this.lblTransactionNumber = new System.Windows.Forms.Label();
-            this.tab = new System.Windows.Forms.TabControl();
-            this.tabLatex = new System.Windows.Forms.TabPage();
-            this.tabADS = new System.Windows.Forms.TabPage();
-            this.tabRSS = new System.Windows.Forms.TabPage();
-            this.lblGarden = new System.Windows.Forms.Label();
-            this.lblLatexQuantity = new System.Windows.Forms.Label();
-            this.cmbGarden = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lblLatexIssue = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblADSQuantity = new System.Windows.Forms.Label();
-            this.lblLatexOnHnd = new System.Windows.Forms.Label();
-            this.txtLatexIssue = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.lblItemCode = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.lblADSSmoked = new System.Windows.Forms.Label();
-            this.txtADSSmoked = new System.Windows.Forms.TextBox();
-            this.cmbItemCode = new System.Windows.Forms.ComboBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.txtLatexQuantity = new System.Windows.Forms.TextBox();
-            this.lblLitre = new System.Windows.Forms.Label();
-            this.txtADSQuantity = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtLatexOnHand = new System.Windows.Forms.TextBox();
-            this.lblPcs = new System.Windows.Forms.Label();
-            this.lblKg = new System.Windows.Forms.Label();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.lblQuantity = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tab.SuspendLayout();
             this.tabLatex.SuspendLayout();
-            this.tabADS.SuspendLayout();
-            this.tabRSS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabADS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabRSS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,7 +117,7 @@
             this.groupBox1.Controls.Add(this.lblTransactionNumber);
             this.groupBox1.Location = new System.Drawing.Point(12, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(613, 485);
+            this.groupBox1.Size = new System.Drawing.Size(613, 483);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -193,7 +193,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(540, 458);
+            this.btnCancel.Location = new System.Drawing.Point(540, 447);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(59, 22);
             this.btnCancel.TabIndex = 67;
@@ -202,7 +202,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(324, 460);
+            this.btnPrint.Location = new System.Drawing.Point(324, 449);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(59, 22);
             this.btnPrint.TabIndex = 66;
@@ -211,7 +211,7 @@
             // 
             // btnPost
             // 
-            this.btnPost.Location = new System.Drawing.Point(249, 460);
+            this.btnPost.Location = new System.Drawing.Point(249, 449);
             this.btnPost.Name = "btnPost";
             this.btnPost.Size = new System.Drawing.Size(59, 22);
             this.btnPost.TabIndex = 65;
@@ -220,7 +220,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(169, 459);
+            this.btnDelete.Location = new System.Drawing.Point(169, 448);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 64;
@@ -229,7 +229,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(92, 457);
+            this.btnUpdate.Location = new System.Drawing.Point(92, 446);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(59, 22);
             this.btnUpdate.TabIndex = 63;
@@ -238,7 +238,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(21, 457);
+            this.btnAdd.Location = new System.Drawing.Point(20, 446);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(59, 22);
             this.btnAdd.TabIndex = 55;
@@ -248,11 +248,334 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.tab);
-            this.groupBox2.Location = new System.Drawing.Point(9, 88);
+            this.groupBox2.Location = new System.Drawing.Point(9, 78);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(598, 363);
             this.groupBox2.TabIndex = 62;
             this.groupBox2.TabStop = false;
+            // 
+            // tab
+            // 
+            this.tab.Controls.Add(this.tabLatex);
+            this.tab.Controls.Add(this.tabADS);
+            this.tab.Controls.Add(this.tabRSS);
+            this.tab.ItemSize = new System.Drawing.Size(200, 18);
+            this.tab.Location = new System.Drawing.Point(7, 16);
+            this.tab.Name = "tab";
+            this.tab.SelectedIndex = 0;
+            this.tab.Size = new System.Drawing.Size(585, 346);
+            this.tab.TabIndex = 0;
+            // 
+            // tabLatex
+            // 
+            this.tabLatex.Controls.Add(this.lblLitre);
+            this.tabLatex.Controls.Add(this.txtLatexQuantity);
+            this.tabLatex.Controls.Add(this.dataGridView1);
+            this.tabLatex.Controls.Add(this.cmbGarden);
+            this.tabLatex.Controls.Add(this.lblLatexQuantity);
+            this.tabLatex.Controls.Add(this.lblGarden);
+            this.tabLatex.Location = new System.Drawing.Point(4, 22);
+            this.tabLatex.Name = "tabLatex";
+            this.tabLatex.Padding = new System.Windows.Forms.Padding(3);
+            this.tabLatex.Size = new System.Drawing.Size(577, 320);
+            this.tabLatex.TabIndex = 0;
+            this.tabLatex.Text = "Latex";
+            this.tabLatex.UseVisualStyleBackColor = true;
+            // 
+            // lblLitre
+            // 
+            this.lblLitre.AutoSize = true;
+            this.lblLitre.Location = new System.Drawing.Point(364, 26);
+            this.lblLitre.Name = "lblLitre";
+            this.lblLitre.Size = new System.Drawing.Size(22, 13);
+            this.lblLitre.TabIndex = 6;
+            this.lblLitre.Text = "Ltr.";
+            // 
+            // txtLatexQuantity
+            // 
+            this.txtLatexQuantity.Location = new System.Drawing.Point(260, 22);
+            this.txtLatexQuantity.Name = "txtLatexQuantity";
+            this.txtLatexQuantity.Size = new System.Drawing.Size(103, 20);
+            this.txtLatexQuantity.TabIndex = 5;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(10, 58);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(561, 256);
+            this.dataGridView1.TabIndex = 4;
+            // 
+            // cmbGarden
+            // 
+            this.cmbGarden.FormattingEnabled = true;
+            this.cmbGarden.Location = new System.Drawing.Point(66, 21);
+            this.cmbGarden.Name = "cmbGarden";
+            this.cmbGarden.Size = new System.Drawing.Size(93, 21);
+            this.cmbGarden.TabIndex = 2;
+            // 
+            // lblLatexQuantity
+            // 
+            this.lblLatexQuantity.AutoSize = true;
+            this.lblLatexQuantity.Location = new System.Drawing.Point(178, 24);
+            this.lblLatexQuantity.Name = "lblLatexQuantity";
+            this.lblLatexQuantity.Size = new System.Drawing.Size(75, 13);
+            this.lblLatexQuantity.TabIndex = 1;
+            this.lblLatexQuantity.Text = "Latex Quantity";
+            // 
+            // lblGarden
+            // 
+            this.lblGarden.AutoSize = true;
+            this.lblGarden.Location = new System.Drawing.Point(14, 25);
+            this.lblGarden.Name = "lblGarden";
+            this.lblGarden.Size = new System.Drawing.Size(42, 13);
+            this.lblGarden.TabIndex = 0;
+            this.lblGarden.Text = "Garden";
+            // 
+            // tabADS
+            // 
+            this.tabADS.Controls.Add(this.txtLatexOnHand);
+            this.tabADS.Controls.Add(this.label2);
+            this.tabADS.Controls.Add(this.label1);
+            this.tabADS.Controls.Add(this.txtADSQuantity);
+            this.tabADS.Controls.Add(this.dataGridView2);
+            this.tabADS.Controls.Add(this.txtLatexIssue);
+            this.tabADS.Controls.Add(this.lblLatexOnHnd);
+            this.tabADS.Controls.Add(this.lblADSQuantity);
+            this.tabADS.Controls.Add(this.label4);
+            this.tabADS.Controls.Add(this.lblLatexIssue);
+            this.tabADS.Location = new System.Drawing.Point(4, 22);
+            this.tabADS.Name = "tabADS";
+            this.tabADS.Padding = new System.Windows.Forms.Padding(3);
+            this.tabADS.Size = new System.Drawing.Size(577, 320);
+            this.tabADS.TabIndex = 1;
+            this.tabADS.Text = "ADS";
+            this.tabADS.UseVisualStyleBackColor = true;
+            // 
+            // txtLatexOnHand
+            // 
+            this.txtLatexOnHand.Location = new System.Drawing.Point(482, 17);
+            this.txtLatexOnHand.Name = "txtLatexOnHand";
+            this.txtLatexOnHand.Size = new System.Drawing.Size(48, 20);
+            this.txtLatexOnHand.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(536, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(22, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Ltr.";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(292, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(22, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Ltr.";
+            // 
+            // txtADSQuantity
+            // 
+            this.txtADSQuantity.Location = new System.Drawing.Point(240, 15);
+            this.txtADSQuantity.Name = "txtADSQuantity";
+            this.txtADSQuantity.Size = new System.Drawing.Size(48, 20);
+            this.txtADSQuantity.TabIndex = 10;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(8, 45);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(563, 273);
+            this.dataGridView2.TabIndex = 9;
+            // 
+            // txtLatexIssue
+            // 
+            this.txtLatexIssue.Location = new System.Drawing.Point(75, 14);
+            this.txtLatexIssue.Name = "txtLatexIssue";
+            this.txtLatexIssue.Size = new System.Drawing.Size(48, 20);
+            this.txtLatexIssue.TabIndex = 7;
+            // 
+            // lblLatexOnHnd
+            // 
+            this.lblLatexOnHnd.AutoSize = true;
+            this.lblLatexOnHnd.Location = new System.Drawing.Point(400, 18);
+            this.lblLatexOnHnd.Name = "lblLatexOnHnd";
+            this.lblLatexOnHnd.Size = new System.Drawing.Size(79, 13);
+            this.lblLatexOnHnd.TabIndex = 3;
+            this.lblLatexOnHnd.Text = "Latex On Hand";
+            // 
+            // lblADSQuantity
+            // 
+            this.lblADSQuantity.AutoSize = true;
+            this.lblADSQuantity.Location = new System.Drawing.Point(165, 16);
+            this.lblADSQuantity.Name = "lblADSQuantity";
+            this.lblADSQuantity.Size = new System.Drawing.Size(71, 13);
+            this.lblADSQuantity.TabIndex = 2;
+            this.lblADSQuantity.Text = "ADS Quantity";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(127, 17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(22, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Ltr.";
+            // 
+            // lblLatexIssue
+            // 
+            this.lblLatexIssue.AutoSize = true;
+            this.lblLatexIssue.Location = new System.Drawing.Point(13, 16);
+            this.lblLatexIssue.Name = "lblLatexIssue";
+            this.lblLatexIssue.Size = new System.Drawing.Size(61, 13);
+            this.lblLatexIssue.TabIndex = 0;
+            this.lblLatexIssue.Text = "Latex Issue";
+            // 
+            // tabRSS
+            // 
+            this.tabRSS.Controls.Add(this.label6);
+            this.tabRSS.Controls.Add(this.textBox1);
+            this.tabRSS.Controls.Add(this.label3);
+            this.tabRSS.Controls.Add(this.label5);
+            this.tabRSS.Controls.Add(this.lblKg);
+            this.tabRSS.Controls.Add(this.txtQuantity);
+            this.tabRSS.Controls.Add(this.lblQuantity);
+            this.tabRSS.Controls.Add(this.lblPcs);
+            this.tabRSS.Controls.Add(this.dataGridView3);
+            this.tabRSS.Controls.Add(this.cmbItemCode);
+            this.tabRSS.Controls.Add(this.txtADSSmoked);
+            this.tabRSS.Controls.Add(this.lblADSSmoked);
+            this.tabRSS.Controls.Add(this.label13);
+            this.tabRSS.Controls.Add(this.lblItemCode);
+            this.tabRSS.Location = new System.Drawing.Point(4, 22);
+            this.tabRSS.Name = "tabRSS";
+            this.tabRSS.Padding = new System.Windows.Forms.Padding(3);
+            this.tabRSS.Size = new System.Drawing.Size(577, 320);
+            this.tabRSS.TabIndex = 2;
+            this.tabRSS.Text = "RSS";
+            this.tabRSS.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(286, 50);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 13);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "Ltr.";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(464, 16);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(65, 20);
+            this.textBox1.TabIndex = 19;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(534, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Pcs.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(382, 18);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(75, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "ADS On Hand";
+            // 
+            // lblKg
+            // 
+            this.lblKg.AutoSize = true;
+            this.lblKg.Location = new System.Drawing.Point(461, 49);
+            this.lblKg.Name = "lblKg";
+            this.lblKg.Size = new System.Drawing.Size(20, 13);
+            this.lblKg.TabIndex = 16;
+            this.lblKg.Text = "Kg";
+            // 
+            // txtQuantity
+            // 
+            this.txtQuantity.Location = new System.Drawing.Point(370, 47);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(88, 20);
+            this.txtQuantity.TabIndex = 15;
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Location = new System.Drawing.Point(320, 50);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(46, 13);
+            this.lblQuantity.TabIndex = 14;
+            this.lblQuantity.Text = "Quantity";
+            // 
+            // lblPcs
+            // 
+            this.lblPcs.AutoSize = true;
+            this.lblPcs.Location = new System.Drawing.Point(184, 49);
+            this.lblPcs.Name = "lblPcs";
+            this.lblPcs.Size = new System.Drawing.Size(28, 13);
+            this.lblPcs.TabIndex = 13;
+            this.lblPcs.Text = "Pcs.";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(8, 75);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(557, 241);
+            this.dataGridView3.TabIndex = 12;
+            // 
+            // cmbItemCode
+            // 
+            this.cmbItemCode.FormattingEnabled = true;
+            this.cmbItemCode.Location = new System.Drawing.Point(91, 13);
+            this.cmbItemCode.Name = "cmbItemCode";
+            this.cmbItemCode.Size = new System.Drawing.Size(88, 21);
+            this.cmbItemCode.TabIndex = 11;
+            // 
+            // txtADSSmoked
+            // 
+            this.txtADSSmoked.Location = new System.Drawing.Point(92, 46);
+            this.txtADSSmoked.Name = "txtADSSmoked";
+            this.txtADSSmoked.Size = new System.Drawing.Size(88, 20);
+            this.txtADSSmoked.TabIndex = 9;
+            // 
+            // lblADSSmoked
+            // 
+            this.lblADSSmoked.AutoSize = true;
+            this.lblADSSmoked.Location = new System.Drawing.Point(14, 47);
+            this.lblADSSmoked.Name = "lblADSSmoked";
+            this.lblADSSmoked.Size = new System.Drawing.Size(71, 13);
+            this.lblADSSmoked.TabIndex = 4;
+            this.lblADSSmoked.Text = "ADS Smoked";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(183, 18);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(97, 13);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "zzzzzzzzzzzzzzzzzz";
+            // 
+            // lblItemCode
+            // 
+            this.lblItemCode.AutoSize = true;
+            this.lblItemCode.Location = new System.Drawing.Point(16, 17);
+            this.lblItemCode.Name = "lblItemCode";
+            this.lblItemCode.Size = new System.Drawing.Size(55, 13);
+            this.lblItemCode.TabIndex = 0;
+            this.lblItemCode.Text = "Item Code";
             // 
             // lblTransactionDate
             // 
@@ -288,334 +611,11 @@
             this.lblTransactionNumber.TabIndex = 41;
             this.lblTransactionNumber.Text = "Transaction Number";
             // 
-            // tab
-            // 
-            this.tab.Controls.Add(this.tabLatex);
-            this.tab.Controls.Add(this.tabADS);
-            this.tab.Controls.Add(this.tabRSS);
-            this.tab.ItemSize = new System.Drawing.Size(200, 18);
-            this.tab.Location = new System.Drawing.Point(7, 16);
-            this.tab.Name = "tab";
-            this.tab.SelectedIndex = 0;
-            this.tab.Size = new System.Drawing.Size(585, 346);
-            this.tab.TabIndex = 0;
-            // 
-            // tabLatex
-            // 
-            this.tabLatex.Controls.Add(this.lblLitre);
-            this.tabLatex.Controls.Add(this.txtLatexQuantity);
-            this.tabLatex.Controls.Add(this.dataGridView1);
-            this.tabLatex.Controls.Add(this.cmbGarden);
-            this.tabLatex.Controls.Add(this.lblLatexQuantity);
-            this.tabLatex.Controls.Add(this.lblGarden);
-            this.tabLatex.Location = new System.Drawing.Point(4, 22);
-            this.tabLatex.Name = "tabLatex";
-            this.tabLatex.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLatex.Size = new System.Drawing.Size(577, 320);
-            this.tabLatex.TabIndex = 0;
-            this.tabLatex.Text = "Latex";
-            this.tabLatex.UseVisualStyleBackColor = true;
-            // 
-            // tabADS
-            // 
-            this.tabADS.Controls.Add(this.txtLatexOnHand);
-            this.tabADS.Controls.Add(this.label2);
-            this.tabADS.Controls.Add(this.label1);
-            this.tabADS.Controls.Add(this.txtADSQuantity);
-            this.tabADS.Controls.Add(this.dataGridView2);
-            this.tabADS.Controls.Add(this.txtLatexIssue);
-            this.tabADS.Controls.Add(this.lblLatexOnHnd);
-            this.tabADS.Controls.Add(this.lblADSQuantity);
-            this.tabADS.Controls.Add(this.label4);
-            this.tabADS.Controls.Add(this.lblLatexIssue);
-            this.tabADS.Location = new System.Drawing.Point(4, 22);
-            this.tabADS.Name = "tabADS";
-            this.tabADS.Padding = new System.Windows.Forms.Padding(3);
-            this.tabADS.Size = new System.Drawing.Size(577, 320);
-            this.tabADS.TabIndex = 1;
-            this.tabADS.Text = "ADS";
-            this.tabADS.UseVisualStyleBackColor = true;
-            // 
-            // tabRSS
-            // 
-            this.tabRSS.Controls.Add(this.label6);
-            this.tabRSS.Controls.Add(this.textBox1);
-            this.tabRSS.Controls.Add(this.label3);
-            this.tabRSS.Controls.Add(this.label5);
-            this.tabRSS.Controls.Add(this.lblKg);
-            this.tabRSS.Controls.Add(this.txtQuantity);
-            this.tabRSS.Controls.Add(this.lblQuantity);
-            this.tabRSS.Controls.Add(this.lblPcs);
-            this.tabRSS.Controls.Add(this.dataGridView3);
-            this.tabRSS.Controls.Add(this.cmbItemCode);
-            this.tabRSS.Controls.Add(this.txtADSSmoked);
-            this.tabRSS.Controls.Add(this.lblADSSmoked);
-            this.tabRSS.Controls.Add(this.label13);
-            this.tabRSS.Controls.Add(this.lblItemCode);
-            this.tabRSS.Location = new System.Drawing.Point(4, 22);
-            this.tabRSS.Name = "tabRSS";
-            this.tabRSS.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRSS.Size = new System.Drawing.Size(577, 320);
-            this.tabRSS.TabIndex = 2;
-            this.tabRSS.Text = "RSS";
-            this.tabRSS.UseVisualStyleBackColor = true;
-            // 
-            // lblGarden
-            // 
-            this.lblGarden.AutoSize = true;
-            this.lblGarden.Location = new System.Drawing.Point(14, 25);
-            this.lblGarden.Name = "lblGarden";
-            this.lblGarden.Size = new System.Drawing.Size(42, 13);
-            this.lblGarden.TabIndex = 0;
-            this.lblGarden.Text = "Garden";
-            // 
-            // lblLatexQuantity
-            // 
-            this.lblLatexQuantity.AutoSize = true;
-            this.lblLatexQuantity.Location = new System.Drawing.Point(178, 24);
-            this.lblLatexQuantity.Name = "lblLatexQuantity";
-            this.lblLatexQuantity.Size = new System.Drawing.Size(75, 13);
-            this.lblLatexQuantity.TabIndex = 1;
-            this.lblLatexQuantity.Text = "Latex Quantity";
-            // 
-            // cmbGarden
-            // 
-            this.cmbGarden.FormattingEnabled = true;
-            this.cmbGarden.Location = new System.Drawing.Point(66, 21);
-            this.cmbGarden.Name = "cmbGarden";
-            this.cmbGarden.Size = new System.Drawing.Size(93, 21);
-            this.cmbGarden.TabIndex = 2;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 58);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(561, 256);
-            this.dataGridView1.TabIndex = 4;
-            // 
-            // lblLatexIssue
-            // 
-            this.lblLatexIssue.AutoSize = true;
-            this.lblLatexIssue.Location = new System.Drawing.Point(13, 16);
-            this.lblLatexIssue.Name = "lblLatexIssue";
-            this.lblLatexIssue.Size = new System.Drawing.Size(61, 13);
-            this.lblLatexIssue.TabIndex = 0;
-            this.lblLatexIssue.Text = "Latex Issue";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(127, 17);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Ltr.";
-            // 
-            // lblADSQuantity
-            // 
-            this.lblADSQuantity.AutoSize = true;
-            this.lblADSQuantity.Location = new System.Drawing.Point(165, 16);
-            this.lblADSQuantity.Name = "lblADSQuantity";
-            this.lblADSQuantity.Size = new System.Drawing.Size(71, 13);
-            this.lblADSQuantity.TabIndex = 2;
-            this.lblADSQuantity.Text = "ADS Quantity";
-            // 
-            // lblLatexOnHnd
-            // 
-            this.lblLatexOnHnd.AutoSize = true;
-            this.lblLatexOnHnd.Location = new System.Drawing.Point(400, 18);
-            this.lblLatexOnHnd.Name = "lblLatexOnHnd";
-            this.lblLatexOnHnd.Size = new System.Drawing.Size(79, 13);
-            this.lblLatexOnHnd.TabIndex = 3;
-            this.lblLatexOnHnd.Text = "Latex On Hand";
-            // 
-            // txtLatexIssue
-            // 
-            this.txtLatexIssue.Location = new System.Drawing.Point(75, 14);
-            this.txtLatexIssue.Name = "txtLatexIssue";
-            this.txtLatexIssue.Size = new System.Drawing.Size(48, 20);
-            this.txtLatexIssue.TabIndex = 7;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(8, 45);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(563, 273);
-            this.dataGridView2.TabIndex = 9;
-            // 
-            // lblItemCode
-            // 
-            this.lblItemCode.AutoSize = true;
-            this.lblItemCode.Location = new System.Drawing.Point(16, 17);
-            this.lblItemCode.Name = "lblItemCode";
-            this.lblItemCode.Size = new System.Drawing.Size(55, 13);
-            this.lblItemCode.TabIndex = 0;
-            this.lblItemCode.Text = "Item Code";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(183, 18);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(97, 13);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "zzzzzzzzzzzzzzzzzz";
-            // 
-            // lblADSSmoked
-            // 
-            this.lblADSSmoked.AutoSize = true;
-            this.lblADSSmoked.Location = new System.Drawing.Point(14, 47);
-            this.lblADSSmoked.Name = "lblADSSmoked";
-            this.lblADSSmoked.Size = new System.Drawing.Size(71, 13);
-            this.lblADSSmoked.TabIndex = 4;
-            this.lblADSSmoked.Text = "ADS Smoked";
-            // 
-            // txtADSSmoked
-            // 
-            this.txtADSSmoked.Location = new System.Drawing.Point(92, 46);
-            this.txtADSSmoked.Name = "txtADSSmoked";
-            this.txtADSSmoked.Size = new System.Drawing.Size(88, 20);
-            this.txtADSSmoked.TabIndex = 9;
-            // 
-            // cmbItemCode
-            // 
-            this.cmbItemCode.FormattingEnabled = true;
-            this.cmbItemCode.Location = new System.Drawing.Point(91, 13);
-            this.cmbItemCode.Name = "cmbItemCode";
-            this.cmbItemCode.Size = new System.Drawing.Size(88, 21);
-            this.cmbItemCode.TabIndex = 11;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(8, 75);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(557, 241);
-            this.dataGridView3.TabIndex = 12;
-            // 
-            // txtLatexQuantity
-            // 
-            this.txtLatexQuantity.Location = new System.Drawing.Point(260, 22);
-            this.txtLatexQuantity.Name = "txtLatexQuantity";
-            this.txtLatexQuantity.Size = new System.Drawing.Size(103, 20);
-            this.txtLatexQuantity.TabIndex = 5;
-            // 
-            // lblLitre
-            // 
-            this.lblLitre.AutoSize = true;
-            this.lblLitre.Location = new System.Drawing.Point(364, 26);
-            this.lblLitre.Name = "lblLitre";
-            this.lblLitre.Size = new System.Drawing.Size(22, 13);
-            this.lblLitre.TabIndex = 6;
-            this.lblLitre.Text = "Ltr.";
-            // 
-            // txtADSQuantity
-            // 
-            this.txtADSQuantity.Location = new System.Drawing.Point(240, 15);
-            this.txtADSQuantity.Name = "txtADSQuantity";
-            this.txtADSQuantity.Size = new System.Drawing.Size(48, 20);
-            this.txtADSQuantity.TabIndex = 10;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(292, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Ltr.";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(536, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Ltr.";
-            // 
-            // txtLatexOnHand
-            // 
-            this.txtLatexOnHand.Location = new System.Drawing.Point(482, 17);
-            this.txtLatexOnHand.Name = "txtLatexOnHand";
-            this.txtLatexOnHand.Size = new System.Drawing.Size(48, 20);
-            this.txtLatexOnHand.TabIndex = 13;
-            // 
-            // lblPcs
-            // 
-            this.lblPcs.AutoSize = true;
-            this.lblPcs.Location = new System.Drawing.Point(184, 49);
-            this.lblPcs.Name = "lblPcs";
-            this.lblPcs.Size = new System.Drawing.Size(28, 13);
-            this.lblPcs.TabIndex = 13;
-            this.lblPcs.Text = "Pcs.";
-            // 
-            // lblKg
-            // 
-            this.lblKg.AutoSize = true;
-            this.lblKg.Location = new System.Drawing.Point(461, 49);
-            this.lblKg.Name = "lblKg";
-            this.lblKg.Size = new System.Drawing.Size(20, 13);
-            this.lblKg.TabIndex = 16;
-            this.lblKg.Text = "Kg";
-            // 
-            // txtQuantity
-            // 
-            this.txtQuantity.Location = new System.Drawing.Point(370, 47);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(88, 20);
-            this.txtQuantity.TabIndex = 15;
-            // 
-            // lblQuantity
-            // 
-            this.lblQuantity.AutoSize = true;
-            this.lblQuantity.Location = new System.Drawing.Point(320, 50);
-            this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(46, 13);
-            this.lblQuantity.TabIndex = 14;
-            this.lblQuantity.Text = "Quantity";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(464, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 20);
-            this.textBox1.TabIndex = 19;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(534, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Pcs.";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(382, 18);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "ADS On Hand";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(286, 50);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 13);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "Ltr.";
-            // 
             // frmLatexToRss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 509);
+            this.ClientSize = new System.Drawing.Size(631, 495);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmLatexToRss";
             this.Text = "Latex To Rss";
@@ -625,12 +625,12 @@
             this.tab.ResumeLayout(false);
             this.tabLatex.ResumeLayout(false);
             this.tabLatex.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabADS.ResumeLayout(false);
             this.tabADS.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabRSS.ResumeLayout(false);
             this.tabRSS.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 

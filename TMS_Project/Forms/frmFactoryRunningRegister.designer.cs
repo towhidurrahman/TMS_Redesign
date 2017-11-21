@@ -1590,7 +1590,7 @@
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(588, 294);
+            this.label61.Location = new System.Drawing.Point(588, 271);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(21, 13);
             this.label61.TabIndex = 237;
@@ -1600,7 +1600,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(521, 294);
+            this.label62.Location = new System.Drawing.Point(521, 271);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(18, 13);
             this.label62.TabIndex = 236;
@@ -1609,7 +1609,7 @@
             // txtTrtFactoryMn
             // 
             this.txtTrtFactoryMn.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTrtFactoryMn.Location = new System.Drawing.Point(547, 291);
+            this.txtTrtFactoryMn.Location = new System.Drawing.Point(547, 268);
             this.txtTrtFactoryMn.Name = "txtTrtFactoryMn";
             this.txtTrtFactoryMn.Size = new System.Drawing.Size(30, 20);
             this.txtTrtFactoryMn.TabIndex = 235;
@@ -1617,7 +1617,7 @@
             // txtTrtFactoryHr
             // 
             this.txtTrtFactoryHr.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTrtFactoryHr.Location = new System.Drawing.Point(480, 291);
+            this.txtTrtFactoryHr.Location = new System.Drawing.Point(480, 268);
             this.txtTrtFactoryHr.Name = "txtTrtFactoryHr";
             this.txtTrtFactoryHr.Size = new System.Drawing.Size(30, 20);
             this.txtTrtFactoryHr.TabIndex = 234;
@@ -1626,7 +1626,7 @@
             // 
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(323, 294);
+            this.label63.Location = new System.Drawing.Point(323, 271);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(146, 13);
             this.label63.TabIndex = 233;
@@ -1636,7 +1636,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(259, 294);
+            this.label52.Location = new System.Drawing.Point(259, 271);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(21, 13);
             this.label52.TabIndex = 232;
@@ -1646,7 +1646,7 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(192, 294);
+            this.label53.Location = new System.Drawing.Point(192, 271);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(18, 13);
             this.label53.TabIndex = 231;
@@ -1655,7 +1655,7 @@
             // txtTrtFieldMn
             // 
             this.txtTrtFieldMn.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTrtFieldMn.Location = new System.Drawing.Point(218, 291);
+            this.txtTrtFieldMn.Location = new System.Drawing.Point(218, 268);
             this.txtTrtFieldMn.Name = "txtTrtFieldMn";
             this.txtTrtFieldMn.Size = new System.Drawing.Size(30, 20);
             this.txtTrtFieldMn.TabIndex = 230;
@@ -1663,7 +1663,7 @@
             // txtTrtFieldHr
             // 
             this.txtTrtFieldHr.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTrtFieldHr.Location = new System.Drawing.Point(151, 291);
+            this.txtTrtFieldHr.Location = new System.Drawing.Point(151, 268);
             this.txtTrtFieldHr.Name = "txtTrtFieldHr";
             this.txtTrtFieldHr.Size = new System.Drawing.Size(30, 20);
             this.txtTrtFieldHr.TabIndex = 229;
@@ -1672,7 +1672,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(11, 294);
+            this.label54.Location = new System.Drawing.Point(11, 271);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(131, 13);
             this.label54.TabIndex = 228;
@@ -1681,7 +1681,7 @@
             // dtDgSet
             // 
             this.dtDgSet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtDgSet.Location = new System.Drawing.Point(12, 67);
+            this.dtDgSet.Location = new System.Drawing.Point(12, 51);
             this.dtDgSet.Name = "dtDgSet";
             this.dtDgSet.Size = new System.Drawing.Size(671, 204);
             this.dtDgSet.TabIndex = 227;
@@ -1810,7 +1810,7 @@
             this.label60.TabIndex = 213;
             this.label60.Text = "Source";
             // 
-            // tabFarmenting
+            // frmFactoryRunningRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1835,7 +1835,7 @@
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnFirst);
             this.MaximizeBox = false;
-            this.Name = "tabFarmenting";
+            this.Name = "frmFactoryRunningRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Factory";
             this.Load += new System.EventHandler(this.tabFarmenting_Load);

@@ -87,6 +87,7 @@
             // 
             // dTPickerAbsentLToDate
             // 
+            this.dTPickerAbsentLToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerAbsentLToDate.Location = new System.Drawing.Point(419, 26);
             this.dTPickerAbsentLToDate.Name = "dTPickerAbsentLToDate";
             this.dTPickerAbsentLToDate.Size = new System.Drawing.Size(164, 20);
@@ -94,6 +95,7 @@
             // 
             // dTPickerAbsentLFromDate
             // 
+            this.dTPickerAbsentLFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerAbsentLFromDate.Location = new System.Drawing.Point(116, 26);
             this.dTPickerAbsentLFromDate.Name = "dTPickerAbsentLFromDate";
             this.dTPickerAbsentLFromDate.Size = new System.Drawing.Size(154, 20);

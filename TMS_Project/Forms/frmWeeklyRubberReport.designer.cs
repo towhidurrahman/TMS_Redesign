@@ -56,9 +56,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.CmbWRubberRReportT);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(2, 9);
+            this.groupBox1.Location = new System.Drawing.Point(2, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(733, 141);
+            this.groupBox1.Size = new System.Drawing.Size(733, 114);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report Preview Range";
@@ -66,7 +66,7 @@
             // radioButtonWRubberRDateR
             // 
             this.radioButtonWRubberRDateR.AutoSize = true;
-            this.radioButtonWRubberRDateR.Location = new System.Drawing.Point(264, 33);
+            this.radioButtonWRubberRDateR.Location = new System.Drawing.Point(264, 23);
             this.radioButtonWRubberRDateR.Name = "radioButtonWRubberRDateR";
             this.radioButtonWRubberRDateR.Size = new System.Drawing.Size(83, 17);
             this.radioButtonWRubberRDateR.TabIndex = 45;
@@ -77,7 +77,7 @@
             // radioButtonWRubberRWeekly
             // 
             this.radioButtonWRubberRWeekly.AutoSize = true;
-            this.radioButtonWRubberRWeekly.Location = new System.Drawing.Point(138, 34);
+            this.radioButtonWRubberRWeekly.Location = new System.Drawing.Point(138, 24);
             this.radioButtonWRubberRWeekly.Name = "radioButtonWRubberRWeekly";
             this.radioButtonWRubberRWeekly.Size = new System.Drawing.Size(61, 17);
             this.radioButtonWRubberRWeekly.TabIndex = 44;
@@ -88,7 +88,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(123, 34);
+            this.label3.Location = new System.Drawing.Point(123, 24);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(10, 13);
             this.label3.TabIndex = 43;
@@ -97,7 +97,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 34);
+            this.label5.Location = new System.Drawing.Point(22, 24);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 13);
             this.label5.TabIndex = 41;
@@ -107,7 +107,7 @@
             // 
             this.dTPickerWRubberRDate.CalendarMonthBackground = System.Drawing.SystemColors.InactiveCaptionText;
             this.dTPickerWRubberRDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerWRubberRDate.Location = new System.Drawing.Point(138, 64);
+            this.dTPickerWRubberRDate.Location = new System.Drawing.Point(138, 54);
             this.dTPickerWRubberRDate.Name = "dTPickerWRubberRDate";
             this.dTPickerWRubberRDate.Size = new System.Drawing.Size(204, 20);
             this.dTPickerWRubberRDate.TabIndex = 40;
@@ -115,7 +115,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(123, 64);
+            this.label2.Location = new System.Drawing.Point(123, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 39;
@@ -124,7 +124,7 @@
             // lblMisP
             // 
             this.lblMisP.AutoSize = true;
-            this.lblMisP.Location = new System.Drawing.Point(22, 64);
+            this.lblMisP.Location = new System.Drawing.Point(22, 54);
             this.lblMisP.Name = "lblMisP";
             this.lblMisP.Size = new System.Drawing.Size(87, 13);
             this.lblMisP.TabIndex = 38;
@@ -133,7 +133,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 100);
+            this.label4.Location = new System.Drawing.Point(123, 86);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(10, 13);
             this.label4.TabIndex = 37;
@@ -142,7 +142,7 @@
             // CmbWRubberRReportT
             // 
             this.CmbWRubberRReportT.FormattingEnabled = true;
-            this.CmbWRubberRReportT.Location = new System.Drawing.Point(138, 97);
+            this.CmbWRubberRReportT.Location = new System.Drawing.Point(138, 83);
             this.CmbWRubberRReportT.Name = "CmbWRubberRReportT";
             this.CmbWRubberRReportT.Size = new System.Drawing.Size(376, 21);
             this.CmbWRubberRReportT.TabIndex = 5;
@@ -150,7 +150,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 98);
+            this.label1.Location = new System.Drawing.Point(22, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
@@ -158,7 +158,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(27, 156);
+            this.btnPreview.Location = new System.Drawing.Point(12, 124);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(87, 26);
             this.btnPreview.TabIndex = 1;
@@ -167,7 +167,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(587, 156);
+            this.btncancel.Location = new System.Drawing.Point(645, 124);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(87, 26);
             this.btncancel.TabIndex = 2;
@@ -178,7 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 191);
+            this.ClientSize = new System.Drawing.Size(744, 162);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);

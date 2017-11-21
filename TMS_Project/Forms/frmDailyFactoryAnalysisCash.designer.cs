@@ -68,6 +68,7 @@
             // 
             // dTPickerDFactoryAToDate
             // 
+            this.dTPickerDFactoryAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDFactoryAToDate.Location = new System.Drawing.Point(419, 19);
             this.dTPickerDFactoryAToDate.Name = "dTPickerDFactoryAToDate";
             this.dTPickerDFactoryAToDate.Size = new System.Drawing.Size(183, 20);
@@ -75,6 +76,7 @@
             // 
             // dTPickerDFactoryAFromDate
             // 
+            this.dTPickerDFactoryAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerDFactoryAFromDate.Location = new System.Drawing.Point(131, 20);
             this.dTPickerDFactoryAFromDate.Name = "dTPickerDFactoryAFromDate";
             this.dTPickerDFactoryAFromDate.Size = new System.Drawing.Size(157, 20);

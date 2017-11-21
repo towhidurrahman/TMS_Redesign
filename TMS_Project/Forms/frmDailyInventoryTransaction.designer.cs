@@ -255,6 +255,7 @@
             // 
             // dTPickerReceiptDate
             // 
+            this.dTPickerReceiptDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerReceiptDate.Location = new System.Drawing.Point(104, 67);
             this.dTPickerReceiptDate.Name = "dTPickerReceiptDate";
             this.dTPickerReceiptDate.Size = new System.Drawing.Size(116, 20);

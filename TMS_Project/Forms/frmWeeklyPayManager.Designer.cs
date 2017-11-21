@@ -58,9 +58,9 @@
             this.groupBox1.Controls.Add(this.dateTimePickerPaymentDate);
             this.groupBox1.Controls.Add(this.dtPickerPaymentMonth);
             this.groupBox1.Controls.Add(this.lblDateFrom);
-            this.groupBox1.Location = new System.Drawing.Point(13, 16);
+            this.groupBox1.Location = new System.Drawing.Point(13, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(790, 430);
+            this.groupBox1.Size = new System.Drawing.Size(790, 423);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -79,7 +79,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 98);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 85);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(778, 331);
             this.dataGridView1.TabIndex = 10;
@@ -159,7 +159,7 @@
             // 
             // BtnPost
             // 
-            this.BtnPost.Location = new System.Drawing.Point(20, 456);
+            this.BtnPost.Location = new System.Drawing.Point(20, 436);
             this.BtnPost.Name = "BtnPost";
             this.BtnPost.Size = new System.Drawing.Size(75, 23);
             this.BtnPost.TabIndex = 10;
@@ -168,7 +168,7 @@
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(257, 456);
+            this.btnSelectAll.Location = new System.Drawing.Point(257, 436);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 23);
             this.btnSelectAll.TabIndex = 11;
@@ -177,7 +177,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(523, 456);
+            this.btnRemoveAll.Location = new System.Drawing.Point(523, 436);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveAll.TabIndex = 12;
@@ -186,7 +186,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(727, 456);
+            this.btnClose.Location = new System.Drawing.Point(727, 436);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 13;
@@ -197,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 491);
+            this.ClientSize = new System.Drawing.Size(814, 463);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRemoveAll);
             this.Controls.Add(this.btnSelectAll);

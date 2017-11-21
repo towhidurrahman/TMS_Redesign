@@ -36,5 +36,10 @@ namespace TMS_Project
         {
 
         }
+
+        private void grpBoxGas2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

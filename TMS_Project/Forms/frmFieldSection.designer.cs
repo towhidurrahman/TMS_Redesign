@@ -259,7 +259,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(16, 405);
+            this.btnSave.Location = new System.Drawing.Point(18, 397);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(67, 29);
             this.btnSave.TabIndex = 16;
@@ -396,7 +396,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(665, 407);
+            this.btnClose.Location = new System.Drawing.Point(667, 399);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(67, 29);
             this.btnClose.TabIndex = 19;
@@ -406,7 +406,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(199, 407);
+            this.btnPrint.Location = new System.Drawing.Point(201, 399);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(67, 29);
             this.btnPrint.TabIndex = 18;
@@ -416,7 +416,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(109, 406);
+            this.btnDelete.Location = new System.Drawing.Point(111, 398);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(67, 29);
             this.btnDelete.TabIndex = 17;
@@ -426,9 +426,9 @@
             // 
             // lblAvailableC
             // 
-            this.lblAvailableC.Location = new System.Drawing.Point(272, 103);
+            this.lblAvailableC.Location = new System.Drawing.Point(272, 107);
             this.lblAvailableC.Name = "lblAvailableC";
-            this.lblAvailableC.Size = new System.Drawing.Size(100, 26);
+            this.lblAvailableC.Size = new System.Drawing.Size(85, 22);
             this.lblAvailableC.TabIndex = 13;
             this.lblAvailableC.Text = "Available C(Ug/g)";
             // 
@@ -490,9 +490,9 @@
             // 
             this.lblPrunningType.Location = new System.Drawing.Point(12, 181);
             this.lblPrunningType.Name = "lblPrunningType";
-            this.lblPrunningType.Size = new System.Drawing.Size(100, 15);
+            this.lblPrunningType.Size = new System.Drawing.Size(100, 21);
             this.lblPrunningType.TabIndex = 6;
-            this.lblPrunningType.Text = "Prunning Tpe";
+            this.lblPrunningType.Text = "Prunning Type";
             // 
             // lblVacan
             // 
@@ -720,7 +720,7 @@
             this.groupBox2.Controls.Add(this.lblSoilPh);
             this.groupBox2.Controls.Add(this.lblTexture);
             this.groupBox2.Controls.Add(this.lblDate);
-            this.groupBox2.Location = new System.Drawing.Point(8, 222);
+            this.groupBox2.Location = new System.Drawing.Point(8, 214);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(737, 179);
             this.groupBox2.TabIndex = 15;
@@ -824,7 +824,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 440);
+            this.ClientSize = new System.Drawing.Size(754, 433);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnPrint);

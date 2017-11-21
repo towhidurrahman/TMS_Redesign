@@ -62,7 +62,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtAvailableP = new System.Windows.Forms.TextBox();
             this.txtTotalNitrogen = new System.Windows.Forms.TextBox();
-            this.cmbDateInactive = new System.Windows.Forms.ComboBox();
             this.txtOranic = new System.Windows.Forms.TextBox();
             this.lblNeedtoSave = new System.Windows.Forms.Label();
             this.lblSectionId = new System.Windows.Forms.Label();
@@ -114,6 +113,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
@@ -121,7 +121,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(682, 420);
+            this.btnClose.Location = new System.Drawing.Point(682, 383);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(67, 29);
             this.btnClose.TabIndex = 29;
@@ -165,7 +165,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(23, 418);
+            this.btnSave.Location = new System.Drawing.Point(23, 381);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(67, 29);
             this.btnSave.TabIndex = 26;
@@ -174,7 +174,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(209, 420);
+            this.btnPrint.Location = new System.Drawing.Point(209, 383);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(67, 29);
             this.btnPrint.TabIndex = 28;
@@ -374,14 +374,6 @@
             this.txtTotalNitrogen.Size = new System.Drawing.Size(132, 20);
             this.txtTotalNitrogen.TabIndex = 40;
             // 
-            // cmbDateInactive
-            // 
-            this.cmbDateInactive.FormattingEnabled = true;
-            this.cmbDateInactive.Location = new System.Drawing.Point(204, 135);
-            this.cmbDateInactive.Name = "cmbDateInactive";
-            this.cmbDateInactive.Size = new System.Drawing.Size(132, 21);
-            this.cmbDateInactive.TabIndex = 39;
-            // 
             // txtOranic
             // 
             this.txtOranic.Location = new System.Drawing.Point(113, 102);
@@ -428,7 +420,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(116, 419);
+            this.btnDelete.Location = new System.Drawing.Point(116, 382);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(67, 29);
             this.btnDelete.TabIndex = 27;
@@ -492,6 +484,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.txtRecommendation);
             this.groupBox2.Controls.Add(this.txtCarbonNitrogen);
@@ -500,7 +493,6 @@
             this.groupBox2.Controls.Add(this.txtAvailableK);
             this.groupBox2.Controls.Add(this.txtAvailableP);
             this.groupBox2.Controls.Add(this.txtTotalNitrogen);
-            this.groupBox2.Controls.Add(this.cmbDateInactive);
             this.groupBox2.Controls.Add(this.txtOranic);
             this.groupBox2.Controls.Add(this.txtSoilPh);
             this.groupBox2.Controls.Add(this.txtTexture);
@@ -518,9 +510,9 @@
             this.groupBox2.Controls.Add(this.lblSoilPh);
             this.groupBox2.Controls.Add(this.lblTexture);
             this.groupBox2.Controls.Add(this.lblDate);
-            this.groupBox2.Location = new System.Drawing.Point(13, 230);
+            this.groupBox2.Location = new System.Drawing.Point(13, 214);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(737, 179);
+            this.groupBox2.Size = new System.Drawing.Size(737, 163);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             // 
@@ -803,7 +795,7 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.lblNeedtoSave);
             this.groupBox1.Controls.Add(this.lblSectionId);
-            this.groupBox1.Location = new System.Drawing.Point(9, 12);
+            this.groupBox1.Location = new System.Drawing.Point(9, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(742, 212);
             this.groupBox1.TabIndex = 24;
@@ -818,11 +810,19 @@
             this.lblPlantation.TabIndex = 14;
             this.lblPlantation.Text = "Plantation";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(199, 134);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
+            this.dateTimePicker1.TabIndex = 111;
+            // 
             // frmSection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(763, 458);
+            this.ClientSize = new System.Drawing.Size(760, 418);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnPrint);
@@ -880,7 +880,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtAvailableP;
         private System.Windows.Forms.TextBox txtTotalNitrogen;
-        private System.Windows.Forms.ComboBox cmbDateInactive;
         private System.Windows.Forms.TextBox txtOranic;
         private System.Windows.Forms.Label lblNeedtoSave;
         private System.Windows.Forms.Label lblSectionId;
@@ -932,5 +931,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Diagnostics.PerformanceCounter performanceCounter1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

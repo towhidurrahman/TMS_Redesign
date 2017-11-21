@@ -96,9 +96,9 @@
             // btnPost
             // 
             this.btnPost.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPost.Location = new System.Drawing.Point(726, 549);
+            this.btnPost.Location = new System.Drawing.Point(718, 483);
             this.btnPost.Name = "btnPost";
-            this.btnPost.Size = new System.Drawing.Size(66, 26);
+            this.btnPost.Size = new System.Drawing.Size(66, 25);
             this.btnPost.TabIndex = 141;
             this.btnPost.Text = "&Post";
             this.btnPost.UseVisualStyleBackColor = true;
@@ -153,9 +153,9 @@
             // btnRowDelete
             // 
             this.btnRowDelete.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRowDelete.Location = new System.Drawing.Point(324, 549);
+            this.btnRowDelete.Location = new System.Drawing.Point(316, 483);
             this.btnRowDelete.Name = "btnRowDelete";
-            this.btnRowDelete.Size = new System.Drawing.Size(90, 26);
+            this.btnRowDelete.Size = new System.Drawing.Size(90, 25);
             this.btnRowDelete.TabIndex = 140;
             this.btnRowDelete.Text = "&Row Delete >>";
             this.btnRowDelete.UseVisualStyleBackColor = true;
@@ -163,9 +163,9 @@
             // btnRowAdd
             // 
             this.btnRowAdd.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRowAdd.Location = new System.Drawing.Point(420, 549);
+            this.btnRowAdd.Location = new System.Drawing.Point(412, 483);
             this.btnRowAdd.Name = "btnRowAdd";
-            this.btnRowAdd.Size = new System.Drawing.Size(78, 26);
+            this.btnRowAdd.Size = new System.Drawing.Size(78, 25);
             this.btnRowAdd.TabIndex = 139;
             this.btnRowAdd.Text = "&Row Add >>";
             this.btnRowAdd.UseVisualStyleBackColor = true;
@@ -173,9 +173,9 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(798, 549);
+            this.btnCancel.Location = new System.Drawing.Point(790, 483);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(66, 26);
+            this.btnCancel.Size = new System.Drawing.Size(66, 25);
             this.btnCancel.TabIndex = 138;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -183,9 +183,9 @@
             // btnEntryDelete
             // 
             this.btnEntryDelete.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntryDelete.Location = new System.Drawing.Point(91, 549);
+            this.btnEntryDelete.Location = new System.Drawing.Point(83, 483);
             this.btnEntryDelete.Name = "btnEntryDelete";
-            this.btnEntryDelete.Size = new System.Drawing.Size(87, 26);
+            this.btnEntryDelete.Size = new System.Drawing.Size(87, 25);
             this.btnEntryDelete.TabIndex = 137;
             this.btnEntryDelete.Text = "&Entry Delete";
             this.btnEntryDelete.UseVisualStyleBackColor = true;
@@ -193,9 +193,9 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(20, 549);
+            this.btnSave.Location = new System.Drawing.Point(12, 483);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(66, 26);
+            this.btnSave.Size = new System.Drawing.Size(66, 25);
             this.btnSave.TabIndex = 136;
             this.btnSave.Text = "&Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -251,7 +251,7 @@
             // 
             this.lblRegularTk.AutoSize = true;
             this.lblRegularTk.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegularTk.Location = new System.Drawing.Point(201, 288);
+            this.lblRegularTk.Location = new System.Drawing.Point(201, 231);
             this.lblRegularTk.Name = "lblRegularTk";
             this.lblRegularTk.Size = new System.Drawing.Size(58, 13);
             this.lblRegularTk.TabIndex = 133;
@@ -261,7 +261,7 @@
             // 
             this.lblExtraTk.AutoSize = true;
             this.lblExtraTk.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExtraTk.Location = new System.Drawing.Point(384, 288);
+            this.lblExtraTk.Location = new System.Drawing.Point(384, 231);
             this.lblExtraTk.Name = "lblExtraTk";
             this.lblExtraTk.Size = new System.Drawing.Size(47, 13);
             this.lblExtraTk.TabIndex = 132;
@@ -271,7 +271,7 @@
             // 
             this.lblGCE.AutoSize = true;
             this.lblGCE.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGCE.Location = new System.Drawing.Point(201, 259);
+            this.lblGCE.Location = new System.Drawing.Point(201, 202);
             this.lblGCE.Name = "lblGCE";
             this.lblGCE.Size = new System.Drawing.Size(37, 13);
             this.lblGCE.TabIndex = 131;
@@ -280,7 +280,7 @@
             // txtCategoryDescription
             // 
             this.txtCategoryDescription.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCategoryDescription.Location = new System.Drawing.Point(252, 214);
+            this.txtCategoryDescription.Location = new System.Drawing.Point(252, 157);
             this.txtCategoryDescription.Name = "txtCategoryDescription";
             this.txtCategoryDescription.Size = new System.Drawing.Size(376, 20);
             this.txtCategoryDescription.TabIndex = 128;
@@ -288,7 +288,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(540, 177);
+            this.comboBox1.Location = new System.Drawing.Point(540, 124);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(85, 21);
             this.comboBox1.TabIndex = 125;
@@ -297,7 +297,7 @@
             // 
             this.lblPayType.AutoSize = true;
             this.lblPayType.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPayType.Location = new System.Drawing.Point(487, 180);
+            this.lblPayType.Location = new System.Drawing.Point(487, 127);
             this.lblPayType.Name = "lblPayType";
             this.lblPayType.Size = new System.Drawing.Size(52, 13);
             this.lblPayType.TabIndex = 124;
@@ -306,7 +306,7 @@
             // txtSirderDescription
             // 
             this.txtSirderDescription.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSirderDescription.Location = new System.Drawing.Point(210, 136);
+            this.txtSirderDescription.Location = new System.Drawing.Point(210, 96);
             this.txtSirderDescription.Name = "txtSirderDescription";
             this.txtSirderDescription.Size = new System.Drawing.Size(277, 20);
             this.txtSirderDescription.TabIndex = 121;
@@ -314,7 +314,7 @@
             // txtGardenDescription
             // 
             this.txtGardenDescription.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGardenDescription.Location = new System.Drawing.Point(357, 93);
+            this.txtGardenDescription.Location = new System.Drawing.Point(357, 69);
             this.txtGardenDescription.Name = "txtGardenDescription";
             this.txtGardenDescription.Size = new System.Drawing.Size(271, 20);
             this.txtGardenDescription.TabIndex = 120;
@@ -322,7 +322,7 @@
             // txtSourceCodeDescription
             // 
             this.txtSourceCodeDescription.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSourceCodeDescription.Location = new System.Drawing.Point(357, 58);
+            this.txtSourceCodeDescription.Location = new System.Drawing.Point(357, 43);
             this.txtSourceCodeDescription.Name = "txtSourceCodeDescription";
             this.txtSourceCodeDescription.Size = new System.Drawing.Size(271, 20);
             this.txtSourceCodeDescription.TabIndex = 119;
@@ -331,7 +331,7 @@
             // 
             this.btnSearchSourceCode.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchSourceCode.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchSourceCode.Image")));
-            this.btnSearchSourceCode.Location = new System.Drawing.Point(320, 58);
+            this.btnSearchSourceCode.Location = new System.Drawing.Point(320, 43);
             this.btnSearchSourceCode.Name = "btnSearchSourceCode";
             this.btnSearchSourceCode.Size = new System.Drawing.Size(30, 20);
             this.btnSearchSourceCode.TabIndex = 118;
@@ -341,7 +341,7 @@
             // 
             this.btnSearchBabu.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchBabu.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchBabu.Image")));
-            this.btnSearchBabu.Location = new System.Drawing.Point(319, 93);
+            this.btnSearchBabu.Location = new System.Drawing.Point(319, 69);
             this.btnSearchBabu.Name = "btnSearchBabu";
             this.btnSearchBabu.Size = new System.Drawing.Size(30, 21);
             this.btnSearchBabu.TabIndex = 117;
@@ -350,7 +350,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(261, 93);
+            this.textBox3.Location = new System.Drawing.Point(261, 69);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(55, 20);
             this.textBox3.TabIndex = 116;
@@ -359,7 +359,7 @@
             // 
             this.lblBabu.AutoSize = true;
             this.lblBabu.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBabu.Location = new System.Drawing.Point(180, 93);
+            this.lblBabu.Location = new System.Drawing.Point(180, 69);
             this.lblBabu.Name = "lblBabu";
             this.lblBabu.Size = new System.Drawing.Size(31, 13);
             this.lblBabu.TabIndex = 115;
@@ -369,7 +369,7 @@
             // 
             this.lblSourceCode.AutoSize = true;
             this.lblSourceCode.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSourceCode.Location = new System.Drawing.Point(180, 61);
+            this.lblSourceCode.Location = new System.Drawing.Point(180, 46);
             this.lblSourceCode.Name = "lblSourceCode";
             this.lblSourceCode.Size = new System.Drawing.Size(68, 13);
             this.lblSourceCode.TabIndex = 113;
@@ -386,7 +386,7 @@
             // dtFieldJakor
             // 
             this.dtFieldJakor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtFieldJakor.Location = new System.Drawing.Point(15, 315);
+            this.dtFieldJakor.Location = new System.Drawing.Point(9, 257);
             this.dtFieldJakor.Name = "dtFieldJakor";
             this.dtFieldJakor.Size = new System.Drawing.Size(851, 219);
             this.dtFieldJakor.TabIndex = 111;
@@ -395,7 +395,7 @@
             // 
             this.lblNirik.AutoSize = true;
             this.lblNirik.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNirik.Location = new System.Drawing.Point(12, 288);
+            this.lblNirik.Location = new System.Drawing.Point(12, 231);
             this.lblNirik.Name = "lblNirik";
             this.lblNirik.Size = new System.Drawing.Size(27, 13);
             this.lblNirik.TabIndex = 110;
@@ -405,7 +405,7 @@
             // 
             this.lblGLHead.AutoSize = true;
             this.lblGLHead.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGLHead.Location = new System.Drawing.Point(12, 259);
+            this.lblGLHead.Location = new System.Drawing.Point(12, 202);
             this.lblGLHead.Name = "lblGLHead";
             this.lblGLHead.Size = new System.Drawing.Size(47, 13);
             this.lblGLHead.TabIndex = 109;
@@ -415,7 +415,7 @@
             // 
             this.btnSearchCategory.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchCategory.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchCategory.Image")));
-            this.btnSearchCategory.Location = new System.Drawing.Point(219, 214);
+            this.btnSearchCategory.Location = new System.Drawing.Point(219, 157);
             this.btnSearchCategory.Name = "btnSearchCategory";
             this.btnSearchCategory.Size = new System.Drawing.Size(30, 22);
             this.btnSearchCategory.TabIndex = 108;
@@ -424,7 +424,7 @@
             // txtCategory
             // 
             this.txtCategory.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCategory.Location = new System.Drawing.Point(78, 214);
+            this.txtCategory.Location = new System.Drawing.Point(78, 157);
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.Size = new System.Drawing.Size(136, 20);
             this.txtCategory.TabIndex = 107;
@@ -433,7 +433,7 @@
             // 
             this.lblCategory.AutoSize = true;
             this.lblCategory.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategory.Location = new System.Drawing.Point(12, 217);
+            this.lblCategory.Location = new System.Drawing.Point(12, 160);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(52, 13);
             this.lblCategory.TabIndex = 106;
@@ -442,7 +442,7 @@
             // txtSourceCode
             // 
             this.txtSourceCode.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSourceCode.Location = new System.Drawing.Point(261, 58);
+            this.txtSourceCode.Location = new System.Drawing.Point(261, 43);
             this.txtSourceCode.Name = "txtSourceCode";
             this.txtSourceCode.Size = new System.Drawing.Size(55, 20);
             this.txtSourceCode.TabIndex = 114;
@@ -451,7 +451,7 @@
             // 
             this.btnEntryNext.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntryNext.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryNext.Image")));
-            this.btnEntryNext.Location = new System.Drawing.Point(231, 178);
+            this.btnEntryNext.Location = new System.Drawing.Point(231, 125);
             this.btnEntryNext.Name = "btnEntryNext";
             this.btnEntryNext.Size = new System.Drawing.Size(30, 21);
             this.btnEntryNext.TabIndex = 105;
@@ -461,7 +461,7 @@
             // 
             this.btnEntryLast.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntryLast.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryLast.Image")));
-            this.btnEntryLast.Location = new System.Drawing.Point(258, 178);
+            this.btnEntryLast.Location = new System.Drawing.Point(258, 125);
             this.btnEntryLast.Name = "btnEntryLast";
             this.btnEntryLast.Size = new System.Drawing.Size(30, 21);
             this.btnEntryLast.TabIndex = 104;
@@ -471,7 +471,7 @@
             // 
             this.btnSearchEntry.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchEntry.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchEntry.Image")));
-            this.btnSearchEntry.Location = new System.Drawing.Point(285, 178);
+            this.btnSearchEntry.Location = new System.Drawing.Point(285, 125);
             this.btnSearchEntry.Name = "btnSearchEntry";
             this.btnSearchEntry.Size = new System.Drawing.Size(30, 21);
             this.btnSearchEntry.TabIndex = 103;
@@ -481,7 +481,7 @@
             // 
             this.btnEntryNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntryNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryNewCopy.Image")));
-            this.btnEntryNewCopy.Location = new System.Drawing.Point(309, 178);
+            this.btnEntryNewCopy.Location = new System.Drawing.Point(309, 125);
             this.btnEntryNewCopy.Name = "btnEntryNewCopy";
             this.btnEntryNewCopy.Size = new System.Drawing.Size(30, 21);
             this.btnEntryNewCopy.TabIndex = 102;
@@ -490,7 +490,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(132, 178);
+            this.textBox1.Location = new System.Drawing.Point(132, 125);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 101;
@@ -499,7 +499,7 @@
             // 
             this.btnEntryPrevious.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntryPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryPrevious.Image")));
-            this.btnEntryPrevious.Location = new System.Drawing.Point(105, 178);
+            this.btnEntryPrevious.Location = new System.Drawing.Point(105, 125);
             this.btnEntryPrevious.Name = "btnEntryPrevious";
             this.btnEntryPrevious.Size = new System.Drawing.Size(30, 21);
             this.btnEntryPrevious.TabIndex = 100;
@@ -509,7 +509,7 @@
             // 
             this.btnEntryFirst.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntryFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryFirst.Image")));
-            this.btnEntryFirst.Location = new System.Drawing.Point(78, 178);
+            this.btnEntryFirst.Location = new System.Drawing.Point(78, 125);
             this.btnEntryFirst.Name = "btnEntryFirst";
             this.btnEntryFirst.Size = new System.Drawing.Size(30, 21);
             this.btnEntryFirst.TabIndex = 99;
@@ -519,7 +519,7 @@
             // 
             this.lblEntryNo.AutoSize = true;
             this.lblEntryNo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntryNo.Location = new System.Drawing.Point(12, 182);
+            this.lblEntryNo.Location = new System.Drawing.Point(12, 129);
             this.lblEntryNo.Name = "lblEntryNo";
             this.lblEntryNo.Size = new System.Drawing.Size(49, 13);
             this.lblEntryNo.TabIndex = 98;
@@ -529,7 +529,7 @@
             // 
             this.btnSearchSirder.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchSirder.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchSirder.Image")));
-            this.btnSearchSirder.Location = new System.Drawing.Point(180, 136);
+            this.btnSearchSirder.Location = new System.Drawing.Point(180, 96);
             this.btnSearchSirder.Name = "btnSearchSirder";
             this.btnSearchSirder.Size = new System.Drawing.Size(30, 21);
             this.btnSearchSirder.TabIndex = 97;
@@ -538,7 +538,7 @@
             // txtSirder
             // 
             this.txtSirder.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSirder.Location = new System.Drawing.Point(78, 136);
+            this.txtSirder.Location = new System.Drawing.Point(78, 96);
             this.txtSirder.Name = "txtSirder";
             this.txtSirder.Size = new System.Drawing.Size(100, 20);
             this.txtSirder.TabIndex = 96;
@@ -547,7 +547,7 @@
             // 
             this.lblSirder.AutoSize = true;
             this.lblSirder.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSirder.Location = new System.Drawing.Point(12, 139);
+            this.lblSirder.Location = new System.Drawing.Point(12, 99);
             this.lblSirder.Name = "lblSirder";
             this.lblSirder.Size = new System.Drawing.Size(35, 13);
             this.lblSirder.TabIndex = 95;
@@ -556,7 +556,7 @@
             // cmbGarden
             // 
             this.cmbGarden.FormattingEnabled = true;
-            this.cmbGarden.Location = new System.Drawing.Point(78, 93);
+            this.cmbGarden.Location = new System.Drawing.Point(78, 69);
             this.cmbGarden.Name = "cmbGarden";
             this.cmbGarden.Size = new System.Drawing.Size(85, 21);
             this.cmbGarden.TabIndex = 94;
@@ -565,7 +565,7 @@
             // 
             this.lblGarden.AutoSize = true;
             this.lblGarden.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGarden.Location = new System.Drawing.Point(12, 97);
+            this.lblGarden.Location = new System.Drawing.Point(12, 73);
             this.lblGarden.Name = "lblGarden";
             this.lblGarden.Size = new System.Drawing.Size(42, 13);
             this.lblGarden.TabIndex = 93;
@@ -574,7 +574,8 @@
             // dtPickerDate
             // 
             this.dtPickerDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDate.Location = new System.Drawing.Point(78, 58);
+            this.dtPickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtPickerDate.Location = new System.Drawing.Point(78, 43);
             this.dtPickerDate.Name = "dtPickerDate";
             this.dtPickerDate.Size = new System.Drawing.Size(85, 20);
             this.dtPickerDate.TabIndex = 92;
@@ -583,7 +584,7 @@
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(12, 61);
+            this.lblDate.Location = new System.Drawing.Point(12, 46);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(30, 13);
             this.lblDate.TabIndex = 91;
@@ -595,7 +596,7 @@
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
             this.btnNext.Location = new System.Drawing.Point(234, 15);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(30, 20);
+            this.btnNext.Size = new System.Drawing.Size(27, 20);
             this.btnNext.TabIndex = 90;
             this.btnNext.UseVisualStyleBackColor = true;
             // 
@@ -605,7 +606,7 @@
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
             this.btnLast.Location = new System.Drawing.Point(261, 15);
             this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(30, 20);
+            this.btnLast.Size = new System.Drawing.Size(27, 20);
             this.btnLast.TabIndex = 89;
             this.btnLast.UseVisualStyleBackColor = true;
             // 
@@ -615,7 +616,7 @@
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
             this.btnSearch.Location = new System.Drawing.Point(288, 15);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(30, 20);
+            this.btnSearch.Size = new System.Drawing.Size(26, 20);
             this.btnSearch.TabIndex = 88;
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
@@ -623,9 +624,9 @@
             // 
             this.btnNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCopy.Image")));
-            this.btnNewCopy.Location = new System.Drawing.Point(312, 15);
+            this.btnNewCopy.Location = new System.Drawing.Point(313, 15);
             this.btnNewCopy.Name = "btnNewCopy";
-            this.btnNewCopy.Size = new System.Drawing.Size(30, 20);
+            this.btnNewCopy.Size = new System.Drawing.Size(26, 20);
             this.btnNewCopy.TabIndex = 87;
             this.btnNewCopy.UseVisualStyleBackColor = true;
             // 
@@ -641,9 +642,9 @@
             // 
             this.btnPrevious.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(105, 15);
+            this.btnPrevious.Location = new System.Drawing.Point(106, 15);
             this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(30, 20);
+            this.btnPrevious.Size = new System.Drawing.Size(27, 20);
             this.btnPrevious.TabIndex = 85;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
@@ -653,14 +654,14 @@
             this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
             this.btnFirst.Location = new System.Drawing.Point(78, 15);
             this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(30, 20);
+            this.btnFirst.Size = new System.Drawing.Size(28, 20);
             this.btnFirst.TabIndex = 84;
             this.btnFirst.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(341, 179);
+            this.textBox2.Location = new System.Drawing.Point(341, 126);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(142, 20);
             this.textBox2.TabIndex = 142;
@@ -669,7 +670,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(872, 579);
+            this.ClientSize = new System.Drawing.Size(872, 518);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnPost);
             this.Controls.Add(this.btnRowDelete);
