@@ -295,6 +295,7 @@
             // 
             this.dTPickerWorkerDDatePf.CalendarForeColor = System.Drawing.SystemColors.ControlLight;
             this.dTPickerWorkerDDatePf.CalendarMonthBackground = System.Drawing.SystemColors.ScrollBar;
+            this.dTPickerWorkerDDatePf.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerWorkerDDatePf.Location = new System.Drawing.Point(106, 254);
             this.dTPickerWorkerDDatePf.Name = "dTPickerWorkerDDatePf";
             this.dTPickerWorkerDDatePf.Size = new System.Drawing.Size(162, 20);
@@ -302,6 +303,7 @@
             // 
             // dTPickerWorkerDDatejoining
             // 
+            this.dTPickerWorkerDDatejoining.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerWorkerDDatejoining.Location = new System.Drawing.Point(106, 174);
             this.dTPickerWorkerDDatejoining.Name = "dTPickerWorkerDDatejoining";
             this.dTPickerWorkerDDatejoining.Size = new System.Drawing.Size(162, 20);
@@ -309,6 +311,7 @@
             // 
             // dTPickerWorkerDDatePermanent
             // 
+            this.dTPickerWorkerDDatePermanent.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerWorkerDDatePermanent.Location = new System.Drawing.Point(378, 172);
             this.dTPickerWorkerDDatePermanent.Name = "dTPickerWorkerDDatePermanent";
             this.dTPickerWorkerDDatePermanent.Size = new System.Drawing.Size(159, 20);
@@ -316,6 +319,7 @@
             // 
             // dTPickerWorkerDDateBirth
             // 
+            this.dTPickerWorkerDDateBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerWorkerDDateBirth.Location = new System.Drawing.Point(106, 143);
             this.dTPickerWorkerDDateBirth.Name = "dTPickerWorkerDDateBirth";
             this.dTPickerWorkerDDateBirth.Size = new System.Drawing.Size(162, 20);

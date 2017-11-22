@@ -263,6 +263,7 @@
             // 
             // dTPickerKatchaRToDate
             // 
+            this.dTPickerKatchaRToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerKatchaRToDate.Location = new System.Drawing.Point(442, 25);
             this.dTPickerKatchaRToDate.Name = "dTPickerKatchaRToDate";
             this.dTPickerKatchaRToDate.Size = new System.Drawing.Size(137, 20);
@@ -270,6 +271,7 @@
             // 
             // dTPickerKatchaRFromDate
             // 
+            this.dTPickerKatchaRFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dTPickerKatchaRFromDate.Location = new System.Drawing.Point(126, 19);
             this.dTPickerKatchaRFromDate.Name = "dTPickerKatchaRFromDate";
             this.dTPickerKatchaRFromDate.Size = new System.Drawing.Size(141, 20);

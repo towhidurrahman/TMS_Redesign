@@ -124,6 +124,7 @@
             // 
             // DTPTransactionDate
             // 
+            this.DTPTransactionDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTPTransactionDate.Location = new System.Drawing.Point(480, 17);
             this.DTPTransactionDate.Name = "DTPTransactionDate";
             this.DTPTransactionDate.Size = new System.Drawing.Size(111, 20);

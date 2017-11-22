@@ -74,6 +74,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(372, 20);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(111, 20);
@@ -81,6 +82,7 @@
             // 
             // DTPDateFrom
             // 
+            this.DTPDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTPDateFrom.Location = new System.Drawing.Point(103, 23);
             this.DTPDateFrom.Name = "DTPDateFrom";
             this.DTPDateFrom.Size = new System.Drawing.Size(111, 20);

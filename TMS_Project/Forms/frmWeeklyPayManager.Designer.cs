@@ -58,7 +58,7 @@
             this.groupBox1.Controls.Add(this.dateTimePickerPaymentDate);
             this.groupBox1.Controls.Add(this.dtPickerPaymentMonth);
             this.groupBox1.Controls.Add(this.lblDateFrom);
-            this.groupBox1.Location = new System.Drawing.Point(13, 7);
+            this.groupBox1.Location = new System.Drawing.Point(13, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(790, 423);
             this.groupBox1.TabIndex = 0;
@@ -70,7 +70,7 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 65);
+            this.label1.Location = new System.Drawing.Point(12, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 11;
@@ -79,7 +79,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 85);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 78);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(778, 331);
             this.dataGridView1.TabIndex = 10;
@@ -89,7 +89,7 @@
             this.lblSelectedTk.AutoSize = true;
             this.lblSelectedTk.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelectedTk.ForeColor = System.Drawing.Color.Black;
-            this.lblSelectedTk.Location = new System.Drawing.Point(501, 51);
+            this.lblSelectedTk.Location = new System.Drawing.Point(501, 41);
             this.lblSelectedTk.Name = "lblSelectedTk";
             this.lblSelectedTk.Size = new System.Drawing.Size(126, 13);
             this.lblSelectedTk.TabIndex = 9;
@@ -100,7 +100,7 @@
             this.lblTotalTk.AutoSize = true;
             this.lblTotalTk.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalTk.ForeColor = System.Drawing.Color.Black;
-            this.lblTotalTk.Location = new System.Drawing.Point(258, 51);
+            this.lblTotalTk.Location = new System.Drawing.Point(258, 41);
             this.lblTotalTk.Name = "lblTotalTk";
             this.lblTotalTk.Size = new System.Drawing.Size(136, 13);
             this.lblTotalTk.TabIndex = 8;
@@ -111,7 +111,7 @@
             this.lblSelectedEmployee.AutoSize = true;
             this.lblSelectedEmployee.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelectedEmployee.ForeColor = System.Drawing.Color.Black;
-            this.lblSelectedEmployee.Location = new System.Drawing.Point(501, 28);
+            this.lblSelectedEmployee.Location = new System.Drawing.Point(501, 18);
             this.lblSelectedEmployee.Name = "lblSelectedEmployee";
             this.lblSelectedEmployee.Size = new System.Drawing.Size(125, 13);
             this.lblSelectedEmployee.TabIndex = 7;
@@ -122,7 +122,7 @@
             this.lblTotalEmployee.AutoSize = true;
             this.lblTotalEmployee.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalEmployee.ForeColor = System.Drawing.Color.Black;
-            this.lblTotalEmployee.Location = new System.Drawing.Point(258, 26);
+            this.lblTotalEmployee.Location = new System.Drawing.Point(258, 16);
             this.lblTotalEmployee.Name = "lblTotalEmployee";
             this.lblTotalEmployee.Size = new System.Drawing.Size(138, 13);
             this.lblTotalEmployee.TabIndex = 6;
@@ -132,7 +132,8 @@
             // 
             this.dateTimePickerPaymentDate.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerPaymentDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerPaymentDate.Location = new System.Drawing.Point(146, 59);
+            this.dateTimePickerPaymentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerPaymentDate.Location = new System.Drawing.Point(146, 49);
             this.dateTimePickerPaymentDate.Name = "dateTimePickerPaymentDate";
             this.dateTimePickerPaymentDate.Size = new System.Drawing.Size(91, 20);
             this.dateTimePickerPaymentDate.TabIndex = 5;
@@ -141,7 +142,8 @@
             // 
             this.dtPickerPaymentMonth.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPickerPaymentMonth.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerPaymentMonth.Location = new System.Drawing.Point(146, 24);
+            this.dtPickerPaymentMonth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtPickerPaymentMonth.Location = new System.Drawing.Point(146, 14);
             this.dtPickerPaymentMonth.Name = "dtPickerPaymentMonth";
             this.dtPickerPaymentMonth.Size = new System.Drawing.Size(91, 20);
             this.dtPickerPaymentMonth.TabIndex = 3;
@@ -151,7 +153,7 @@
             this.lblDateFrom.AutoSize = true;
             this.lblDateFrom.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateFrom.ForeColor = System.Drawing.Color.Black;
-            this.lblDateFrom.Location = new System.Drawing.Point(12, 26);
+            this.lblDateFrom.Location = new System.Drawing.Point(12, 16);
             this.lblDateFrom.Name = "lblDateFrom";
             this.lblDateFrom.Size = new System.Drawing.Size(131, 13);
             this.lblDateFrom.TabIndex = 2;
@@ -159,7 +161,7 @@
             // 
             // BtnPost
             // 
-            this.BtnPost.Location = new System.Drawing.Point(20, 436);
+            this.BtnPost.Location = new System.Drawing.Point(20, 420);
             this.BtnPost.Name = "BtnPost";
             this.BtnPost.Size = new System.Drawing.Size(75, 23);
             this.BtnPost.TabIndex = 10;
@@ -168,7 +170,7 @@
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(257, 436);
+            this.btnSelectAll.Location = new System.Drawing.Point(257, 420);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 23);
             this.btnSelectAll.TabIndex = 11;
@@ -177,7 +179,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(523, 436);
+            this.btnRemoveAll.Location = new System.Drawing.Point(523, 420);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveAll.TabIndex = 12;
@@ -186,7 +188,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(727, 436);
+            this.btnClose.Location = new System.Drawing.Point(727, 420);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 13;
@@ -197,7 +199,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 463);
+            this.ClientSize = new System.Drawing.Size(807, 453);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRemoveAll);
             this.Controls.Add(this.btnSelectAll);

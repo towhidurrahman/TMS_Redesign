@@ -297,6 +297,7 @@
             // 
             // btTimePickerTransDate
             // 
+            this.btTimePickerTransDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.btTimePickerTransDate.Location = new System.Drawing.Point(574, 14);
             this.btTimePickerTransDate.Name = "btTimePickerTransDate";
             this.btTimePickerTransDate.Size = new System.Drawing.Size(134, 20);

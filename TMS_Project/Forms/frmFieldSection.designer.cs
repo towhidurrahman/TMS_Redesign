@@ -108,12 +108,12 @@
             this.txtAvailableK = new System.Windows.Forms.TextBox();
             this.txtAvailableP = new System.Windows.Forms.TextBox();
             this.txtTotalNitrogen = new System.Windows.Forms.TextBox();
-            this.cmbDateInactive = new System.Windows.Forms.ComboBox();
             this.txtOranic = new System.Windows.Forms.TextBox();
             this.txtSoilPh = new System.Windows.Forms.TextBox();
             this.txtTexture = new System.Windows.Forms.TextBox();
             this.cmbDate = new System.Windows.Forms.ComboBox();
             this.lblAvailableM = new System.Windows.Forms.Label();
+            this.dtPickerDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -331,9 +331,9 @@
             // 
             // lblDateInactive
             // 
-            this.lblDateInactive.Location = new System.Drawing.Point(111, 136);
+            this.lblDateInactive.Location = new System.Drawing.Point(114, 138);
             this.lblDateInactive.Name = "lblDateInactive";
-            this.lblDateInactive.Size = new System.Drawing.Size(86, 13);
+            this.lblDateInactive.Size = new System.Drawing.Size(115, 23);
             this.lblDateInactive.TabIndex = 12;
             this.lblDateInactive.Text = "Date Of Inactive";
             // 
@@ -694,6 +694,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dtPickerDate);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.txtRecommendation);
             this.groupBox2.Controls.Add(this.txtCarbonNitrogen);
@@ -702,7 +703,6 @@
             this.groupBox2.Controls.Add(this.txtAvailableK);
             this.groupBox2.Controls.Add(this.txtAvailableP);
             this.groupBox2.Controls.Add(this.txtTotalNitrogen);
-            this.groupBox2.Controls.Add(this.cmbDateInactive);
             this.groupBox2.Controls.Add(this.txtOranic);
             this.groupBox2.Controls.Add(this.txtSoilPh);
             this.groupBox2.Controls.Add(this.txtTexture);
@@ -775,14 +775,6 @@
             this.txtTotalNitrogen.Size = new System.Drawing.Size(132, 23);
             this.txtTotalNitrogen.TabIndex = 40;
             // 
-            // cmbDateInactive
-            // 
-            this.cmbDateInactive.FormattingEnabled = true;
-            this.cmbDateInactive.Location = new System.Drawing.Point(204, 135);
-            this.cmbDateInactive.Name = "cmbDateInactive";
-            this.cmbDateInactive.Size = new System.Drawing.Size(132, 24);
-            this.cmbDateInactive.TabIndex = 39;
-            // 
             // txtOranic
             // 
             this.txtOranic.Location = new System.Drawing.Point(113, 102);
@@ -819,6 +811,15 @@
             this.lblAvailableM.Size = new System.Drawing.Size(100, 26);
             this.lblAvailableM.TabIndex = 15;
             this.lblAvailableM.Text = "Available M(Ug/g)";
+            // 
+            // dtPickerDate
+            // 
+            this.dtPickerDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtPickerDate.Location = new System.Drawing.Point(214, 136);
+            this.dtPickerDate.Name = "dtPickerDate";
+            this.dtPickerDate.Size = new System.Drawing.Size(85, 20);
+            this.dtPickerDate.TabIndex = 152;
             // 
             // frmFieldSection
             // 
@@ -926,7 +927,6 @@
         private System.Windows.Forms.TextBox txtAvailableK;
         private System.Windows.Forms.TextBox txtAvailableP;
         private System.Windows.Forms.TextBox txtTotalNitrogen;
-        private System.Windows.Forms.ComboBox cmbDateInactive;
         private System.Windows.Forms.TextBox txtOranic;
         private System.Windows.Forms.TextBox txtSoilPh;
         private System.Windows.Forms.TextBox txtTexture;
@@ -939,5 +939,6 @@
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DateTimePicker dtPickerDate;
     }
 }

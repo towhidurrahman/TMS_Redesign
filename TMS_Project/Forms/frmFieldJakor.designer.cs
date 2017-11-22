@@ -582,6 +582,7 @@
             // dtPickerDate
             // 
             this.dtPickerDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPickerDate.Location = new System.Drawing.Point(81, 37);
             this.dtPickerDate.Name = "dtPickerDate";
             this.dtPickerDate.Size = new System.Drawing.Size(85, 20);

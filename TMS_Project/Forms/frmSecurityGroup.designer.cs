@@ -116,7 +116,7 @@
             this.groupBox1.Controls.Add(this.cmbApplication);
             this.groupBox1.Location = new System.Drawing.Point(10, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(502, 124);
+            this.groupBox1.Size = new System.Drawing.Size(502, 110);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
@@ -204,15 +204,15 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.listViewSecurityGroup);
-            this.groupBox2.Location = new System.Drawing.Point(12, 157);
+            this.groupBox2.Location = new System.Drawing.Point(12, 144);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(499, 235);
+            this.groupBox2.Size = new System.Drawing.Size(499, 220);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
             // listViewSecurityGroup
             // 
-            this.listViewSecurityGroup.Location = new System.Drawing.Point(6, 16);
+            this.listViewSecurityGroup.Location = new System.Drawing.Point(6, 17);
             this.listViewSecurityGroup.Name = "listViewSecurityGroup";
             this.listViewSecurityGroup.Size = new System.Drawing.Size(480, 213);
             this.listViewSecurityGroup.TabIndex = 0;
@@ -222,7 +222,7 @@
             // 
             this.lblSelectGrantSecurity.AutoSize = true;
             this.lblSelectGrantSecurity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectGrantSecurity.Location = new System.Drawing.Point(12, 137);
+            this.lblSelectGrantSecurity.Location = new System.Drawing.Point(12, 124);
             this.lblSelectGrantSecurity.Name = "lblSelectGrantSecurity";
             this.lblSelectGrantSecurity.Size = new System.Drawing.Size(200, 16);
             this.lblSelectGrantSecurity.TabIndex = 8;
@@ -230,7 +230,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(11, 401);
+            this.btnAdd.Location = new System.Drawing.Point(11, 377);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 28);
             this.btnAdd.TabIndex = 9;
@@ -240,7 +240,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(122, 401);
+            this.btnDelete.Location = new System.Drawing.Point(122, 377);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 28);
             this.btnDelete.TabIndex = 10;
@@ -249,7 +249,7 @@
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(230, 401);
+            this.btnSelectAll.Location = new System.Drawing.Point(230, 377);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 28);
             this.btnSelectAll.TabIndex = 11;
@@ -258,7 +258,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(332, 401);
+            this.btnRemoveAll.Location = new System.Drawing.Point(332, 377);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 28);
             this.btnRemoveAll.TabIndex = 12;
@@ -267,7 +267,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(432, 401);
+            this.btnClose.Location = new System.Drawing.Point(432, 377);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 28);
             this.btnClose.TabIndex = 13;
@@ -278,7 +278,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 448);
+            this.ClientSize = new System.Drawing.Size(515, 415);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRemoveAll);
             this.Controls.Add(this.btnSelectAll);

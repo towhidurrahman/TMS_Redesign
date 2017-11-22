@@ -57,20 +57,20 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtMadeTea = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtUnit = new System.Windows.Forms.TextBox();
-            this.txtCostPerUnit = new System.Windows.Forms.TextBox();
             this.txtTodaysReading = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lblTtlGreenleaf = new System.Windows.Forms.Label();
-            this.lblFineLeaf = new System.Windows.Forms.Label();
-            this.lblCoarseLeaf = new System.Windows.Forms.Label();
             this.txtStatus = new System.Windows.Forms.TextBox();
             this.grpBoxElectricity1 = new System.Windows.Forms.GroupBox();
             this.txtOrigianlUnit = new System.Windows.Forms.TextBox();
             this.txtDifference = new System.Windows.Forms.TextBox();
+            this.txtCostPerUnit = new System.Windows.Forms.TextBox();
+            this.txtUnit = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtPreviousReading = new System.Windows.Forms.TextBox();
+            this.lblFineLeaf = new System.Windows.Forms.Label();
+            this.lblCoarseLeaf = new System.Windows.Forms.Label();
             this.tabGas = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
             this.grpBoxGas2 = new System.Windows.Forms.GroupBox();
@@ -86,14 +86,14 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.grpBoxGas1 = new System.Windows.Forms.GroupBox();
             this.txtOriginalUnitGas = new System.Windows.Forms.TextBox();
             this.txtDifferenceGas = new System.Windows.Forms.TextBox();
             this.txtPreviousReadingGas = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.tabFactoryProcessing.SuspendLayout();
             this.tabElectricity.SuspendLayout();
             this.grpBoxElectricity2.SuspendLayout();
@@ -123,6 +123,7 @@
             // 
             // btTimePickerTransDate
             // 
+            this.btTimePickerTransDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.btTimePickerTransDate.Location = new System.Drawing.Point(570, 9);
             this.btTimePickerTransDate.Name = "btTimePickerTransDate";
             this.btTimePickerTransDate.Size = new System.Drawing.Size(134, 20);
@@ -303,7 +304,7 @@
             this.tabElectricity.Location = new System.Drawing.Point(4, 22);
             this.tabElectricity.Name = "tabElectricity";
             this.tabElectricity.Padding = new System.Windows.Forms.Padding(3);
-            this.tabElectricity.Size = new System.Drawing.Size(695, 294);
+            this.tabElectricity.Size = new System.Drawing.Size(695, 258);
             this.tabElectricity.TabIndex = 1;
             this.tabElectricity.Text = "Electricity";
             // 
@@ -385,22 +386,6 @@
             this.label5.TabIndex = 176;
             this.label5.Text = "Elec. Unit/Kg";
             // 
-            // txtUnit
-            // 
-            this.txtUnit.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUnit.Location = new System.Drawing.Point(115, 45);
-            this.txtUnit.Name = "txtUnit";
-            this.txtUnit.Size = new System.Drawing.Size(100, 20);
-            this.txtUnit.TabIndex = 167;
-            // 
-            // txtCostPerUnit
-            // 
-            this.txtCostPerUnit.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCostPerUnit.Location = new System.Drawing.Point(115, 73);
-            this.txtCostPerUnit.Name = "txtCostPerUnit";
-            this.txtCostPerUnit.Size = new System.Drawing.Size(100, 20);
-            this.txtCostPerUnit.TabIndex = 168;
-            // 
             // txtTodaysReading
             // 
             this.txtTodaysReading.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -419,26 +404,6 @@
             this.label1.TabIndex = 171;
             this.label1.Text = "Previous Reading";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(235, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 170;
-            this.label2.Text = "Difference";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(235, 80);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
-            this.label3.TabIndex = 169;
-            this.label3.Text = "Original Unit";
-            // 
             // lblTtlGreenleaf
             // 
             this.lblTtlGreenleaf.AutoSize = true;
@@ -448,26 +413,6 @@
             this.lblTtlGreenleaf.Size = new System.Drawing.Size(84, 13);
             this.lblTtlGreenleaf.TabIndex = 168;
             this.lblTtlGreenleaf.Text = "Todays Reading";
-            // 
-            // lblFineLeaf
-            // 
-            this.lblFineLeaf.AutoSize = true;
-            this.lblFineLeaf.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFineLeaf.Location = new System.Drawing.Point(17, 48);
-            this.lblFineLeaf.Name = "lblFineLeaf";
-            this.lblFineLeaf.Size = new System.Drawing.Size(26, 13);
-            this.lblFineLeaf.TabIndex = 167;
-            this.lblFineLeaf.Text = "Unit";
-            // 
-            // lblCoarseLeaf
-            // 
-            this.lblCoarseLeaf.AutoSize = true;
-            this.lblCoarseLeaf.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCoarseLeaf.Location = new System.Drawing.Point(14, 78);
-            this.lblCoarseLeaf.Name = "lblCoarseLeaf";
-            this.lblCoarseLeaf.Size = new System.Drawing.Size(92, 13);
-            this.lblCoarseLeaf.TabIndex = 166;
-            this.lblCoarseLeaf.Text = "Cost Per Unit (Tk)";
             // 
             // txtStatus
             // 
@@ -511,6 +456,42 @@
             this.txtDifference.Size = new System.Drawing.Size(100, 20);
             this.txtDifference.TabIndex = 174;
             // 
+            // txtCostPerUnit
+            // 
+            this.txtCostPerUnit.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCostPerUnit.Location = new System.Drawing.Point(115, 73);
+            this.txtCostPerUnit.Name = "txtCostPerUnit";
+            this.txtCostPerUnit.Size = new System.Drawing.Size(100, 20);
+            this.txtCostPerUnit.TabIndex = 168;
+            // 
+            // txtUnit
+            // 
+            this.txtUnit.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUnit.Location = new System.Drawing.Point(115, 45);
+            this.txtUnit.Name = "txtUnit";
+            this.txtUnit.Size = new System.Drawing.Size(100, 20);
+            this.txtUnit.TabIndex = 167;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(235, 80);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.TabIndex = 169;
+            this.label3.Text = "Original Unit";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(235, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.TabIndex = 170;
+            this.label2.Text = "Difference";
+            // 
             // txtPreviousReading
             // 
             this.txtPreviousReading.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -518,6 +499,26 @@
             this.txtPreviousReading.Name = "txtPreviousReading";
             this.txtPreviousReading.Size = new System.Drawing.Size(100, 20);
             this.txtPreviousReading.TabIndex = 175;
+            // 
+            // lblFineLeaf
+            // 
+            this.lblFineLeaf.AutoSize = true;
+            this.lblFineLeaf.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFineLeaf.Location = new System.Drawing.Point(17, 48);
+            this.lblFineLeaf.Name = "lblFineLeaf";
+            this.lblFineLeaf.Size = new System.Drawing.Size(26, 13);
+            this.lblFineLeaf.TabIndex = 167;
+            this.lblFineLeaf.Text = "Unit";
+            // 
+            // lblCoarseLeaf
+            // 
+            this.lblCoarseLeaf.AutoSize = true;
+            this.lblCoarseLeaf.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCoarseLeaf.Location = new System.Drawing.Point(14, 78);
+            this.lblCoarseLeaf.Name = "lblCoarseLeaf";
+            this.lblCoarseLeaf.Size = new System.Drawing.Size(92, 13);
+            this.lblCoarseLeaf.TabIndex = 166;
+            this.lblCoarseLeaf.Text = "Cost Per Unit (Tk)";
             // 
             // tabGas
             // 
@@ -672,36 +673,6 @@
             this.label13.TabIndex = 182;
             this.label13.Text = "Original Unit";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(22, 23);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(84, 13);
-            this.label15.TabIndex = 180;
-            this.label15.Text = "Todays Reading";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(24, 52);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(26, 13);
-            this.label16.TabIndex = 178;
-            this.label16.Text = "Unit";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(22, 75);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 13);
-            this.label17.TabIndex = 176;
-            this.label17.Text = "Cost Per Unit (Tk)";
-            // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -747,6 +718,36 @@
             this.txtPreviousReadingGas.Name = "txtPreviousReadingGas";
             this.txtPreviousReadingGas.Size = new System.Drawing.Size(100, 20);
             this.txtPreviousReadingGas.TabIndex = 175;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(22, 23);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(84, 13);
+            this.label15.TabIndex = 180;
+            this.label15.Text = "Todays Reading";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(24, 52);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(26, 13);
+            this.label16.TabIndex = 178;
+            this.label16.Text = "Unit";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(22, 75);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(92, 13);
+            this.label17.TabIndex = 176;
+            this.label17.Text = "Cost Per Unit (Tk)";
             // 
             // frmFactoryUtilityRegister
             // 

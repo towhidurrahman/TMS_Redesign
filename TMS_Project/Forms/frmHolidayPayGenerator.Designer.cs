@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblRegularDay = new System.Windows.Forms.Label();
             this.dtpDateForCalculation = new System.Windows.Forms.DateTimePicker();
             this.dtpRegularDay = new System.Windows.Forms.DateTimePicker();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnProcess = new System.Windows.Forms.Button();
             this.lblDateForCalculation = new System.Windows.Forms.Label();
-            this.lblRegularDay = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,8 +52,18 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
+            // lblRegularDay
+            // 
+            this.lblRegularDay.AutoSize = true;
+            this.lblRegularDay.Location = new System.Drawing.Point(115, 19);
+            this.lblRegularDay.Name = "lblRegularDay";
+            this.lblRegularDay.Size = new System.Drawing.Size(66, 13);
+            this.lblRegularDay.TabIndex = 14;
+            this.lblRegularDay.Text = "Regular Day";
+            // 
             // dtpDateForCalculation
             // 
+            this.dtpDateForCalculation.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDateForCalculation.Location = new System.Drawing.Point(356, 14);
             this.dtpDateForCalculation.Name = "dtpDateForCalculation";
             this.dtpDateForCalculation.Size = new System.Drawing.Size(101, 20);
@@ -94,15 +104,6 @@
             this.lblDateForCalculation.Size = new System.Drawing.Size(102, 13);
             this.lblDateForCalculation.TabIndex = 9;
             this.lblDateForCalculation.Text = "Date for Calculation";
-            // 
-            // lblRegularDay
-            // 
-            this.lblRegularDay.AutoSize = true;
-            this.lblRegularDay.Location = new System.Drawing.Point(115, 19);
-            this.lblRegularDay.Name = "lblRegularDay";
-            this.lblRegularDay.Size = new System.Drawing.Size(66, 13);
-            this.lblRegularDay.TabIndex = 14;
-            this.lblRegularDay.Text = "Regular Day";
             // 
             // frmHolidayPayGenerator
             // 
