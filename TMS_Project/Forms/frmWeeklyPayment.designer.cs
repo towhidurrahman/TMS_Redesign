@@ -57,7 +57,6 @@
             this.CmbArea = new System.Windows.Forms.ComboBox();
             this.CmbWorkerType = new System.Windows.Forms.ComboBox();
             this.CmbSex = new System.Windows.Forms.ComboBox();
-            this.CmbPfStartDate = new System.Windows.Forms.ComboBox();
             this.CmbGarden = new System.Windows.Forms.ComboBox();
             this.cmbWeeklyPaymentWorkStation = new System.Windows.Forms.ComboBox();
             this.CmbDateTo = new System.Windows.Forms.ComboBox();
@@ -79,11 +78,13 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
             this.btncancel = new System.Windows.Forms.Button();
+            this.dateTimePickerPFStartingDate = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dateTimePickerPFStartingDate);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
@@ -111,7 +112,6 @@
             this.groupBox1.Controls.Add(this.CmbArea);
             this.groupBox1.Controls.Add(this.CmbWorkerType);
             this.groupBox1.Controls.Add(this.CmbSex);
-            this.groupBox1.Controls.Add(this.CmbPfStartDate);
             this.groupBox1.Controls.Add(this.CmbGarden);
             this.groupBox1.Controls.Add(this.cmbWeeklyPaymentWorkStation);
             this.groupBox1.Controls.Add(this.CmbDateTo);
@@ -368,14 +368,6 @@
             this.CmbSex.Size = new System.Drawing.Size(183, 21);
             this.CmbSex.TabIndex = 21;
             // 
-            // CmbPfStartDate
-            // 
-            this.CmbPfStartDate.FormattingEnabled = true;
-            this.CmbPfStartDate.Location = new System.Drawing.Point(499, 156);
-            this.CmbPfStartDate.Name = "CmbPfStartDate";
-            this.CmbPfStartDate.Size = new System.Drawing.Size(183, 21);
-            this.CmbPfStartDate.TabIndex = 20;
-            // 
             // CmbGarden
             // 
             this.CmbGarden.FormattingEnabled = true;
@@ -553,6 +545,16 @@
             this.btncancel.Text = "Cancel";
             this.btncancel.UseVisualStyleBackColor = true;
             // 
+            // dateTimePickerPFStartingDate
+            // 
+            this.dateTimePickerPFStartingDate.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPFStartingDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPFStartingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerPFStartingDate.Location = new System.Drawing.Point(499, 157);
+            this.dateTimePickerPFStartingDate.Name = "dateTimePickerPFStartingDate";
+            this.dateTimePickerPFStartingDate.Size = new System.Drawing.Size(183, 20);
+            this.dateTimePickerPFStartingDate.TabIndex = 75;
+            // 
             // frmWeeklyPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -577,7 +579,6 @@
         private System.Windows.Forms.ComboBox CmbArea;
         private System.Windows.Forms.ComboBox CmbWorkerType;
         private System.Windows.Forms.ComboBox CmbSex;
-        private System.Windows.Forms.ComboBox CmbPfStartDate;
         private System.Windows.Forms.ComboBox CmbGarden;
         private System.Windows.Forms.ComboBox cmbWeeklyPaymentWorkStation;
         private System.Windows.Forms.ComboBox CmbDateTo;
@@ -622,5 +623,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.DateTimePicker dateTimePickerPFStartingDate;
     }
 }

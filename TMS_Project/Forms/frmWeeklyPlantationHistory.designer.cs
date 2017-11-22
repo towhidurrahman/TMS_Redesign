@@ -50,6 +50,7 @@
             // 
             // DTPWorkStartDate
             // 
+            this.DTPWorkStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTPWorkStartDate.Location = new System.Drawing.Point(118, 36);
             this.DTPWorkStartDate.Name = "DTPWorkStartDate";
             this.DTPWorkStartDate.Size = new System.Drawing.Size(138, 20);
