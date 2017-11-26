@@ -36,15 +36,15 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCountry = new System.Windows.Forms.TextBox();
-            this.txtZip = new System.Windows.Forms.TextBox();
-            this.txtFax = new System.Windows.Forms.TextBox();
+            this.txtZipCode = new System.Windows.Forms.TextBox();
+            this.txtFaxNumber = new System.Windows.Forms.TextBox();
             this.txtTelephone = new System.Windows.Forms.TextBox();
-            this.txtcontact = new System.Windows.Forms.TextBox();
+            this.txtContact = new System.Windows.Forms.TextBox();
             this.txtState = new System.Windows.Forms.TextBox();
             this.txtCity = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.txtCompanyAddress = new System.Windows.Forms.TextBox();
+            this.txtCompanyAddress3 = new System.Windows.Forms.TextBox();
+            this.txtCompanyAddress2 = new System.Windows.Forms.TextBox();
+            this.txtCompanyAddress1 = new System.Windows.Forms.TextBox();
             this.txtCompanyName = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -58,16 +58,16 @@
             this.label20 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtEstatecountry = new System.Windows.Forms.TextBox();
+            this.txtEstateCountry = new System.Windows.Forms.TextBox();
             this.txtEstateZip = new System.Windows.Forms.TextBox();
             this.txtEstateFax = new System.Windows.Forms.TextBox();
             this.txtEstateTelephone = new System.Windows.Forms.TextBox();
-            this.txtEstatecontact = new System.Windows.Forms.TextBox();
+            this.txtEstateContact = new System.Windows.Forms.TextBox();
             this.txtEstateState = new System.Windows.Forms.TextBox();
-            this.txtEstatecity = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.txtEstateAddress = new System.Windows.Forms.TextBox();
+            this.txtEstateCity = new System.Windows.Forms.TextBox();
+            this.txtEstateAddress3 = new System.Windows.Forms.TextBox();
+            this.txtEstateAddress2 = new System.Windows.Forms.TextBox();
+            this.txtEstateAddress1 = new System.Windows.Forms.TextBox();
             this.txtEstateName = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -87,7 +87,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.txtGardenId = new System.Windows.Forms.TextBox();
             this.txtGardencountry = new System.Windows.Forms.TextBox();
             this.txtGardenzip = new System.Windows.Forms.TextBox();
             this.txtGardenfax = new System.Windows.Forms.TextBox();
@@ -115,10 +115,10 @@
             this.textBox49 = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnSearchLocationType = new System.Windows.Forms.Button();
+            this.btnSearchLocationCode = new System.Windows.Forms.Button();
             this.txtLocationCode = new System.Windows.Forms.TextBox();
-            this.txtcountryCode = new System.Windows.Forms.TextBox();
+            this.txtCountryCode = new System.Windows.Forms.TextBox();
             this.txtBranch = new System.Windows.Forms.TextBox();
             this.txtLocationType = new System.Windows.Forms.TextBox();
             this.cmbGlAccount = new System.Windows.Forms.ComboBox();
@@ -135,7 +135,7 @@
             this.label41 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnok = new System.Windows.Forms.Button();
+            this.btnOk = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -180,15 +180,15 @@
             this.tabPage5.BackColor = System.Drawing.Color.LightGray;
             this.tabPage5.Controls.Add(this.label1);
             this.tabPage5.Controls.Add(this.txtCountry);
-            this.tabPage5.Controls.Add(this.txtZip);
-            this.tabPage5.Controls.Add(this.txtFax);
+            this.tabPage5.Controls.Add(this.txtZipCode);
+            this.tabPage5.Controls.Add(this.txtFaxNumber);
             this.tabPage5.Controls.Add(this.txtTelephone);
-            this.tabPage5.Controls.Add(this.txtcontact);
+            this.tabPage5.Controls.Add(this.txtContact);
             this.tabPage5.Controls.Add(this.txtState);
             this.tabPage5.Controls.Add(this.txtCity);
-            this.tabPage5.Controls.Add(this.textBox19);
-            this.tabPage5.Controls.Add(this.textBox20);
-            this.tabPage5.Controls.Add(this.txtCompanyAddress);
+            this.tabPage5.Controls.Add(this.txtCompanyAddress3);
+            this.tabPage5.Controls.Add(this.txtCompanyAddress2);
+            this.tabPage5.Controls.Add(this.txtCompanyAddress1);
             this.tabPage5.Controls.Add(this.txtCompanyName);
             this.tabPage5.Controls.Add(this.label11);
             this.tabPage5.Controls.Add(this.label12);
@@ -224,19 +224,19 @@
             this.txtCountry.Size = new System.Drawing.Size(374, 20);
             this.txtCountry.TabIndex = 25;
             // 
-            // txtZip
+            // txtZipCode
             // 
-            this.txtZip.Location = new System.Drawing.Point(174, 169);
-            this.txtZip.Name = "txtZip";
-            this.txtZip.Size = new System.Drawing.Size(374, 20);
-            this.txtZip.TabIndex = 23;
+            this.txtZipCode.Location = new System.Drawing.Point(174, 169);
+            this.txtZipCode.Name = "txtZipCode";
+            this.txtZipCode.Size = new System.Drawing.Size(374, 20);
+            this.txtZipCode.TabIndex = 23;
             // 
-            // txtFax
+            // txtFaxNumber
             // 
-            this.txtFax.Location = new System.Drawing.Point(173, 334);
-            this.txtFax.Name = "txtFax";
-            this.txtFax.Size = new System.Drawing.Size(582, 20);
-            this.txtFax.TabIndex = 22;
+            this.txtFaxNumber.Location = new System.Drawing.Point(173, 334);
+            this.txtFaxNumber.Name = "txtFaxNumber";
+            this.txtFaxNumber.Size = new System.Drawing.Size(582, 20);
+            this.txtFaxNumber.TabIndex = 22;
             // 
             // txtTelephone
             // 
@@ -245,12 +245,12 @@
             this.txtTelephone.Size = new System.Drawing.Size(582, 20);
             this.txtTelephone.TabIndex = 21;
             // 
-            // txtcontact
+            // txtContact
             // 
-            this.txtcontact.Location = new System.Drawing.Point(173, 278);
-            this.txtcontact.Name = "txtcontact";
-            this.txtcontact.Size = new System.Drawing.Size(582, 20);
-            this.txtcontact.TabIndex = 20;
+            this.txtContact.Location = new System.Drawing.Point(173, 278);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(582, 20);
+            this.txtContact.TabIndex = 20;
             // 
             // txtState
             // 
@@ -266,26 +266,26 @@
             this.txtCity.Size = new System.Drawing.Size(374, 20);
             this.txtCity.TabIndex = 14;
             // 
-            // textBox19
+            // txtCompanyAddress3
             // 
-            this.textBox19.Location = new System.Drawing.Point(174, 90);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(582, 20);
-            this.textBox19.TabIndex = 13;
+            this.txtCompanyAddress3.Location = new System.Drawing.Point(174, 90);
+            this.txtCompanyAddress3.Name = "txtCompanyAddress3";
+            this.txtCompanyAddress3.Size = new System.Drawing.Size(582, 20);
+            this.txtCompanyAddress3.TabIndex = 13;
             // 
-            // textBox20
+            // txtCompanyAddress2
             // 
-            this.textBox20.Location = new System.Drawing.Point(174, 67);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(582, 20);
-            this.textBox20.TabIndex = 12;
+            this.txtCompanyAddress2.Location = new System.Drawing.Point(174, 67);
+            this.txtCompanyAddress2.Name = "txtCompanyAddress2";
+            this.txtCompanyAddress2.Size = new System.Drawing.Size(582, 20);
+            this.txtCompanyAddress2.TabIndex = 12;
             // 
-            // txtCompanyAddress
+            // txtCompanyAddress1
             // 
-            this.txtCompanyAddress.Location = new System.Drawing.Point(174, 42);
-            this.txtCompanyAddress.Name = "txtCompanyAddress";
-            this.txtCompanyAddress.Size = new System.Drawing.Size(582, 20);
-            this.txtCompanyAddress.TabIndex = 11;
+            this.txtCompanyAddress1.Location = new System.Drawing.Point(174, 42);
+            this.txtCompanyAddress1.Name = "txtCompanyAddress1";
+            this.txtCompanyAddress1.Size = new System.Drawing.Size(582, 20);
+            this.txtCompanyAddress1.TabIndex = 11;
             // 
             // txtCompanyName
             // 
@@ -398,16 +398,16 @@
             // 
             this.tabPage9.BackColor = System.Drawing.Color.LightGray;
             this.tabPage9.Controls.Add(this.label2);
-            this.tabPage9.Controls.Add(this.txtEstatecountry);
+            this.tabPage9.Controls.Add(this.txtEstateCountry);
             this.tabPage9.Controls.Add(this.txtEstateZip);
             this.tabPage9.Controls.Add(this.txtEstateFax);
             this.tabPage9.Controls.Add(this.txtEstateTelephone);
-            this.tabPage9.Controls.Add(this.txtEstatecontact);
+            this.tabPage9.Controls.Add(this.txtEstateContact);
             this.tabPage9.Controls.Add(this.txtEstateState);
-            this.tabPage9.Controls.Add(this.txtEstatecity);
-            this.tabPage9.Controls.Add(this.textBox30);
-            this.tabPage9.Controls.Add(this.textBox31);
-            this.tabPage9.Controls.Add(this.txtEstateAddress);
+            this.tabPage9.Controls.Add(this.txtEstateCity);
+            this.tabPage9.Controls.Add(this.txtEstateAddress3);
+            this.tabPage9.Controls.Add(this.txtEstateAddress2);
+            this.tabPage9.Controls.Add(this.txtEstateAddress1);
             this.tabPage9.Controls.Add(this.txtEstateName);
             this.tabPage9.Controls.Add(this.label21);
             this.tabPage9.Controls.Add(this.label22);
@@ -422,7 +422,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(777, 376);
+            this.tabPage9.Size = new System.Drawing.Size(771, 376);
             this.tabPage9.TabIndex = 4;
             this.tabPage9.Text = "Estate";
             // 
@@ -436,12 +436,12 @@
             this.label2.TabIndex = 27;
             this.label2.Text = "Image";
             // 
-            // txtEstatecountry
+            // txtEstateCountry
             // 
-            this.txtEstatecountry.Location = new System.Drawing.Point(173, 195);
-            this.txtEstatecountry.Name = "txtEstatecountry";
-            this.txtEstatecountry.Size = new System.Drawing.Size(374, 20);
-            this.txtEstatecountry.TabIndex = 25;
+            this.txtEstateCountry.Location = new System.Drawing.Point(173, 195);
+            this.txtEstateCountry.Name = "txtEstateCountry";
+            this.txtEstateCountry.Size = new System.Drawing.Size(374, 20);
+            this.txtEstateCountry.TabIndex = 25;
             // 
             // txtEstateZip
             // 
@@ -464,12 +464,12 @@
             this.txtEstateTelephone.Size = new System.Drawing.Size(582, 20);
             this.txtEstateTelephone.TabIndex = 21;
             // 
-            // txtEstatecontact
+            // txtEstateContact
             // 
-            this.txtEstatecontact.Location = new System.Drawing.Point(170, 278);
-            this.txtEstatecontact.Name = "txtEstatecontact";
-            this.txtEstatecontact.Size = new System.Drawing.Size(582, 20);
-            this.txtEstatecontact.TabIndex = 20;
+            this.txtEstateContact.Location = new System.Drawing.Point(170, 278);
+            this.txtEstateContact.Name = "txtEstateContact";
+            this.txtEstateContact.Size = new System.Drawing.Size(582, 20);
+            this.txtEstateContact.TabIndex = 20;
             // 
             // txtEstateState
             // 
@@ -478,33 +478,33 @@
             this.txtEstateState.Size = new System.Drawing.Size(374, 20);
             this.txtEstateState.TabIndex = 15;
             // 
-            // txtEstatecity
+            // txtEstateCity
             // 
-            this.txtEstatecity.Location = new System.Drawing.Point(173, 116);
-            this.txtEstatecity.Name = "txtEstatecity";
-            this.txtEstatecity.Size = new System.Drawing.Size(374, 20);
-            this.txtEstatecity.TabIndex = 14;
+            this.txtEstateCity.Location = new System.Drawing.Point(173, 116);
+            this.txtEstateCity.Name = "txtEstateCity";
+            this.txtEstateCity.Size = new System.Drawing.Size(374, 20);
+            this.txtEstateCity.TabIndex = 14;
             // 
-            // textBox30
+            // txtEstateAddress3
             // 
-            this.textBox30.Location = new System.Drawing.Point(173, 90);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(582, 20);
-            this.textBox30.TabIndex = 13;
+            this.txtEstateAddress3.Location = new System.Drawing.Point(173, 90);
+            this.txtEstateAddress3.Name = "txtEstateAddress3";
+            this.txtEstateAddress3.Size = new System.Drawing.Size(582, 20);
+            this.txtEstateAddress3.TabIndex = 13;
             // 
-            // textBox31
+            // txtEstateAddress2
             // 
-            this.textBox31.Location = new System.Drawing.Point(173, 67);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(582, 20);
-            this.textBox31.TabIndex = 12;
+            this.txtEstateAddress2.Location = new System.Drawing.Point(173, 67);
+            this.txtEstateAddress2.Name = "txtEstateAddress2";
+            this.txtEstateAddress2.Size = new System.Drawing.Size(582, 20);
+            this.txtEstateAddress2.TabIndex = 12;
             // 
-            // txtEstateAddress
+            // txtEstateAddress1
             // 
-            this.txtEstateAddress.Location = new System.Drawing.Point(173, 41);
-            this.txtEstateAddress.Name = "txtEstateAddress";
-            this.txtEstateAddress.Size = new System.Drawing.Size(582, 20);
-            this.txtEstateAddress.TabIndex = 11;
+            this.txtEstateAddress1.Location = new System.Drawing.Point(173, 41);
+            this.txtEstateAddress1.Name = "txtEstateAddress1";
+            this.txtEstateAddress1.Size = new System.Drawing.Size(582, 20);
+            this.txtEstateAddress1.TabIndex = 11;
             // 
             // txtEstateName
             // 
@@ -623,7 +623,7 @@
             this.tabPage8.Controls.Add(this.btnNext);
             this.tabPage8.Controls.Add(this.btnFirst);
             this.tabPage8.Controls.Add(this.btnPrevious);
-            this.tabPage8.Controls.Add(this.textBox44);
+            this.tabPage8.Controls.Add(this.txtGardenId);
             this.tabPage8.Controls.Add(this.txtGardencountry);
             this.tabPage8.Controls.Add(this.txtGardenzip);
             this.tabPage8.Controls.Add(this.txtGardenfax);
@@ -665,7 +665,7 @@
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(525, 10);
+            this.btnNew.Location = new System.Drawing.Point(519, 10);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(25, 21);
             this.btnNew.TabIndex = 71;
@@ -674,7 +674,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(499, 10);
+            this.btnSearch.Location = new System.Drawing.Point(496, 10);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 70;
@@ -683,7 +683,7 @@
             // btnLast
             // 
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(475, 10);
+            this.btnLast.Location = new System.Drawing.Point(472, 10);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(25, 21);
             this.btnLast.TabIndex = 69;
@@ -692,7 +692,7 @@
             // btnNext
             // 
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(451, 9);
+            this.btnNext.Location = new System.Drawing.Point(448, 9);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(25, 21);
             this.btnNext.TabIndex = 68;
@@ -716,12 +716,12 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox44
+            // txtGardenId
             // 
-            this.textBox44.Location = new System.Drawing.Point(222, 10);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(228, 20);
-            this.textBox44.TabIndex = 65;
+            this.txtGardenId.Location = new System.Drawing.Point(222, 10);
+            this.txtGardenId.Name = "txtGardenId";
+            this.txtGardenId.Size = new System.Drawing.Size(228, 20);
+            this.txtGardenId.TabIndex = 65;
             // 
             // txtGardencountry
             // 
@@ -974,10 +974,10 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.button5);
-            this.groupBox9.Controls.Add(this.button4);
+            this.groupBox9.Controls.Add(this.btnSearchLocationType);
+            this.groupBox9.Controls.Add(this.btnSearchLocationCode);
             this.groupBox9.Controls.Add(this.txtLocationCode);
-            this.groupBox9.Controls.Add(this.txtcountryCode);
+            this.groupBox9.Controls.Add(this.txtCountryCode);
             this.groupBox9.Controls.Add(this.txtBranch);
             this.groupBox9.Controls.Add(this.txtLocationType);
             this.groupBox9.Controls.Add(this.cmbGlAccount);
@@ -998,23 +998,23 @@
             this.groupBox9.TabIndex = 0;
             this.groupBox9.TabStop = false;
             // 
-            // button5
+            // btnSearchLocationType
             // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(332, 123);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(25, 21);
-            this.button5.TabIndex = 73;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSearchLocationType.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchLocationType.Image")));
+            this.btnSearchLocationType.Location = new System.Drawing.Point(332, 123);
+            this.btnSearchLocationType.Name = "btnSearchLocationType";
+            this.btnSearchLocationType.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchLocationType.TabIndex = 73;
+            this.btnSearchLocationType.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearchLocationCode
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(694, 122);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 72;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchLocationCode.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchLocationCode.Image")));
+            this.btnSearchLocationCode.Location = new System.Drawing.Point(694, 122);
+            this.btnSearchLocationCode.Name = "btnSearchLocationCode";
+            this.btnSearchLocationCode.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchLocationCode.TabIndex = 72;
+            this.btnSearchLocationCode.UseVisualStyleBackColor = true;
             // 
             // txtLocationCode
             // 
@@ -1023,12 +1023,12 @@
             this.txtLocationCode.Size = new System.Drawing.Size(193, 20);
             this.txtLocationCode.TabIndex = 16;
             // 
-            // txtcountryCode
+            // txtCountryCode
             // 
-            this.txtcountryCode.Location = new System.Drawing.Point(173, 151);
-            this.txtcountryCode.Name = "txtcountryCode";
-            this.txtcountryCode.Size = new System.Drawing.Size(155, 20);
-            this.txtcountryCode.TabIndex = 15;
+            this.txtCountryCode.Location = new System.Drawing.Point(173, 151);
+            this.txtCountryCode.Name = "txtCountryCode";
+            this.txtCountryCode.Size = new System.Drawing.Size(155, 20);
+            this.txtCountryCode.TabIndex = 15;
             // 
             // txtBranch
             // 
@@ -1162,7 +1162,7 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.btnCancel);
-            this.groupBox6.Controls.Add(this.btnok);
+            this.groupBox6.Controls.Add(this.btnOk);
             this.groupBox6.Location = new System.Drawing.Point(4, 420);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(795, 39);
@@ -1177,15 +1177,16 @@
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnok
+            // btnOk
             // 
-            this.btnok.Location = new System.Drawing.Point(6, 11);
-            this.btnok.Name = "btnok";
-            this.btnok.Size = new System.Drawing.Size(68, 22);
-            this.btnok.TabIndex = 0;
-            this.btnok.Text = "Ok";
-            this.btnok.UseVisualStyleBackColor = true;
+            this.btnOk.Location = new System.Drawing.Point(6, 11);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(68, 22);
+            this.btnOk.TabIndex = 0;
+            this.btnOk.Text = "Ok";
+            this.btnOk.UseVisualStyleBackColor = true;
             // 
             // frmCompanyInformation
             // 
@@ -1222,15 +1223,15 @@
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TextBox txtCountry;
-        private System.Windows.Forms.TextBox txtZip;
-        private System.Windows.Forms.TextBox txtFax;
+        private System.Windows.Forms.TextBox txtZipCode;
+        private System.Windows.Forms.TextBox txtFaxNumber;
         private System.Windows.Forms.TextBox txtTelephone;
-        private System.Windows.Forms.TextBox txtcontact;
+        private System.Windows.Forms.TextBox txtContact;
         private System.Windows.Forms.TextBox txtState;
         private System.Windows.Forms.TextBox txtCity;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox txtCompanyAddress;
+        private System.Windows.Forms.TextBox txtCompanyAddress3;
+        private System.Windows.Forms.TextBox txtCompanyAddress2;
+        private System.Windows.Forms.TextBox txtCompanyAddress1;
         private System.Windows.Forms.TextBox txtCompanyName;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
@@ -1243,16 +1244,16 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TextBox txtEstatecountry;
+        private System.Windows.Forms.TextBox txtEstateCountry;
         private System.Windows.Forms.TextBox txtEstateZip;
         private System.Windows.Forms.TextBox txtEstateFax;
         private System.Windows.Forms.TextBox txtEstateTelephone;
-        private System.Windows.Forms.TextBox txtEstatecontact;
+        private System.Windows.Forms.TextBox txtEstateContact;
         private System.Windows.Forms.TextBox txtEstateState;
-        private System.Windows.Forms.TextBox txtEstatecity;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox txtEstateAddress;
+        private System.Windows.Forms.TextBox txtEstateCity;
+        private System.Windows.Forms.TextBox txtEstateAddress3;
+        private System.Windows.Forms.TextBox txtEstateAddress2;
+        private System.Windows.Forms.TextBox txtEstateAddress1;
         private System.Windows.Forms.TextBox txtEstateName;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -1271,7 +1272,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox txtGardenId;
         private System.Windows.Forms.TextBox txtGardencountry;
         private System.Windows.Forms.TextBox txtGardenzip;
         private System.Windows.Forms.TextBox txtGardenfax;
@@ -1299,10 +1300,10 @@
         private System.Windows.Forms.TextBox textBox49;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnSearchLocationType;
+        private System.Windows.Forms.Button btnSearchLocationCode;
         private System.Windows.Forms.TextBox txtLocationCode;
-        private System.Windows.Forms.TextBox txtcountryCode;
+        private System.Windows.Forms.TextBox txtCountryCode;
         private System.Windows.Forms.TextBox txtBranch;
         private System.Windows.Forms.TextBox txtLocationType;
         private System.Windows.Forms.ComboBox cmbGlAccount;
@@ -1319,7 +1320,7 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnok;
+        private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

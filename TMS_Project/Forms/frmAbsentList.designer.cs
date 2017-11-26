@@ -37,10 +37,10 @@
             this.FrmWekklyRationtoDate = new System.Windows.Forms.Label();
             this.FrmWekklyRationFrmDate = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.CmbAbsencelSex = new System.Windows.Forms.ComboBox();
+            this.cmbAbsencelSex = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.CmbAbsencelArea = new System.Windows.Forms.ComboBox();
+            this.cmbAbsencelArea = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
@@ -51,7 +51,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,10 +64,10 @@
             this.groupBox1.Controls.Add(this.FrmWekklyRationtoDate);
             this.groupBox1.Controls.Add(this.FrmWekklyRationFrmDate);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.CmbAbsencelSex);
+            this.groupBox1.Controls.Add(this.cmbAbsencelSex);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.CmbAbsencelArea);
+            this.groupBox1.Controls.Add(this.cmbAbsencelArea);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.btnSearch);
@@ -147,13 +147,13 @@
             this.label8.TabIndex = 78;
             this.label8.Text = ":";
             // 
-            // CmbAbsencelSex
+            // cmbAbsencelSex
             // 
-            this.CmbAbsencelSex.FormattingEnabled = true;
-            this.CmbAbsencelSex.Location = new System.Drawing.Point(116, 106);
-            this.CmbAbsencelSex.Name = "CmbAbsencelSex";
-            this.CmbAbsencelSex.Size = new System.Drawing.Size(154, 21);
-            this.CmbAbsencelSex.TabIndex = 77;
+            this.cmbAbsencelSex.FormattingEnabled = true;
+            this.cmbAbsencelSex.Location = new System.Drawing.Point(116, 106);
+            this.cmbAbsencelSex.Name = "cmbAbsencelSex";
+            this.cmbAbsencelSex.Size = new System.Drawing.Size(154, 21);
+            this.cmbAbsencelSex.TabIndex = 77;
             // 
             // label9
             // 
@@ -173,13 +173,13 @@
             this.label4.TabIndex = 75;
             this.label4.Text = ":";
             // 
-            // CmbAbsencelArea
+            // cmbAbsencelArea
             // 
-            this.CmbAbsencelArea.FormattingEnabled = true;
-            this.CmbAbsencelArea.Location = new System.Drawing.Point(116, 78);
-            this.CmbAbsencelArea.Name = "CmbAbsencelArea";
-            this.CmbAbsencelArea.Size = new System.Drawing.Size(154, 21);
-            this.CmbAbsencelArea.TabIndex = 74;
+            this.cmbAbsencelArea.FormattingEnabled = true;
+            this.cmbAbsencelArea.Location = new System.Drawing.Point(116, 78);
+            this.cmbAbsencelArea.Name = "cmbAbsencelArea";
+            this.cmbAbsencelArea.Size = new System.Drawing.Size(154, 21);
+            this.cmbAbsencelArea.TabIndex = 74;
             // 
             // label1
             // 
@@ -267,21 +267,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(557, 154);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(73, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(557, 154);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(73, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // frmAbsentList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(640, 186);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmAbsentList";
@@ -301,16 +302,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox CmbAbsencelSex;
+        private System.Windows.Forms.ComboBox cmbAbsencelSex;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox CmbAbsencelArea;
+        private System.Windows.Forms.ComboBox cmbAbsencelArea;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dTPickerAbsentLToDate;
         private System.Windows.Forms.DateTimePicker dTPickerAbsentLFromDate;

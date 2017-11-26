@@ -75,7 +75,7 @@
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(316, 17);
+            this.btnNew.Location = new System.Drawing.Point(308, 17);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(25, 21);
             this.btnNew.TabIndex = 78;
@@ -84,7 +84,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(292, 17);
+            this.btnSearch.Location = new System.Drawing.Point(284, 17);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 77;
@@ -93,7 +93,7 @@
             // btnLast
             // 
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(268, 17);
+            this.btnLast.Location = new System.Drawing.Point(260, 17);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(25, 21);
             this.btnLast.TabIndex = 76;
@@ -102,7 +102,7 @@
             // btnNext
             // 
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(244, 17);
+            this.btnNext.Location = new System.Drawing.Point(236, 17);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(25, 21);
             this.btnNext.TabIndex = 75;
@@ -120,7 +120,7 @@
             // btnPrevious
             // 
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(113, 17);
+            this.btnPrevious.Location = new System.Drawing.Point(112, 17);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(25, 21);
             this.btnPrevious.TabIndex = 73;
@@ -128,7 +128,7 @@
             // 
             // txtBabuID
             // 
-            this.txtBabuID.Location = new System.Drawing.Point(140, 17);
+            this.txtBabuID.Location = new System.Drawing.Point(136, 17);
             this.txtBabuID.Name = "txtBabuID";
             this.txtBabuID.Size = new System.Drawing.Size(101, 20);
             this.txtBabuID.TabIndex = 72;
@@ -149,6 +149,7 @@
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 

@@ -33,23 +33,23 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnRowAdd = new System.Windows.Forms.Button();
+            this.btnRowDelete = new System.Windows.Forms.Button();
+            this.btnEntryDelete = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dTPickerReceiptDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpickerReceiptDate = new System.Windows.Forms.DateTimePicker();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtReceiptNo = new System.Windows.Forms.TextBox();
             this.cmbDailyITransRGarden = new System.Windows.Forms.ComboBox();
-            this.textBoxDailyITransRDes = new System.Windows.Forms.TextBox();
+            this.txtDailyITransRDes = new System.Windows.Forms.TextBox();
             this.lblDailyITransRGarden = new System.Windows.Forms.Label();
             this.lblDailyITransRDate = new System.Windows.Forms.Label();
             this.lblDailyITransRDescrip = new System.Windows.Forms.Label();
@@ -146,11 +146,11 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.LightGray;
             this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Controls.Add(this.button5);
-            this.tabPage1.Controls.Add(this.button4);
-            this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.btnCancel);
+            this.tabPage1.Controls.Add(this.btnRowAdd);
+            this.tabPage1.Controls.Add(this.btnRowDelete);
+            this.tabPage1.Controls.Add(this.btnEntryDelete);
+            this.tabPage1.Controls.Add(this.btnSave);
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
@@ -170,55 +170,55 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // button5
+            // btnCancel
             // 
-            this.button5.Location = new System.Drawing.Point(601, 383);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Cancel";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnCancel.Location = new System.Drawing.Point(601, 383);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
+            // btnRowAdd
             // 
-            this.button4.Location = new System.Drawing.Point(469, 383);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Row Add >>";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnRowAdd.Location = new System.Drawing.Point(469, 383);
+            this.btnRowAdd.Name = "btnRowAdd";
+            this.btnRowAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnRowAdd.TabIndex = 5;
+            this.btnRowAdd.Text = "Row Add >>";
+            this.btnRowAdd.UseVisualStyleBackColor = true;
+            this.btnRowAdd.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btnRowDelete
             // 
-            this.button3.Location = new System.Drawing.Point(299, 383);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "<< Row Del";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnRowDelete.Location = new System.Drawing.Point(299, 383);
+            this.btnRowDelete.Name = "btnRowDelete";
+            this.btnRowDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnRowDelete.TabIndex = 4;
+            this.btnRowDelete.Text = "<< Row Del";
+            this.btnRowDelete.UseVisualStyleBackColor = true;
+            this.btnRowDelete.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnEntryDelete
             // 
-            this.button2.Location = new System.Drawing.Point(137, 383);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Entry Delete";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnEntryDelete.Location = new System.Drawing.Point(137, 383);
+            this.btnEntryDelete.Name = "btnEntryDelete";
+            this.btnEntryDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnEntryDelete.TabIndex = 3;
+            this.btnEntryDelete.Text = "Entry Delete";
+            this.btnEntryDelete.UseVisualStyleBackColor = true;
+            this.btnEntryDelete.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Location = new System.Drawing.Point(4, 383);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSave.Location = new System.Drawing.Point(4, 383);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox3
             // 
@@ -232,16 +232,16 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox2.Controls.Add(this.dTPickerReceiptDate);
+            this.groupBox2.Controls.Add(this.dtpickerReceiptDate);
             this.groupBox2.Controls.Add(this.btnNew);
             this.groupBox2.Controls.Add(this.btnSearch);
             this.groupBox2.Controls.Add(this.btnLast);
             this.groupBox2.Controls.Add(this.btnNext);
             this.groupBox2.Controls.Add(this.btnFirst);
             this.groupBox2.Controls.Add(this.btnPrevious);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.txtReceiptNo);
             this.groupBox2.Controls.Add(this.cmbDailyITransRGarden);
-            this.groupBox2.Controls.Add(this.textBoxDailyITransRDes);
+            this.groupBox2.Controls.Add(this.txtDailyITransRDes);
             this.groupBox2.Controls.Add(this.lblDailyITransRGarden);
             this.groupBox2.Controls.Add(this.lblDailyITransRDate);
             this.groupBox2.Controls.Add(this.lblDailyITransRDescrip);
@@ -253,13 +253,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // dTPickerReceiptDate
+            // dtpickerReceiptDate
             // 
-            this.dTPickerReceiptDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerReceiptDate.Location = new System.Drawing.Point(104, 67);
-            this.dTPickerReceiptDate.Name = "dTPickerReceiptDate";
-            this.dTPickerReceiptDate.Size = new System.Drawing.Size(116, 20);
-            this.dTPickerReceiptDate.TabIndex = 93;
+            this.dtpickerReceiptDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerReceiptDate.Location = new System.Drawing.Point(104, 67);
+            this.dtpickerReceiptDate.Name = "dtpickerReceiptDate";
+            this.dtpickerReceiptDate.Size = new System.Drawing.Size(116, 20);
+            this.dtpickerReceiptDate.TabIndex = 93;
             // 
             // btnNew
             // 
@@ -315,12 +315,12 @@
             this.btnPrevious.TabIndex = 87;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtReceiptNo
             // 
-            this.textBox3.Location = new System.Drawing.Point(154, 14);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(160, 20);
-            this.textBox3.TabIndex = 86;
+            this.txtReceiptNo.Location = new System.Drawing.Point(154, 14);
+            this.txtReceiptNo.Name = "txtReceiptNo";
+            this.txtReceiptNo.Size = new System.Drawing.Size(160, 20);
+            this.txtReceiptNo.TabIndex = 86;
             // 
             // cmbDailyITransRGarden
             // 
@@ -330,12 +330,12 @@
             this.cmbDailyITransRGarden.Size = new System.Drawing.Size(110, 21);
             this.cmbDailyITransRGarden.TabIndex = 85;
             // 
-            // textBoxDailyITransRDes
+            // txtDailyITransRDes
             // 
-            this.textBoxDailyITransRDes.Location = new System.Drawing.Point(104, 41);
-            this.textBoxDailyITransRDes.Name = "textBoxDailyITransRDes";
-            this.textBoxDailyITransRDes.Size = new System.Drawing.Size(197, 20);
-            this.textBoxDailyITransRDes.TabIndex = 84;
+            this.txtDailyITransRDes.Location = new System.Drawing.Point(104, 41);
+            this.txtDailyITransRDes.Name = "txtDailyITransRDes";
+            this.txtDailyITransRDes.Size = new System.Drawing.Size(197, 20);
+            this.txtDailyITransRDes.TabIndex = 84;
             // 
             // lblDailyITransRGarden
             // 
@@ -390,7 +390,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(796, 524);
+            this.tabPage2.Size = new System.Drawing.Size(697, 412);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Transfer";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
@@ -634,7 +634,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(796, 524);
+            this.tabPage3.Size = new System.Drawing.Size(697, 412);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Adjust";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
@@ -883,11 +883,11 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnRowAdd;
+        private System.Windows.Forms.Button btnRowDelete;
+        private System.Windows.Forms.Button btnEntryDelete;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -925,16 +925,16 @@
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.DateTimePicker dTPickerTransferDate;
-        private System.Windows.Forms.DateTimePicker dTPickerReceiptDate;
+        private System.Windows.Forms.DateTimePicker dtpickerReceiptDate;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtReceiptNo;
         private System.Windows.Forms.ComboBox cmbDailyITransRGarden;
-        private System.Windows.Forms.TextBox textBoxDailyITransRDes;
+        private System.Windows.Forms.TextBox txtDailyITransRDes;
         private System.Windows.Forms.Label lblDailyITransRGarden;
         private System.Windows.Forms.Label lblDailyITransRDate;
         private System.Windows.Forms.Label lblDailyITransRDescrip;

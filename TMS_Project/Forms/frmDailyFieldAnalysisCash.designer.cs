@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDailyFieldAnalysisCash));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btncancel = new System.Windows.Forms.Button();
-            this.dTPickerDFieldAToDate = new System.Windows.Forms.DateTimePicker();
-            this.dTPickerDFieldAFromDate = new System.Windows.Forms.DateTimePicker();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.dtpickerDFieldAToDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpickerDFieldAFromDate = new System.Windows.Forms.DateTimePicker();
+            this.btnSearchFieldACategoryTo = new System.Windows.Forms.Button();
+            this.btnSearchFieldACategoryFrom = new System.Windows.Forms.Button();
             this.txtDFieldACategoryto = new System.Windows.Forms.TextBox();
             this.txtDFieldACategoryFrom = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -57,48 +57,50 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(539, 110);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 5;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(539, 110);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // dTPickerDFieldAToDate
+            // dtpickerDFieldAToDate
             // 
-            this.dTPickerDFieldAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
-            this.dTPickerDFieldAToDate.Name = "dTPickerDFieldAToDate";
-            this.dTPickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
-            this.dTPickerDFieldAToDate.TabIndex = 76;
+            this.dtpickerDFieldAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
+            this.dtpickerDFieldAToDate.Name = "dtpickerDFieldAToDate";
+            this.dtpickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
+            this.dtpickerDFieldAToDate.TabIndex = 76;
             // 
-            // dTPickerDFieldAFromDate
+            // dtpickerDFieldAFromDate
             // 
-            this.dTPickerDFieldAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
-            this.dTPickerDFieldAFromDate.Name = "dTPickerDFieldAFromDate";
-            this.dTPickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);
-            this.dTPickerDFieldAFromDate.TabIndex = 75;
+            this.dtpickerDFieldAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
+            this.dtpickerDFieldAFromDate.Name = "dtpickerDFieldAFromDate";
+            this.dtpickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);
+            this.dtpickerDFieldAFromDate.TabIndex = 75;
             // 
-            // button4
+            // btnSearchFieldACategoryTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(589, 66);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchFieldACategoryTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchFieldACategoryTo.Image")));
+            this.btnSearchFieldACategoryTo.Location = new System.Drawing.Point(589, 66);
+            this.btnSearchFieldACategoryTo.Name = "btnSearchFieldACategoryTo";
+            this.btnSearchFieldACategoryTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchFieldACategoryTo.TabIndex = 73;
+            this.btnSearchFieldACategoryTo.UseVisualStyleBackColor = true;
+            this.btnSearchFieldACategoryTo.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btnSearchFieldACategoryFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(284, 60);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchFieldACategoryFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchFieldACategoryFrom.Image")));
+            this.btnSearchFieldACategoryFrom.Location = new System.Drawing.Point(284, 60);
+            this.btnSearchFieldACategoryFrom.Name = "btnSearchFieldACategoryFrom";
+            this.btnSearchFieldACategoryFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchFieldACategoryFrom.TabIndex = 72;
+            this.btnSearchFieldACategoryFrom.UseVisualStyleBackColor = true;
             // 
             // txtDFieldACategoryto
             // 
@@ -249,10 +251,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dTPickerDFieldAToDate);
-            this.groupBox1.Controls.Add(this.dTPickerDFieldAFromDate);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.dtpickerDFieldAToDate);
+            this.groupBox1.Controls.Add(this.dtpickerDFieldAFromDate);
+            this.groupBox1.Controls.Add(this.btnSearchFieldACategoryTo);
+            this.groupBox1.Controls.Add(this.btnSearchFieldACategoryFrom);
             this.groupBox1.Controls.Add(this.txtDFieldACategoryto);
             this.groupBox1.Controls.Add(this.txtDFieldACategoryFrom);
             this.groupBox1.Controls.Add(this.label23);
@@ -281,7 +283,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 138);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyFieldAnalysisCash";
@@ -295,11 +297,11 @@
 
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button btncancel;
-        private System.Windows.Forms.DateTimePicker dTPickerDFieldAToDate;
-        private System.Windows.Forms.DateTimePicker dTPickerDFieldAFromDate;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.DateTimePicker dtpickerDFieldAToDate;
+        private System.Windows.Forms.DateTimePicker dtpickerDFieldAFromDate;
+        private System.Windows.Forms.Button btnSearchFieldACategoryTo;
+        private System.Windows.Forms.Button btnSearchFieldACategoryFrom;
         private System.Windows.Forms.TextBox txtDFieldACategoryto;
         private System.Windows.Forms.TextBox txtDFieldACategoryFrom;
         private System.Windows.Forms.Label label23;

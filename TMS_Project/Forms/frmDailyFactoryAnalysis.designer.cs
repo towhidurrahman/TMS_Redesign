@@ -32,8 +32,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dTPickerDFactoryAToDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerDFactoryAFromDate = new System.Windows.Forms.DateTimePicker();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSearchCatTo = new System.Windows.Forms.Button();
+            this.btnSearchCatFrom = new System.Windows.Forms.Button();
             this.checkBoxDFactoryASection = new System.Windows.Forms.CheckBox();
             this.txtDFactoryACategoryto = new System.Windows.Forms.TextBox();
             this.txtDFactoryACategoryFrom = new System.Windows.Forms.TextBox();
@@ -55,7 +55,7 @@
             this.FrmWPaymentlabel1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,8 +63,8 @@
             // 
             this.groupBox1.Controls.Add(this.dTPickerDFactoryAToDate);
             this.groupBox1.Controls.Add(this.dTPickerDFactoryAFromDate);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnSearchCatTo);
+            this.groupBox1.Controls.Add(this.btnSearchCatFrom);
             this.groupBox1.Controls.Add(this.checkBoxDFactoryASection);
             this.groupBox1.Controls.Add(this.txtDFactoryACategoryto);
             this.groupBox1.Controls.Add(this.txtDFactoryACategoryFrom);
@@ -107,23 +107,23 @@
             this.dTPickerDFactoryAFromDate.Size = new System.Drawing.Size(157, 20);
             this.dTPickerDFactoryAFromDate.TabIndex = 75;
             // 
-            // button4
+            // btnSearchCatTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(607, 78);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchCatTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchCatTo.Image")));
+            this.btnSearchCatTo.Location = new System.Drawing.Point(607, 78);
+            this.btnSearchCatTo.Name = "btnSearchCatTo";
+            this.btnSearchCatTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchCatTo.TabIndex = 73;
+            this.btnSearchCatTo.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSearchCatFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(294, 73);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchCatFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchCatFrom.Image")));
+            this.btnSearchCatFrom.Location = new System.Drawing.Point(294, 73);
+            this.btnSearchCatFrom.Name = "btnSearchCatFrom";
+            this.btnSearchCatFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchCatFrom.TabIndex = 72;
+            this.btnSearchCatFrom.UseVisualStyleBackColor = true;
             // 
             // checkBoxDFactoryASection
             // 
@@ -299,21 +299,21 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(568, 141);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(568, 141);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // frmDailyfactoryAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 170);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyfactoryAnalysis";
@@ -349,9 +349,9 @@
         private System.Windows.Forms.TextBox txtDFactoryACategoryto;
         private System.Windows.Forms.TextBox txtDFactoryACategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnSearchCatTo;
+        private System.Windows.Forms.Button btnSearchCatFrom;
         private System.Windows.Forms.DateTimePicker dTPickerDFactoryAToDate;
         private System.Windows.Forms.DateTimePicker dTPickerDFactoryAFromDate;
     }

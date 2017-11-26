@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Category));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioBCategoryInactive = new System.Windows.Forms.RadioButton();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.txtCategoryto = new System.Windows.Forms.TextBox();
+            this.btnSearchCatTo = new System.Windows.Forms.Button();
+            this.btnSearchCatFrom = new System.Windows.Forms.Button();
+            this.txtCategoryTo = new System.Windows.Forms.TextBox();
             this.txtCategoryFrom = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -44,19 +44,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.CmbReportTCategory = new System.Windows.Forms.ComboBox();
+            this.cmbReportTCategory = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.radioBCategoryInactive);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.txtCategoryto);
+            this.groupBox1.Controls.Add(this.btnSearchCatTo);
+            this.groupBox1.Controls.Add(this.btnSearchCatFrom);
+            this.groupBox1.Controls.Add(this.txtCategoryTo);
             this.groupBox1.Controls.Add(this.txtCategoryFrom);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label17);
@@ -67,7 +67,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.CmbReportTCategory);
+            this.groupBox1.Controls.Add(this.cmbReportTCategory);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(2, 1);
             this.groupBox1.Name = "groupBox1";
@@ -87,30 +87,30 @@
             this.radioBCategoryInactive.Text = "Inactive";
             this.radioBCategoryInactive.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearchCatTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(553, 49);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 81;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchCatTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchCatTo.Image")));
+            this.btnSearchCatTo.Location = new System.Drawing.Point(553, 49);
+            this.btnSearchCatTo.Name = "btnSearchCatTo";
+            this.btnSearchCatTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchCatTo.TabIndex = 81;
+            this.btnSearchCatTo.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSearchCatFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(306, 47);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 80;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchCatFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchCatFrom.Image")));
+            this.btnSearchCatFrom.Location = new System.Drawing.Point(306, 47);
+            this.btnSearchCatFrom.Name = "btnSearchCatFrom";
+            this.btnSearchCatFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchCatFrom.TabIndex = 80;
+            this.btnSearchCatFrom.UseVisualStyleBackColor = true;
             // 
-            // txtCategoryto
+            // txtCategoryTo
             // 
-            this.txtCategoryto.Location = new System.Drawing.Point(417, 49);
-            this.txtCategoryto.Name = "txtCategoryto";
-            this.txtCategoryto.Size = new System.Drawing.Size(130, 20);
-            this.txtCategoryto.TabIndex = 79;
+            this.txtCategoryTo.Location = new System.Drawing.Point(417, 49);
+            this.txtCategoryTo.Name = "txtCategoryTo";
+            this.txtCategoryTo.Size = new System.Drawing.Size(130, 20);
+            this.txtCategoryTo.TabIndex = 79;
             // 
             // txtCategoryFrom
             // 
@@ -204,13 +204,13 @@
             this.label4.TabIndex = 37;
             this.label4.Text = ":";
             // 
-            // CmbReportTCategory
+            // cmbReportTCategory
             // 
-            this.CmbReportTCategory.FormattingEnabled = true;
-            this.CmbReportTCategory.Location = new System.Drawing.Point(138, 23);
-            this.CmbReportTCategory.Name = "CmbReportTCategory";
-            this.CmbReportTCategory.Size = new System.Drawing.Size(368, 21);
-            this.CmbReportTCategory.TabIndex = 5;
+            this.cmbReportTCategory.FormattingEnabled = true;
+            this.cmbReportTCategory.Location = new System.Drawing.Point(138, 23);
+            this.cmbReportTCategory.Name = "cmbReportTCategory";
+            this.cmbReportTCategory.Size = new System.Drawing.Size(368, 21);
+            this.cmbReportTCategory.TabIndex = 5;
             // 
             // label1
             // 
@@ -230,21 +230,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(512, 116);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(87, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(512, 116);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(87, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 150);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "Category";
@@ -259,18 +260,18 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbReportTCategory;
+        private System.Windows.Forms.ComboBox cmbReportTCategory;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioBCategoryActive;
         private System.Windows.Forms.RadioButton radioBCategoryAll;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox txtCategoryto;
+        private System.Windows.Forms.Button btnSearchCatTo;
+        private System.Windows.Forms.Button btnSearchCatFrom;
+        private System.Windows.Forms.TextBox txtCategoryTo;
         private System.Windows.Forms.TextBox txtCategoryFrom;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label17;

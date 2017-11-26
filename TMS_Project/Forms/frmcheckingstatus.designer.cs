@@ -76,10 +76,11 @@
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnCheck
             // 
-            this.btnCheck.Location = new System.Drawing.Point(8, 54);
+            this.btnCheck.Location = new System.Drawing.Point(13, 54);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(65, 23);
             this.btnCheck.TabIndex = 10;

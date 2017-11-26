@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnOK = new System.Windows.Forms.Button();
+            this.btnOk = new System.Windows.Forms.Button();
             this.btnChangePassword = new System.Windows.Forms.Button();
             this.dtpSessionDate = new System.Windows.Forms.DateTimePicker();
             this.cmbCompany = new System.Windows.Forms.ComboBox();
@@ -42,16 +42,16 @@
             this.btnForgetPassword = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnOK
+            // btnOk
             // 
-            this.btnOK.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.btnOK.Location = new System.Drawing.Point(369, 14);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(131, 25);
-            this.btnOK.TabIndex = 17;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            this.btnOk.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.btnOk.Location = new System.Drawing.Point(369, 14);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(131, 25);
+            this.btnOk.TabIndex = 17;
+            this.btnOk.Text = "OK";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnChangePassword
             // 
@@ -169,7 +169,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(510, 149);
             this.Controls.Add(this.btnForgetPassword);
-            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.btnOk);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnChangePassword);
             this.Controls.Add(this.dtpSessionDate);
@@ -189,7 +189,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Button btnChangePassword;
         private System.Windows.Forms.DateTimePicker dtpSessionDate;
         private System.Windows.Forms.ComboBox cmbCompany;

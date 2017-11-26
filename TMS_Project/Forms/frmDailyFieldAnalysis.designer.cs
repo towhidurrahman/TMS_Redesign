@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDailyFieldAnalysis));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dTPickerDFieldAToDate = new System.Windows.Forms.DateTimePicker();
-            this.dTPickerDFieldAFromDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpickerDFieldAToDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpickerDFieldAFromDate = new System.Windows.Forms.DateTimePicker();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.checkBoxDFieldASection = new System.Windows.Forms.CheckBox();
@@ -44,7 +44,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.CmbDFieldAGarden = new System.Windows.Forms.ComboBox();
+            this.cmbDFieldAGarden = new System.Windows.Forms.ComboBox();
             this.cmbDFieldAWorkStation = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel11 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel10 = new System.Windows.Forms.Label();
@@ -55,14 +55,14 @@
             this.frmFieldAnalysis = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dTPickerDFieldAToDate);
-            this.groupBox1.Controls.Add(this.dTPickerDFieldAFromDate);
+            this.groupBox1.Controls.Add(this.dtpickerDFieldAToDate);
+            this.groupBox1.Controls.Add(this.dtpickerDFieldAFromDate);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.checkBoxDFieldASection);
@@ -75,7 +75,7 @@
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.CmbDFieldAGarden);
+            this.groupBox1.Controls.Add(this.cmbDFieldAGarden);
             this.groupBox1.Controls.Add(this.cmbDFieldAWorkStation);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel11);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
@@ -91,21 +91,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
             // 
-            // dTPickerDFieldAToDate
+            // dtpickerDFieldAToDate
             // 
-            this.dTPickerDFieldAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
-            this.dTPickerDFieldAToDate.Name = "dTPickerDFieldAToDate";
-            this.dTPickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
-            this.dTPickerDFieldAToDate.TabIndex = 76;
+            this.dtpickerDFieldAToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerDFieldAToDate.Location = new System.Drawing.Point(426, 12);
+            this.dtpickerDFieldAToDate.Name = "dtpickerDFieldAToDate";
+            this.dtpickerDFieldAToDate.Size = new System.Drawing.Size(158, 20);
+            this.dtpickerDFieldAToDate.TabIndex = 76;
             // 
-            // dTPickerDFieldAFromDate
+            // dtpickerDFieldAFromDate
             // 
-            this.dTPickerDFieldAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
-            this.dTPickerDFieldAFromDate.Name = "dTPickerDFieldAFromDate";
-            this.dTPickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);
-            this.dTPickerDFieldAFromDate.TabIndex = 75;
+            this.dtpickerDFieldAFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerDFieldAFromDate.Location = new System.Drawing.Point(129, 11);
+            this.dtpickerDFieldAFromDate.Name = "dtpickerDFieldAFromDate";
+            this.dtpickerDFieldAFromDate.Size = new System.Drawing.Size(150, 20);
+            this.dtpickerDFieldAFromDate.TabIndex = 75;
             // 
             // button4
             // 
@@ -211,13 +211,13 @@
             this.label16.TabIndex = 26;
             this.label16.Text = ":";
             // 
-            // CmbDFieldAGarden
+            // cmbDFieldAGarden
             // 
-            this.CmbDFieldAGarden.FormattingEnabled = true;
-            this.CmbDFieldAGarden.Location = new System.Drawing.Point(425, 39);
-            this.CmbDFieldAGarden.Name = "CmbDFieldAGarden";
-            this.CmbDFieldAGarden.Size = new System.Drawing.Size(158, 21);
-            this.CmbDFieldAGarden.TabIndex = 17;
+            this.cmbDFieldAGarden.FormattingEnabled = true;
+            this.cmbDFieldAGarden.Location = new System.Drawing.Point(425, 39);
+            this.cmbDFieldAGarden.Name = "cmbDFieldAGarden";
+            this.cmbDFieldAGarden.Size = new System.Drawing.Size(158, 21);
+            this.cmbDFieldAGarden.TabIndex = 17;
             // 
             // cmbDFieldAWorkStation
             // 
@@ -299,21 +299,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(540, 125);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(540, 125);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmDailyFieldAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 155);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyFieldAnalysis";
@@ -328,7 +329,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbDFieldAGarden;
+        private System.Windows.Forms.ComboBox cmbDFieldAGarden;
         private System.Windows.Forms.ComboBox cmbDFieldAWorkStation;
         private System.Windows.Forms.Label FrmWPaymentlabel11;
         private System.Windows.Forms.Label FrmWPaymentlabel10;
@@ -349,10 +350,10 @@
         private System.Windows.Forms.TextBox txtDFieldACategoryto;
         private System.Windows.Forms.TextBox txtDFieldACategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DateTimePicker dTPickerDFieldAToDate;
-        private System.Windows.Forms.DateTimePicker dTPickerDFieldAFromDate;
+        private System.Windows.Forms.DateTimePicker dtpickerDFieldAToDate;
+        private System.Windows.Forms.DateTimePicker dtpickerDFieldAFromDate;
     }
 }

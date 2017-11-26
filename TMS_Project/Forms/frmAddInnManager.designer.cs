@@ -34,7 +34,7 @@
             this.btnAddInnMCancel = new System.Windows.Forms.Button();
             this.btnAddInnMOk = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButtonAddIMProg = new System.Windows.Forms.RadioButton();
+            this.radioButtonAddIMProgram = new System.Windows.Forms.RadioButton();
             this.radioButtonAddIMSM = new System.Windows.Forms.RadioButton();
             this.txtBoxAddIMSubMName = new System.Windows.Forms.TextBox();
             this.cmbAddIModuleName = new System.Windows.Forms.ComboBox();
@@ -87,6 +87,7 @@
             this.btnAddInnMCancel.TabIndex = 5;
             this.btnAddInnMCancel.Text = "&Cancel";
             this.btnAddInnMCancel.UseVisualStyleBackColor = true;
+            this.btnAddInnMCancel.Click += new System.EventHandler(this.btnAddInnMCancel_Click);
             // 
             // btnAddInnMOk
             // 
@@ -99,7 +100,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButtonAddIMProg);
+            this.groupBox2.Controls.Add(this.radioButtonAddIMProgram);
             this.groupBox2.Controls.Add(this.radioButtonAddIMSM);
             this.groupBox2.Location = new System.Drawing.Point(472, 9);
             this.groupBox2.Name = "groupBox2";
@@ -107,16 +108,16 @@
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             // 
-            // radioButtonAddIMProg
+            // radioButtonAddIMProgram
             // 
-            this.radioButtonAddIMProg.AutoSize = true;
-            this.radioButtonAddIMProg.Location = new System.Drawing.Point(11, 39);
-            this.radioButtonAddIMProg.Name = "radioButtonAddIMProg";
-            this.radioButtonAddIMProg.Size = new System.Drawing.Size(64, 17);
-            this.radioButtonAddIMProg.TabIndex = 3;
-            this.radioButtonAddIMProg.TabStop = true;
-            this.radioButtonAddIMProg.Text = "Program";
-            this.radioButtonAddIMProg.UseVisualStyleBackColor = true;
+            this.radioButtonAddIMProgram.AutoSize = true;
+            this.radioButtonAddIMProgram.Location = new System.Drawing.Point(11, 39);
+            this.radioButtonAddIMProgram.Name = "radioButtonAddIMProgram";
+            this.radioButtonAddIMProgram.Size = new System.Drawing.Size(64, 17);
+            this.radioButtonAddIMProgram.TabIndex = 3;
+            this.radioButtonAddIMProgram.TabStop = true;
+            this.radioButtonAddIMProgram.Text = "Program";
+            this.radioButtonAddIMProgram.UseVisualStyleBackColor = true;
             // 
             // radioButtonAddIMSM
             // 
@@ -188,7 +189,7 @@
         private System.Windows.Forms.Button btnAddInnMCancel;
         private System.Windows.Forms.Button btnAddInnMOk;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButtonAddIMProg;
+        private System.Windows.Forms.RadioButton radioButtonAddIMProgram;
         private System.Windows.Forms.RadioButton radioButtonAddIMSM;
         private System.Windows.Forms.TextBox txtBoxAddIMSubMName;
         private System.Windows.Forms.ComboBox cmbAddIModuleName;

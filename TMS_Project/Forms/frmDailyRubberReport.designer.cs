@@ -41,8 +41,8 @@
             this.cmbDRubberRWorkStation = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel10 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSearchDRubberRSirderTo = new System.Windows.Forms.Button();
+            this.btnSearchDRubberRSirderFrom = new System.Windows.Forms.Button();
             this.txtDRubberRSirderTo = new System.Windows.Forms.TextBox();
             this.txtDRubberRSirderFrom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,8 +52,8 @@
             this.dTPickerDRubberRToDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerDRubberRFromDate = new System.Windows.Forms.DateTimePicker();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSearchDRubberRCategoryTo = new System.Windows.Forms.Button();
+            this.btnSearchDRubberRCategoryFrom = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtDRubberRCategoryto = new System.Windows.Forms.TextBox();
             this.txtDRubberRWorkerIdTo = new System.Windows.Forms.TextBox();
@@ -67,7 +67,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.CmbDRubberRWorkerType = new System.Windows.Forms.ComboBox();
+            this.cmbDRubberRWorkerType = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel12 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel11 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel9 = new System.Windows.Forms.Label();
@@ -78,7 +78,7 @@
             this.FrmWPaymentlabel1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,8 +95,8 @@
             this.groupBox1.Controls.Add(this.cmbDRubberRWorkStation);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnSearchDRubberRSirderTo);
+            this.groupBox1.Controls.Add(this.btnSearchDRubberRSirderFrom);
             this.groupBox1.Controls.Add(this.txtDRubberRSirderTo);
             this.groupBox1.Controls.Add(this.txtDRubberRSirderFrom);
             this.groupBox1.Controls.Add(this.label1);
@@ -106,8 +106,8 @@
             this.groupBox1.Controls.Add(this.dTPickerDRubberRToDate);
             this.groupBox1.Controls.Add(this.dTPickerDRubberRFromDate);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnSearchDRubberRCategoryTo);
+            this.groupBox1.Controls.Add(this.btnSearchDRubberRCategoryFrom);
             this.groupBox1.Controls.Add(this.btnSearch);
             this.groupBox1.Controls.Add(this.txtDRubberRCategoryto);
             this.groupBox1.Controls.Add(this.txtDRubberRWorkerIdTo);
@@ -121,7 +121,7 @@
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.CmbDRubberRWorkerType);
+            this.groupBox1.Controls.Add(this.cmbDRubberRWorkerType);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel12);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel11);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel9);
@@ -244,23 +244,23 @@
             this.FrmWPaymentlabel2.TabIndex = 91;
             this.FrmWPaymentlabel2.Text = "Work Station";
             // 
-            // button1
+            // btnSearchDRubberRSirderTo
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(612, 59);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 21);
-            this.button1.TabIndex = 90;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSearchDRubberRSirderTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDRubberRSirderTo.Image")));
+            this.btnSearchDRubberRSirderTo.Location = new System.Drawing.Point(612, 59);
+            this.btnSearchDRubberRSirderTo.Name = "btnSearchDRubberRSirderTo";
+            this.btnSearchDRubberRSirderTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDRubberRSirderTo.TabIndex = 90;
+            this.btnSearchDRubberRSirderTo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSearchDRubberRSirderFrom
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(279, 50);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(25, 21);
-            this.button2.TabIndex = 89;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSearchDRubberRSirderFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDRubberRSirderFrom.Image")));
+            this.btnSearchDRubberRSirderFrom.Location = new System.Drawing.Point(279, 50);
+            this.btnSearchDRubberRSirderFrom.Name = "btnSearchDRubberRSirderFrom";
+            this.btnSearchDRubberRSirderFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDRubberRSirderFrom.TabIndex = 89;
+            this.btnSearchDRubberRSirderFrom.UseVisualStyleBackColor = true;
             // 
             // txtDRubberRSirderTo
             // 
@@ -297,7 +297,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(330, 57);
+            this.label3.Location = new System.Drawing.Point(329, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -337,23 +337,23 @@
             this.button5.TabIndex = 74;
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearchDRubberRCategoryTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(613, 111);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchDRubberRCategoryTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDRubberRCategoryTo.Image")));
+            this.btnSearchDRubberRCategoryTo.Location = new System.Drawing.Point(613, 111);
+            this.btnSearchDRubberRCategoryTo.Name = "btnSearchDRubberRCategoryTo";
+            this.btnSearchDRubberRCategoryTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDRubberRCategoryTo.TabIndex = 73;
+            this.btnSearchDRubberRCategoryTo.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSearchDRubberRCategoryFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(279, 106);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchDRubberRCategoryFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDRubberRCategoryFrom.Image")));
+            this.btnSearchDRubberRCategoryFrom.Location = new System.Drawing.Point(279, 106);
+            this.btnSearchDRubberRCategoryFrom.Name = "btnSearchDRubberRCategoryFrom";
+            this.btnSearchDRubberRCategoryFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDRubberRCategoryFrom.TabIndex = 72;
+            this.btnSearchDRubberRCategoryFrom.UseVisualStyleBackColor = true;
             // 
             // btnSearch
             // 
@@ -464,18 +464,18 @@
             this.label16.TabIndex = 26;
             this.label16.Text = ":";
             // 
-            // CmbDRubberRWorkerType
+            // cmbDRubberRWorkerType
             // 
-            this.CmbDRubberRWorkerType.FormattingEnabled = true;
-            this.CmbDRubberRWorkerType.Location = new System.Drawing.Point(139, 160);
-            this.CmbDRubberRWorkerType.Name = "CmbDRubberRWorkerType";
-            this.CmbDRubberRWorkerType.Size = new System.Drawing.Size(136, 21);
-            this.CmbDRubberRWorkerType.TabIndex = 22;
+            this.cmbDRubberRWorkerType.FormattingEnabled = true;
+            this.cmbDRubberRWorkerType.Location = new System.Drawing.Point(139, 160);
+            this.cmbDRubberRWorkerType.Name = "cmbDRubberRWorkerType";
+            this.cmbDRubberRWorkerType.Size = new System.Drawing.Size(136, 21);
+            this.cmbDRubberRWorkerType.TabIndex = 22;
             // 
             // FrmWPaymentlabel12
             // 
             this.FrmWPaymentlabel12.AutoSize = true;
-            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(330, 134);
+            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(329, 134);
             this.FrmWPaymentlabel12.Name = "FrmWPaymentlabel12";
             this.FrmWPaymentlabel12.Size = new System.Drawing.Size(61, 13);
             this.FrmWPaymentlabel12.TabIndex = 11;
@@ -554,21 +554,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(581, 271);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(581, 271);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmDailyRubberReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 302);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyRubberReport";
@@ -583,7 +584,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbDRubberRWorkerType;
+        private System.Windows.Forms.ComboBox cmbDRubberRWorkerType;
         private System.Windows.Forms.Label FrmWPaymentlabel12;
         private System.Windows.Forms.Label FrmWPaymentlabel11;
         private System.Windows.Forms.Label FrmWPaymentlabel9;
@@ -606,10 +607,10 @@
         private System.Windows.Forms.TextBox txtDRubberRWorkerIdF;
         private System.Windows.Forms.TextBox txtDRubberRCategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnSearchDRubberRCategoryTo;
+        private System.Windows.Forms.Button btnSearchDRubberRCategoryFrom;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DateTimePicker dTPickerDRubberRToDate;
         private System.Windows.Forms.DateTimePicker dTPickerDRubberRFromDate;
@@ -619,8 +620,8 @@
         private System.Windows.Forms.ComboBox cmbDRubberRWorkStation;
         private System.Windows.Forms.Label FrmWPaymentlabel10;
         private System.Windows.Forms.Label FrmWPaymentlabel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSearchDRubberRSirderTo;
+        private System.Windows.Forms.Button btnSearchDRubberRSirderFrom;
         private System.Windows.Forms.TextBox txtDRubberRSirderTo;
         private System.Windows.Forms.TextBox txtDRubberRSirderFrom;
         private System.Windows.Forms.Label label1;
