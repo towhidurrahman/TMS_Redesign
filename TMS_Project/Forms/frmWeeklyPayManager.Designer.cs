@@ -39,7 +39,7 @@
             this.dtPickerPaymentMonth = new System.Windows.Forms.DateTimePicker();
             this.lblDateFrom = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.BtnPost = new System.Windows.Forms.Button();
+            this.btnPost = new System.Windows.Forms.Button();
             this.btnSelectAll = new System.Windows.Forms.Button();
             this.btnRemoveAll = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
@@ -58,9 +58,9 @@
             this.groupBox1.Controls.Add(this.dateTimePickerPaymentDate);
             this.groupBox1.Controls.Add(this.dtPickerPaymentMonth);
             this.groupBox1.Controls.Add(this.lblDateFrom);
-            this.groupBox1.Location = new System.Drawing.Point(13, 3);
+            this.groupBox1.Location = new System.Drawing.Point(9, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(790, 423);
+            this.groupBox1.Size = new System.Drawing.Size(790, 411);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -81,7 +81,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(6, 78);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(778, 331);
+            this.dataGridView1.Size = new System.Drawing.Size(778, 341);
             this.dataGridView1.TabIndex = 10;
             // 
             // lblSelectedTk
@@ -159,18 +159,18 @@
             this.lblDateFrom.TabIndex = 2;
             this.lblDateFrom.Text = "Payment Month               :";
             // 
-            // BtnPost
+            // btnPost
             // 
-            this.BtnPost.Location = new System.Drawing.Point(20, 420);
-            this.BtnPost.Name = "BtnPost";
-            this.BtnPost.Size = new System.Drawing.Size(75, 23);
-            this.BtnPost.TabIndex = 10;
-            this.BtnPost.Text = "&Post";
-            this.BtnPost.UseVisualStyleBackColor = true;
+            this.btnPost.Location = new System.Drawing.Point(20, 424);
+            this.btnPost.Name = "btnPost";
+            this.btnPost.Size = new System.Drawing.Size(75, 23);
+            this.btnPost.TabIndex = 10;
+            this.btnPost.Text = "&Post";
+            this.btnPost.UseVisualStyleBackColor = true;
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(257, 420);
+            this.btnSelectAll.Location = new System.Drawing.Point(252, 424);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 23);
             this.btnSelectAll.TabIndex = 11;
@@ -179,7 +179,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(523, 420);
+            this.btnRemoveAll.Location = new System.Drawing.Point(520, 424);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveAll.TabIndex = 12;
@@ -188,22 +188,23 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(727, 420);
+            this.btnClose.Location = new System.Drawing.Point(719, 424);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 13;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmWeeklyPayManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(807, 453);
+            this.ClientSize = new System.Drawing.Size(807, 456);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRemoveAll);
             this.Controls.Add(this.btnSelectAll);
-            this.Controls.Add(this.BtnPost);
+            this.Controls.Add(this.btnPost);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyPayManager";
             this.Text = "Weekly Pay Manager";
@@ -227,7 +228,7 @@
         private System.Windows.Forms.DateTimePicker dtPickerPaymentMonth;
         private System.Windows.Forms.Label lblDateFrom;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button BtnPost;
+        private System.Windows.Forms.Button btnPost;
         private System.Windows.Forms.Button btnSelectAll;
         private System.Windows.Forms.Button btnRemoveAll;
         private System.Windows.Forms.Button btnClose;

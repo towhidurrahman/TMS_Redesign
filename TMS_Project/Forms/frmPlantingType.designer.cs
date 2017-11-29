@@ -40,7 +40,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTypeCode = new System.Windows.Forms.TextBox();
             this.lblTypeCode = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -74,7 +74,7 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtTypeCode);
             this.groupBox1.Controls.Add(this.lblTypeCode);
             this.groupBox1.Location = new System.Drawing.Point(12, 3);
             this.groupBox1.Name = "groupBox1";
@@ -152,12 +152,12 @@
             this.btnPrevious.TabIndex = 67;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtTypeCode
             // 
-            this.textBox3.Location = new System.Drawing.Point(160, 26);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 66;
+            this.txtTypeCode.Location = new System.Drawing.Point(160, 26);
+            this.txtTypeCode.Name = "txtTypeCode";
+            this.txtTypeCode.Size = new System.Drawing.Size(85, 20);
+            this.txtTypeCode.TabIndex = 66;
             // 
             // lblTypeCode
             // 
@@ -207,7 +207,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTypeCode;
         private System.Windows.Forms.Label lblTypeCode;
         private System.Windows.Forms.Button btnSave;
     }

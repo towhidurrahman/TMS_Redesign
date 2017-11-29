@@ -16,5 +16,15 @@ namespace TMS_Project
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void grpRainFall_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

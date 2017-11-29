@@ -37,10 +37,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblMisP = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.CmbWRubberRReportT = new System.Windows.Forms.ComboBox();
+            this.cmbWRubberRReportT = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.lblMisP);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.CmbWRubberRReportT);
+            this.groupBox1.Controls.Add(this.cmbWRubberRReportT);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(2, 4);
             this.groupBox1.Name = "groupBox1";
@@ -139,13 +139,13 @@
             this.label4.TabIndex = 37;
             this.label4.Text = ":";
             // 
-            // CmbWRubberRReportT
+            // cmbWRubberRReportT
             // 
-            this.CmbWRubberRReportT.FormattingEnabled = true;
-            this.CmbWRubberRReportT.Location = new System.Drawing.Point(138, 83);
-            this.CmbWRubberRReportT.Name = "CmbWRubberRReportT";
-            this.CmbWRubberRReportT.Size = new System.Drawing.Size(376, 21);
-            this.CmbWRubberRReportT.TabIndex = 5;
+            this.cmbWRubberRReportT.FormattingEnabled = true;
+            this.cmbWRubberRReportT.Location = new System.Drawing.Point(138, 83);
+            this.cmbWRubberRReportT.Name = "cmbWRubberRReportT";
+            this.cmbWRubberRReportT.Size = new System.Drawing.Size(376, 21);
+            this.cmbWRubberRReportT.TabIndex = 5;
             // 
             // label1
             // 
@@ -165,21 +165,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(645, 124);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(87, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(645, 124);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(87, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // frmWeeklyRubberReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 162);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyRubberReport";
@@ -194,10 +195,10 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbWRubberRReportT;
+        private System.Windows.Forms.ComboBox cmbWRubberRReportT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButtonWRubberRDateR;
         private System.Windows.Forms.RadioButton radioButtonWRubberRWeekly;

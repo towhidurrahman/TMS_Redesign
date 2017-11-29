@@ -30,7 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaymentSetup));
             this.grpBoxpaymentSetup = new System.Windows.Forms.GroupBox();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.btnUtilityControl = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.btnRationControl = new System.Windows.Forms.Button();
             this.btnPFControl = new System.Windows.Forms.Button();
             this.btnYearlyHolidayControl = new System.Windows.Forms.Button();
@@ -60,8 +62,6 @@
             this.lblRationControl = new System.Windows.Forms.Label();
             this.lblUtilityControl = new System.Windows.Forms.Label();
             this.lblCashBank = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.grpBoxpaymentSetup.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,6 +105,16 @@
             this.grpBoxpaymentSetup.TabIndex = 0;
             this.grpBoxpaymentSetup.TabStop = false;
             // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(501, 279);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
             // btnUtilityControl
             // 
             this.btnUtilityControl.Image = ((System.Drawing.Image)(resources.GetObject("btnUtilityControl.Image")));
@@ -113,6 +123,15 @@
             this.btnUtilityControl.Size = new System.Drawing.Size(23, 21);
             this.btnUtilityControl.TabIndex = 30;
             this.btnUtilityControl.UseVisualStyleBackColor = true;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(6, 279);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 1;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
             // btnRationControl
             // 
@@ -377,24 +396,6 @@
             this.lblCashBank.Size = new System.Drawing.Size(58, 13);
             this.lblCashBank.TabIndex = 1;
             this.lblCashBank.Text = "Cash/Bank";
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(6, 279);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 1;
-            this.btnSave.Text = "&Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(501, 279);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "&Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // frmPaymentSetup
             // 

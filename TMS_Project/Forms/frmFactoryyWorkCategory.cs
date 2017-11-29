@@ -29,7 +29,7 @@ namespace TMS_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

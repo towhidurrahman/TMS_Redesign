@@ -43,7 +43,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGroupId = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listViewSecurityGroup = new System.Windows.Forms.ListView();
             this.lblSelectGrantSecurity = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@
             this.btnSelectAll = new System.Windows.Forms.Button();
             this.btnRemoveAll = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -86,20 +87,21 @@
             // cmbApplication
             // 
             this.cmbApplication.FormattingEnabled = true;
-            this.cmbApplication.Location = new System.Drawing.Point(184, 20);
+            this.cmbApplication.Location = new System.Drawing.Point(138, 20);
             this.cmbApplication.Name = "cmbApplication";
             this.cmbApplication.Size = new System.Drawing.Size(301, 21);
             this.cmbApplication.TabIndex = 3;
             // 
             // txtGroupDescription
             // 
-            this.txtGroupDescription.Location = new System.Drawing.Point(184, 81);
+            this.txtGroupDescription.Location = new System.Drawing.Point(138, 81);
             this.txtGroupDescription.Name = "txtGroupDescription";
             this.txtGroupDescription.Size = new System.Drawing.Size(302, 20);
             this.txtGroupDescription.TabIndex = 4;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Controls.Add(this.btnNew);
@@ -108,15 +110,15 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtGroupId);
             this.groupBox1.Controls.Add(this.lblApplication);
             this.groupBox1.Controls.Add(this.txtGroupDescription);
             this.groupBox1.Controls.Add(this.lblGroupId);
             this.groupBox1.Controls.Add(this.lblGroupDescription);
             this.groupBox1.Controls.Add(this.cmbApplication);
-            this.groupBox1.Location = new System.Drawing.Point(10, 5);
+            this.groupBox1.Location = new System.Drawing.Point(10, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(502, 110);
+            this.groupBox1.Size = new System.Drawing.Size(449, 110);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
@@ -124,7 +126,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 81);
+            this.label1.Location = new System.Drawing.Point(127, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(11, 16);
             this.label1.TabIndex = 73;
@@ -134,7 +136,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(159, 20);
+            this.label25.Location = new System.Drawing.Point(127, 20);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(11, 16);
             this.label25.TabIndex = 72;
@@ -143,7 +145,7 @@
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(463, 50);
+            this.btnNew.Location = new System.Drawing.Point(417, 50);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(25, 21);
             this.btnNew.TabIndex = 71;
@@ -152,7 +154,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(437, 50);
+            this.btnSearch.Location = new System.Drawing.Point(391, 50);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 70;
@@ -161,7 +163,7 @@
             // btnLast
             // 
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(412, 50);
+            this.btnLast.Location = new System.Drawing.Point(366, 50);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(25, 21);
             this.btnLast.TabIndex = 69;
@@ -170,7 +172,7 @@
             // btnNext
             // 
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(387, 50);
+            this.btnNext.Location = new System.Drawing.Point(341, 50);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(25, 21);
             this.btnNext.TabIndex = 68;
@@ -179,7 +181,7 @@
             // btnFirst
             // 
             this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
-            this.btnFirst.Location = new System.Drawing.Point(184, 50);
+            this.btnFirst.Location = new System.Drawing.Point(138, 50);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(25, 21);
             this.btnFirst.TabIndex = 67;
@@ -188,33 +190,33 @@
             // btnPrevious
             // 
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(209, 50);
+            this.btnPrevious.Location = new System.Drawing.Point(163, 50);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(25, 21);
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtGroupId
             // 
-            this.textBox3.Location = new System.Drawing.Point(238, 50);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(147, 20);
-            this.textBox3.TabIndex = 65;
+            this.txtGroupId.Location = new System.Drawing.Point(187, 50);
+            this.txtGroupId.Name = "txtGroupId";
+            this.txtGroupId.Size = new System.Drawing.Size(148, 20);
+            this.txtGroupId.TabIndex = 65;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.listViewSecurityGroup);
             this.groupBox2.Location = new System.Drawing.Point(12, 144);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(499, 220);
+            this.groupBox2.Size = new System.Drawing.Size(447, 220);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
             // listViewSecurityGroup
             // 
-            this.listViewSecurityGroup.Location = new System.Drawing.Point(6, 17);
+            this.listViewSecurityGroup.Location = new System.Drawing.Point(6, 11);
             this.listViewSecurityGroup.Name = "listViewSecurityGroup";
-            this.listViewSecurityGroup.Size = new System.Drawing.Size(480, 213);
+            this.listViewSecurityGroup.Size = new System.Drawing.Size(431, 213);
             this.listViewSecurityGroup.TabIndex = 0;
             this.listViewSecurityGroup.UseCompatibleStateImageBehavior = false;
             // 
@@ -222,7 +224,7 @@
             // 
             this.lblSelectGrantSecurity.AutoSize = true;
             this.lblSelectGrantSecurity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectGrantSecurity.Location = new System.Drawing.Point(12, 124);
+            this.lblSelectGrantSecurity.Location = new System.Drawing.Point(12, 122);
             this.lblSelectGrantSecurity.Name = "lblSelectGrantSecurity";
             this.lblSelectGrantSecurity.Size = new System.Drawing.Size(200, 16);
             this.lblSelectGrantSecurity.TabIndex = 8;
@@ -240,7 +242,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(122, 377);
+            this.btnDelete.Location = new System.Drawing.Point(104, 377);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 28);
             this.btnDelete.TabIndex = 10;
@@ -249,7 +251,7 @@
             // 
             // btnSelectAll
             // 
-            this.btnSelectAll.Location = new System.Drawing.Point(230, 377);
+            this.btnSelectAll.Location = new System.Drawing.Point(195, 377);
             this.btnSelectAll.Name = "btnSelectAll";
             this.btnSelectAll.Size = new System.Drawing.Size(75, 28);
             this.btnSelectAll.TabIndex = 11;
@@ -258,7 +260,7 @@
             // 
             // btnRemoveAll
             // 
-            this.btnRemoveAll.Location = new System.Drawing.Point(332, 377);
+            this.btnRemoveAll.Location = new System.Drawing.Point(287, 377);
             this.btnRemoveAll.Name = "btnRemoveAll";
             this.btnRemoveAll.Size = new System.Drawing.Size(75, 28);
             this.btnRemoveAll.TabIndex = 12;
@@ -267,18 +269,29 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(432, 377);
+            this.btnClose.Location = new System.Drawing.Point(375, 377);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 28);
             this.btnClose.TabIndex = 13;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(127, 50);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(11, 16);
+            this.label2.TabIndex = 74;
+            this.label2.Text = ":";
             // 
             // frmSecurityGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 415);
+            this.ClientSize = new System.Drawing.Size(465, 415);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRemoveAll);
             this.Controls.Add(this.btnSelectAll);
@@ -321,8 +334,9 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGroupId;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label2;
     }
 }

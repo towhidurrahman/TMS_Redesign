@@ -37,7 +37,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGroupId = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
@@ -56,7 +56,7 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtGroupId);
             this.groupBox1.Controls.Add(this.btnClose);
             this.groupBox1.Controls.Add(this.btnDelete);
             this.groupBox1.Controls.Add(this.btnSave);
@@ -64,7 +64,7 @@
             this.groupBox1.Controls.Add(this.lblGardenName);
             this.groupBox1.Controls.Add(this.lblGroupName);
             this.groupBox1.Controls.Add(this.lblGroupId);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(359, 137);
             this.groupBox1.TabIndex = 1;
@@ -124,12 +124,12 @@
             this.btnPrevious.TabIndex = 73;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtGroupId
             // 
-            this.textBox3.Location = new System.Drawing.Point(135, 24);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 72;
+            this.txtGroupId.Location = new System.Drawing.Point(135, 24);
+            this.txtGroupId.Name = "txtGroupId";
+            this.txtGroupId.Size = new System.Drawing.Size(85, 20);
+            this.txtGroupId.TabIndex = 72;
             // 
             // btnClose
             // 
@@ -139,6 +139,7 @@
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 
@@ -195,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 156);
+            this.ClientSize = new System.Drawing.Size(379, 149);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmGroupCategory";
             this.Text = "Group Category";
@@ -222,6 +223,6 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGroupId;
     }
 }

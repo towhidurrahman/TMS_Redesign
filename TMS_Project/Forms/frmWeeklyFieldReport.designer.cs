@@ -37,10 +37,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblMisP = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.CmbWFieldRReportT = new System.Windows.Forms.ComboBox();
+            this.cmbWFieldRReportType = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,11 +54,11 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.lblMisP);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.CmbWFieldRReportT);
+            this.groupBox1.Controls.Add(this.cmbWFieldRReportType);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(2, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(459, 126);
+            this.groupBox1.Size = new System.Drawing.Size(459, 106);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report Preview Range";
@@ -139,13 +139,13 @@
             this.label4.TabIndex = 37;
             this.label4.Text = ":";
             // 
-            // CmbWFieldRReportT
+            // cmbWFieldRReportType
             // 
-            this.CmbWFieldRReportT.FormattingEnabled = true;
-            this.CmbWFieldRReportT.Location = new System.Drawing.Point(125, 69);
-            this.CmbWFieldRReportT.Name = "CmbWFieldRReportT";
-            this.CmbWFieldRReportT.Size = new System.Drawing.Size(322, 21);
-            this.CmbWFieldRReportT.TabIndex = 5;
+            this.cmbWFieldRReportType.FormattingEnabled = true;
+            this.cmbWFieldRReportType.Location = new System.Drawing.Point(125, 69);
+            this.cmbWFieldRReportType.Name = "cmbWFieldRReportType";
+            this.cmbWFieldRReportType.Size = new System.Drawing.Size(322, 21);
+            this.cmbWFieldRReportType.TabIndex = 5;
             // 
             // label1
             // 
@@ -158,28 +158,29 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(7, 131);
+            this.btnPreview.Location = new System.Drawing.Point(7, 113);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(87, 26);
             this.btnPreview.TabIndex = 1;
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(373, 131);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(87, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(373, 113);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(87, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmWeeklyFieldReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 162);
-            this.Controls.Add(this.btncancel);
+            this.ClientSize = new System.Drawing.Size(470, 145);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyFieldReport";
@@ -194,10 +195,10 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbWFieldRReportT;
+        private System.Windows.Forms.ComboBox cmbWFieldRReportType;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButtonWFieldRDateR;
         private System.Windows.Forms.RadioButton radioButtonWFieldRWeekly;

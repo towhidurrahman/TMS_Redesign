@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmWeeklyUtilityDeduction));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.dTPickerutilityDeductionDate = new System.Windows.Forms.DateTimePicker();
+            this.dTPickerUtilityDeductionDate = new System.Windows.Forms.DateTimePicker();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnPost = new System.Windows.Forms.Button();
-            this.BtnCancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -83,7 +83,7 @@
             // 
             this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.dTPickerutilityDeductionDate);
+            this.groupBox1.Controls.Add(this.dTPickerUtilityDeductionDate);
             this.groupBox1.Controls.Add(this.button17);
             this.groupBox1.Controls.Add(this.button18);
             this.groupBox1.Controls.Add(this.label10);
@@ -116,13 +116,13 @@
             this.label19.TabIndex = 82;
             this.label19.Text = ":";
             // 
-            // dTPickerutilityDeductionDate
+            // dTPickerUtilityDeductionDate
             // 
-            this.dTPickerutilityDeductionDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerutilityDeductionDate.Location = new System.Drawing.Point(120, 22);
-            this.dTPickerutilityDeductionDate.Name = "dTPickerutilityDeductionDate";
-            this.dTPickerutilityDeductionDate.Size = new System.Drawing.Size(112, 20);
-            this.dTPickerutilityDeductionDate.TabIndex = 81;
+            this.dTPickerUtilityDeductionDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dTPickerUtilityDeductionDate.Location = new System.Drawing.Point(120, 22);
+            this.dTPickerUtilityDeductionDate.Name = "dTPickerUtilityDeductionDate";
+            this.dTPickerUtilityDeductionDate.Size = new System.Drawing.Size(112, 20);
+            this.dTPickerUtilityDeductionDate.TabIndex = 81;
             // 
             // button17
             // 
@@ -452,9 +452,9 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(5, 154);
+            this.groupBox3.Location = new System.Drawing.Point(5, 140);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(830, 265);
+            this.groupBox3.Size = new System.Drawing.Size(830, 264);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             // 
@@ -468,7 +468,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(5, 427);
+            this.btnAdd.Location = new System.Drawing.Point(18, 408);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(70, 21);
             this.btnAdd.TabIndex = 2;
@@ -477,7 +477,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(113, 426);
+            this.btnDelete.Location = new System.Drawing.Point(197, 407);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(81, 21);
             this.btnDelete.TabIndex = 3;
@@ -486,7 +486,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(349, 426);
+            this.btnUpdate.Location = new System.Drawing.Point(413, 407);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(81, 21);
             this.btnUpdate.TabIndex = 4;
@@ -495,28 +495,29 @@
             // 
             // btnPost
             // 
-            this.btnPost.Location = new System.Drawing.Point(653, 425);
+            this.btnPost.Location = new System.Drawing.Point(609, 406);
             this.btnPost.Name = "btnPost";
             this.btnPost.Size = new System.Drawing.Size(70, 21);
             this.btnPost.TabIndex = 5;
             this.btnPost.Text = "Post";
             this.btnPost.UseVisualStyleBackColor = true;
             // 
-            // BtnCancel
+            // btnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(764, 425);
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(71, 21);
-            this.BtnCancel.TabIndex = 6;
-            this.BtnCancel.Text = "Cancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(751, 405);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(71, 21);
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmWeeklyUtilityDeduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 452);
-            this.Controls.Add(this.BtnCancel);
+            this.ClientSize = new System.Drawing.Size(844, 439);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPost);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
@@ -557,7 +558,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnPost;
-        private System.Windows.Forms.Button BtnCancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
@@ -580,7 +581,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.DateTimePicker dTPickerutilityDeductionDate;
+        private System.Windows.Forms.DateTimePicker dTPickerUtilityDeductionDate;
         private System.Windows.Forms.Label label19;
     }
 }

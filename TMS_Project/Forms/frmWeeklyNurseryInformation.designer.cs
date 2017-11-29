@@ -39,17 +39,18 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(375, 72);
+            this.btnCancel.Location = new System.Drawing.Point(375, 65);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(73, 23);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnPreview
             // 
             this.btnPreview.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreview.Location = new System.Drawing.Point(8, 72);
+            this.btnPreview.Location = new System.Drawing.Point(8, 65);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(79, 23);
             this.btnPreview.TabIndex = 6;
@@ -60,7 +61,7 @@
             // dtTimePickerWeekStartDate
             // 
             this.dtTimePickerWeekStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtTimePickerWeekStartDate.Location = new System.Drawing.Point(119, 24);
+            this.dtTimePickerWeekStartDate.Location = new System.Drawing.Point(119, 23);
             this.dtTimePickerWeekStartDate.Name = "dtTimePickerWeekStartDate";
             this.dtTimePickerWeekStartDate.Size = new System.Drawing.Size(74, 20);
             this.dtTimePickerWeekStartDate.TabIndex = 5;
@@ -69,7 +70,7 @@
             // 
             this.lblWeekStartDate.AutoSize = true;
             this.lblWeekStartDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeekStartDate.Location = new System.Drawing.Point(8, 40);
+            this.lblWeekStartDate.Location = new System.Drawing.Point(8, 30);
             this.lblWeekStartDate.Name = "lblWeekStartDate";
             this.lblWeekStartDate.Size = new System.Drawing.Size(103, 13);
             this.lblWeekStartDate.TabIndex = 4;
@@ -80,7 +81,7 @@
             this.grpBoxReportPreviewRange.Controls.Add(this.dtTimePickerWeekStartDate);
             this.grpBoxReportPreviewRange.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpBoxReportPreviewRange.ForeColor = System.Drawing.Color.Blue;
-            this.grpBoxReportPreviewRange.Location = new System.Drawing.Point(7, 13);
+            this.grpBoxReportPreviewRange.Location = new System.Drawing.Point(7, 4);
             this.grpBoxReportPreviewRange.Name = "grpBoxReportPreviewRange";
             this.grpBoxReportPreviewRange.Size = new System.Drawing.Size(441, 55);
             this.grpBoxReportPreviewRange.TabIndex = 8;
@@ -91,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 108);
+            this.ClientSize = new System.Drawing.Size(457, 97);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.lblWeekStartDate);

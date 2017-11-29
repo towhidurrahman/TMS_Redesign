@@ -32,8 +32,8 @@
             this.dTPickerDayEndDate = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.lbldayendP = new System.Windows.Forms.Label();
-            this.btndayendProcess = new System.Windows.Forms.Button();
-            this.btnbtndayendPcancel = new System.Windows.Forms.Button();
+            this.btnDayEndProcess = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.groupBox1.Controls.Add(this.lbldayendP);
             this.groupBox1.Location = new System.Drawing.Point(6, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(438, 59);
+            this.groupBox1.Size = new System.Drawing.Size(438, 60);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -75,31 +75,32 @@
             this.lbldayendP.TabIndex = 0;
             this.lbldayendP.Text = "Day End Date";
             // 
-            // btndayendProcess
+            // btnDayEndProcess
             // 
-            this.btndayendProcess.Location = new System.Drawing.Point(6, 67);
-            this.btndayendProcess.Name = "btndayendProcess";
-            this.btndayendProcess.Size = new System.Drawing.Size(56, 25);
-            this.btndayendProcess.TabIndex = 1;
-            this.btndayendProcess.Text = "Process";
-            this.btndayendProcess.UseVisualStyleBackColor = true;
+            this.btnDayEndProcess.Location = new System.Drawing.Point(6, 67);
+            this.btnDayEndProcess.Name = "btnDayEndProcess";
+            this.btnDayEndProcess.Size = new System.Drawing.Size(56, 25);
+            this.btnDayEndProcess.TabIndex = 1;
+            this.btnDayEndProcess.Text = "Process";
+            this.btnDayEndProcess.UseVisualStyleBackColor = true;
             // 
-            // btnbtndayendPcancel
+            // btnCancel
             // 
-            this.btnbtndayendPcancel.Location = new System.Drawing.Point(388, 67);
-            this.btnbtndayendPcancel.Name = "btnbtndayendPcancel";
-            this.btnbtndayendPcancel.Size = new System.Drawing.Size(56, 25);
-            this.btnbtndayendPcancel.TabIndex = 2;
-            this.btnbtndayendPcancel.Text = "Cancel";
-            this.btnbtndayendPcancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(388, 67);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(56, 25);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnbtndayendPcancel_Click);
             // 
             // frmDayEndProcess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 97);
-            this.Controls.Add(this.btnbtndayendPcancel);
-            this.Controls.Add(this.btndayendProcess);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnDayEndProcess);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "frmDayEndProcess";
@@ -115,8 +116,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbldayendP;
-        private System.Windows.Forms.Button btndayendProcess;
-        private System.Windows.Forms.Button btnbtndayendPcancel;
+        private System.Windows.Forms.Button btnDayEndProcess;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.DateTimePicker dTPickerDayEndDate;
     }
 }

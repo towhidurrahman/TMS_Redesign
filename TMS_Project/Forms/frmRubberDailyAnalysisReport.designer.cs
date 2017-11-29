@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDailyLeaveAnalysisReport));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.DTPDateTo = new System.Windows.Forms.DateTimePicker();
-            this.DTPDateFrom = new System.Windows.Forms.DateTimePicker();
+            this.dtpDateTo = new System.Windows.Forms.DateTimePicker();
+            this.dtpDateFrom = new System.Windows.Forms.DateTimePicker();
             this.btnCategoryTo = new System.Windows.Forms.Button();
             this.btnCategoryFrom = new System.Windows.Forms.Button();
             this.chkSectionWise = new System.Windows.Forms.CheckBox();
@@ -48,14 +48,14 @@
             this.lblDateFrom = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.DTPDateTo);
-            this.groupBox1.Controls.Add(this.DTPDateFrom);
+            this.groupBox1.Controls.Add(this.dtpDateTo);
+            this.groupBox1.Controls.Add(this.dtpDateFrom);
             this.groupBox1.Controls.Add(this.btnCategoryTo);
             this.groupBox1.Controls.Add(this.btnCategoryFrom);
             this.groupBox1.Controls.Add(this.chkSectionWise);
@@ -72,31 +72,31 @@
             this.groupBox1.Controls.Add(this.lblDateFrom);
             this.groupBox1.Location = new System.Drawing.Point(10, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(507, 141);
+            this.groupBox1.Size = new System.Drawing.Size(507, 131);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
             // 
-            // DTPDateTo
+            // dtpDateTo
             // 
-            this.DTPDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPDateTo.Location = new System.Drawing.Point(352, 26);
-            this.DTPDateTo.Name = "DTPDateTo";
-            this.DTPDateTo.Size = new System.Drawing.Size(111, 20);
-            this.DTPDateTo.TabIndex = 82;
+            this.dtpDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateTo.Location = new System.Drawing.Point(352, 26);
+            this.dtpDateTo.Name = "dtpDateTo";
+            this.dtpDateTo.Size = new System.Drawing.Size(111, 20);
+            this.dtpDateTo.TabIndex = 82;
             // 
-            // DTPDateFrom
+            // dtpDateFrom
             // 
-            this.DTPDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPDateFrom.Location = new System.Drawing.Point(113, 26);
-            this.DTPDateFrom.Name = "DTPDateFrom";
-            this.DTPDateFrom.Size = new System.Drawing.Size(111, 20);
-            this.DTPDateFrom.TabIndex = 81;
+            this.dtpDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateFrom.Location = new System.Drawing.Point(113, 26);
+            this.dtpDateFrom.Name = "dtpDateFrom";
+            this.dtpDateFrom.Size = new System.Drawing.Size(111, 20);
+            this.dtpDateFrom.TabIndex = 81;
             // 
             // btnCategoryTo
             // 
             this.btnCategoryTo.Image = ((System.Drawing.Image)(resources.GetObject("btnCategoryTo.Image")));
-            this.btnCategoryTo.Location = new System.Drawing.Point(472, 81);
+            this.btnCategoryTo.Location = new System.Drawing.Point(467, 81);
             this.btnCategoryTo.Name = "btnCategoryTo";
             this.btnCategoryTo.Size = new System.Drawing.Size(25, 21);
             this.btnCategoryTo.TabIndex = 80;
@@ -105,7 +105,7 @@
             // btnCategoryFrom
             // 
             this.btnCategoryFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnCategoryFrom.Image")));
-            this.btnCategoryFrom.Location = new System.Drawing.Point(234, 82);
+            this.btnCategoryFrom.Location = new System.Drawing.Point(230, 82);
             this.btnCategoryFrom.Name = "btnCategoryFrom";
             this.btnCategoryFrom.Size = new System.Drawing.Size(25, 21);
             this.btnCategoryFrom.TabIndex = 79;
@@ -114,7 +114,7 @@
             // chkSectionWise
             // 
             this.chkSectionWise.AutoSize = true;
-            this.chkSectionWise.Location = new System.Drawing.Point(116, 121);
+            this.chkSectionWise.Location = new System.Drawing.Point(116, 110);
             this.chkSectionWise.Name = "chkSectionWise";
             this.chkSectionWise.Size = new System.Drawing.Size(15, 14);
             this.chkSectionWise.TabIndex = 76;
@@ -123,7 +123,7 @@
             // lblSectionWise
             // 
             this.lblSectionWise.AutoSize = true;
-            this.lblSectionWise.Location = new System.Drawing.Point(6, 120);
+            this.lblSectionWise.Location = new System.Drawing.Point(6, 109);
             this.lblSectionWise.Name = "lblSectionWise";
             this.lblSectionWise.Size = new System.Drawing.Size(70, 13);
             this.lblSectionWise.TabIndex = 75;
@@ -131,7 +131,7 @@
             // 
             // txtCategoryTo
             // 
-            this.txtCategoryTo.Location = new System.Drawing.Point(353, 80);
+            this.txtCategoryTo.Location = new System.Drawing.Point(352, 80);
             this.txtCategoryTo.Name = "txtCategoryTo";
             this.txtCategoryTo.Size = new System.Drawing.Size(111, 20);
             this.txtCategoryTo.TabIndex = 73;
@@ -147,7 +147,7 @@
             // 
             // txtCategoryFrom
             // 
-            this.txtCategoryFrom.Location = new System.Drawing.Point(114, 81);
+            this.txtCategoryFrom.Location = new System.Drawing.Point(113, 81);
             this.txtCategoryFrom.Name = "txtCategoryFrom";
             this.txtCategoryFrom.Size = new System.Drawing.Size(111, 20);
             this.txtCategoryFrom.TabIndex = 71;
@@ -215,28 +215,29 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(12, 159);
+            this.btnPreview.Location = new System.Drawing.Point(12, 149);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(59, 22);
             this.btnPreview.TabIndex = 77;
             this.btnPreview.Text = "&Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.Location = new System.Drawing.Point(461, 159);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 22);
-            this.button1.TabIndex = 78;
-            this.button1.Text = "&Cancel";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(461, 149);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(59, 22);
+            this.btnCancel.TabIndex = 78;
+            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmDailyLeaveAnalysisReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 189);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(529, 179);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyLeaveAnalysisReport";
@@ -264,10 +265,10 @@
         private System.Windows.Forms.Label lblSectionWise;
         private System.Windows.Forms.CheckBox chkSectionWise;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnCategoryFrom;
         private System.Windows.Forms.Button btnCategoryTo;
-        private System.Windows.Forms.DateTimePicker DTPDateTo;
-        private System.Windows.Forms.DateTimePicker DTPDateFrom;
+        private System.Windows.Forms.DateTimePicker dtpDateTo;
+        private System.Windows.Forms.DateTimePicker dtpDateFrom;
     }
 }

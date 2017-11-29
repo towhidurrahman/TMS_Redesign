@@ -48,14 +48,14 @@
             this.lblExtraTk = new System.Windows.Forms.Label();
             this.lblGCE = new System.Windows.Forms.Label();
             this.txtCategoryDescription = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbPayType = new System.Windows.Forms.ComboBox();
             this.lblPayType = new System.Windows.Forms.Label();
             this.txtSirderDescription = new System.Windows.Forms.TextBox();
             this.txtGardenDescription = new System.Windows.Forms.TextBox();
             this.txtSourceCodeDescription = new System.Windows.Forms.TextBox();
             this.btnSearchSourceCode = new System.Windows.Forms.Button();
             this.btnSearchBabu = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtBabu = new System.Windows.Forms.TextBox();
             this.lblBabu = new System.Windows.Forms.Label();
             this.lblSourceCode = new System.Windows.Forms.Label();
             this.txtTransNoDescription = new System.Windows.Forms.TextBox();
@@ -84,7 +84,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.btnNewCopy = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.txtTransNo = new System.Windows.Forms.TextBox();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
@@ -179,6 +179,7 @@
             this.btnCancel.TabIndex = 138;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnEntryDelete
             // 
@@ -285,13 +286,13 @@
             this.txtCategoryDescription.Size = new System.Drawing.Size(376, 20);
             this.txtCategoryDescription.TabIndex = 128;
             // 
-            // comboBox1
+            // cmbPayType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(540, 124);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(85, 21);
-            this.comboBox1.TabIndex = 125;
+            this.cmbPayType.FormattingEnabled = true;
+            this.cmbPayType.Location = new System.Drawing.Point(540, 124);
+            this.cmbPayType.Name = "cmbPayType";
+            this.cmbPayType.Size = new System.Drawing.Size(85, 21);
+            this.cmbPayType.TabIndex = 125;
             // 
             // lblPayType
             // 
@@ -347,13 +348,13 @@
             this.btnSearchBabu.TabIndex = 117;
             this.btnSearchBabu.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtBabu
             // 
-            this.textBox3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(261, 69);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(55, 20);
-            this.textBox3.TabIndex = 116;
+            this.txtBabu.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBabu.Location = new System.Drawing.Point(261, 69);
+            this.txtBabu.Name = "txtBabu";
+            this.txtBabu.Size = new System.Drawing.Size(55, 20);
+            this.txtBabu.TabIndex = 116;
             // 
             // lblBabu
             // 
@@ -594,7 +595,7 @@
             // 
             this.btnNext.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(234, 15);
+            this.btnNext.Location = new System.Drawing.Point(232, 15);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(27, 20);
             this.btnNext.TabIndex = 90;
@@ -604,7 +605,7 @@
             // 
             this.btnLast.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(261, 15);
+            this.btnLast.Location = new System.Drawing.Point(259, 15);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(27, 20);
             this.btnLast.TabIndex = 89;
@@ -614,26 +615,26 @@
             // 
             this.btnSearch.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(288, 15);
+            this.btnSearch.Location = new System.Drawing.Point(286, 15);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(26, 20);
             this.btnSearch.TabIndex = 88;
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
-            // btnNewCopy
+            // btnNew
             // 
-            this.btnNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCopy.Image")));
-            this.btnNewCopy.Location = new System.Drawing.Point(313, 15);
-            this.btnNewCopy.Name = "btnNewCopy";
-            this.btnNewCopy.Size = new System.Drawing.Size(26, 20);
-            this.btnNewCopy.TabIndex = 87;
-            this.btnNewCopy.UseVisualStyleBackColor = true;
+            this.btnNew.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(311, 15);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(26, 20);
+            this.btnNew.TabIndex = 87;
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // txtTransNo
             // 
             this.txtTransNo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTransNo.Location = new System.Drawing.Point(134, 15);
+            this.txtTransNo.Location = new System.Drawing.Point(132, 15);
             this.txtTransNo.Name = "txtTransNo";
             this.txtTransNo.Size = new System.Drawing.Size(100, 20);
             this.txtTransNo.TabIndex = 86;
@@ -684,14 +685,14 @@
             this.Controls.Add(this.lblExtraTk);
             this.Controls.Add(this.lblGCE);
             this.Controls.Add(this.txtCategoryDescription);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbPayType);
             this.Controls.Add(this.lblPayType);
             this.Controls.Add(this.txtSirderDescription);
             this.Controls.Add(this.txtGardenDescription);
             this.Controls.Add(this.txtSourceCodeDescription);
             this.Controls.Add(this.btnSearchSourceCode);
             this.Controls.Add(this.btnSearchBabu);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtBabu);
             this.Controls.Add(this.lblBabu);
             this.Controls.Add(this.lblSourceCode);
             this.Controls.Add(this.txtTransNoDescription);
@@ -720,7 +721,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnLast);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.btnNewCopy);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtTransNo);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnFirst);
@@ -756,14 +757,14 @@
         private System.Windows.Forms.Label lblExtraTk;
         private System.Windows.Forms.Label lblGCE;
         private System.Windows.Forms.TextBox txtCategoryDescription;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbPayType;
         private System.Windows.Forms.Label lblPayType;
         private System.Windows.Forms.TextBox txtSirderDescription;
         private System.Windows.Forms.TextBox txtGardenDescription;
         private System.Windows.Forms.TextBox txtSourceCodeDescription;
         private System.Windows.Forms.Button btnSearchSourceCode;
         private System.Windows.Forms.Button btnSearchBabu;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtBabu;
         private System.Windows.Forms.Label lblBabu;
         private System.Windows.Forms.Label lblSourceCode;
         private System.Windows.Forms.TextBox txtTransNoDescription;
@@ -792,7 +793,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnNewCopy;
+        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.TextBox txtTransNo;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnFirst;

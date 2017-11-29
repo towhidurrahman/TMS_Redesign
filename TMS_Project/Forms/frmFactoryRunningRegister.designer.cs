@@ -153,7 +153,7 @@
             this.cmbOtHrPowerFailure = new System.Windows.Forms.ComboBox();
             this.label41 = new System.Windows.Forms.Label();
             this.cmbStMnPowerFailure = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.cmbSecondPowerFailure = new System.Windows.Forms.ComboBox();
             this.label42 = new System.Windows.Forms.Label();
             this.txtStatusPowerFailure = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
@@ -371,12 +371,13 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(647, 444);
+            this.btnCancel.Location = new System.Drawing.Point(634, 444);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(66, 26);
             this.btnCancel.TabIndex = 173;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // tabDryer
             // 
@@ -553,7 +554,7 @@
             // txtStatus
             // 
             this.txtStatus.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStatus.Location = new System.Drawing.Point(629, 18);
+            this.txtStatus.Location = new System.Drawing.Point(624, 18);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.Size = new System.Drawing.Size(54, 20);
             this.txtStatus.TabIndex = 156;
@@ -1359,7 +1360,7 @@
             this.tabPowerFailure.Controls.Add(this.cmbOtHrPowerFailure);
             this.tabPowerFailure.Controls.Add(this.label41);
             this.tabPowerFailure.Controls.Add(this.cmbStMnPowerFailure);
-            this.tabPowerFailure.Controls.Add(this.comboBox15);
+            this.tabPowerFailure.Controls.Add(this.cmbSecondPowerFailure);
             this.tabPowerFailure.Controls.Add(this.label42);
             this.tabPowerFailure.Controls.Add(this.txtStatusPowerFailure);
             this.tabPowerFailure.Controls.Add(this.label43);
@@ -1480,13 +1481,13 @@
             this.cmbStMnPowerFailure.Size = new System.Drawing.Size(31, 21);
             this.cmbStMnPowerFailure.TabIndex = 201;
             // 
-            // comboBox15
+            // cmbSecondPowerFailure
             // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(326, 16);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(31, 21);
-            this.comboBox15.TabIndex = 200;
+            this.cmbSecondPowerFailure.FormattingEnabled = true;
+            this.cmbSecondPowerFailure.Location = new System.Drawing.Point(326, 16);
+            this.cmbSecondPowerFailure.Name = "cmbSecondPowerFailure";
+            this.cmbSecondPowerFailure.Size = new System.Drawing.Size(31, 21);
+            this.cmbSecondPowerFailure.TabIndex = 200;
             // 
             // label42
             // 
@@ -1992,7 +1993,7 @@
         private System.Windows.Forms.ComboBox cmbOtHrPowerFailure;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.ComboBox cmbStMnPowerFailure;
-        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox cmbSecondPowerFailure;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.TextBox txtStatusPowerFailure;
         private System.Windows.Forms.Label label43;

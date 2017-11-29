@@ -30,37 +30,37 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMonthlyPF));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnSearchWorkerFrom = new System.Windows.Forms.Button();
+            this.btnSearchWorkerTo = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.txtWorkerTo = new System.Windows.Forms.TextBox();
-            this.textBoxWorkerFrom = new System.Windows.Forms.TextBox();
+            this.txtWorkerFrom = new System.Windows.Forms.TextBox();
             this.cmbMonth = new System.Windows.Forms.ComboBox();
-            this.Cmbyear = new System.Windows.Forms.ComboBox();
+            this.cmbYear = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerFrom);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerTo);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Controls.Add(this.txtWorkerTo);
-            this.groupBox1.Controls.Add(this.textBoxWorkerFrom);
+            this.groupBox1.Controls.Add(this.txtWorkerFrom);
             this.groupBox1.Controls.Add(this.cmbMonth);
-            this.groupBox1.Controls.Add(this.Cmbyear);
+            this.groupBox1.Controls.Add(this.cmbYear);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -72,23 +72,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report Preview Range";
             // 
-            // button3
+            // btnSearchWorkerFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(322, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerFrom.Image")));
+            this.btnSearchWorkerFrom.Location = new System.Drawing.Point(322, 51);
+            this.btnSearchWorkerFrom.Name = "btnSearchWorkerFrom";
+            this.btnSearchWorkerFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerFrom.TabIndex = 72;
+            this.btnSearchWorkerFrom.UseVisualStyleBackColor = true;
             // 
-            // btnSearch
+            // btnSearchWorkerTo
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(664, 51);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 71;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerTo.Image")));
+            this.btnSearchWorkerTo.Location = new System.Drawing.Point(664, 51);
+            this.btnSearchWorkerTo.Name = "btnSearchWorkerTo";
+            this.btnSearchWorkerTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerTo.TabIndex = 71;
+            this.btnSearchWorkerTo.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -133,12 +133,12 @@
             this.txtWorkerTo.Size = new System.Drawing.Size(205, 20);
             this.txtWorkerTo.TabIndex = 8;
             // 
-            // textBoxWorkerFrom
+            // txtWorkerFrom
             // 
-            this.textBoxWorkerFrom.Location = new System.Drawing.Point(111, 51);
-            this.textBoxWorkerFrom.Name = "textBoxWorkerFrom";
-            this.textBoxWorkerFrom.Size = new System.Drawing.Size(205, 20);
-            this.textBoxWorkerFrom.TabIndex = 7;
+            this.txtWorkerFrom.Location = new System.Drawing.Point(111, 51);
+            this.txtWorkerFrom.Name = "txtWorkerFrom";
+            this.txtWorkerFrom.Size = new System.Drawing.Size(205, 20);
+            this.txtWorkerFrom.TabIndex = 7;
             // 
             // cmbMonth
             // 
@@ -148,13 +148,13 @@
             this.cmbMonth.Size = new System.Drawing.Size(205, 21);
             this.cmbMonth.TabIndex = 6;
             // 
-            // Cmbyear
+            // cmbYear
             // 
-            this.Cmbyear.FormattingEnabled = true;
-            this.Cmbyear.Location = new System.Drawing.Point(111, 19);
-            this.Cmbyear.Name = "Cmbyear";
-            this.Cmbyear.Size = new System.Drawing.Size(205, 21);
-            this.Cmbyear.TabIndex = 5;
+            this.cmbYear.FormattingEnabled = true;
+            this.cmbYear.Location = new System.Drawing.Point(111, 19);
+            this.cmbYear.Name = "cmbYear";
+            this.cmbYear.Size = new System.Drawing.Size(205, 21);
+            this.cmbYear.TabIndex = 5;
             // 
             // label5
             // 
@@ -201,21 +201,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(618, 103);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(87, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(618, 103);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(87, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmMonthlyPF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(712, 135);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmMonthlyPF";
@@ -231,20 +232,20 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtWorkerTo;
-        private System.Windows.Forms.TextBox textBoxWorkerFrom;
+        private System.Windows.Forms.TextBox txtWorkerFrom;
         private System.Windows.Forms.ComboBox cmbMonth;
-        private System.Windows.Forms.ComboBox Cmbyear;
+        private System.Windows.Forms.ComboBox cmbYear;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnSearchWorkerFrom;
+        private System.Windows.Forms.Button btnSearchWorkerTo;
     }
 }

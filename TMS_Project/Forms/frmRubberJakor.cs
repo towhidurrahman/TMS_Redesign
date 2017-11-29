@@ -31,5 +31,10 @@ namespace TMS_Project
         {
             //this is for test
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

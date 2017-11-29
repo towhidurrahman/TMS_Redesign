@@ -31,8 +31,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dTPickerWeeklyRationProcessToDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerWeeklyRationProcessFromDate = new System.Windows.Forms.DateTimePicker();
-            this.BtnCancel = new System.Windows.Forms.Button();
-            this.BtnProcess = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnProcess = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.FrmWekklyRationtoDate = new System.Windows.Forms.Label();
@@ -45,13 +45,13 @@
             // 
             this.groupBox1.Controls.Add(this.dTPickerWeeklyRationProcessToDate);
             this.groupBox1.Controls.Add(this.dTPickerWeeklyRationProcessFromDate);
-            this.groupBox1.Controls.Add(this.BtnCancel);
-            this.groupBox1.Controls.Add(this.BtnProcess);
+            this.groupBox1.Controls.Add(this.btnCancel);
+            this.groupBox1.Controls.Add(this.btnProcess);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.FrmWekklyRationtoDate);
             this.groupBox1.Controls.Add(this.FrmWekklyRationFrmDate);
-            this.groupBox1.Location = new System.Drawing.Point(2, 7);
+            this.groupBox1.Location = new System.Drawing.Point(2, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(587, 84);
             this.groupBox1.TabIndex = 0;
@@ -73,23 +73,24 @@
             this.dTPickerWeeklyRationProcessFromDate.Size = new System.Drawing.Size(176, 20);
             this.dTPickerWeeklyRationProcessFromDate.TabIndex = 8;
             // 
-            // BtnCancel
+            // btnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(498, 48);
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
-            this.BtnCancel.TabIndex = 5;
-            this.BtnCancel.Text = "Cancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(498, 48);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // BtnProcess
+            // btnProcess
             // 
-            this.BtnProcess.Location = new System.Drawing.Point(17, 48);
-            this.BtnProcess.Name = "BtnProcess";
-            this.BtnProcess.Size = new System.Drawing.Size(75, 23);
-            this.BtnProcess.TabIndex = 4;
-            this.BtnProcess.Text = "Process";
-            this.BtnProcess.UseVisualStyleBackColor = true;
+            this.btnProcess.Location = new System.Drawing.Point(17, 48);
+            this.btnProcess.Name = "btnProcess";
+            this.btnProcess.Size = new System.Drawing.Size(75, 23);
+            this.btnProcess.TabIndex = 4;
+            this.btnProcess.Text = "Process";
+            this.btnProcess.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -132,7 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 102);
+            this.ClientSize = new System.Drawing.Size(600, 96);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyRationProcess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -146,8 +147,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button BtnCancel;
-        private System.Windows.Forms.Button BtnProcess;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnProcess;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label FrmWekklyRationtoDate;

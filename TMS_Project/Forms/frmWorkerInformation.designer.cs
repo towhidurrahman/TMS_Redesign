@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmWorkerInformation));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButtonSummaryList = new System.Windows.Forms.RadioButton();
+            this.radioButtonWorkerIDCard = new System.Windows.Forms.RadioButton();
+            this.radioButtonDetailList = new System.Windows.Forms.RadioButton();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButtonWSInactive = new System.Windows.Forms.RadioButton();
+            this.radioButtonWSActive = new System.Windows.Forms.RadioButton();
+            this.radioButtonWSAll = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButtonSortByWorkerId = new System.Windows.Forms.RadioButton();
+            this.radioButtonSortByGarden = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dTPickerInactiveDateTo = new System.Windows.Forms.DateTimePicker();
             this.dTPickerInactiveDate = new System.Windows.Forms.DateTimePicker();
@@ -50,8 +50,8 @@
             this.dTPickerFromPF = new System.Windows.Forms.DateTimePicker();
             this.dtPickerToJoining = new System.Windows.Forms.DateTimePicker();
             this.dtPickerFromJoining = new System.Windows.Forms.DateTimePicker();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnSearchWorkerFrom = new System.Windows.Forms.Button();
+            this.btnSearchWorkerTo = new System.Windows.Forms.Button();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
@@ -116,8 +116,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPreview = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -126,9 +126,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButtonSummaryList);
+            this.groupBox1.Controls.Add(this.radioButtonWorkerIDCard);
+            this.groupBox1.Controls.Add(this.radioButtonDetailList);
             this.groupBox1.Location = new System.Drawing.Point(6, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(265, 61);
@@ -137,47 +137,47 @@
             this.groupBox1.Text = "Report Type";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // radioButton3
+            // radioButtonSummaryList
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(6, 40);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(106, 20);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Summary List";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButtonSummaryList.AutoSize = true;
+            this.radioButtonSummaryList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonSummaryList.Location = new System.Drawing.Point(6, 40);
+            this.radioButtonSummaryList.Name = "radioButtonSummaryList";
+            this.radioButtonSummaryList.Size = new System.Drawing.Size(106, 20);
+            this.radioButtonSummaryList.TabIndex = 2;
+            this.radioButtonSummaryList.TabStop = true;
+            this.radioButtonSummaryList.Text = "Summary List";
+            this.radioButtonSummaryList.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radioButtonWorkerIDCard
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(139, 19);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(118, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Worker ID Card";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButtonWorkerIDCard.AutoSize = true;
+            this.radioButtonWorkerIDCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonWorkerIDCard.Location = new System.Drawing.Point(139, 19);
+            this.radioButtonWorkerIDCard.Name = "radioButtonWorkerIDCard";
+            this.radioButtonWorkerIDCard.Size = new System.Drawing.Size(118, 20);
+            this.radioButtonWorkerIDCard.TabIndex = 1;
+            this.radioButtonWorkerIDCard.TabStop = true;
+            this.radioButtonWorkerIDCard.Text = "Worker ID Card";
+            this.radioButtonWorkerIDCard.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioButtonDetailList
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(84, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Detail List";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButtonDetailList.AutoSize = true;
+            this.radioButtonDetailList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonDetailList.Location = new System.Drawing.Point(6, 19);
+            this.radioButtonDetailList.Name = "radioButtonDetailList";
+            this.radioButtonDetailList.Size = new System.Drawing.Size(84, 20);
+            this.radioButtonDetailList.TabIndex = 0;
+            this.radioButtonDetailList.TabStop = true;
+            this.radioButtonDetailList.Text = "Detail List";
+            this.radioButtonDetailList.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.radioButton6);
+            this.groupBox2.Controls.Add(this.radioButtonWSInactive);
+            this.groupBox2.Controls.Add(this.radioButtonWSActive);
+            this.groupBox2.Controls.Add(this.radioButtonWSAll);
             this.groupBox2.Location = new System.Drawing.Point(294, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(246, 61);
@@ -186,46 +186,46 @@
             this.groupBox2.Text = "Worker Status";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // radioButton4
+            // radioButtonWSInactive
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(6, 40);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(72, 20);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Inactive";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButtonWSInactive.AutoSize = true;
+            this.radioButtonWSInactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonWSInactive.Location = new System.Drawing.Point(6, 40);
+            this.radioButtonWSInactive.Name = "radioButtonWSInactive";
+            this.radioButtonWSInactive.Size = new System.Drawing.Size(72, 20);
+            this.radioButtonWSInactive.TabIndex = 2;
+            this.radioButtonWSInactive.TabStop = true;
+            this.radioButtonWSInactive.Text = "Inactive";
+            this.radioButtonWSInactive.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // radioButtonWSActive
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(124, 19);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(63, 20);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Active";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButtonWSActive.AutoSize = true;
+            this.radioButtonWSActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonWSActive.Location = new System.Drawing.Point(124, 19);
+            this.radioButtonWSActive.Name = "radioButtonWSActive";
+            this.radioButtonWSActive.Size = new System.Drawing.Size(63, 20);
+            this.radioButtonWSActive.TabIndex = 1;
+            this.radioButtonWSActive.TabStop = true;
+            this.radioButtonWSActive.Text = "Active";
+            this.radioButtonWSActive.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // radioButtonWSAll
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(6, 19);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(41, 20);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "All";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButtonWSAll.AutoSize = true;
+            this.radioButtonWSAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonWSAll.Location = new System.Drawing.Point(6, 19);
+            this.radioButtonWSAll.Name = "radioButtonWSAll";
+            this.radioButtonWSAll.Size = new System.Drawing.Size(41, 20);
+            this.radioButtonWSAll.TabIndex = 0;
+            this.radioButtonWSAll.TabStop = true;
+            this.radioButtonWSAll.Text = "All";
+            this.radioButtonWSAll.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton7);
-            this.groupBox3.Controls.Add(this.radioButton9);
+            this.groupBox3.Controls.Add(this.radioButtonSortByWorkerId);
+            this.groupBox3.Controls.Add(this.radioButtonSortByGarden);
             this.groupBox3.Location = new System.Drawing.Point(562, 5);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(219, 61);
@@ -234,29 +234,29 @@
             this.groupBox3.Text = "Sort By";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // radioButton7
+            // radioButtonSortByWorkerId
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(6, 40);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(86, 20);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Worker ID";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButtonSortByWorkerId.AutoSize = true;
+            this.radioButtonSortByWorkerId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonSortByWorkerId.Location = new System.Drawing.Point(6, 35);
+            this.radioButtonSortByWorkerId.Name = "radioButtonSortByWorkerId";
+            this.radioButtonSortByWorkerId.Size = new System.Drawing.Size(86, 20);
+            this.radioButtonSortByWorkerId.TabIndex = 2;
+            this.radioButtonSortByWorkerId.TabStop = true;
+            this.radioButtonSortByWorkerId.Text = "Worker ID";
+            this.radioButtonSortByWorkerId.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // radioButtonSortByGarden
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(6, 19);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(71, 20);
-            this.radioButton9.TabIndex = 0;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Garden";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButtonSortByGarden.AutoSize = true;
+            this.radioButtonSortByGarden.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonSortByGarden.Location = new System.Drawing.Point(6, 15);
+            this.radioButtonSortByGarden.Name = "radioButtonSortByGarden";
+            this.radioButtonSortByGarden.Size = new System.Drawing.Size(71, 20);
+            this.radioButtonSortByGarden.TabIndex = 0;
+            this.radioButtonSortByGarden.TabStop = true;
+            this.radioButtonSortByGarden.Text = "Garden";
+            this.radioButtonSortByGarden.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
@@ -268,8 +268,8 @@
             this.groupBox4.Controls.Add(this.dTPickerFromPF);
             this.groupBox4.Controls.Add(this.dtPickerToJoining);
             this.groupBox4.Controls.Add(this.dtPickerFromJoining);
-            this.groupBox4.Controls.Add(this.button3);
-            this.groupBox4.Controls.Add(this.btnSearch);
+            this.groupBox4.Controls.Add(this.btnSearchWorkerFrom);
+            this.groupBox4.Controls.Add(this.btnSearchWorkerTo);
             this.groupBox4.Controls.Add(this.label48);
             this.groupBox4.Controls.Add(this.label47);
             this.groupBox4.Controls.Add(this.label46);
@@ -337,7 +337,7 @@
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(6, 72);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(775, 407);
+            this.groupBox4.Size = new System.Drawing.Size(775, 397);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Report Preview Rangs";
@@ -410,23 +410,23 @@
             this.dtPickerFromJoining.Size = new System.Drawing.Size(215, 22);
             this.dtPickerFromJoining.TabIndex = 81;
             // 
-            // button3
+            // btnSearchWorkerFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(364, 249);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 80;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerFrom.Image")));
+            this.btnSearchWorkerFrom.Location = new System.Drawing.Point(364, 249);
+            this.btnSearchWorkerFrom.Name = "btnSearchWorkerFrom";
+            this.btnSearchWorkerFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerFrom.TabIndex = 80;
+            this.btnSearchWorkerFrom.UseVisualStyleBackColor = true;
             // 
-            // btnSearch
+            // btnSearchWorkerTo
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(743, 249);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 79;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerTo.Image")));
+            this.btnSearchWorkerTo.Location = new System.Drawing.Point(743, 249);
+            this.btnSearchWorkerTo.Name = "btnSearchWorkerTo";
+            this.btnSearchWorkerTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerTo.TabIndex = 79;
+            this.btnSearchWorkerTo.UseVisualStyleBackColor = true;
             // 
             // label48
             // 
@@ -989,31 +989,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Work Station";
             // 
-            // button1
+            // btnPreview
             // 
-            this.button1.Location = new System.Drawing.Point(6, 485);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Preview";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPreview.Location = new System.Drawing.Point(6, 474);
+            this.btnPreview.Name = "btnPreview";
+            this.btnPreview.Size = new System.Drawing.Size(75, 23);
+            this.btnPreview.TabIndex = 5;
+            this.btnPreview.Text = "Preview";
+            this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnCancel
             // 
-            this.button2.Location = new System.Drawing.Point(706, 485);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(706, 476);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmWorkerInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(788, 517);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(788, 501);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
@@ -1037,17 +1038,17 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButtonSummaryList;
+        private System.Windows.Forms.RadioButton radioButtonWorkerIDCard;
+        private System.Windows.Forms.RadioButton radioButtonDetailList;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButtonWSInactive;
+        private System.Windows.Forms.RadioButton radioButtonWSActive;
+        private System.Windows.Forms.RadioButton radioButtonWSAll;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButtonSortByWorkerId;
+        private System.Windows.Forms.RadioButton radioButtonSortByGarden;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
@@ -1082,8 +1083,8 @@
         private System.Windows.Forms.ComboBox cmbReligion;
         private System.Windows.Forms.ComboBox cmbArea;
         private System.Windows.Forms.ComboBox cmbStatus;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPreview;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -1115,8 +1116,8 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnSearchWorkerFrom;
+        private System.Windows.Forms.Button btnSearchWorkerTo;
         private System.Windows.Forms.DateTimePicker dTPickerToPermanent;
         private System.Windows.Forms.DateTimePicker dTPickerToPF;
         private System.Windows.Forms.DateTimePicker dTPickerFromPermanent;

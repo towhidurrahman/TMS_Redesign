@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmWeeklyRation));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButtonPosting = new System.Windows.Forms.RadioButton();
+            this.radioButtonReport = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBoxWeeklyRationArea = new System.Windows.Forms.ComboBox();
+            this.cmbWeeklyRationArea = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.txtWeeklyRationMonth = new System.Windows.Forms.TextBox();
@@ -48,29 +48,33 @@
             this.label8 = new System.Windows.Forms.Label();
             this.dTPickerWeeklyRationStartWeek = new System.Windows.Forms.DateTimePicker();
             this.FrmWekklyRationFrmDate = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnWorkerFrom = new System.Windows.Forms.Button();
+            this.btnSearchWorkerTo = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.txtWeeklyRationWorkerTo = new System.Windows.Forms.TextBox();
-            this.textBoxWeeklyRationWorkerFrom = new System.Windows.Forms.TextBox();
+            this.txtWeeklyRationWorkerFrom = new System.Windows.Forms.TextBox();
             this.cmbWeeklyRationGarden = new System.Windows.Forms.ComboBox();
-            this.CmbWeeklyRationSex = new System.Windows.Forms.ComboBox();
+            this.cmbWeeklyRationSex = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.radioButtonPosting);
+            this.groupBox1.Controls.Add(this.radioButtonReport);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.comboBoxWeeklyRationArea);
+            this.groupBox1.Controls.Add(this.cmbWeeklyRationArea);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.txtWeeklyRationMonth);
@@ -85,15 +89,15 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.dTPickerWeeklyRationStartWeek);
             this.groupBox1.Controls.Add(this.FrmWekklyRationFrmDate);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.btnWorkerFrom);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerTo);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Controls.Add(this.txtWeeklyRationWorkerTo);
-            this.groupBox1.Controls.Add(this.textBoxWeeklyRationWorkerFrom);
+            this.groupBox1.Controls.Add(this.txtWeeklyRationWorkerFrom);
             this.groupBox1.Controls.Add(this.cmbWeeklyRationGarden);
-            this.groupBox1.Controls.Add(this.CmbWeeklyRationSex);
+            this.groupBox1.Controls.Add(this.cmbWeeklyRationSex);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
@@ -105,27 +109,27 @@
             this.groupBox1.Text = "Report Preview Range";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // radioButton2
+            // radioButtonPosting
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(457, 43);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(60, 17);
-            this.radioButton2.TabIndex = 92;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Posting";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButtonPosting.AutoSize = true;
+            this.radioButtonPosting.Location = new System.Drawing.Point(457, 43);
+            this.radioButtonPosting.Name = "radioButtonPosting";
+            this.radioButtonPosting.Size = new System.Drawing.Size(60, 17);
+            this.radioButtonPosting.TabIndex = 92;
+            this.radioButtonPosting.TabStop = true;
+            this.radioButtonPosting.Text = "Posting";
+            this.radioButtonPosting.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioButtonReport
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(457, 21);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(57, 17);
-            this.radioButton1.TabIndex = 91;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Report";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButtonReport.AutoSize = true;
+            this.radioButtonReport.Location = new System.Drawing.Point(457, 21);
+            this.radioButtonReport.Name = "radioButtonReport";
+            this.radioButtonReport.Size = new System.Drawing.Size(57, 17);
+            this.radioButtonReport.TabIndex = 91;
+            this.radioButtonReport.TabStop = true;
+            this.radioButtonReport.Text = "Report";
+            this.radioButtonReport.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -136,13 +140,13 @@
             this.label9.TabIndex = 90;
             this.label9.Text = ":";
             // 
-            // comboBoxWeeklyRationArea
+            // cmbWeeklyRationArea
             // 
-            this.comboBoxWeeklyRationArea.FormattingEnabled = true;
-            this.comboBoxWeeklyRationArea.Location = new System.Drawing.Point(113, 149);
-            this.comboBoxWeeklyRationArea.Name = "comboBoxWeeklyRationArea";
-            this.comboBoxWeeklyRationArea.Size = new System.Drawing.Size(205, 21);
-            this.comboBoxWeeklyRationArea.TabIndex = 89;
+            this.cmbWeeklyRationArea.FormattingEnabled = true;
+            this.cmbWeeklyRationArea.Location = new System.Drawing.Point(113, 149);
+            this.cmbWeeklyRationArea.Name = "cmbWeeklyRationArea";
+            this.cmbWeeklyRationArea.Size = new System.Drawing.Size(205, 21);
+            this.cmbWeeklyRationArea.TabIndex = 89;
             // 
             // label10
             // 
@@ -262,23 +266,23 @@
             this.FrmWekklyRationFrmDate.TabIndex = 73;
             this.FrmWekklyRationFrmDate.Text = "Week Start";
             // 
-            // button3
+            // btnWorkerFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(324, 96);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnWorkerFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkerFrom.Image")));
+            this.btnWorkerFrom.Location = new System.Drawing.Point(242, 97);
+            this.btnWorkerFrom.Name = "btnWorkerFrom";
+            this.btnWorkerFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnWorkerFrom.TabIndex = 72;
+            this.btnWorkerFrom.UseVisualStyleBackColor = true;
             // 
-            // btnSearch
+            // btnSearchWorkerTo
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(583, 95);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 71;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerTo.Image")));
+            this.btnSearchWorkerTo.Location = new System.Drawing.Point(583, 100);
+            this.btnSearchWorkerTo.Name = "btnSearchWorkerTo";
+            this.btnSearchWorkerTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerTo.TabIndex = 71;
+            this.btnSearchWorkerTo.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -309,17 +313,17 @@
             // 
             // txtWeeklyRationWorkerTo
             // 
-            this.txtWeeklyRationWorkerTo.Location = new System.Drawing.Point(372, 96);
+            this.txtWeeklyRationWorkerTo.Location = new System.Drawing.Point(463, 99);
             this.txtWeeklyRationWorkerTo.Name = "txtWeeklyRationWorkerTo";
-            this.txtWeeklyRationWorkerTo.Size = new System.Drawing.Size(205, 20);
+            this.txtWeeklyRationWorkerTo.Size = new System.Drawing.Size(114, 20);
             this.txtWeeklyRationWorkerTo.TabIndex = 8;
             // 
-            // textBoxWeeklyRationWorkerFrom
+            // txtWeeklyRationWorkerFrom
             // 
-            this.textBoxWeeklyRationWorkerFrom.Location = new System.Drawing.Point(113, 96);
-            this.textBoxWeeklyRationWorkerFrom.Name = "textBoxWeeklyRationWorkerFrom";
-            this.textBoxWeeklyRationWorkerFrom.Size = new System.Drawing.Size(205, 20);
-            this.textBoxWeeklyRationWorkerFrom.TabIndex = 7;
+            this.txtWeeklyRationWorkerFrom.Location = new System.Drawing.Point(113, 96);
+            this.txtWeeklyRationWorkerFrom.Name = "txtWeeklyRationWorkerFrom";
+            this.txtWeeklyRationWorkerFrom.Size = new System.Drawing.Size(123, 20);
+            this.txtWeeklyRationWorkerFrom.TabIndex = 7;
             // 
             // cmbWeeklyRationGarden
             // 
@@ -329,13 +333,13 @@
             this.cmbWeeklyRationGarden.Size = new System.Drawing.Size(128, 21);
             this.cmbWeeklyRationGarden.TabIndex = 6;
             // 
-            // CmbWeeklyRationSex
+            // cmbWeeklyRationSex
             // 
-            this.CmbWeeklyRationSex.FormattingEnabled = true;
-            this.CmbWeeklyRationSex.Location = new System.Drawing.Point(113, 122);
-            this.CmbWeeklyRationSex.Name = "CmbWeeklyRationSex";
-            this.CmbWeeklyRationSex.Size = new System.Drawing.Size(205, 21);
-            this.CmbWeeklyRationSex.TabIndex = 5;
+            this.cmbWeeklyRationSex.FormattingEnabled = true;
+            this.cmbWeeklyRationSex.Location = new System.Drawing.Point(113, 122);
+            this.cmbWeeklyRationSex.Name = "cmbWeeklyRationSex";
+            this.cmbWeeklyRationSex.Size = new System.Drawing.Size(205, 21);
+            this.cmbWeeklyRationSex.TabIndex = 5;
             // 
             // label5
             // 
@@ -373,21 +377,40 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(542, 182);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(87, 26);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(542, 184);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(87, 26);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btncancel_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(447, 101);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(10, 13);
+            this.label2.TabIndex = 94;
+            this.label2.Text = ":";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(373, 101);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 13);
+            this.label7.TabIndex = 93;
+            this.label7.Text = "Worker To";
             // 
             // frmWeeklyRation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(636, 212);
-            this.Controls.Add(this.btncancel);
+            this.ClientSize = new System.Drawing.Size(636, 217);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyRation";
@@ -403,19 +426,19 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtWeeklyRationWorkerTo;
-        private System.Windows.Forms.TextBox textBoxWeeklyRationWorkerFrom;
+        private System.Windows.Forms.TextBox txtWeeklyRationWorkerFrom;
         private System.Windows.Forms.ComboBox cmbWeeklyRationGarden;
-        private System.Windows.Forms.ComboBox CmbWeeklyRationSex;
+        private System.Windows.Forms.ComboBox cmbWeeklyRationSex;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnWorkerFrom;
+        private System.Windows.Forms.Button btnSearchWorkerTo;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dTPickerWeeklyRationStartWeek;
         private System.Windows.Forms.Label FrmWekklyRationFrmDate;
@@ -430,9 +453,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtWeeklyRationweekT;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBoxWeeklyRationArea;
+        private System.Windows.Forms.ComboBox cmbWeeklyRationArea;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButtonPosting;
+        private System.Windows.Forms.RadioButton radioButtonReport;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label7;
     }
 }

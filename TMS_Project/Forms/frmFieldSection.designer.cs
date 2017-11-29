@@ -68,7 +68,7 @@
             this.lblRecommendation = new System.Windows.Forms.Label();
             this.lblPlantation = new System.Windows.Forms.Label();
             this.backgroundWorker3 = new System.ComponentModel.BackgroundWorker();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkInactive = new System.Windows.Forms.CheckBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -92,7 +92,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtSection = new System.Windows.Forms.TextBox();
             this.lblNeedtoSave = new System.Windows.Forms.Label();
             this.lblSectionId = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -101,6 +101,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dtPickerDateOfInactive = new System.Windows.Forms.DateTimePicker();
             this.txtRecommendation = new System.Windows.Forms.TextBox();
             this.txtCarbonNitrogen = new System.Windows.Forms.TextBox();
             this.txtAvailableM = new System.Windows.Forms.TextBox();
@@ -113,7 +114,6 @@
             this.txtTexture = new System.Windows.Forms.TextBox();
             this.cmbDate = new System.Windows.Forms.ComboBox();
             this.lblAvailableM = new System.Windows.Forms.Label();
-            this.dtPickerDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -385,14 +385,14 @@
             this.lblPlantation.TabIndex = 14;
             this.lblPlantation.Text = "Plantation";
             // 
-            // checkBox1
+            // chkInactive
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(66, 135);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 47;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkInactive.AutoSize = true;
+            this.chkInactive.Location = new System.Drawing.Point(66, 135);
+            this.chkInactive.Name = "chkInactive";
+            this.chkInactive.Size = new System.Drawing.Size(15, 14);
+            this.chkInactive.TabIndex = 47;
+            this.chkInactive.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -539,7 +539,7 @@
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
             this.groupBox1.Controls.Add(this.txtShadeTrees);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtSection);
             this.groupBox1.Controls.Add(this.cmbReplantingYear);
             this.groupBox1.Controls.Add(this.txtPlantSpacing);
             this.groupBox1.Controls.Add(this.txtBushHac);
@@ -631,12 +631,12 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtSection
             // 
-            this.textBox3.Location = new System.Drawing.Point(169, 17);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 23);
-            this.textBox3.TabIndex = 65;
+            this.txtSection.Location = new System.Drawing.Point(169, 17);
+            this.txtSection.Name = "txtSection";
+            this.txtSection.Size = new System.Drawing.Size(85, 23);
+            this.txtSection.TabIndex = 65;
             // 
             // lblNeedtoSave
             // 
@@ -694,8 +694,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dtPickerDate);
-            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.dtPickerDateOfInactive);
+            this.groupBox2.Controls.Add(this.chkInactive);
             this.groupBox2.Controls.Add(this.txtRecommendation);
             this.groupBox2.Controls.Add(this.txtCarbonNitrogen);
             this.groupBox2.Controls.Add(this.txtAvailableM);
@@ -725,6 +725,15 @@
             this.groupBox2.Size = new System.Drawing.Size(737, 179);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
+            // 
+            // dtPickerDateOfInactive
+            // 
+            this.dtPickerDateOfInactive.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtPickerDateOfInactive.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtPickerDateOfInactive.Location = new System.Drawing.Point(214, 136);
+            this.dtPickerDateOfInactive.Name = "dtPickerDateOfInactive";
+            this.dtPickerDateOfInactive.Size = new System.Drawing.Size(85, 20);
+            this.dtPickerDateOfInactive.TabIndex = 152;
             // 
             // txtRecommendation
             // 
@@ -812,15 +821,6 @@
             this.lblAvailableM.TabIndex = 15;
             this.lblAvailableM.Text = "Available M(Ug/g)";
             // 
-            // dtPickerDate
-            // 
-            this.dtPickerDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtPickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtPickerDate.Location = new System.Drawing.Point(214, 136);
-            this.dtPickerDate.Name = "dtPickerDate";
-            this.dtPickerDate.Size = new System.Drawing.Size(85, 20);
-            this.dtPickerDate.TabIndex = 152;
-            // 
             // frmFieldSection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -894,7 +894,7 @@
         private System.Windows.Forms.Label lblRecommendation;
         private System.Windows.Forms.Label lblPlantation;
         private System.ComponentModel.BackgroundWorker backgroundWorker3;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkInactive;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Button btnDelete;
@@ -938,7 +938,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dtPickerDate;
+        private System.Windows.Forms.TextBox txtSection;
+        private System.Windows.Forms.DateTimePicker dtPickerDateOfInactive;
     }
 }

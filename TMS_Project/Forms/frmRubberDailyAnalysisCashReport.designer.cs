@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRubberDailyAnalysisCashReport));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.DTPDateFrom = new System.Windows.Forms.DateTimePicker();
+            this.dtpDateTo = new System.Windows.Forms.DateTimePicker();
+            this.dtpDateFrom = new System.Windows.Forms.DateTimePicker();
             this.btnCategoryTo = new System.Windows.Forms.Button();
             this.btnCategoryFrom = new System.Windows.Forms.Button();
             this.txtCategoryTo = new System.Windows.Forms.TextBox();
@@ -44,15 +44,15 @@
             this.cmbWorkStation = new System.Windows.Forms.ComboBox();
             this.lblWorkStation = new System.Windows.Forms.Label();
             this.lblDateFrom = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.btnPreview = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.DTPDateFrom);
+            this.groupBox1.Controls.Add(this.dtpDateTo);
+            this.groupBox1.Controls.Add(this.dtpDateFrom);
             this.groupBox1.Controls.Add(this.btnCategoryTo);
             this.groupBox1.Controls.Add(this.btnCategoryFrom);
             this.groupBox1.Controls.Add(this.txtCategoryTo);
@@ -72,21 +72,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
             // 
-            // dateTimePicker1
+            // dtpDateTo
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(372, 20);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(111, 20);
-            this.dateTimePicker1.TabIndex = 83;
+            this.dtpDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateTo.Location = new System.Drawing.Point(372, 20);
+            this.dtpDateTo.Name = "dtpDateTo";
+            this.dtpDateTo.Size = new System.Drawing.Size(111, 20);
+            this.dtpDateTo.TabIndex = 83;
             // 
-            // DTPDateFrom
+            // dtpDateFrom
             // 
-            this.DTPDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPDateFrom.Location = new System.Drawing.Point(103, 23);
-            this.DTPDateFrom.Name = "DTPDateFrom";
-            this.DTPDateFrom.Size = new System.Drawing.Size(111, 20);
-            this.DTPDateFrom.TabIndex = 82;
+            this.dtpDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateFrom.Location = new System.Drawing.Point(103, 23);
+            this.dtpDateFrom.Name = "dtpDateFrom";
+            this.dtpDateFrom.Size = new System.Drawing.Size(111, 20);
+            this.dtpDateFrom.TabIndex = 82;
             // 
             // btnCategoryTo
             // 
@@ -190,14 +190,15 @@
             this.lblDateFrom.TabIndex = 62;
             this.lblDateFrom.Text = "DateFrom";
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.Location = new System.Drawing.Point(478, 147);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 22);
-            this.button1.TabIndex = 80;
-            this.button1.Text = "&Cancel";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(478, 147);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(59, 22);
+            this.btnCancel.TabIndex = 80;
+            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnPreview
             // 
@@ -213,7 +214,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 184);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmRubberDailyAnalysisCashReport";
@@ -239,9 +240,9 @@
         private System.Windows.Forms.ComboBox cmbWorkStation;
         private System.Windows.Forms.Label lblWorkStation;
         private System.Windows.Forms.Label lblDateFrom;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker DTPDateFrom;
+        private System.Windows.Forms.DateTimePicker dtpDateTo;
+        private System.Windows.Forms.DateTimePicker dtpDateFrom;
     }
 }

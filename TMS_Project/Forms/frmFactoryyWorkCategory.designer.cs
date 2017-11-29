@@ -40,7 +40,7 @@
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.txtCategoryId = new System.Windows.Forms.TextBox();
-            this.btnNewCopy = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
@@ -172,15 +172,15 @@
             this.txtCategoryId.Size = new System.Drawing.Size(100, 20);
             this.txtCategoryId.TabIndex = 17;
             // 
-            // btnNewCopy
+            // btnNew
             // 
-            this.btnNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCopy.Image")));
-            this.btnNewCopy.Location = new System.Drawing.Point(368, 10);
-            this.btnNewCopy.Name = "btnNewCopy";
-            this.btnNewCopy.Size = new System.Drawing.Size(29, 21);
-            this.btnNewCopy.TabIndex = 18;
-            this.btnNewCopy.UseVisualStyleBackColor = true;
+            this.btnNew.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(368, 10);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(29, 21);
+            this.btnNew.TabIndex = 18;
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // btnSearch
             // 
@@ -393,7 +393,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnLast);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.btnNewCopy);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtCategoryId);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnFirst);
@@ -428,7 +428,7 @@
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.TextBox txtCategoryId;
-        private System.Windows.Forms.Button btnNewCopy;
+        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;

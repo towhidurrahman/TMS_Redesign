@@ -31,9 +31,9 @@
             this.lblYear = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.DTPFiscalCalendar = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DTPFiscalCalendar1 = new System.Windows.Forms.DateTimePicker();
+            this.DTPFiscalCalendar2 = new System.Windows.Forms.DateTimePicker();
+            this.DTPFiscalCalendar3 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lblYear
@@ -62,39 +62,40 @@
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // DTPFiscalCalendar
+            // DTPFiscalCalendar1
             // 
-            this.DTPFiscalCalendar.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPFiscalCalendar.Location = new System.Drawing.Point(74, 17);
-            this.DTPFiscalCalendar.Name = "DTPFiscalCalendar";
-            this.DTPFiscalCalendar.Size = new System.Drawing.Size(111, 20);
-            this.DTPFiscalCalendar.TabIndex = 82;
+            this.DTPFiscalCalendar1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTPFiscalCalendar1.Location = new System.Drawing.Point(74, 17);
+            this.DTPFiscalCalendar1.Name = "DTPFiscalCalendar1";
+            this.DTPFiscalCalendar1.Size = new System.Drawing.Size(111, 20);
+            this.DTPFiscalCalendar1.TabIndex = 82;
             // 
-            // dateTimePicker1
+            // DTPFiscalCalendar2
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(198, 17);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(111, 20);
-            this.dateTimePicker1.TabIndex = 83;
+            this.DTPFiscalCalendar2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTPFiscalCalendar2.Location = new System.Drawing.Point(198, 17);
+            this.DTPFiscalCalendar2.Name = "DTPFiscalCalendar2";
+            this.DTPFiscalCalendar2.Size = new System.Drawing.Size(111, 20);
+            this.DTPFiscalCalendar2.TabIndex = 83;
             // 
-            // dateTimePicker2
+            // DTPFiscalCalendar3
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(318, 17);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(111, 20);
-            this.dateTimePicker2.TabIndex = 84;
+            this.DTPFiscalCalendar3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTPFiscalCalendar3.Location = new System.Drawing.Point(318, 17);
+            this.DTPFiscalCalendar3.Name = "DTPFiscalCalendar3";
+            this.DTPFiscalCalendar3.Size = new System.Drawing.Size(111, 20);
+            this.DTPFiscalCalendar3.TabIndex = 84;
             // 
             // frmFiscalCalendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 82);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.DTPFiscalCalendar);
+            this.Controls.Add(this.DTPFiscalCalendar3);
+            this.Controls.Add(this.DTPFiscalCalendar2);
+            this.Controls.Add(this.DTPFiscalCalendar1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblYear);
@@ -111,8 +112,8 @@
         private System.Windows.Forms.Label lblYear;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.DateTimePicker DTPFiscalCalendar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DTPFiscalCalendar1;
+        private System.Windows.Forms.DateTimePicker DTPFiscalCalendar2;
+        private System.Windows.Forms.DateTimePicker DTPFiscalCalendar3;
     }
 }

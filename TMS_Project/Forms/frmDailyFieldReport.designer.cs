@@ -37,12 +37,12 @@
             this.radioButtonDFieldRSirder = new System.Windows.Forms.RadioButton();
             this.label21 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.CmbDFieldRGarden = new System.Windows.Forms.ComboBox();
+            this.cmbDFieldRGarden = new System.Windows.Forms.ComboBox();
             this.cmbDFieldRWorkStation = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel10 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSearchDFieldRSirderTo = new System.Windows.Forms.Button();
+            this.btnSearchDFieldRSirderFrom = new System.Windows.Forms.Button();
             this.txtDFieldRsirderTo = new System.Windows.Forms.TextBox();
             this.txtDFieldRSirderFrom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,14 +50,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dTPickerDFieldRToDate = new System.Windows.Forms.DateTimePicker();
-            this.dTPickerDFieldRFromDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpickerDFieldRFromDate = new System.Windows.Forms.DateTimePicker();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSearchDFieldRCategoryTo = new System.Windows.Forms.Button();
+            this.btnSearchDFieldRCategoryFrom = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.txtDFieldRCategoryto = new System.Windows.Forms.TextBox();
+            this.txtDFieldRCategoryTo = new System.Windows.Forms.TextBox();
             this.txtDFieldRWorkerIdTo = new System.Windows.Forms.TextBox();
-            this.txtDFieldRWorkerIdF = new System.Windows.Forms.TextBox();
+            this.txtDFieldRWorkerIdFrom = new System.Windows.Forms.TextBox();
             this.txtDFieldRCategoryFrom = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -78,7 +78,7 @@
             this.FrmWPaymentlabel1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,12 +91,12 @@
             this.groupBox1.Controls.Add(this.radioButtonDFieldRSirder);
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.CmbDFieldRGarden);
+            this.groupBox1.Controls.Add(this.cmbDFieldRGarden);
             this.groupBox1.Controls.Add(this.cmbDFieldRWorkStation);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnSearchDFieldRSirderTo);
+            this.groupBox1.Controls.Add(this.btnSearchDFieldRSirderFrom);
             this.groupBox1.Controls.Add(this.txtDFieldRsirderTo);
             this.groupBox1.Controls.Add(this.txtDFieldRSirderFrom);
             this.groupBox1.Controls.Add(this.label1);
@@ -104,14 +104,14 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.dTPickerDFieldRToDate);
-            this.groupBox1.Controls.Add(this.dTPickerDFieldRFromDate);
+            this.groupBox1.Controls.Add(this.dtpickerDFieldRFromDate);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnSearchDFieldRCategoryTo);
+            this.groupBox1.Controls.Add(this.btnSearchDFieldRCategoryFrom);
             this.groupBox1.Controls.Add(this.btnSearch);
-            this.groupBox1.Controls.Add(this.txtDFieldRCategoryto);
+            this.groupBox1.Controls.Add(this.txtDFieldRCategoryTo);
             this.groupBox1.Controls.Add(this.txtDFieldRWorkerIdTo);
-            this.groupBox1.Controls.Add(this.txtDFieldRWorkerIdF);
+            this.groupBox1.Controls.Add(this.txtDFieldRWorkerIdFrom);
             this.groupBox1.Controls.Add(this.txtDFieldRCategoryFrom);
             this.groupBox1.Controls.Add(this.label27);
             this.groupBox1.Controls.Add(this.label26);
@@ -195,7 +195,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(467, 82);
+            this.label21.Location = new System.Drawing.Point(467, 86);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(10, 13);
             this.label21.TabIndex = 96;
@@ -210,13 +210,13 @@
             this.label18.TabIndex = 95;
             this.label18.Text = ":";
             // 
-            // CmbDFieldRGarden
+            // cmbDFieldRGarden
             // 
-            this.CmbDFieldRGarden.FormattingEnabled = true;
-            this.CmbDFieldRGarden.Location = new System.Drawing.Point(488, 79);
-            this.CmbDFieldRGarden.Name = "CmbDFieldRGarden";
-            this.CmbDFieldRGarden.Size = new System.Drawing.Size(158, 21);
-            this.CmbDFieldRGarden.TabIndex = 94;
+            this.cmbDFieldRGarden.FormattingEnabled = true;
+            this.cmbDFieldRGarden.Location = new System.Drawing.Point(488, 83);
+            this.cmbDFieldRGarden.Name = "cmbDFieldRGarden";
+            this.cmbDFieldRGarden.Size = new System.Drawing.Size(158, 21);
+            this.cmbDFieldRGarden.TabIndex = 94;
             // 
             // cmbDFieldRWorkStation
             // 
@@ -229,7 +229,7 @@
             // FrmWPaymentlabel10
             // 
             this.FrmWPaymentlabel10.AutoSize = true;
-            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(349, 82);
+            this.FrmWPaymentlabel10.Location = new System.Drawing.Point(349, 86);
             this.FrmWPaymentlabel10.Name = "FrmWPaymentlabel10";
             this.FrmWPaymentlabel10.Size = new System.Drawing.Size(42, 13);
             this.FrmWPaymentlabel10.TabIndex = 92;
@@ -244,27 +244,28 @@
             this.FrmWPaymentlabel2.TabIndex = 91;
             this.FrmWPaymentlabel2.Text = "Work Station";
             // 
-            // button1
+            // btnSearchDFieldRSirderTo
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(652, 46);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 21);
-            this.button1.TabIndex = 90;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRSirderTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDFieldRSirderTo.Image")));
+            this.btnSearchDFieldRSirderTo.Location = new System.Drawing.Point(652, 50);
+            this.btnSearchDFieldRSirderTo.Name = "btnSearchDFieldRSirderTo";
+            this.btnSearchDFieldRSirderTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDFieldRSirderTo.TabIndex = 90;
+            this.btnSearchDFieldRSirderTo.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRSirderTo.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnSearchDFieldRSirderFrom
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(290, 50);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(25, 21);
-            this.button2.TabIndex = 89;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRSirderFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDFieldRSirderFrom.Image")));
+            this.btnSearchDFieldRSirderFrom.Location = new System.Drawing.Point(290, 50);
+            this.btnSearchDFieldRSirderFrom.Name = "btnSearchDFieldRSirderFrom";
+            this.btnSearchDFieldRSirderFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDFieldRSirderFrom.TabIndex = 89;
+            this.btnSearchDFieldRSirderFrom.UseVisualStyleBackColor = true;
             // 
             // txtDFieldRsirderTo
             // 
-            this.txtDFieldRsirderTo.Location = new System.Drawing.Point(488, 47);
+            this.txtDFieldRsirderTo.Location = new System.Drawing.Point(488, 51);
             this.txtDFieldRsirderTo.Name = "txtDFieldRsirderTo";
             this.txtDFieldRsirderTo.Size = new System.Drawing.Size(158, 20);
             this.txtDFieldRsirderTo.TabIndex = 88;
@@ -279,7 +280,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(467, 50);
+            this.label1.Location = new System.Drawing.Point(467, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(10, 13);
             this.label1.TabIndex = 86;
@@ -297,7 +298,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(349, 53);
+            this.label3.Location = new System.Drawing.Point(349, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -315,45 +316,46 @@
             // dTPickerDFieldRToDate
             // 
             this.dTPickerDFieldRToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldRToDate.Location = new System.Drawing.Point(489, 20);
+            this.dTPickerDFieldRToDate.Location = new System.Drawing.Point(489, 23);
             this.dTPickerDFieldRToDate.Name = "dTPickerDFieldRToDate";
             this.dTPickerDFieldRToDate.Size = new System.Drawing.Size(158, 20);
             this.dTPickerDFieldRToDate.TabIndex = 76;
             // 
-            // dTPickerDFieldRFromDate
+            // dtpickerDFieldRFromDate
             // 
-            this.dTPickerDFieldRFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerDFieldRFromDate.Location = new System.Drawing.Point(126, 20);
-            this.dTPickerDFieldRFromDate.Name = "dTPickerDFieldRFromDate";
-            this.dTPickerDFieldRFromDate.Size = new System.Drawing.Size(160, 20);
-            this.dTPickerDFieldRFromDate.TabIndex = 75;
+            this.dtpickerDFieldRFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpickerDFieldRFromDate.Location = new System.Drawing.Point(126, 20);
+            this.dtpickerDFieldRFromDate.Name = "dtpickerDFieldRFromDate";
+            this.dtpickerDFieldRFromDate.Size = new System.Drawing.Size(160, 20);
+            this.dtpickerDFieldRFromDate.TabIndex = 75;
             // 
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(653, 138);
+            this.button5.Location = new System.Drawing.Point(653, 142);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(25, 21);
             this.button5.TabIndex = 74;
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearchDFieldRCategoryTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(653, 106);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRCategoryTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDFieldRCategoryTo.Image")));
+            this.btnSearchDFieldRCategoryTo.Location = new System.Drawing.Point(653, 110);
+            this.btnSearchDFieldRCategoryTo.Name = "btnSearchDFieldRCategoryTo";
+            this.btnSearchDFieldRCategoryTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDFieldRCategoryTo.TabIndex = 73;
+            this.btnSearchDFieldRCategoryTo.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRCategoryTo.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btnSearchDFieldRCategoryFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(291, 110);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchDFieldRCategoryFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDFieldRCategoryFrom.Image")));
+            this.btnSearchDFieldRCategoryFrom.Location = new System.Drawing.Point(291, 110);
+            this.btnSearchDFieldRCategoryFrom.Name = "btnSearchDFieldRCategoryFrom";
+            this.btnSearchDFieldRCategoryFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchDFieldRCategoryFrom.TabIndex = 72;
+            this.btnSearchDFieldRCategoryFrom.UseVisualStyleBackColor = true;
             // 
             // btnSearch
             // 
@@ -364,26 +366,26 @@
             this.btnSearch.TabIndex = 71;
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
-            // txtDFieldRCategoryto
+            // txtDFieldRCategoryTo
             // 
-            this.txtDFieldRCategoryto.Location = new System.Drawing.Point(489, 107);
-            this.txtDFieldRCategoryto.Name = "txtDFieldRCategoryto";
-            this.txtDFieldRCategoryto.Size = new System.Drawing.Size(158, 20);
-            this.txtDFieldRCategoryto.TabIndex = 42;
+            this.txtDFieldRCategoryTo.Location = new System.Drawing.Point(489, 111);
+            this.txtDFieldRCategoryTo.Name = "txtDFieldRCategoryTo";
+            this.txtDFieldRCategoryTo.Size = new System.Drawing.Size(158, 20);
+            this.txtDFieldRCategoryTo.TabIndex = 42;
             // 
             // txtDFieldRWorkerIdTo
             // 
-            this.txtDFieldRWorkerIdTo.Location = new System.Drawing.Point(489, 138);
+            this.txtDFieldRWorkerIdTo.Location = new System.Drawing.Point(489, 142);
             this.txtDFieldRWorkerIdTo.Name = "txtDFieldRWorkerIdTo";
             this.txtDFieldRWorkerIdTo.Size = new System.Drawing.Size(158, 20);
             this.txtDFieldRWorkerIdTo.TabIndex = 41;
             // 
-            // txtDFieldRWorkerIdF
+            // txtDFieldRWorkerIdFrom
             // 
-            this.txtDFieldRWorkerIdF.Location = new System.Drawing.Point(126, 141);
-            this.txtDFieldRWorkerIdF.Name = "txtDFieldRWorkerIdF";
-            this.txtDFieldRWorkerIdF.Size = new System.Drawing.Size(160, 20);
-            this.txtDFieldRWorkerIdF.TabIndex = 40;
+            this.txtDFieldRWorkerIdFrom.Location = new System.Drawing.Point(126, 141);
+            this.txtDFieldRWorkerIdFrom.Name = "txtDFieldRWorkerIdFrom";
+            this.txtDFieldRWorkerIdFrom.Size = new System.Drawing.Size(160, 20);
+            this.txtDFieldRWorkerIdFrom.TabIndex = 40;
             // 
             // txtDFieldRCategoryFrom
             // 
@@ -413,7 +415,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(468, 110);
+            this.label23.Location = new System.Drawing.Point(468, 114);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(10, 13);
             this.label23.TabIndex = 33;
@@ -422,7 +424,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(468, 141);
+            this.label22.Location = new System.Drawing.Point(468, 145);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(10, 13);
             this.label22.TabIndex = 32;
@@ -431,7 +433,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(468, 20);
+            this.label20.Location = new System.Drawing.Point(468, 24);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -475,7 +477,7 @@
             // FrmWPaymentlabel12
             // 
             this.FrmWPaymentlabel12.AutoSize = true;
-            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(349, 143);
+            this.FrmWPaymentlabel12.Location = new System.Drawing.Point(349, 147);
             this.FrmWPaymentlabel12.Name = "FrmWPaymentlabel12";
             this.FrmWPaymentlabel12.Size = new System.Drawing.Size(61, 13);
             this.FrmWPaymentlabel12.TabIndex = 11;
@@ -484,7 +486,7 @@
             // FrmWPaymentlabel11
             // 
             this.FrmWPaymentlabel11.AutoSize = true;
-            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(349, 112);
+            this.FrmWPaymentlabel11.Location = new System.Drawing.Point(349, 116);
             this.FrmWPaymentlabel11.Name = "FrmWPaymentlabel11";
             this.FrmWPaymentlabel11.Size = new System.Drawing.Size(65, 13);
             this.FrmWPaymentlabel11.TabIndex = 10;
@@ -493,7 +495,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(349, 20);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(349, 24);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -554,21 +556,21 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(613, 280);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(613, 280);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // frmDailyFieldReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 312);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDailyFieldReport";
@@ -601,26 +603,26 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtDFieldRCategoryto;
+        private System.Windows.Forms.TextBox txtDFieldRCategoryTo;
         private System.Windows.Forms.TextBox txtDFieldRWorkerIdTo;
-        private System.Windows.Forms.TextBox txtDFieldRWorkerIdF;
+        private System.Windows.Forms.TextBox txtDFieldRWorkerIdFrom;
         private System.Windows.Forms.TextBox txtDFieldRCategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnSearchDFieldRCategoryTo;
+        private System.Windows.Forms.Button btnSearchDFieldRCategoryFrom;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DateTimePicker dTPickerDFieldRToDate;
-        private System.Windows.Forms.DateTimePicker dTPickerDFieldRFromDate;
+        private System.Windows.Forms.DateTimePicker dtpickerDFieldRFromDate;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox CmbDFieldRGarden;
+        private System.Windows.Forms.ComboBox cmbDFieldRGarden;
         private System.Windows.Forms.ComboBox cmbDFieldRWorkStation;
         private System.Windows.Forms.Label FrmWPaymentlabel10;
         private System.Windows.Forms.Label FrmWPaymentlabel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSearchDFieldRSirderTo;
+        private System.Windows.Forms.Button btnSearchDFieldRSirderFrom;
         private System.Windows.Forms.TextBox txtDFieldRsirderTo;
         private System.Windows.Forms.TextBox txtDFieldRSirderFrom;
         private System.Windows.Forms.Label label1;

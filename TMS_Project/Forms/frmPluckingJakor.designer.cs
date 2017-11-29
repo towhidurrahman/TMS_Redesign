@@ -54,7 +54,7 @@
             this.txtCategoryDescription = new System.Windows.Forms.TextBox();
             this.cmbQuarterNo = new System.Windows.Forms.ComboBox();
             this.lblQuarterNo = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbPayType = new System.Windows.Forms.ComboBox();
             this.lblPayType = new System.Windows.Forms.Label();
             this.cmbSection = new System.Windows.Forms.ComboBox();
             this.lblSection = new System.Windows.Forms.Label();
@@ -77,7 +77,7 @@
             this.btnEntryNext = new System.Windows.Forms.Button();
             this.btnEntryLast = new System.Windows.Forms.Button();
             this.btnSearchEntry = new System.Windows.Forms.Button();
-            this.btnEntryNewCopy = new System.Windows.Forms.Button();
+            this.btnEntryNew = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnEntryPrevious = new System.Windows.Forms.Button();
             this.btnEntryFirst = new System.Windows.Forms.Button();
@@ -151,6 +151,7 @@
             this.btnCancel.TabIndex = 138;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnEntryDelete
             // 
@@ -368,14 +369,14 @@
             this.lblQuarterNo.TabIndex = 126;
             this.lblQuarterNo.Text = "Quarter No";
             // 
-            // comboBox1
+            // cmbPayType
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(402, 140);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(85, 21);
-            this.comboBox1.TabIndex = 125;
+            this.cmbPayType.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPayType.FormattingEnabled = true;
+            this.cmbPayType.Location = new System.Drawing.Point(402, 140);
+            this.cmbPayType.Name = "cmbPayType";
+            this.cmbPayType.Size = new System.Drawing.Size(85, 21);
+            this.cmbPayType.TabIndex = 125;
             // 
             // lblPayType
             // 
@@ -580,15 +581,15 @@
             this.btnSearchEntry.TabIndex = 103;
             this.btnSearchEntry.UseVisualStyleBackColor = true;
             // 
-            // btnEntryNewCopy
+            // btnEntryNew
             // 
-            this.btnEntryNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntryNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryNewCopy.Image")));
-            this.btnEntryNewCopy.Location = new System.Drawing.Point(309, 140);
-            this.btnEntryNewCopy.Name = "btnEntryNewCopy";
-            this.btnEntryNewCopy.Size = new System.Drawing.Size(30, 21);
-            this.btnEntryNewCopy.TabIndex = 102;
-            this.btnEntryNewCopy.UseVisualStyleBackColor = true;
+            this.btnEntryNew.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntryNew.Image = ((System.Drawing.Image)(resources.GetObject("btnEntryNew.Image")));
+            this.btnEntryNew.Location = new System.Drawing.Point(309, 140);
+            this.btnEntryNew.Name = "btnEntryNew";
+            this.btnEntryNew.Size = new System.Drawing.Size(30, 21);
+            this.btnEntryNew.TabIndex = 102;
+            this.btnEntryNew.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -898,7 +899,7 @@
             this.Controls.Add(this.txtCategoryDescription);
             this.Controls.Add(this.cmbQuarterNo);
             this.Controls.Add(this.lblQuarterNo);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbPayType);
             this.Controls.Add(this.lblPayType);
             this.Controls.Add(this.cmbSection);
             this.Controls.Add(this.lblSection);
@@ -921,7 +922,7 @@
             this.Controls.Add(this.btnEntryNext);
             this.Controls.Add(this.btnEntryLast);
             this.Controls.Add(this.btnSearchEntry);
-            this.Controls.Add(this.btnEntryNewCopy);
+            this.Controls.Add(this.btnEntryNew);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnEntryPrevious);
             this.Controls.Add(this.btnEntryFirst);
@@ -980,7 +981,7 @@
         private System.Windows.Forms.TextBox txtCategoryDescription;
         private System.Windows.Forms.ComboBox cmbQuarterNo;
         private System.Windows.Forms.Label lblQuarterNo;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbPayType;
         private System.Windows.Forms.Label lblPayType;
         private System.Windows.Forms.ComboBox cmbSection;
         private System.Windows.Forms.Label lblSection;
@@ -1003,7 +1004,7 @@
         private System.Windows.Forms.Button btnEntryNext;
         private System.Windows.Forms.Button btnEntryLast;
         private System.Windows.Forms.Button btnSearchEntry;
-        private System.Windows.Forms.Button btnEntryNewCopy;
+        private System.Windows.Forms.Button btnEntryNew;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnEntryPrevious;
         private System.Windows.Forms.Button btnEntryFirst;

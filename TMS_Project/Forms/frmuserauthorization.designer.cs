@@ -36,20 +36,20 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUserId = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.LblUAuthorUserId = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBoxIOperation = new System.Windows.Forms.TextBox();
-            this.textBoxROperation = new System.Windows.Forms.TextBox();
-            this.textBoxCommonSer = new System.Windows.Forms.TextBox();
-            this.textBoxHrPayrol = new System.Windows.Forms.TextBox();
-            this.textBoxFieldOperation = new System.Windows.Forms.TextBox();
+            this.txtIOperation = new System.Windows.Forms.TextBox();
+            this.txtROperation = new System.Windows.Forms.TextBox();
+            this.txtCommonSer = new System.Windows.Forms.TextBox();
+            this.txtHrPayrol = new System.Windows.Forms.TextBox();
+            this.txtFieldOperation = new System.Windows.Forms.TextBox();
             this.txtAReceiable = new System.Windows.Forms.TextBox();
-            this.textBoxAPayable = new System.Windows.Forms.TextBox();
-            this.textBoxFOperation = new System.Windows.Forms.TextBox();
-            this.textBoxAdminService = new System.Windows.Forms.TextBox();
-            this.cmbCommonSer = new System.Windows.Forms.ComboBox();
+            this.txtAPayable = new System.Windows.Forms.TextBox();
+            this.txtFOperation = new System.Windows.Forms.TextBox();
+            this.txtAdminService = new System.Windows.Forms.TextBox();
+            this.cmbCommonServices = new System.Windows.Forms.ComboBox();
             this.cmbHrPayrol = new System.Windows.Forms.ComboBox();
             this.CmbAReceiable = new System.Windows.Forms.ComboBox();
             this.cmbIOperation = new System.Windows.Forms.ComboBox();
@@ -67,8 +67,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -81,7 +81,7 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtUserId);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.LblUAuthorUserId);
             this.groupBox1.Location = new System.Drawing.Point(8, 2);
@@ -144,12 +144,12 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtUserId
             // 
-            this.textBox1.Location = new System.Drawing.Point(149, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 20);
-            this.textBox1.TabIndex = 65;
+            this.txtUserId.Location = new System.Drawing.Point(148, 27);
+            this.txtUserId.Name = "txtUserId";
+            this.txtUserId.Size = new System.Drawing.Size(131, 20);
+            this.txtUserId.TabIndex = 65;
             // 
             // textBox2
             // 
@@ -171,16 +171,16 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Controls.Add(this.textBoxIOperation);
-            this.groupBox2.Controls.Add(this.textBoxROperation);
-            this.groupBox2.Controls.Add(this.textBoxCommonSer);
-            this.groupBox2.Controls.Add(this.textBoxHrPayrol);
-            this.groupBox2.Controls.Add(this.textBoxFieldOperation);
+            this.groupBox2.Controls.Add(this.txtIOperation);
+            this.groupBox2.Controls.Add(this.txtROperation);
+            this.groupBox2.Controls.Add(this.txtCommonSer);
+            this.groupBox2.Controls.Add(this.txtHrPayrol);
+            this.groupBox2.Controls.Add(this.txtFieldOperation);
             this.groupBox2.Controls.Add(this.txtAReceiable);
-            this.groupBox2.Controls.Add(this.textBoxAPayable);
-            this.groupBox2.Controls.Add(this.textBoxFOperation);
-            this.groupBox2.Controls.Add(this.textBoxAdminService);
-            this.groupBox2.Controls.Add(this.cmbCommonSer);
+            this.groupBox2.Controls.Add(this.txtAPayable);
+            this.groupBox2.Controls.Add(this.txtFOperation);
+            this.groupBox2.Controls.Add(this.txtAdminService);
+            this.groupBox2.Controls.Add(this.cmbCommonServices);
             this.groupBox2.Controls.Add(this.cmbHrPayrol);
             this.groupBox2.Controls.Add(this.CmbAReceiable);
             this.groupBox2.Controls.Add(this.cmbIOperation);
@@ -205,40 +205,40 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // textBoxIOperation
+            // txtIOperation
             // 
-            this.textBoxIOperation.Location = new System.Drawing.Point(337, 162);
-            this.textBoxIOperation.Name = "textBoxIOperation";
-            this.textBoxIOperation.Size = new System.Drawing.Size(158, 20);
-            this.textBoxIOperation.TabIndex = 26;
+            this.txtIOperation.Location = new System.Drawing.Point(337, 162);
+            this.txtIOperation.Name = "txtIOperation";
+            this.txtIOperation.Size = new System.Drawing.Size(158, 20);
+            this.txtIOperation.TabIndex = 26;
             // 
-            // textBoxROperation
+            // txtROperation
             // 
-            this.textBoxROperation.Location = new System.Drawing.Point(337, 135);
-            this.textBoxROperation.Name = "textBoxROperation";
-            this.textBoxROperation.Size = new System.Drawing.Size(158, 20);
-            this.textBoxROperation.TabIndex = 25;
+            this.txtROperation.Location = new System.Drawing.Point(337, 135);
+            this.txtROperation.Name = "txtROperation";
+            this.txtROperation.Size = new System.Drawing.Size(158, 20);
+            this.txtROperation.TabIndex = 25;
             // 
-            // textBoxCommonSer
+            // txtCommonSer
             // 
-            this.textBoxCommonSer.Location = new System.Drawing.Point(338, 42);
-            this.textBoxCommonSer.Name = "textBoxCommonSer";
-            this.textBoxCommonSer.Size = new System.Drawing.Size(158, 20);
-            this.textBoxCommonSer.TabIndex = 24;
+            this.txtCommonSer.Location = new System.Drawing.Point(338, 42);
+            this.txtCommonSer.Name = "txtCommonSer";
+            this.txtCommonSer.Size = new System.Drawing.Size(158, 20);
+            this.txtCommonSer.TabIndex = 24;
             // 
-            // textBoxHrPayrol
+            // txtHrPayrol
             // 
-            this.textBoxHrPayrol.Location = new System.Drawing.Point(338, 64);
-            this.textBoxHrPayrol.Name = "textBoxHrPayrol";
-            this.textBoxHrPayrol.Size = new System.Drawing.Size(158, 20);
-            this.textBoxHrPayrol.TabIndex = 23;
+            this.txtHrPayrol.Location = new System.Drawing.Point(338, 64);
+            this.txtHrPayrol.Name = "txtHrPayrol";
+            this.txtHrPayrol.Size = new System.Drawing.Size(158, 20);
+            this.txtHrPayrol.TabIndex = 23;
             // 
-            // textBoxFieldOperation
+            // txtFieldOperation
             // 
-            this.textBoxFieldOperation.Location = new System.Drawing.Point(338, 87);
-            this.textBoxFieldOperation.Name = "textBoxFieldOperation";
-            this.textBoxFieldOperation.Size = new System.Drawing.Size(158, 20);
-            this.textBoxFieldOperation.TabIndex = 22;
+            this.txtFieldOperation.Location = new System.Drawing.Point(338, 87);
+            this.txtFieldOperation.Name = "txtFieldOperation";
+            this.txtFieldOperation.Size = new System.Drawing.Size(158, 20);
+            this.txtFieldOperation.TabIndex = 22;
             // 
             // txtAReceiable
             // 
@@ -247,34 +247,34 @@
             this.txtAReceiable.Size = new System.Drawing.Size(158, 20);
             this.txtAReceiable.TabIndex = 21;
             // 
-            // textBoxAPayable
+            // txtAPayable
             // 
-            this.textBoxAPayable.Location = new System.Drawing.Point(337, 187);
-            this.textBoxAPayable.Name = "textBoxAPayable";
-            this.textBoxAPayable.Size = new System.Drawing.Size(158, 20);
-            this.textBoxAPayable.TabIndex = 20;
+            this.txtAPayable.Location = new System.Drawing.Point(337, 187);
+            this.txtAPayable.Name = "txtAPayable";
+            this.txtAPayable.Size = new System.Drawing.Size(158, 20);
+            this.txtAPayable.TabIndex = 20;
             // 
-            // textBoxFOperation
+            // txtFOperation
             // 
-            this.textBoxFOperation.Location = new System.Drawing.Point(337, 110);
-            this.textBoxFOperation.Name = "textBoxFOperation";
-            this.textBoxFOperation.Size = new System.Drawing.Size(158, 20);
-            this.textBoxFOperation.TabIndex = 19;
+            this.txtFOperation.Location = new System.Drawing.Point(337, 110);
+            this.txtFOperation.Name = "txtFOperation";
+            this.txtFOperation.Size = new System.Drawing.Size(158, 20);
+            this.txtFOperation.TabIndex = 19;
             // 
-            // textBoxAdminService
+            // txtAdminService
             // 
-            this.textBoxAdminService.Location = new System.Drawing.Point(338, 19);
-            this.textBoxAdminService.Name = "textBoxAdminService";
-            this.textBoxAdminService.Size = new System.Drawing.Size(158, 20);
-            this.textBoxAdminService.TabIndex = 18;
+            this.txtAdminService.Location = new System.Drawing.Point(338, 19);
+            this.txtAdminService.Name = "txtAdminService";
+            this.txtAdminService.Size = new System.Drawing.Size(158, 20);
+            this.txtAdminService.TabIndex = 18;
             // 
-            // cmbCommonSer
+            // cmbCommonServices
             // 
-            this.cmbCommonSer.FormattingEnabled = true;
-            this.cmbCommonSer.Location = new System.Drawing.Point(172, 42);
-            this.cmbCommonSer.Name = "cmbCommonSer";
-            this.cmbCommonSer.Size = new System.Drawing.Size(157, 21);
-            this.cmbCommonSer.TabIndex = 17;
+            this.cmbCommonServices.FormattingEnabled = true;
+            this.cmbCommonServices.Location = new System.Drawing.Point(172, 42);
+            this.cmbCommonServices.Name = "cmbCommonServices";
+            this.cmbCommonServices.Size = new System.Drawing.Size(157, 21);
+            this.cmbCommonServices.TabIndex = 17;
             // 
             // cmbHrPayrol
             // 
@@ -432,31 +432,32 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Administrative Services";
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Location = new System.Drawing.Point(12, 311);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 24);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSave.Location = new System.Drawing.Point(12, 311);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(79, 24);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnClose
             // 
-            this.button2.Location = new System.Drawing.Point(437, 311);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(81, 24);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Close";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnClose.Location = new System.Drawing.Point(437, 311);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(81, 24);
+            this.btnClose.TabIndex = 3;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmUserAuthorization
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 341);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmUserAuthorization";
@@ -477,7 +478,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label LblUAuthorUserId;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox cmbCommonSer;
+        private System.Windows.Forms.ComboBox cmbCommonServices;
         private System.Windows.Forms.ComboBox cmbHrPayrol;
         private System.Windows.Forms.ComboBox CmbAReceiable;
         private System.Windows.Forms.ComboBox cmbIOperation;
@@ -495,23 +496,23 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBoxIOperation;
-        private System.Windows.Forms.TextBox textBoxROperation;
-        private System.Windows.Forms.TextBox textBoxCommonSer;
-        private System.Windows.Forms.TextBox textBoxHrPayrol;
-        private System.Windows.Forms.TextBox textBoxFieldOperation;
+        private System.Windows.Forms.TextBox txtIOperation;
+        private System.Windows.Forms.TextBox txtROperation;
+        private System.Windows.Forms.TextBox txtCommonSer;
+        private System.Windows.Forms.TextBox txtHrPayrol;
+        private System.Windows.Forms.TextBox txtFieldOperation;
         private System.Windows.Forms.TextBox txtAReceiable;
-        private System.Windows.Forms.TextBox textBoxAPayable;
-        private System.Windows.Forms.TextBox textBoxFOperation;
-        private System.Windows.Forms.TextBox textBoxAdminService;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtAPayable;
+        private System.Windows.Forms.TextBox txtFOperation;
+        private System.Windows.Forms.TextBox txtAdminService;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUserId;
     }
 }

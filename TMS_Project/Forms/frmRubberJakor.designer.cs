@@ -34,7 +34,7 @@
             this.lblRegularTk = new System.Windows.Forms.Label();
             this.lblNirik = new System.Windows.Forms.Label();
             this.lblGlHead = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblTotalTk = new System.Windows.Forms.Label();
             this.lblTermTk = new System.Windows.Forms.Label();
@@ -44,39 +44,39 @@
             this.lblTotalTermDays = new System.Windows.Forms.Label();
             this.lblTotalPerDays = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCategoryDescription = new System.Windows.Forms.TextBox();
             this.btnCategorySearch = new System.Windows.Forms.Button();
             this.txtCategory = new System.Windows.Forms.TextBox();
             this.lblCategory = new System.Windows.Forms.Label();
             this.lblPayType = new System.Windows.Forms.Label();
             this.cmbPayType = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtEntryNoDesc = new System.Windows.Forms.TextBox();
             this.lblEntryNo = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.btnNew1 = new System.Windows.Forms.Button();
+            this.btnSearchEntryNo = new System.Windows.Forms.Button();
+            this.btnLastEntryNo = new System.Windows.Forms.Button();
+            this.btnNextEntryNo = new System.Windows.Forms.Button();
+            this.btnFirstEntryNo = new System.Windows.Forms.Button();
+            this.btnPreviousEntryNo = new System.Windows.Forms.Button();
+            this.txtEntryNo = new System.Windows.Forms.TextBox();
             this.cmbGarden = new System.Windows.Forms.ComboBox();
             this.lblSection = new System.Windows.Forms.Label();
             this.cmbSection = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtSirderDescription = new System.Windows.Forms.TextBox();
             this.btnSirderSearch = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtSirder = new System.Windows.Forms.TextBox();
             this.lblSirder = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBabuName = new System.Windows.Forms.TextBox();
             this.btnBabuSearch = new System.Windows.Forms.Button();
             this.txtBabu = new System.Windows.Forms.TextBox();
             this.lblBabu = new System.Windows.Forms.Label();
             this.lblGarden = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSourceCodeDescription = new System.Windows.Forms.TextBox();
             this.btnSourceCode = new System.Windows.Forms.Button();
             this.txtSourceCode = new System.Windows.Forms.TextBox();
             this.lblSourceCode = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
-            this.txtTransNo = new System.Windows.Forms.TextBox();
+            this.txtTransNoDescription = new System.Windows.Forms.TextBox();
             this.lblTransNo = new System.Windows.Forms.Label();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
@@ -84,7 +84,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTransNo = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEntryDelete = new System.Windows.Forms.Button();
@@ -103,42 +103,42 @@
             this.groupBox1.Controls.Add(this.lblRegularTk);
             this.groupBox1.Controls.Add(this.lblNirik);
             this.groupBox1.Controls.Add(this.lblGlHead);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.dtpDate);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.txtCategoryDescription);
             this.groupBox1.Controls.Add(this.btnCategorySearch);
             this.groupBox1.Controls.Add(this.txtCategory);
             this.groupBox1.Controls.Add(this.lblCategory);
             this.groupBox1.Controls.Add(this.lblPayType);
             this.groupBox1.Controls.Add(this.cmbPayType);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.txtEntryNoDesc);
             this.groupBox1.Controls.Add(this.lblEntryNo);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.btnNew1);
+            this.groupBox1.Controls.Add(this.btnSearchEntryNo);
+            this.groupBox1.Controls.Add(this.btnLastEntryNo);
+            this.groupBox1.Controls.Add(this.btnNextEntryNo);
+            this.groupBox1.Controls.Add(this.btnFirstEntryNo);
+            this.groupBox1.Controls.Add(this.btnPreviousEntryNo);
+            this.groupBox1.Controls.Add(this.txtEntryNo);
             this.groupBox1.Controls.Add(this.cmbGarden);
             this.groupBox1.Controls.Add(this.lblSection);
             this.groupBox1.Controls.Add(this.cmbSection);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtSirderDescription);
             this.groupBox1.Controls.Add(this.btnSirderSearch);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtSirder);
             this.groupBox1.Controls.Add(this.lblSirder);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtBabuName);
             this.groupBox1.Controls.Add(this.btnBabuSearch);
             this.groupBox1.Controls.Add(this.txtBabu);
             this.groupBox1.Controls.Add(this.lblBabu);
             this.groupBox1.Controls.Add(this.lblGarden);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtSourceCodeDescription);
             this.groupBox1.Controls.Add(this.btnSourceCode);
             this.groupBox1.Controls.Add(this.txtSourceCode);
             this.groupBox1.Controls.Add(this.lblSourceCode);
             this.groupBox1.Controls.Add(this.lblDate);
-            this.groupBox1.Controls.Add(this.txtTransNo);
+            this.groupBox1.Controls.Add(this.txtTransNoDescription);
             this.groupBox1.Controls.Add(this.lblTransNo);
             this.groupBox1.Controls.Add(this.btnNew);
             this.groupBox1.Controls.Add(this.btnSearch);
@@ -146,10 +146,10 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Location = new System.Drawing.Point(9, 10);
+            this.groupBox1.Controls.Add(this.txtTransNo);
+            this.groupBox1.Location = new System.Drawing.Point(6, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(826, 404);
+            this.groupBox1.Size = new System.Drawing.Size(826, 394);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -189,13 +189,13 @@
             this.lblGlHead.TabIndex = 117;
             this.lblGlHead.Text = "GL Head";
             // 
-            // dateTimePicker1
+            // dtpDate
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(81, 49);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePicker1.TabIndex = 110;
+            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDate.Location = new System.Drawing.Point(81, 49);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(121, 20);
+            this.dtpDate.TabIndex = 110;
             // 
             // groupBox2
             // 
@@ -284,12 +284,12 @@
             this.dataGridView1.Size = new System.Drawing.Size(808, 154);
             this.dataGridView1.TabIndex = 108;
             // 
-            // textBox9
+            // txtCategoryDescription
             // 
-            this.textBox9.Location = new System.Drawing.Point(216, 173);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(356, 20);
-            this.textBox9.TabIndex = 107;
+            this.txtCategoryDescription.Location = new System.Drawing.Point(217, 176);
+            this.txtCategoryDescription.Name = "txtCategoryDescription";
+            this.txtCategoryDescription.Size = new System.Drawing.Size(356, 20);
+            this.txtCategoryDescription.TabIndex = 107;
             // 
             // btnCategorySearch
             // 
@@ -333,81 +333,81 @@
             this.cmbPayType.Size = new System.Drawing.Size(97, 21);
             this.cmbPayType.TabIndex = 102;
             // 
-            // textBox7
+            // txtEntryNoDesc
             // 
-            this.textBox7.Location = new System.Drawing.Point(316, 143);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(101, 20);
-            this.textBox7.TabIndex = 101;
+            this.txtEntryNoDesc.Location = new System.Drawing.Point(318, 143);
+            this.txtEntryNoDesc.Name = "txtEntryNoDesc";
+            this.txtEntryNoDesc.Size = new System.Drawing.Size(101, 20);
+            this.txtEntryNoDesc.TabIndex = 101;
             // 
             // lblEntryNo
             // 
-            this.lblEntryNo.Location = new System.Drawing.Point(12, 147);
+            this.lblEntryNo.Location = new System.Drawing.Point(13, 147);
             this.lblEntryNo.Name = "lblEntryNo";
             this.lblEntryNo.Size = new System.Drawing.Size(64, 13);
             this.lblEntryNo.TabIndex = 100;
             this.lblEntryNo.Text = "Entry No";
             // 
-            // button4
+            // btnNew1
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(285, 143);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 99;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnNew1.Image = ((System.Drawing.Image)(resources.GetObject("btnNew1.Image")));
+            this.btnNew1.Location = new System.Drawing.Point(285, 143);
+            this.btnNew1.Name = "btnNew1";
+            this.btnNew1.Size = new System.Drawing.Size(25, 21);
+            this.btnNew1.TabIndex = 99;
+            this.btnNew1.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnSearchEntryNo
             // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(261, 143);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(25, 21);
-            this.button5.TabIndex = 98;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSearchEntryNo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchEntryNo.Image")));
+            this.btnSearchEntryNo.Location = new System.Drawing.Point(261, 143);
+            this.btnSearchEntryNo.Name = "btnSearchEntryNo";
+            this.btnSearchEntryNo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchEntryNo.TabIndex = 98;
+            this.btnSearchEntryNo.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnLastEntryNo
             // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(237, 143);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(25, 21);
-            this.button6.TabIndex = 97;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnLastEntryNo.Image = ((System.Drawing.Image)(resources.GetObject("btnLastEntryNo.Image")));
+            this.btnLastEntryNo.Location = new System.Drawing.Point(237, 143);
+            this.btnLastEntryNo.Name = "btnLastEntryNo";
+            this.btnLastEntryNo.Size = new System.Drawing.Size(25, 21);
+            this.btnLastEntryNo.TabIndex = 97;
+            this.btnLastEntryNo.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnNextEntryNo
             // 
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(213, 143);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(25, 21);
-            this.button7.TabIndex = 96;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnNextEntryNo.Image = ((System.Drawing.Image)(resources.GetObject("btnNextEntryNo.Image")));
+            this.btnNextEntryNo.Location = new System.Drawing.Point(213, 143);
+            this.btnNextEntryNo.Name = "btnNextEntryNo";
+            this.btnNextEntryNo.Size = new System.Drawing.Size(25, 21);
+            this.btnNextEntryNo.TabIndex = 96;
+            this.btnNextEntryNo.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnFirstEntryNo
             // 
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(81, 143);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(25, 21);
-            this.button8.TabIndex = 95;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnFirstEntryNo.Image = ((System.Drawing.Image)(resources.GetObject("btnFirstEntryNo.Image")));
+            this.btnFirstEntryNo.Location = new System.Drawing.Point(81, 143);
+            this.btnFirstEntryNo.Name = "btnFirstEntryNo";
+            this.btnFirstEntryNo.Size = new System.Drawing.Size(25, 21);
+            this.btnFirstEntryNo.TabIndex = 95;
+            this.btnFirstEntryNo.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnPreviousEntryNo
             // 
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(106, 143);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(25, 21);
-            this.button9.TabIndex = 94;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnPreviousEntryNo.Image = ((System.Drawing.Image)(resources.GetObject("btnPreviousEntryNo.Image")));
+            this.btnPreviousEntryNo.Location = new System.Drawing.Point(106, 143);
+            this.btnPreviousEntryNo.Name = "btnPreviousEntryNo";
+            this.btnPreviousEntryNo.Size = new System.Drawing.Size(25, 21);
+            this.btnPreviousEntryNo.TabIndex = 94;
+            this.btnPreviousEntryNo.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtEntryNo
             // 
-            this.textBox8.Location = new System.Drawing.Point(131, 143);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(85, 20);
-            this.textBox8.TabIndex = 93;
+            this.txtEntryNo.Location = new System.Drawing.Point(131, 143);
+            this.txtEntryNo.Name = "txtEntryNo";
+            this.txtEntryNo.Size = new System.Drawing.Size(85, 20);
+            this.txtEntryNo.TabIndex = 93;
             // 
             // cmbGarden
             // 
@@ -434,12 +434,12 @@
             this.cmbSection.Size = new System.Drawing.Size(97, 21);
             this.cmbSection.TabIndex = 90;
             // 
-            // textBox5
+            // txtSirderDescription
             // 
-            this.textBox5.Location = new System.Drawing.Point(242, 110);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(175, 20);
-            this.textBox5.TabIndex = 89;
+            this.txtSirderDescription.Location = new System.Drawing.Point(242, 110);
+            this.txtSirderDescription.Name = "txtSirderDescription";
+            this.txtSirderDescription.Size = new System.Drawing.Size(175, 20);
+            this.txtSirderDescription.TabIndex = 89;
             // 
             // btnSirderSearch
             // 
@@ -450,28 +450,28 @@
             this.btnSirderSearch.TabIndex = 88;
             this.btnSirderSearch.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // txtSirder
             // 
-            this.textBox6.Location = new System.Drawing.Point(81, 110);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(121, 20);
-            this.textBox6.TabIndex = 87;
+            this.txtSirder.Location = new System.Drawing.Point(81, 110);
+            this.txtSirder.Name = "txtSirder";
+            this.txtSirder.Size = new System.Drawing.Size(121, 20);
+            this.txtSirder.TabIndex = 87;
             // 
             // lblSirder
             // 
             this.lblSirder.AutoSize = true;
-            this.lblSirder.Location = new System.Drawing.Point(12, 117);
+            this.lblSirder.Location = new System.Drawing.Point(13, 117);
             this.lblSirder.Name = "lblSirder";
             this.lblSirder.Size = new System.Drawing.Size(34, 13);
             this.lblSirder.TabIndex = 86;
             this.lblSirder.Text = "Sirder";
             // 
-            // textBox2
+            // txtBabuName
             // 
-            this.textBox2.Location = new System.Drawing.Point(381, 81);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 20);
-            this.textBox2.TabIndex = 85;
+            this.txtBabuName.Location = new System.Drawing.Point(381, 81);
+            this.txtBabuName.Name = "txtBabuName";
+            this.txtBabuName.Size = new System.Drawing.Size(191, 20);
+            this.txtBabuName.TabIndex = 85;
             // 
             // btnBabuSearch
             // 
@@ -501,19 +501,19 @@
             // lblGarden
             // 
             this.lblGarden.AutoSize = true;
-            this.lblGarden.Location = new System.Drawing.Point(10, 84);
+            this.lblGarden.Location = new System.Drawing.Point(13, 84);
             this.lblGarden.Name = "lblGarden";
             this.lblGarden.Size = new System.Drawing.Size(42, 13);
             this.lblGarden.TabIndex = 80;
             this.lblGarden.Text = "Garden";
             this.lblGarden.Click += new System.EventHandler(this.lblGarden_Click);
             // 
-            // textBox1
+            // txtSourceCodeDescription
             // 
-            this.textBox1.Location = new System.Drawing.Point(381, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 20);
-            this.textBox1.TabIndex = 79;
+            this.txtSourceCodeDescription.Location = new System.Drawing.Point(381, 52);
+            this.txtSourceCodeDescription.Name = "txtSourceCodeDescription";
+            this.txtSourceCodeDescription.Size = new System.Drawing.Size(191, 20);
+            this.txtSourceCodeDescription.TabIndex = 79;
             // 
             // btnSourceCode
             // 
@@ -543,23 +543,23 @@
             // lblDate
             // 
             this.lblDate.AutoSize = true;
-            this.lblDate.Location = new System.Drawing.Point(10, 50);
+            this.lblDate.Location = new System.Drawing.Point(13, 50);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(30, 13);
             this.lblDate.TabIndex = 74;
             this.lblDate.Text = "Date";
             // 
-            // txtTransNo
+            // txtTransNoDescription
             // 
-            this.txtTransNo.Location = new System.Drawing.Point(332, 19);
-            this.txtTransNo.Name = "txtTransNo";
-            this.txtTransNo.Size = new System.Drawing.Size(239, 20);
-            this.txtTransNo.TabIndex = 73;
-            this.txtTransNo.TextChanged += new System.EventHandler(this.txtTransNo_TextChanged);
+            this.txtTransNoDescription.Location = new System.Drawing.Point(332, 19);
+            this.txtTransNoDescription.Name = "txtTransNoDescription";
+            this.txtTransNoDescription.Size = new System.Drawing.Size(239, 20);
+            this.txtTransNoDescription.TabIndex = 73;
+            this.txtTransNoDescription.TextChanged += new System.EventHandler(this.txtTransNo_TextChanged);
             // 
             // lblTransNo
             // 
-            this.lblTransNo.Location = new System.Drawing.Point(6, 19);
+            this.lblTransNo.Location = new System.Drawing.Point(13, 19);
             this.lblTransNo.Name = "lblTransNo";
             this.lblTransNo.Size = new System.Drawing.Size(64, 13);
             this.lblTransNo.TabIndex = 72;
@@ -619,16 +619,16 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtTransNo
             // 
-            this.textBox3.Location = new System.Drawing.Point(131, 19);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(97, 20);
-            this.textBox3.TabIndex = 65;
+            this.txtTransNo.Location = new System.Drawing.Point(145, 19);
+            this.txtTransNo.Name = "txtTransNo";
+            this.txtTransNo.Size = new System.Drawing.Size(67, 20);
+            this.txtTransNo.TabIndex = 65;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(15, 437);
+            this.btnAdd.Location = new System.Drawing.Point(15, 406);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(69, 22);
             this.btnAdd.TabIndex = 10;
@@ -637,7 +637,7 @@
             // 
             // btnEntryDelete
             // 
-            this.btnEntryDelete.Location = new System.Drawing.Point(90, 437);
+            this.btnEntryDelete.Location = new System.Drawing.Point(90, 406);
             this.btnEntryDelete.Name = "btnEntryDelete";
             this.btnEntryDelete.Size = new System.Drawing.Size(80, 22);
             this.btnEntryDelete.TabIndex = 11;
@@ -646,7 +646,7 @@
             // 
             // btnRowDelete
             // 
-            this.btnRowDelete.Location = new System.Drawing.Point(346, 437);
+            this.btnRowDelete.Location = new System.Drawing.Point(346, 406);
             this.btnRowDelete.Name = "btnRowDelete";
             this.btnRowDelete.Size = new System.Drawing.Size(83, 22);
             this.btnRowDelete.TabIndex = 12;
@@ -655,7 +655,7 @@
             // 
             // btnRowAdd
             // 
-            this.btnRowAdd.Location = new System.Drawing.Point(432, 437);
+            this.btnRowAdd.Location = new System.Drawing.Point(432, 406);
             this.btnRowAdd.Name = "btnRowAdd";
             this.btnRowAdd.Size = new System.Drawing.Size(69, 22);
             this.btnRowAdd.TabIndex = 13;
@@ -664,7 +664,7 @@
             // 
             // btnPost
             // 
-            this.btnPost.Location = new System.Drawing.Point(685, 437);
+            this.btnPost.Location = new System.Drawing.Point(685, 406);
             this.btnPost.Name = "btnPost";
             this.btnPost.Size = new System.Drawing.Size(69, 22);
             this.btnPost.TabIndex = 14;
@@ -673,18 +673,19 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(759, 437);
+            this.btnCancel.Location = new System.Drawing.Point(759, 406);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(69, 22);
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmRubberJakor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(847, 471);
+            this.ClientSize = new System.Drawing.Size(840, 435);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPost);
             this.Controls.Add(this.btnRowAdd);
@@ -714,39 +715,39 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label lblTransNo;
         private System.Windows.Forms.TextBox txtTransNo;
+        private System.Windows.Forms.Label lblTransNo;
+        private System.Windows.Forms.TextBox txtTransNoDescription;
         private System.Windows.Forms.Label lblSourceCode;
         private System.Windows.Forms.Label lblDate;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSirderDescription;
         private System.Windows.Forms.Button btnSirderSearch;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtSirder;
         private System.Windows.Forms.Label lblSirder;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtBabuName;
         private System.Windows.Forms.Button btnBabuSearch;
         private System.Windows.Forms.TextBox txtBabu;
         private System.Windows.Forms.Label lblBabu;
         private System.Windows.Forms.Label lblGarden;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSourceCodeDescription;
         private System.Windows.Forms.Button btnSourceCode;
         private System.Windows.Forms.TextBox txtSourceCode;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCategoryDescription;
         private System.Windows.Forms.Button btnCategorySearch;
         private System.Windows.Forms.TextBox txtCategory;
         private System.Windows.Forms.Label lblCategory;
         private System.Windows.Forms.Label lblPayType;
         private System.Windows.Forms.ComboBox cmbPayType;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtEntryNoDesc;
         private System.Windows.Forms.Label lblEntryNo;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button btnNew1;
+        private System.Windows.Forms.Button btnSearchEntryNo;
+        private System.Windows.Forms.Button btnLastEntryNo;
+        private System.Windows.Forms.Button btnNextEntryNo;
+        private System.Windows.Forms.Button btnFirstEntryNo;
+        private System.Windows.Forms.Button btnPreviousEntryNo;
+        private System.Windows.Forms.TextBox txtEntryNo;
         private System.Windows.Forms.ComboBox cmbGarden;
         private System.Windows.Forms.Label lblSection;
         private System.Windows.Forms.ComboBox cmbSection;
@@ -764,7 +765,7 @@
         private System.Windows.Forms.Button btnRowAdd;
         private System.Windows.Forms.Button btnPost;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.Label lblExtraTk2;
         private System.Windows.Forms.Label lblRegularTk;
         private System.Windows.Forms.Label lblNirik;

@@ -46,7 +46,7 @@
             this.groupBox1.Controls.Add(this.btnCancel);
             this.groupBox1.Controls.Add(this.btnProcess);
             this.groupBox1.Controls.Add(this.lblDateForCalculation);
-            this.groupBox1.Location = new System.Drawing.Point(9, 7);
+            this.groupBox1.Location = new System.Drawing.Point(9, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(463, 88);
             this.groupBox1.TabIndex = 1;
@@ -85,6 +85,7 @@
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnProcess
             // 
@@ -109,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 102);
+            this.ClientSize = new System.Drawing.Size(481, 96);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmHolidayPayGenerator";
             this.Text = "Holiday Pay Generator";

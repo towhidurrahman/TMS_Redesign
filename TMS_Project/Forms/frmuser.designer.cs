@@ -37,6 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.btnBrowse = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@
             this.cmbLanguage = new System.Windows.Forms.ComboBox();
             this.cmbAccountsType = new System.Windows.Forms.ComboBox();
             this.txtWindowsUserName = new System.Windows.Forms.TextBox();
-            this.btnBrowse = new System.Windows.Forms.Button();
             this.txtWindowsDomain = new System.Windows.Forms.TextBox();
             this.lblWindowsUserName = new System.Windows.Forms.Label();
             this.lblWindowsDomain = new System.Windows.Forms.Label();
@@ -168,6 +168,15 @@
             this.label25.TabIndex = 36;
             this.label25.Text = ":";
             // 
+            // btnBrowse
+            // 
+            this.btnBrowse.Location = new System.Drawing.Point(370, 156);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(82, 23);
+            this.btnBrowse.TabIndex = 12;
+            this.btnBrowse.Text = "Browse";
+            this.btnBrowse.UseVisualStyleBackColor = true;
+            // 
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
@@ -271,15 +280,6 @@
             this.txtWindowsUserName.Size = new System.Drawing.Size(266, 22);
             this.txtWindowsUserName.TabIndex = 13;
             this.txtWindowsUserName.TextChanged += new System.EventHandler(this.txtWindowsUserName_TextChanged);
-            // 
-            // btnBrowse
-            // 
-            this.btnBrowse.Location = new System.Drawing.Point(370, 156);
-            this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(82, 23);
-            this.btnBrowse.TabIndex = 12;
-            this.btnBrowse.Text = "Browse";
-            this.btnBrowse.UseVisualStyleBackColor = true;
             // 
             // txtWindowsDomain
             // 
@@ -486,6 +486,7 @@
             this.btnClose.TabIndex = 8;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 

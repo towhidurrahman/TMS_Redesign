@@ -44,7 +44,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.frmSectionId = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.lblPlantSpacing = new System.Windows.Forms.Label();
             this.lblBushHac = new System.Windows.Forms.Label();
@@ -77,7 +77,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtBushHac = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.dtpInactive = new System.Windows.Forms.DateTimePicker();
+            this.chkBoxInactive = new System.Windows.Forms.CheckBox();
             this.lblRecommendation = new System.Windows.Forms.Label();
             this.lblDateInactive = new System.Windows.Forms.Label();
             this.lblInactive = new System.Windows.Forms.Label();
@@ -113,7 +114,6 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
@@ -189,14 +189,14 @@
             // 
             // txtRecommendation
             // 
-            this.txtRecommendation.Location = new System.Drawing.Point(511, 103);
+            this.txtRecommendation.Location = new System.Drawing.Point(511, 105);
             this.txtRecommendation.Name = "txtRecommendation";
             this.txtRecommendation.Size = new System.Drawing.Size(220, 20);
             this.txtRecommendation.TabIndex = 46;
             // 
             // txtCarbonNitrogen
             // 
-            this.txtCarbonNitrogen.Location = new System.Drawing.Point(599, 43);
+            this.txtCarbonNitrogen.Location = new System.Drawing.Point(599, 48);
             this.txtCarbonNitrogen.Name = "txtCarbonNitrogen";
             this.txtCarbonNitrogen.Size = new System.Drawing.Size(132, 20);
             this.txtCarbonNitrogen.TabIndex = 45;
@@ -237,12 +237,12 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // frmSectionId
             // 
-            this.textBox3.Location = new System.Drawing.Point(169, 17);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 65;
+            this.frmSectionId.Location = new System.Drawing.Point(169, 17);
+            this.frmSectionId.Name = "frmSectionId";
+            this.frmSectionId.Size = new System.Drawing.Size(85, 20);
+            this.frmSectionId.TabIndex = 65;
             // 
             // label23
             // 
@@ -253,7 +253,7 @@
             // 
             // lblPlantSpacing
             // 
-            this.lblPlantSpacing.Location = new System.Drawing.Point(277, 148);
+            this.lblPlantSpacing.Location = new System.Drawing.Point(277, 153);
             this.lblPlantSpacing.Name = "lblPlantSpacing";
             this.lblPlantSpacing.Size = new System.Drawing.Size(100, 14);
             this.lblPlantSpacing.TabIndex = 12;
@@ -261,7 +261,7 @@
             // 
             // lblBushHac
             // 
-            this.lblBushHac.Location = new System.Drawing.Point(277, 123);
+            this.lblBushHac.Location = new System.Drawing.Point(277, 127);
             this.lblBushHac.Name = "lblBushHac";
             this.lblBushHac.Size = new System.Drawing.Size(100, 14);
             this.lblBushHac.TabIndex = 11;
@@ -284,7 +284,7 @@
             // 
             // lblReplantigYear
             // 
-            this.lblReplantigYear.Location = new System.Drawing.Point(277, 76);
+            this.lblReplantigYear.Location = new System.Drawing.Point(277, 70);
             this.lblReplantigYear.Name = "lblReplantigYear";
             this.lblReplantigYear.Size = new System.Drawing.Size(85, 14);
             this.lblReplantigYear.TabIndex = 8;
@@ -330,7 +330,7 @@
             // 
             // lblEffectiveArea
             // 
-            this.lblEffectiveArea.Location = new System.Drawing.Point(12, 122);
+            this.lblEffectiveArea.Location = new System.Drawing.Point(12, 125);
             this.lblEffectiveArea.Name = "lblEffectiveArea";
             this.lblEffectiveArea.Size = new System.Drawing.Size(100, 15);
             this.lblEffectiveArea.TabIndex = 4;
@@ -484,8 +484,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.dtpInactive);
+            this.groupBox2.Controls.Add(this.chkBoxInactive);
             this.groupBox2.Controls.Add(this.txtRecommendation);
             this.groupBox2.Controls.Add(this.txtCarbonNitrogen);
             this.groupBox2.Controls.Add(this.txtAvailableM);
@@ -516,20 +516,28 @@
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             // 
-            // checkBox1
+            // dtpInactive
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(66, 135);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 47;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.dtpInactive.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpInactive.Location = new System.Drawing.Point(199, 134);
+            this.dtpInactive.Name = "dtpInactive";
+            this.dtpInactive.Size = new System.Drawing.Size(121, 20);
+            this.dtpInactive.TabIndex = 111;
+            // 
+            // chkBoxInactive
+            // 
+            this.chkBoxInactive.AutoSize = true;
+            this.chkBoxInactive.Location = new System.Drawing.Point(66, 135);
+            this.chkBoxInactive.Name = "chkBoxInactive";
+            this.chkBoxInactive.Size = new System.Drawing.Size(15, 14);
+            this.chkBoxInactive.TabIndex = 47;
+            this.chkBoxInactive.UseVisualStyleBackColor = true;
             // 
             // lblRecommendation
             // 
-            this.lblRecommendation.Location = new System.Drawing.Point(508, 75);
+            this.lblRecommendation.Location = new System.Drawing.Point(508, 79);
             this.lblRecommendation.Name = "lblRecommendation";
-            this.lblRecommendation.Size = new System.Drawing.Size(117, 26);
+            this.lblRecommendation.Size = new System.Drawing.Size(117, 25);
             this.lblRecommendation.TabIndex = 14;
             this.lblRecommendation.Text = "Recommendation/Ha";
             // 
@@ -551,9 +559,9 @@
             // 
             // lblCarbonNitrogen
             // 
-            this.lblCarbonNitrogen.Location = new System.Drawing.Point(508, 46);
+            this.lblCarbonNitrogen.Location = new System.Drawing.Point(508, 51);
             this.lblCarbonNitrogen.Name = "lblCarbonNitrogen";
-            this.lblCarbonNitrogen.Size = new System.Drawing.Size(85, 25);
+            this.lblCarbonNitrogen.Size = new System.Drawing.Size(85, 24);
             this.lblCarbonNitrogen.TabIndex = 10;
             this.lblCarbonNitrogen.Text = "Carbon Nitrogen";
             // 
@@ -696,7 +704,7 @@
             // 
             // lblTotalPlants
             // 
-            this.lblTotalPlants.Location = new System.Drawing.Point(277, 100);
+            this.lblTotalPlants.Location = new System.Drawing.Point(277, 98);
             this.lblTotalPlants.Name = "lblTotalPlants";
             this.lblTotalPlants.Size = new System.Drawing.Size(100, 14);
             this.lblTotalPlants.TabIndex = 19;
@@ -763,7 +771,7 @@
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
             this.groupBox1.Controls.Add(this.txtShadeTrees);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.frmSectionId);
             this.groupBox1.Controls.Add(this.cmbReplantingYear);
             this.groupBox1.Controls.Add(this.txtPlantSpacing);
             this.groupBox1.Controls.Add(this.txtBushHac);
@@ -810,14 +818,6 @@
             this.lblPlantation.TabIndex = 14;
             this.lblPlantation.Text = "Plantation";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(199, 134);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePicker1.TabIndex = 111;
-            // 
             // frmSection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -862,7 +862,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox frmSectionId;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label lblPlantSpacing;
         private System.Windows.Forms.Label lblBushHac;
@@ -895,7 +895,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtBushHac;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkBoxInactive;
         private System.Windows.Forms.Label lblRecommendation;
         private System.Windows.Forms.Label lblDateInactive;
         private System.Windows.Forms.Label lblInactive;
@@ -931,6 +931,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Diagnostics.PerformanceCounter performanceCounter1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpInactive;
     }
 }

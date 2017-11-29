@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmWeeklyPayment));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.dateTimePickerPFStartingDate = new System.Windows.Forms.DateTimePicker();
+            this.btnSearchWorkerIdTo = new System.Windows.Forms.Button();
+            this.btnSearchtxtCategoryTo = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.txtCategoryto = new System.Windows.Forms.TextBox();
+            this.btnSearchWorkerIdFrom = new System.Windows.Forms.Button();
+            this.chkboxPFCalculation = new System.Windows.Forms.CheckBox();
+            this.txtCategoryTo = new System.Windows.Forms.TextBox();
             this.txtWorkerIdTo = new System.Windows.Forms.TextBox();
             this.txtWorkerIdF = new System.Windows.Forms.TextBox();
             this.txtCategoryFrom = new System.Windows.Forms.TextBox();
@@ -53,14 +54,14 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.CmbTypeWork = new System.Windows.Forms.ComboBox();
-            this.CmbArea = new System.Windows.Forms.ComboBox();
-            this.CmbWorkerType = new System.Windows.Forms.ComboBox();
-            this.CmbSex = new System.Windows.Forms.ComboBox();
-            this.CmbGarden = new System.Windows.Forms.ComboBox();
+            this.cmbTypeWork = new System.Windows.Forms.ComboBox();
+            this.cmbArea = new System.Windows.Forms.ComboBox();
+            this.cmbWorkerType = new System.Windows.Forms.ComboBox();
+            this.cmbSex = new System.Windows.Forms.ComboBox();
+            this.cmbGarden = new System.Windows.Forms.ComboBox();
             this.cmbWeeklyPaymentWorkStation = new System.Windows.Forms.ComboBox();
-            this.CmbDateTo = new System.Windows.Forms.ComboBox();
-            this.CmbWeeklyPaymentDateFrom = new System.Windows.Forms.ComboBox();
+            this.cmbDateTo = new System.Windows.Forms.ComboBox();
+            this.cmbWeeklyPaymentDateFrom = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel14 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel13 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel12 = new System.Windows.Forms.Label();
@@ -77,20 +78,19 @@
             this.FrmWPaymentlabel1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnPreview = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
-            this.dateTimePickerPFStartingDate = new System.Windows.Forms.DateTimePicker();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dateTimePickerPFStartingDate);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerIdTo);
+            this.groupBox1.Controls.Add(this.btnSearchtxtCategoryTo);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.btnSearch);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.txtCategoryto);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerIdFrom);
+            this.groupBox1.Controls.Add(this.chkboxPFCalculation);
+            this.groupBox1.Controls.Add(this.txtCategoryTo);
             this.groupBox1.Controls.Add(this.txtWorkerIdTo);
             this.groupBox1.Controls.Add(this.txtWorkerIdF);
             this.groupBox1.Controls.Add(this.txtCategoryFrom);
@@ -108,14 +108,14 @@
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.CmbTypeWork);
-            this.groupBox1.Controls.Add(this.CmbArea);
-            this.groupBox1.Controls.Add(this.CmbWorkerType);
-            this.groupBox1.Controls.Add(this.CmbSex);
-            this.groupBox1.Controls.Add(this.CmbGarden);
+            this.groupBox1.Controls.Add(this.cmbTypeWork);
+            this.groupBox1.Controls.Add(this.cmbArea);
+            this.groupBox1.Controls.Add(this.cmbWorkerType);
+            this.groupBox1.Controls.Add(this.cmbSex);
+            this.groupBox1.Controls.Add(this.cmbGarden);
             this.groupBox1.Controls.Add(this.cmbWeeklyPaymentWorkStation);
-            this.groupBox1.Controls.Add(this.CmbDateTo);
-            this.groupBox1.Controls.Add(this.CmbWeeklyPaymentDateFrom);
+            this.groupBox1.Controls.Add(this.cmbDateTo);
+            this.groupBox1.Controls.Add(this.cmbWeeklyPaymentDateFrom);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel14);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel13);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel12);
@@ -137,23 +137,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
             // 
-            // button5
+            // dateTimePickerPFStartingDate
             // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(688, 104);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(25, 21);
-            this.button5.TabIndex = 74;
-            this.button5.UseVisualStyleBackColor = true;
+            this.dateTimePickerPFStartingDate.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPFStartingDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPFStartingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerPFStartingDate.Location = new System.Drawing.Point(499, 157);
+            this.dateTimePickerPFStartingDate.Name = "dateTimePickerPFStartingDate";
+            this.dateTimePickerPFStartingDate.Size = new System.Drawing.Size(183, 20);
+            this.dateTimePickerPFStartingDate.TabIndex = 75;
             // 
-            // button4
+            // btnSearchWorkerIdTo
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(688, 77);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerIdTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerIdTo.Image")));
+            this.btnSearchWorkerIdTo.Location = new System.Drawing.Point(688, 104);
+            this.btnSearchWorkerIdTo.Name = "btnSearchWorkerIdTo";
+            this.btnSearchWorkerIdTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerIdTo.TabIndex = 74;
+            this.btnSearchWorkerIdTo.UseVisualStyleBackColor = true;
+            // 
+            // btnSearchtxtCategoryTo
+            // 
+            this.btnSearchtxtCategoryTo.AccessibleName = "ch";
+            this.btnSearchtxtCategoryTo.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchtxtCategoryTo.Image")));
+            this.btnSearchtxtCategoryTo.Location = new System.Drawing.Point(688, 77);
+            this.btnSearchtxtCategoryTo.Name = "btnSearchtxtCategoryTo";
+            this.btnSearchtxtCategoryTo.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchtxtCategoryTo.TabIndex = 73;
+            this.btnSearchtxtCategoryTo.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -164,30 +175,30 @@
             this.button3.TabIndex = 72;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // btnSearch
+            // btnSearchWorkerIdFrom
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(327, 102);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 71;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerIdFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerIdFrom.Image")));
+            this.btnSearchWorkerIdFrom.Location = new System.Drawing.Point(327, 102);
+            this.btnSearchWorkerIdFrom.Name = "btnSearchWorkerIdFrom";
+            this.btnSearchWorkerIdFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerIdFrom.TabIndex = 71;
+            this.btnSearchWorkerIdFrom.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chkboxPFCalculation
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(139, 159);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 43;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkboxPFCalculation.AutoSize = true;
+            this.chkboxPFCalculation.Location = new System.Drawing.Point(139, 159);
+            this.chkboxPFCalculation.Name = "chkboxPFCalculation";
+            this.chkboxPFCalculation.Size = new System.Drawing.Size(15, 14);
+            this.chkboxPFCalculation.TabIndex = 43;
+            this.chkboxPFCalculation.UseVisualStyleBackColor = true;
             // 
-            // txtCategoryto
+            // txtCategoryTo
             // 
-            this.txtCategoryto.Location = new System.Drawing.Point(499, 75);
-            this.txtCategoryto.Name = "txtCategoryto";
-            this.txtCategoryto.Size = new System.Drawing.Size(183, 20);
-            this.txtCategoryto.TabIndex = 42;
+            this.txtCategoryTo.Location = new System.Drawing.Point(499, 75);
+            this.txtCategoryTo.Name = "txtCategoryTo";
+            this.txtCategoryTo.Size = new System.Drawing.Size(183, 20);
+            this.txtCategoryTo.TabIndex = 42;
             // 
             // txtWorkerIdTo
             // 
@@ -336,45 +347,45 @@
             this.label15.TabIndex = 25;
             this.label15.Text = ":";
             // 
-            // CmbTypeWork
+            // cmbTypeWork
             // 
-            this.CmbTypeWork.FormattingEnabled = true;
-            this.CmbTypeWork.Location = new System.Drawing.Point(139, 205);
-            this.CmbTypeWork.Name = "CmbTypeWork";
-            this.CmbTypeWork.Size = new System.Drawing.Size(183, 21);
-            this.CmbTypeWork.TabIndex = 24;
+            this.cmbTypeWork.FormattingEnabled = true;
+            this.cmbTypeWork.Location = new System.Drawing.Point(139, 205);
+            this.cmbTypeWork.Name = "cmbTypeWork";
+            this.cmbTypeWork.Size = new System.Drawing.Size(183, 21);
+            this.cmbTypeWork.TabIndex = 24;
             // 
-            // CmbArea
+            // cmbArea
             // 
-            this.CmbArea.FormattingEnabled = true;
-            this.CmbArea.Location = new System.Drawing.Point(139, 177);
-            this.CmbArea.Name = "CmbArea";
-            this.CmbArea.Size = new System.Drawing.Size(183, 21);
-            this.CmbArea.TabIndex = 23;
+            this.cmbArea.FormattingEnabled = true;
+            this.cmbArea.Location = new System.Drawing.Point(139, 177);
+            this.cmbArea.Name = "cmbArea";
+            this.cmbArea.Size = new System.Drawing.Size(183, 21);
+            this.cmbArea.TabIndex = 23;
             // 
-            // CmbWorkerType
+            // cmbWorkerType
             // 
-            this.CmbWorkerType.FormattingEnabled = true;
-            this.CmbWorkerType.Location = new System.Drawing.Point(139, 127);
-            this.CmbWorkerType.Name = "CmbWorkerType";
-            this.CmbWorkerType.Size = new System.Drawing.Size(183, 21);
-            this.CmbWorkerType.TabIndex = 22;
+            this.cmbWorkerType.FormattingEnabled = true;
+            this.cmbWorkerType.Location = new System.Drawing.Point(139, 127);
+            this.cmbWorkerType.Name = "cmbWorkerType";
+            this.cmbWorkerType.Size = new System.Drawing.Size(183, 21);
+            this.cmbWorkerType.TabIndex = 22;
             // 
-            // CmbSex
+            // cmbSex
             // 
-            this.CmbSex.FormattingEnabled = true;
-            this.CmbSex.Location = new System.Drawing.Point(499, 129);
-            this.CmbSex.Name = "CmbSex";
-            this.CmbSex.Size = new System.Drawing.Size(183, 21);
-            this.CmbSex.TabIndex = 21;
+            this.cmbSex.FormattingEnabled = true;
+            this.cmbSex.Location = new System.Drawing.Point(499, 129);
+            this.cmbSex.Name = "cmbSex";
+            this.cmbSex.Size = new System.Drawing.Size(183, 21);
+            this.cmbSex.TabIndex = 21;
             // 
-            // CmbGarden
+            // cmbGarden
             // 
-            this.CmbGarden.FormattingEnabled = true;
-            this.CmbGarden.Location = new System.Drawing.Point(499, 46);
-            this.CmbGarden.Name = "CmbGarden";
-            this.CmbGarden.Size = new System.Drawing.Size(183, 21);
-            this.CmbGarden.TabIndex = 17;
+            this.cmbGarden.FormattingEnabled = true;
+            this.cmbGarden.Location = new System.Drawing.Point(499, 46);
+            this.cmbGarden.Name = "cmbGarden";
+            this.cmbGarden.Size = new System.Drawing.Size(183, 21);
+            this.cmbGarden.TabIndex = 17;
             // 
             // cmbWeeklyPaymentWorkStation
             // 
@@ -384,21 +395,21 @@
             this.cmbWeeklyPaymentWorkStation.Size = new System.Drawing.Size(183, 21);
             this.cmbWeeklyPaymentWorkStation.TabIndex = 16;
             // 
-            // CmbDateTo
+            // cmbDateTo
             // 
-            this.CmbDateTo.FormattingEnabled = true;
-            this.CmbDateTo.Location = new System.Drawing.Point(499, 16);
-            this.CmbDateTo.Name = "CmbDateTo";
-            this.CmbDateTo.Size = new System.Drawing.Size(183, 21);
-            this.CmbDateTo.TabIndex = 15;
+            this.cmbDateTo.FormattingEnabled = true;
+            this.cmbDateTo.Location = new System.Drawing.Point(499, 16);
+            this.cmbDateTo.Name = "cmbDateTo";
+            this.cmbDateTo.Size = new System.Drawing.Size(183, 21);
+            this.cmbDateTo.TabIndex = 15;
             // 
-            // CmbWeeklyPaymentDateFrom
+            // cmbWeeklyPaymentDateFrom
             // 
-            this.CmbWeeklyPaymentDateFrom.FormattingEnabled = true;
-            this.CmbWeeklyPaymentDateFrom.Location = new System.Drawing.Point(138, 17);
-            this.CmbWeeklyPaymentDateFrom.Name = "CmbWeeklyPaymentDateFrom";
-            this.CmbWeeklyPaymentDateFrom.Size = new System.Drawing.Size(183, 21);
-            this.CmbWeeklyPaymentDateFrom.TabIndex = 14;
+            this.cmbWeeklyPaymentDateFrom.FormattingEnabled = true;
+            this.cmbWeeklyPaymentDateFrom.Location = new System.Drawing.Point(139, 17);
+            this.cmbWeeklyPaymentDateFrom.Name = "cmbWeeklyPaymentDateFrom";
+            this.cmbWeeklyPaymentDateFrom.Size = new System.Drawing.Size(183, 21);
+            this.cmbWeeklyPaymentDateFrom.TabIndex = 14;
             // 
             // FrmWPaymentlabel14
             // 
@@ -496,9 +507,9 @@
             this.FrmWPaymentlabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FrmWPaymentlabel4.Location = new System.Drawing.Point(14, 99);
             this.FrmWPaymentlabel4.Name = "FrmWPaymentlabel4";
-            this.FrmWPaymentlabel4.Size = new System.Drawing.Size(91, 16);
+            this.FrmWPaymentlabel4.Size = new System.Drawing.Size(100, 16);
             this.FrmWPaymentlabel4.TabIndex = 3;
-            this.FrmWPaymentlabel4.Text = "worker Id from";
+            this.FrmWPaymentlabel4.Text = "Worker Id From";
             // 
             // FrmWPaymentlabel3
             // 
@@ -536,31 +547,22 @@
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // btnCancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(654, 245);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(75, 23);
-            this.btncancel.TabIndex = 2;
-            this.btncancel.Text = "Cancel";
-            this.btncancel.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePickerPFStartingDate
-            // 
-            this.dateTimePickerPFStartingDate.CalendarFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerPFStartingDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerPFStartingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerPFStartingDate.Location = new System.Drawing.Point(499, 157);
-            this.dateTimePickerPFStartingDate.Name = "dateTimePickerPFStartingDate";
-            this.dateTimePickerPFStartingDate.Size = new System.Drawing.Size(183, 20);
-            this.dateTimePickerPFStartingDate.TabIndex = 75;
+            this.btnCancel.Location = new System.Drawing.Point(654, 245);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmWeeklyPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 274);
-            this.Controls.Add(this.btncancel);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmWeeklyPayment";
@@ -575,14 +577,14 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbTypeWork;
-        private System.Windows.Forms.ComboBox CmbArea;
-        private System.Windows.Forms.ComboBox CmbWorkerType;
-        private System.Windows.Forms.ComboBox CmbSex;
-        private System.Windows.Forms.ComboBox CmbGarden;
+        private System.Windows.Forms.ComboBox cmbTypeWork;
+        private System.Windows.Forms.ComboBox cmbArea;
+        private System.Windows.Forms.ComboBox cmbWorkerType;
+        private System.Windows.Forms.ComboBox cmbSex;
+        private System.Windows.Forms.ComboBox cmbGarden;
         private System.Windows.Forms.ComboBox cmbWeeklyPaymentWorkStation;
-        private System.Windows.Forms.ComboBox CmbDateTo;
-        private System.Windows.Forms.ComboBox CmbWeeklyPaymentDateFrom;
+        private System.Windows.Forms.ComboBox cmbDateTo;
+        private System.Windows.Forms.ComboBox cmbWeeklyPaymentDateFrom;
         private System.Windows.Forms.Label FrmWPaymentlabel14;
         private System.Windows.Forms.Label FrmWPaymentlabel13;
         private System.Windows.Forms.Label FrmWPaymentlabel12;
@@ -612,17 +614,17 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox txtCategoryto;
+        private System.Windows.Forms.CheckBox chkboxPFCalculation;
+        private System.Windows.Forms.TextBox txtCategoryTo;
         private System.Windows.Forms.TextBox txtWorkerIdTo;
         private System.Windows.Forms.TextBox txtWorkerIdF;
         private System.Windows.Forms.TextBox txtCategoryFrom;
         private System.Windows.Forms.Button btnPreview;
-        private System.Windows.Forms.Button btncancel;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnSearchWorkerIdTo;
+        private System.Windows.Forms.Button btnSearchtxtCategoryTo;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnSearchWorkerIdFrom;
         private System.Windows.Forms.DateTimePicker dateTimePickerPFStartingDate;
     }
 }

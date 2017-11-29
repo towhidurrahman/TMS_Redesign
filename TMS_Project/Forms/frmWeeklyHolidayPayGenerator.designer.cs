@@ -38,7 +38,7 @@
             // 
             this.lblWeekStartDate.AutoSize = true;
             this.lblWeekStartDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeekStartDate.Location = new System.Drawing.Point(12, 28);
+            this.lblWeekStartDate.Location = new System.Drawing.Point(12, 25);
             this.lblWeekStartDate.Name = "lblWeekStartDate";
             this.lblWeekStartDate.Size = new System.Drawing.Size(87, 13);
             this.lblWeekStartDate.TabIndex = 0;
@@ -71,6 +71,7 @@
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmWeeklyHolidayPayGenerator
             // 

@@ -65,16 +65,17 @@
             this.grpRainFall.Controls.Add(this.lblRainfallNight);
             this.grpRainFall.Controls.Add(this.txtRainfallDay);
             this.grpRainFall.Controls.Add(this.lblRainfallDay);
-            this.grpRainFall.Location = new System.Drawing.Point(18, 41);
+            this.grpRainFall.Location = new System.Drawing.Point(7, 41);
             this.grpRainFall.Name = "grpRainFall";
-            this.grpRainFall.Size = new System.Drawing.Size(361, 59);
+            this.grpRainFall.Size = new System.Drawing.Size(361, 52);
             this.grpRainFall.TabIndex = 0;
             this.grpRainFall.TabStop = false;
             this.grpRainFall.Text = "Rainfall";
+            this.grpRainFall.Enter += new System.EventHandler(this.grpRainFall_Enter);
             // 
             // txtRainfallNight
             // 
-            this.txtRainfallNight.Location = new System.Drawing.Point(250, 21);
+            this.txtRainfallNight.Location = new System.Drawing.Point(250, 20);
             this.txtRainfallNight.Name = "txtRainfallNight";
             this.txtRainfallNight.Size = new System.Drawing.Size(91, 20);
             this.txtRainfallNight.TabIndex = 6;
@@ -82,7 +83,7 @@
             // lblRainfallNight
             // 
             this.lblRainfallNight.AutoSize = true;
-            this.lblRainfallNight.Location = new System.Drawing.Point(189, 24);
+            this.lblRainfallNight.Location = new System.Drawing.Point(189, 21);
             this.lblRainfallNight.Name = "lblRainfallNight";
             this.lblRainfallNight.Size = new System.Drawing.Size(32, 13);
             this.lblRainfallNight.TabIndex = 5;
@@ -90,7 +91,7 @@
             // 
             // txtRainfallDay
             // 
-            this.txtRainfallDay.Location = new System.Drawing.Point(79, 21);
+            this.txtRainfallDay.Location = new System.Drawing.Point(79, 17);
             this.txtRainfallDay.Name = "txtRainfallDay";
             this.txtRainfallDay.Size = new System.Drawing.Size(91, 20);
             this.txtRainfallDay.TabIndex = 4;
@@ -98,7 +99,7 @@
             // lblRainfallDay
             // 
             this.lblRainfallDay.AutoSize = true;
-            this.lblRainfallDay.Location = new System.Drawing.Point(9, 25);
+            this.lblRainfallDay.Location = new System.Drawing.Point(9, 19);
             this.lblRainfallDay.Name = "lblRainfallDay";
             this.lblRainfallDay.Size = new System.Drawing.Size(26, 13);
             this.lblRainfallDay.TabIndex = 3;
@@ -114,7 +115,7 @@
             this.grpTemperature.Controls.Add(this.lblTempMin);
             this.grpTemperature.Controls.Add(this.txtTempMax);
             this.grpTemperature.Controls.Add(this.lblTempMax);
-            this.grpTemperature.Location = new System.Drawing.Point(20, 111);
+            this.grpTemperature.Location = new System.Drawing.Point(9, 96);
             this.grpTemperature.Name = "grpTemperature";
             this.grpTemperature.Size = new System.Drawing.Size(361, 83);
             this.grpTemperature.TabIndex = 1;
@@ -131,7 +132,7 @@
             // lblWetBulb
             // 
             this.lblWetBulb.AutoSize = true;
-            this.lblWetBulb.Location = new System.Drawing.Point(181, 55);
+            this.lblWetBulb.Location = new System.Drawing.Point(180, 58);
             this.lblWetBulb.Name = "lblWetBulb";
             this.lblWetBulb.Size = new System.Drawing.Size(66, 13);
             this.lblWetBulb.TabIndex = 13;
@@ -163,7 +164,7 @@
             // lblTempMin
             // 
             this.lblTempMin.AutoSize = true;
-            this.lblTempMin.Location = new System.Drawing.Point(180, 23);
+            this.lblTempMin.Location = new System.Drawing.Point(179, 23);
             this.lblTempMin.Name = "lblTempMin";
             this.lblTempMin.Size = new System.Drawing.Size(67, 13);
             this.lblTempMin.TabIndex = 9;
@@ -187,16 +188,17 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(322, 210);
+            this.btnClose.Location = new System.Drawing.Point(307, 184);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(59, 22);
             this.btnClose.TabIndex = 13;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(177, 209);
+            this.btnDelete.Location = new System.Drawing.Point(162, 183);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 12;
@@ -205,7 +207,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(22, 210);
+            this.btnSave.Location = new System.Drawing.Point(7, 184);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(59, 22);
             this.btnSave.TabIndex = 11;
@@ -223,7 +225,7 @@
             // btnNew
             // 
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
-            this.btnNew.Location = new System.Drawing.Point(307, 12);
+            this.btnNew.Location = new System.Drawing.Point(296, 12);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(25, 21);
             this.btnNew.TabIndex = 78;
@@ -232,7 +234,7 @@
             // btnSearch
             // 
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(283, 12);
+            this.btnSearch.Location = new System.Drawing.Point(272, 12);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(25, 21);
             this.btnSearch.TabIndex = 77;
@@ -241,7 +243,7 @@
             // btnLast
             // 
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
-            this.btnLast.Location = new System.Drawing.Point(259, 12);
+            this.btnLast.Location = new System.Drawing.Point(248, 12);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(25, 21);
             this.btnLast.TabIndex = 76;
@@ -250,7 +252,7 @@
             // btnNext
             // 
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
-            this.btnNext.Location = new System.Drawing.Point(235, 12);
+            this.btnNext.Location = new System.Drawing.Point(224, 12);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(25, 21);
             this.btnNext.TabIndex = 75;
@@ -259,7 +261,7 @@
             // btnFirst
             // 
             this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
-            this.btnFirst.Location = new System.Drawing.Point(103, 12);
+            this.btnFirst.Location = new System.Drawing.Point(92, 12);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(25, 21);
             this.btnFirst.TabIndex = 74;
@@ -268,7 +270,7 @@
             // btnPrevious
             // 
             this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
-            this.btnPrevious.Location = new System.Drawing.Point(128, 12);
+            this.btnPrevious.Location = new System.Drawing.Point(117, 12);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(25, 21);
             this.btnPrevious.TabIndex = 73;
@@ -276,7 +278,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(153, 12);
+            this.textBox3.Location = new System.Drawing.Point(142, 12);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(85, 20);
             this.textBox3.TabIndex = 72;
@@ -285,7 +287,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 255);
+            this.ClientSize = new System.Drawing.Size(379, 212);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnLast);

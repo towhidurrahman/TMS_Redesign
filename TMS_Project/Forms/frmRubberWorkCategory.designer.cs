@@ -40,7 +40,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCategoryId = new System.Windows.Forms.TextBox();
             this.btnClearingControllSearch = new System.Windows.Forms.Button();
             this.btnPayableControllSearch = new System.Windows.Forms.Button();
             this.cmbNirik = new System.Windows.Forms.ComboBox();
@@ -68,7 +68,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(314, 259);
+            this.btnDelete.Location = new System.Drawing.Point(314, 253);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 55;
@@ -86,7 +86,7 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtCategoryId);
             this.groupBox1.Controls.Add(this.btnClearingControllSearch);
             this.groupBox1.Controls.Add(this.btnPayableControllSearch);
             this.groupBox1.Controls.Add(this.cmbNirik);
@@ -107,7 +107,7 @@
             this.groupBox1.Controls.Add(this.txtCategoryDescription);
             this.groupBox1.Controls.Add(this.lblCategoryDescription);
             this.groupBox1.Controls.Add(this.lblCategoryId);
-            this.groupBox1.Location = new System.Drawing.Point(9, 7);
+            this.groupBox1.Location = new System.Drawing.Point(9, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(642, 246);
             this.groupBox1.TabIndex = 53;
@@ -131,6 +131,7 @@
             // 
             // DTPDateFrom
             // 
+            this.DTPDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTPDateFrom.Location = new System.Drawing.Point(249, 210);
             this.DTPDateFrom.Name = "DTPDateFrom";
             this.DTPDateFrom.Size = new System.Drawing.Size(111, 20);
@@ -190,12 +191,12 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCategoryId
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(85, 20);
-            this.textBox1.TabIndex = 65;
+            this.txtCategoryId.Location = new System.Drawing.Point(173, 12);
+            this.txtCategoryId.Name = "txtCategoryId";
+            this.txtCategoryId.Size = new System.Drawing.Size(85, 20);
+            this.txtCategoryId.TabIndex = 65;
             // 
             // btnClearingControllSearch
             // 
@@ -248,7 +249,7 @@
             // lblExtraRate
             // 
             this.lblExtraRate.AutoSize = true;
-            this.lblExtraRate.Location = new System.Drawing.Point(179, 101);
+            this.lblExtraRate.Location = new System.Drawing.Point(179, 102);
             this.lblExtraRate.Name = "lblExtraRate";
             this.lblExtraRate.Size = new System.Drawing.Size(57, 13);
             this.lblExtraRate.TabIndex = 56;
@@ -266,7 +267,7 @@
             // lblRegularRate
             // 
             this.lblRegularRate.AutoSize = true;
-            this.lblRegularRate.Location = new System.Drawing.Point(9, 101);
+            this.lblRegularRate.Location = new System.Drawing.Point(9, 98);
             this.lblRegularRate.Name = "lblRegularRate";
             this.lblRegularRate.Size = new System.Drawing.Size(70, 13);
             this.lblRegularRate.TabIndex = 54;
@@ -335,7 +336,7 @@
             // lblPayableControll
             // 
             this.lblPayableControll.AutoSize = true;
-            this.lblPayableControll.Location = new System.Drawing.Point(9, 134);
+            this.lblPayableControll.Location = new System.Drawing.Point(9, 131);
             this.lblPayableControll.Name = "lblPayableControll";
             this.lblPayableControll.Size = new System.Drawing.Size(83, 13);
             this.lblPayableControll.TabIndex = 43;
@@ -368,7 +369,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(12, 259);
+            this.btnSave.Location = new System.Drawing.Point(12, 253);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(59, 22);
             this.btnSave.TabIndex = 54;
@@ -377,18 +378,19 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(590, 259);
+            this.btnClose.Location = new System.Drawing.Point(590, 253);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(59, 22);
             this.btnClose.TabIndex = 56;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmRubberWorkCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(658, 289);
+            this.ClientSize = new System.Drawing.Size(658, 279);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.groupBox1);
@@ -432,7 +434,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCategoryId;
         private System.Windows.Forms.DateTimePicker DTPDateFrom;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label2;

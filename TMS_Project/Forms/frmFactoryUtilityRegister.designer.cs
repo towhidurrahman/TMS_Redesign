@@ -37,7 +37,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.btnNewCopy = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.txtTransNo = new System.Windows.Forms.TextBox();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
@@ -81,7 +81,7 @@
             this.txtMadeTeaGas = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtUnitGas = new System.Windows.Forms.TextBox();
-            this.TxtCostPerUnitGas = new System.Windows.Forms.TextBox();
+            this.txtCostPerUnitGas = new System.Windows.Forms.TextBox();
             this.txtTodaysReadingGas = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -179,15 +179,15 @@
             this.btnSearch.TabIndex = 152;
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
-            // btnNewCopy
+            // btnNew
             // 
-            this.btnNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCopy.Image")));
-            this.btnNewCopy.Location = new System.Drawing.Point(370, 5);
-            this.btnNewCopy.Name = "btnNewCopy";
-            this.btnNewCopy.Size = new System.Drawing.Size(24, 20);
-            this.btnNewCopy.TabIndex = 151;
-            this.btnNewCopy.UseVisualStyleBackColor = true;
+            this.btnNew.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(370, 5);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(24, 20);
+            this.btnNew.TabIndex = 151;
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // txtTransNo
             // 
@@ -277,6 +277,7 @@
             this.btnCancel.TabIndex = 161;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // tabFactoryProcessing
             // 
@@ -326,7 +327,7 @@
             this.grpBoxElectricity2.Controls.Add(this.label6);
             this.grpBoxElectricity2.Controls.Add(this.txtMadeTea);
             this.grpBoxElectricity2.Controls.Add(this.label5);
-            this.grpBoxElectricity2.Location = new System.Drawing.Point(194, 169);
+            this.grpBoxElectricity2.Location = new System.Drawing.Point(181, 146);
             this.grpBoxElectricity2.Name = "grpBoxElectricity2";
             this.grpBoxElectricity2.Size = new System.Drawing.Size(310, 102);
             this.grpBoxElectricity2.TabIndex = 173;
@@ -433,9 +434,9 @@
             this.grpBoxElectricity1.Controls.Add(this.txtPreviousReading);
             this.grpBoxElectricity1.Controls.Add(this.lblFineLeaf);
             this.grpBoxElectricity1.Controls.Add(this.lblCoarseLeaf);
-            this.grpBoxElectricity1.Location = new System.Drawing.Point(120, 41);
+            this.grpBoxElectricity1.Location = new System.Drawing.Point(82, 36);
             this.grpBoxElectricity1.Name = "grpBoxElectricity1";
-            this.grpBoxElectricity1.Size = new System.Drawing.Size(472, 121);
+            this.grpBoxElectricity1.Size = new System.Drawing.Size(472, 101);
             this.grpBoxElectricity1.TabIndex = 172;
             this.grpBoxElectricity1.TabStop = false;
             // 
@@ -526,7 +527,7 @@
             this.tabGas.Controls.Add(this.label7);
             this.tabGas.Controls.Add(this.grpBoxGas2);
             this.tabGas.Controls.Add(this.txtUnitGas);
-            this.tabGas.Controls.Add(this.TxtCostPerUnitGas);
+            this.tabGas.Controls.Add(this.txtCostPerUnitGas);
             this.tabGas.Controls.Add(this.txtTodaysReadingGas);
             this.tabGas.Controls.Add(this.label11);
             this.tabGas.Controls.Add(this.label12);
@@ -627,13 +628,13 @@
             this.txtUnitGas.Size = new System.Drawing.Size(100, 20);
             this.txtUnitGas.TabIndex = 177;
             // 
-            // TxtCostPerUnitGas
+            // txtCostPerUnitGas
             // 
-            this.TxtCostPerUnitGas.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCostPerUnitGas.Location = new System.Drawing.Point(246, 109);
-            this.TxtCostPerUnitGas.Name = "TxtCostPerUnitGas";
-            this.TxtCostPerUnitGas.Size = new System.Drawing.Size(100, 20);
-            this.TxtCostPerUnitGas.TabIndex = 179;
+            this.txtCostPerUnitGas.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCostPerUnitGas.Location = new System.Drawing.Point(246, 109);
+            this.txtCostPerUnitGas.Name = "txtCostPerUnitGas";
+            this.txtCostPerUnitGas.Size = new System.Drawing.Size(100, 20);
+            this.txtCostPerUnitGas.TabIndex = 179;
             // 
             // txtTodaysReadingGas
             // 
@@ -769,7 +770,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnLast);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.btnNewCopy);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtTransNo);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnFirst);
@@ -806,7 +807,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnNewCopy;
+        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.TextBox txtTransNo;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnFirst;
@@ -850,7 +851,7 @@
         private System.Windows.Forms.TextBox txtMadeTeaGas;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtUnitGas;
-        private System.Windows.Forms.TextBox TxtCostPerUnitGas;
+        private System.Windows.Forms.TextBox txtCostPerUnitGas;
         private System.Windows.Forms.TextBox txtTodaysReadingGas;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;

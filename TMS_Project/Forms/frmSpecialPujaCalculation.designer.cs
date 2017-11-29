@@ -37,7 +37,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dTPickerSPujaCDate = new System.Windows.Forms.DateTimePicker();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btnSearchWorkerId = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -51,8 +51,8 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.BtnCancel = new System.Windows.Forms.Button();
-            this.btnupdate = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -123,7 +123,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dTPickerSPujaCDate);
-            this.groupBox1.Controls.Add(this.button18);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerId);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
@@ -150,14 +150,14 @@
             this.dTPickerSPujaCDate.Size = new System.Drawing.Size(204, 20);
             this.dTPickerSPujaCDate.TabIndex = 80;
             // 
-            // button18
+            // btnSearchWorkerId
             // 
-            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.Location = new System.Drawing.Point(306, 44);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(25, 21);
-            this.button18.TabIndex = 79;
-            this.button18.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerId.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerId.Image")));
+            this.btnSearchWorkerId.Location = new System.Drawing.Point(306, 44);
+            this.btnSearchWorkerId.Name = "btnSearchWorkerId";
+            this.btnSearchWorkerId.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerId.TabIndex = 79;
+            this.btnSearchWorkerId.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -261,49 +261,49 @@
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Location = new System.Drawing.Point(7, 116);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(788, 263);
+            this.groupBox3.Size = new System.Drawing.Size(788, 248);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(7, 16);
+            this.dataGridView1.Location = new System.Drawing.Point(7, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(780, 246);
             this.dataGridView1.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(15, 383);
+            this.btnAdd.Location = new System.Drawing.Point(15, 368);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(86, 28);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // BtnCancel
+            // btnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(702, 383);
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(86, 28);
-            this.BtnCancel.TabIndex = 11;
-            this.BtnCancel.Text = "Cancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
-            this.BtnCancel.Click += new System.EventHandler(this.button4_Click);
+            this.btnCancel.Location = new System.Drawing.Point(702, 368);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(86, 28);
+            this.btnCancel.TabIndex = 11;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.button4_Click);
             // 
-            // btnupdate
+            // btnUpdate
             // 
-            this.btnupdate.Location = new System.Drawing.Point(459, 383);
-            this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(86, 28);
-            this.btnupdate.TabIndex = 12;
-            this.btnupdate.Text = "Update";
-            this.btnupdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(459, 368);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(86, 28);
+            this.btnUpdate.TabIndex = 12;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(224, 383);
+            this.btnDelete.Location = new System.Drawing.Point(224, 368);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(86, 28);
             this.btnDelete.TabIndex = 13;
@@ -314,10 +314,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 416);
+            this.ClientSize = new System.Drawing.Size(801, 401);
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnupdate);
-            this.Controls.Add(this.BtnCancel);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -350,15 +350,15 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button BtnCancel;
-        private System.Windows.Forms.Button btnupdate;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtPuja;
         private System.Windows.Forms.TextBox txtWorkerId;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button btnSearchWorkerId;
         private System.Windows.Forms.DateTimePicker dTPickerSPujaCDate;
     }
 }

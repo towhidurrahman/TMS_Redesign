@@ -30,25 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSirder));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnWorkerNameSearch = new System.Windows.Forms.Button();
+            this.btnBabuNameSearch = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSirderId = new System.Windows.Forms.TextBox();
+            this.txtSirderName = new System.Windows.Forms.TextBox();
             this.lblSirderId = new System.Windows.Forms.Label();
             this.txtBabuName = new System.Windows.Forms.TextBox();
             this.lblBabuName = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtWorkerName = new System.Windows.Forms.TextBox();
             this.lblWorkerName = new System.Windows.Forms.Label();
-            this.btnBabuNameSearch = new System.Windows.Forms.Button();
-            this.btnWorkerNameSearch = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -66,19 +66,65 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtSirderId);
+            this.groupBox1.Controls.Add(this.txtSirderName);
             this.groupBox1.Controls.Add(this.lblSirderId);
             this.groupBox1.Controls.Add(this.txtBabuName);
             this.groupBox1.Controls.Add(this.lblBabuName);
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Controls.Add(this.txtWorkerName);
             this.groupBox1.Controls.Add(this.lblWorkerName);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(8, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(521, 420);
+            this.groupBox1.Size = new System.Drawing.Size(513, 410);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(448, 380);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(59, 22);
+            this.btnClose.TabIndex = 76;
+            this.btnClose.Text = "&Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(230, 380);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(59, 22);
+            this.btnDelete.TabIndex = 75;
+            this.btnDelete.Text = "&Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(6, 380);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(59, 22);
+            this.btnSave.TabIndex = 74;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnWorkerNameSearch
+            // 
+            this.btnWorkerNameSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkerNameSearch.Image")));
+            this.btnWorkerNameSearch.Location = new System.Drawing.Point(209, 69);
+            this.btnWorkerNameSearch.Name = "btnWorkerNameSearch";
+            this.btnWorkerNameSearch.Size = new System.Drawing.Size(25, 21);
+            this.btnWorkerNameSearch.TabIndex = 73;
+            this.btnWorkerNameSearch.UseVisualStyleBackColor = true;
+            // 
+            // btnBabuNameSearch
+            // 
+            this.btnBabuNameSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnBabuNameSearch.Image")));
+            this.btnBabuNameSearch.Location = new System.Drawing.Point(209, 40);
+            this.btnBabuNameSearch.Name = "btnBabuNameSearch";
+            this.btnBabuNameSearch.Size = new System.Drawing.Size(25, 21);
+            this.btnBabuNameSearch.TabIndex = 72;
+            this.btnBabuNameSearch.UseVisualStyleBackColor = true;
             // 
             // btnNew
             // 
@@ -134,19 +180,19 @@
             this.btnPrevious.TabIndex = 66;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtSirderId
             // 
-            this.textBox3.Location = new System.Drawing.Point(128, 13);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 65;
+            this.txtSirderId.Location = new System.Drawing.Point(128, 13);
+            this.txtSirderId.Name = "txtSirderId";
+            this.txtSirderId.Size = new System.Drawing.Size(85, 20);
+            this.txtSirderId.TabIndex = 65;
             // 
-            // textBox2
+            // txtSirderName
             // 
-            this.textBox2.Location = new System.Drawing.Point(315, 15);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(192, 20);
-            this.textBox2.TabIndex = 31;
+            this.txtSirderName.Location = new System.Drawing.Point(315, 15);
+            this.txtSirderName.Name = "txtSirderName";
+            this.txtSirderName.Size = new System.Drawing.Size(192, 20);
+            this.txtSirderName.TabIndex = 31;
             // 
             // lblSirderId
             // 
@@ -176,7 +222,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 113);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 100);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(501, 274);
             this.dataGridView1.TabIndex = 14;
@@ -197,56 +243,11 @@
             this.lblWorkerName.TabIndex = 12;
             this.lblWorkerName.Text = "Worker Name";
             // 
-            // btnBabuNameSearch
-            // 
-            this.btnBabuNameSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnBabuNameSearch.Image")));
-            this.btnBabuNameSearch.Location = new System.Drawing.Point(209, 40);
-            this.btnBabuNameSearch.Name = "btnBabuNameSearch";
-            this.btnBabuNameSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnBabuNameSearch.TabIndex = 72;
-            this.btnBabuNameSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnWorkerNameSearch
-            // 
-            this.btnWorkerNameSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkerNameSearch.Image")));
-            this.btnWorkerNameSearch.Location = new System.Drawing.Point(209, 69);
-            this.btnWorkerNameSearch.Name = "btnWorkerNameSearch";
-            this.btnWorkerNameSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnWorkerNameSearch.TabIndex = 73;
-            this.btnWorkerNameSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(448, 393);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(59, 22);
-            this.btnClose.TabIndex = 76;
-            this.btnClose.Text = "&Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(230, 393);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(59, 22);
-            this.btnDelete.TabIndex = 75;
-            this.btnDelete.Text = "&Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(6, 393);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(59, 22);
-            this.btnSave.TabIndex = 74;
-            this.btnSave.Text = "&Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            // 
             // frmSirder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 439);
+            this.ClientSize = new System.Drawing.Size(531, 420);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmSirder";
             this.Text = "Sirder";
@@ -266,14 +267,14 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtWorkerName;
         private System.Windows.Forms.Label lblWorkerName;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSirderName;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtSirderId;
         private System.Windows.Forms.Button btnWorkerNameSearch;
         private System.Windows.Forms.Button btnBabuNameSearch;
         private System.Windows.Forms.Button btnClose;

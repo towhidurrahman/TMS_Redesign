@@ -37,9 +37,9 @@
             this.cmbKatchaRWorkStation = new System.Windows.Forms.ComboBox();
             this.FrmWPaymentlabel10 = new System.Windows.Forms.Label();
             this.FrmWPaymentlabel2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBoxKatchaRSirderTo = new System.Windows.Forms.TextBox();
+            this.btnKatchaRSirderTo = new System.Windows.Forms.Button();
+            this.btnSearchKatchaRSirderFrom = new System.Windows.Forms.Button();
+            this.txtKatchaRSirderTo = new System.Windows.Forms.TextBox();
             this.txtKatchaRSirderFrom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,9 +48,9 @@
             this.dTPickerKatchaRToDate = new System.Windows.Forms.DateTimePicker();
             this.dTPickerKatchaRFromDate = new System.Windows.Forms.DateTimePicker();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnSearchKatchaRCategoryto = new System.Windows.Forms.Button();
+            this.btnSearchKatchaRCategoryFrom = new System.Windows.Forms.Button();
+            this.btnSearchWorkerId = new System.Windows.Forms.Button();
             this.txtKatchaRCategoryto = new System.Windows.Forms.TextBox();
             this.txtKatchaRWorkerIdTo = new System.Windows.Forms.TextBox();
             this.txtKatchaRWorkerIdF = new System.Windows.Forms.TextBox();
@@ -87,9 +87,9 @@
             this.groupBox1.Controls.Add(this.cmbKatchaRWorkStation);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel10);
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.textBoxKatchaRSirderTo);
+            this.groupBox1.Controls.Add(this.btnKatchaRSirderTo);
+            this.groupBox1.Controls.Add(this.btnSearchKatchaRSirderFrom);
+            this.groupBox1.Controls.Add(this.txtKatchaRSirderTo);
             this.groupBox1.Controls.Add(this.txtKatchaRSirderFrom);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
@@ -98,9 +98,9 @@
             this.groupBox1.Controls.Add(this.dTPickerKatchaRToDate);
             this.groupBox1.Controls.Add(this.dTPickerKatchaRFromDate);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.btnSearchKatchaRCategoryto);
+            this.groupBox1.Controls.Add(this.btnSearchKatchaRCategoryFrom);
+            this.groupBox1.Controls.Add(this.btnSearchWorkerId);
             this.groupBox1.Controls.Add(this.txtKatchaRCategoryto);
             this.groupBox1.Controls.Add(this.txtKatchaRWorkerIdTo);
             this.groupBox1.Controls.Add(this.txtKatchaRWorkerIdF);
@@ -124,7 +124,7 @@
             this.groupBox1.Controls.Add(this.FrmWPaymentlabel1);
             this.groupBox1.Location = new System.Drawing.Point(1, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(628, 203);
+            this.groupBox1.Size = new System.Drawing.Size(628, 211);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reports Preview Range";
@@ -193,34 +193,34 @@
             this.FrmWPaymentlabel2.TabIndex = 91;
             this.FrmWPaymentlabel2.Text = "Work Station";
             // 
-            // button1
+            // btnKatchaRSirderTo
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(585, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 21);
-            this.button1.TabIndex = 90;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnKatchaRSirderTo.Image = ((System.Drawing.Image)(resources.GetObject("btnKatchaRSirderTo.Image")));
+            this.btnKatchaRSirderTo.Location = new System.Drawing.Point(585, 44);
+            this.btnKatchaRSirderTo.Name = "btnKatchaRSirderTo";
+            this.btnKatchaRSirderTo.Size = new System.Drawing.Size(25, 21);
+            this.btnKatchaRSirderTo.TabIndex = 90;
+            this.btnKatchaRSirderTo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSearchKatchaRSirderFrom
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(269, 47);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(25, 21);
-            this.button2.TabIndex = 89;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSearchKatchaRSirderFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchKatchaRSirderFrom.Image")));
+            this.btnSearchKatchaRSirderFrom.Location = new System.Drawing.Point(269, 44);
+            this.btnSearchKatchaRSirderFrom.Name = "btnSearchKatchaRSirderFrom";
+            this.btnSearchKatchaRSirderFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchKatchaRSirderFrom.TabIndex = 89;
+            this.btnSearchKatchaRSirderFrom.UseVisualStyleBackColor = true;
             // 
-            // textBoxKatchaRSirderTo
+            // txtKatchaRSirderTo
             // 
-            this.textBoxKatchaRSirderTo.Location = new System.Drawing.Point(442, 54);
-            this.textBoxKatchaRSirderTo.Name = "textBoxKatchaRSirderTo";
-            this.textBoxKatchaRSirderTo.Size = new System.Drawing.Size(137, 20);
-            this.textBoxKatchaRSirderTo.TabIndex = 88;
+            this.txtKatchaRSirderTo.Location = new System.Drawing.Point(442, 44);
+            this.txtKatchaRSirderTo.Name = "txtKatchaRSirderTo";
+            this.txtKatchaRSirderTo.Size = new System.Drawing.Size(137, 20);
+            this.txtKatchaRSirderTo.TabIndex = 88;
             // 
             // txtKatchaRSirderFrom
             // 
-            this.txtKatchaRSirderFrom.Location = new System.Drawing.Point(125, 45);
+            this.txtKatchaRSirderFrom.Location = new System.Drawing.Point(125, 44);
             this.txtKatchaRSirderFrom.Name = "txtKatchaRSirderFrom";
             this.txtKatchaRSirderFrom.Size = new System.Drawing.Size(141, 20);
             this.txtKatchaRSirderFrom.TabIndex = 87;
@@ -228,7 +228,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(422, 54);
+            this.label1.Location = new System.Drawing.Point(422, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(10, 13);
             this.label1.TabIndex = 86;
@@ -237,7 +237,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(109, 46);
+            this.label2.Location = new System.Drawing.Point(109, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 85;
@@ -246,7 +246,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(319, 57);
+            this.label3.Location = new System.Drawing.Point(319, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 84;
@@ -255,7 +255,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(5, 46);
+            this.label4.Location = new System.Drawing.Point(5, 44);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 83;
@@ -264,7 +264,7 @@
             // dTPickerKatchaRToDate
             // 
             this.dTPickerKatchaRToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTPickerKatchaRToDate.Location = new System.Drawing.Point(442, 25);
+            this.dTPickerKatchaRToDate.Location = new System.Drawing.Point(442, 19);
             this.dTPickerKatchaRToDate.Name = "dTPickerKatchaRToDate";
             this.dTPickerKatchaRToDate.Size = new System.Drawing.Size(137, 20);
             this.dTPickerKatchaRToDate.TabIndex = 76;
@@ -286,32 +286,32 @@
             this.button5.TabIndex = 74;
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearchKatchaRCategoryto
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(585, 110);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 21);
-            this.button4.TabIndex = 73;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearchKatchaRCategoryto.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchKatchaRCategoryto.Image")));
+            this.btnSearchKatchaRCategoryto.Location = new System.Drawing.Point(585, 110);
+            this.btnSearchKatchaRCategoryto.Name = "btnSearchKatchaRCategoryto";
+            this.btnSearchKatchaRCategoryto.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchKatchaRCategoryto.TabIndex = 73;
+            this.btnSearchKatchaRCategoryto.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSearchKatchaRCategoryFrom
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(269, 97);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 21);
-            this.button3.TabIndex = 72;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSearchKatchaRCategoryFrom.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchKatchaRCategoryFrom.Image")));
+            this.btnSearchKatchaRCategoryFrom.Location = new System.Drawing.Point(269, 97);
+            this.btnSearchKatchaRCategoryFrom.Name = "btnSearchKatchaRCategoryFrom";
+            this.btnSearchKatchaRCategoryFrom.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchKatchaRCategoryFrom.TabIndex = 72;
+            this.btnSearchKatchaRCategoryFrom.UseVisualStyleBackColor = true;
             // 
-            // btnSearch
+            // btnSearchWorkerId
             // 
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.Location = new System.Drawing.Point(267, 124);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(25, 21);
-            this.btnSearch.TabIndex = 71;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearchWorkerId.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchWorkerId.Image")));
+            this.btnSearchWorkerId.Location = new System.Drawing.Point(270, 124);
+            this.btnSearchWorkerId.Name = "btnSearchWorkerId";
+            this.btnSearchWorkerId.Size = new System.Drawing.Size(25, 21);
+            this.btnSearchWorkerId.TabIndex = 71;
+            this.btnSearchWorkerId.UseVisualStyleBackColor = true;
             // 
             // txtKatchaRCategoryto
             // 
@@ -380,7 +380,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(423, 24);
+            this.label20.Location = new System.Drawing.Point(423, 19);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(10, 13);
             this.label20.TabIndex = 30;
@@ -442,7 +442,7 @@
             // FrmWPaymentlabel9
             // 
             this.FrmWPaymentlabel9.AutoSize = true;
-            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(319, 24);
+            this.FrmWPaymentlabel9.Location = new System.Drawing.Point(319, 19);
             this.FrmWPaymentlabel9.Name = "FrmWPaymentlabel9";
             this.FrmWPaymentlabel9.Size = new System.Drawing.Size(46, 13);
             this.FrmWPaymentlabel9.TabIndex = 8;
@@ -479,7 +479,7 @@
             // FrmWPaymentlabel3
             // 
             this.FrmWPaymentlabel3.AutoSize = true;
-            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(6, 98);
+            this.FrmWPaymentlabel3.Location = new System.Drawing.Point(6, 100);
             this.FrmWPaymentlabel3.Name = "FrmWPaymentlabel3";
             this.FrmWPaymentlabel3.Size = new System.Drawing.Size(75, 13);
             this.FrmWPaymentlabel3.TabIndex = 2;
@@ -496,7 +496,7 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(7, 213);
+            this.btnPreview.Location = new System.Drawing.Point(7, 221);
             this.btnPreview.Name = "btnPreview";
             this.btnPreview.Size = new System.Drawing.Size(75, 23);
             this.btnPreview.TabIndex = 1;
@@ -505,18 +505,19 @@
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(536, 213);
+            this.btncancel.Location = new System.Drawing.Point(536, 221);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(75, 23);
             this.btncancel.TabIndex = 2;
             this.btncancel.Text = "Cancel";
             this.btncancel.UseVisualStyleBackColor = true;
+            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // frmKatchaReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 245);
+            this.ClientSize = new System.Drawing.Size(637, 249);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.groupBox1);
@@ -557,9 +558,9 @@
         private System.Windows.Forms.Button btnPreview;
         private System.Windows.Forms.Button btncancel;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnSearchKatchaRCategoryto;
+        private System.Windows.Forms.Button btnSearchKatchaRCategoryFrom;
+        private System.Windows.Forms.Button btnSearchWorkerId;
         private System.Windows.Forms.DateTimePicker dTPickerKatchaRToDate;
         private System.Windows.Forms.DateTimePicker dTPickerKatchaRFromDate;
         private System.Windows.Forms.Label label21;
@@ -568,9 +569,9 @@
         private System.Windows.Forms.ComboBox cmbKatchaRWorkStation;
         private System.Windows.Forms.Label FrmWPaymentlabel10;
         private System.Windows.Forms.Label FrmWPaymentlabel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBoxKatchaRSirderTo;
+        private System.Windows.Forms.Button btnKatchaRSirderTo;
+        private System.Windows.Forms.Button btnSearchKatchaRSirderFrom;
+        private System.Windows.Forms.TextBox txtKatchaRSirderTo;
         private System.Windows.Forms.TextBox txtKatchaRSirderFrom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

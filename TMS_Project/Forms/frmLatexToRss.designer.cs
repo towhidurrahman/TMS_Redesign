@@ -37,7 +37,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTransactionNumber = new System.Windows.Forms.TextBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
             this.btnPost = new System.Windows.Forms.Button();
@@ -66,7 +66,7 @@
             this.lblLatexIssue = new System.Windows.Forms.Label();
             this.tabRSS = new System.Windows.Forms.TabPage();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtADSOnHand = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblKg = new System.Windows.Forms.Label();
@@ -103,7 +103,7 @@
             this.groupBox1.Controls.Add(this.btnNext);
             this.groupBox1.Controls.Add(this.btnFirst);
             this.groupBox1.Controls.Add(this.btnPrevious);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtTransactionNumber);
             this.groupBox1.Controls.Add(this.btnCancel);
             this.groupBox1.Controls.Add(this.btnPrint);
             this.groupBox1.Controls.Add(this.btnPost);
@@ -185,21 +185,22 @@
             this.btnPrevious.TabIndex = 69;
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtTransactionNumber
             // 
-            this.textBox3.Location = new System.Drawing.Point(179, 17);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 68;
+            this.txtTransactionNumber.Location = new System.Drawing.Point(179, 17);
+            this.txtTransactionNumber.Name = "txtTransactionNumber";
+            this.txtTransactionNumber.Size = new System.Drawing.Size(85, 20);
+            this.txtTransactionNumber.TabIndex = 68;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(540, 447);
+            this.btnCancel.Location = new System.Drawing.Point(533, 449);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(59, 22);
             this.btnCancel.TabIndex = 67;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnPrint
             // 
@@ -221,7 +222,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(169, 448);
+            this.btnDelete.Location = new System.Drawing.Point(169, 449);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(59, 22);
             this.btnDelete.TabIndex = 64;
@@ -230,7 +231,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(92, 446);
+            this.btnUpdate.Location = new System.Drawing.Point(92, 449);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(59, 22);
             this.btnUpdate.TabIndex = 63;
@@ -239,7 +240,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(20, 446);
+            this.btnAdd.Location = new System.Drawing.Point(20, 449);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(59, 22);
             this.btnAdd.TabIndex = 55;
@@ -439,7 +440,7 @@
             // tabRSS
             // 
             this.tabRSS.Controls.Add(this.label6);
-            this.tabRSS.Controls.Add(this.textBox1);
+            this.tabRSS.Controls.Add(this.txtADSOnHand);
             this.tabRSS.Controls.Add(this.label3);
             this.tabRSS.Controls.Add(this.label5);
             this.tabRSS.Controls.Add(this.lblKg);
@@ -469,12 +470,12 @@
             this.label6.TabIndex = 20;
             this.label6.Text = "Ltr.";
             // 
-            // textBox1
+            // txtADSOnHand
             // 
-            this.textBox1.Location = new System.Drawing.Point(464, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 20);
-            this.textBox1.TabIndex = 19;
+            this.txtADSOnHand.Location = new System.Drawing.Point(464, 16);
+            this.txtADSOnHand.Name = "txtADSOnHand";
+            this.txtADSOnHand.Size = new System.Drawing.Size(65, 20);
+            this.txtADSOnHand.TabIndex = 19;
             // 
             // label3
             // 
@@ -572,7 +573,7 @@
             // lblItemCode
             // 
             this.lblItemCode.AutoSize = true;
-            this.lblItemCode.Location = new System.Drawing.Point(16, 17);
+            this.lblItemCode.Location = new System.Drawing.Point(14, 17);
             this.lblItemCode.Name = "lblItemCode";
             this.lblItemCode.Size = new System.Drawing.Size(55, 13);
             this.lblItemCode.TabIndex = 0;
@@ -657,7 +658,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTransactionNumber;
         private System.Windows.Forms.DateTimePicker DTPTransactionDate;
         private System.Windows.Forms.TabControl tab;
         private System.Windows.Forms.TabPage tabLatex;
@@ -687,7 +688,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblPcs;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtADSOnHand;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblKg;

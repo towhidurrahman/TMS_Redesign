@@ -33,7 +33,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.btnNewCopy = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.txtTransNo = new System.Windows.Forms.TextBox();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
@@ -128,7 +128,7 @@
             this.lblBadLeaf = new System.Windows.Forms.Label();
             this.lblWithering = new System.Windows.Forms.Label();
             this.lblBelloMeter = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtBelloStatus = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.tabGreenleaf = new System.Windows.Forms.TabPage();
             this.label44 = new System.Windows.Forms.Label();
@@ -185,7 +185,7 @@
             this.label57 = new System.Windows.Forms.Label();
             this.grpBoxPackedMadeTea = new System.Windows.Forms.GroupBox();
             this.cmbGradeCodePackedMadeTea = new System.Windows.Forms.ComboBox();
-            this.cmbGardenOackedMadeTea = new System.Windows.Forms.ComboBox();
+            this.cmbGardenPackedMadeTea = new System.Windows.Forms.ComboBox();
             this.tabDrierOutput.SuspendLayout();
             this.grpBoxMonipor.SuspendLayout();
             this.grpBoxMonipur.SuspendLayout();
@@ -247,15 +247,15 @@
             this.btnSearch.TabIndex = 140;
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
-            // btnNewCopy
+            // btnNew
             // 
-            this.btnNewCopy.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCopy.Image")));
-            this.btnNewCopy.Location = new System.Drawing.Point(374, 10);
-            this.btnNewCopy.Name = "btnNewCopy";
-            this.btnNewCopy.Size = new System.Drawing.Size(24, 20);
-            this.btnNewCopy.TabIndex = 139;
-            this.btnNewCopy.UseVisualStyleBackColor = true;
+            this.btnNew.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
+            this.btnNew.Location = new System.Drawing.Point(374, 10);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(24, 20);
+            this.btnNew.TabIndex = 139;
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // txtTransNo
             // 
@@ -289,7 +289,7 @@
             // 
             this.lblTransDate.AutoSize = true;
             this.lblTransDate.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTransDate.Location = new System.Drawing.Point(448, 14);
+            this.lblTransDate.Location = new System.Drawing.Point(475, 15);
             this.lblTransDate.Name = "lblTransDate";
             this.lblTransDate.Size = new System.Drawing.Size(89, 13);
             this.lblTransDate.TabIndex = 144;
@@ -298,7 +298,7 @@
             // btTimePickerTransDate
             // 
             this.btTimePickerTransDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.btTimePickerTransDate.Location = new System.Drawing.Point(574, 14);
+            this.btTimePickerTransDate.Location = new System.Drawing.Point(574, 12);
             this.btTimePickerTransDate.Name = "btTimePickerTransDate";
             this.btTimePickerTransDate.Size = new System.Drawing.Size(134, 20);
             this.btTimePickerTransDate.TabIndex = 145;
@@ -906,7 +906,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(260, 110);
+            this.label3.Location = new System.Drawing.Point(261, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 158;
@@ -961,7 +961,7 @@
             this.tabBelloMeter.Controls.Add(this.lblBadLeaf);
             this.tabBelloMeter.Controls.Add(this.lblWithering);
             this.tabBelloMeter.Controls.Add(this.lblBelloMeter);
-            this.tabBelloMeter.Controls.Add(this.textBox3);
+            this.tabBelloMeter.Controls.Add(this.txtBelloStatus);
             this.tabBelloMeter.Controls.Add(this.label14);
             this.tabBelloMeter.Location = new System.Drawing.Point(4, 22);
             this.tabBelloMeter.Name = "tabBelloMeter";
@@ -1219,13 +1219,13 @@
             this.lblBelloMeter.TabIndex = 160;
             this.lblBelloMeter.Text = "Bello Meter";
             // 
-            // textBox3
+            // txtBelloStatus
             // 
-            this.textBox3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(624, 15);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(54, 20);
-            this.textBox3.TabIndex = 158;
+            this.txtBelloStatus.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBelloStatus.Location = new System.Drawing.Point(624, 15);
+            this.txtBelloStatus.Name = "txtBelloStatus";
+            this.txtBelloStatus.Size = new System.Drawing.Size(54, 20);
+            this.txtBelloStatus.TabIndex = 158;
             // 
             // label14
             // 
@@ -1808,7 +1808,7 @@
             // grpBoxPackedMadeTea
             // 
             this.grpBoxPackedMadeTea.Controls.Add(this.cmbGradeCodePackedMadeTea);
-            this.grpBoxPackedMadeTea.Controls.Add(this.cmbGardenOackedMadeTea);
+            this.grpBoxPackedMadeTea.Controls.Add(this.cmbGardenPackedMadeTea);
             this.grpBoxPackedMadeTea.Location = new System.Drawing.Point(24, 16);
             this.grpBoxPackedMadeTea.Name = "grpBoxPackedMadeTea";
             this.grpBoxPackedMadeTea.Size = new System.Drawing.Size(361, 100);
@@ -1823,13 +1823,13 @@
             this.cmbGradeCodePackedMadeTea.Size = new System.Drawing.Size(72, 21);
             this.cmbGradeCodePackedMadeTea.TabIndex = 158;
             // 
-            // cmbGardenOackedMadeTea
+            // cmbGardenPackedMadeTea
             // 
-            this.cmbGardenOackedMadeTea.FormattingEnabled = true;
-            this.cmbGardenOackedMadeTea.Location = new System.Drawing.Point(105, 14);
-            this.cmbGardenOackedMadeTea.Name = "cmbGardenOackedMadeTea";
-            this.cmbGardenOackedMadeTea.Size = new System.Drawing.Size(72, 21);
-            this.cmbGardenOackedMadeTea.TabIndex = 156;
+            this.cmbGardenPackedMadeTea.FormattingEnabled = true;
+            this.cmbGardenPackedMadeTea.Location = new System.Drawing.Point(105, 14);
+            this.cmbGardenPackedMadeTea.Name = "cmbGardenPackedMadeTea";
+            this.cmbGardenPackedMadeTea.Size = new System.Drawing.Size(72, 21);
+            this.cmbGardenPackedMadeTea.TabIndex = 156;
             // 
             // frmFactoryProcessing
             // 
@@ -1851,7 +1851,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnLast);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.btnNewCopy);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtTransNo);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnFirst);
@@ -1901,7 +1901,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnNewCopy;
+        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.TextBox txtTransNo;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnFirst;
@@ -1940,7 +1940,7 @@
         private System.Windows.Forms.ComboBox cmbGarden;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabFactoryProcessing;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtBelloStatus;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label lblTtlGreenleaf;
         private System.Windows.Forms.Label lblFineLeaf;
@@ -2052,7 +2052,7 @@
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.GroupBox grpBoxPackedMadeTea;
         private System.Windows.Forms.ComboBox cmbGradeCodePackedMadeTea;
-        private System.Windows.Forms.ComboBox cmbGardenOackedMadeTea;
+        private System.Windows.Forms.ComboBox cmbGardenPackedMadeTea;
         private System.Windows.Forms.Label label44;
     }
 }
